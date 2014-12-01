@@ -1,1 +1,1 @@
-Digznav's personal repository (also a test)
+Digznav personal repository (also a test)
