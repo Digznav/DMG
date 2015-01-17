@@ -1,0 +1,133 @@
+
+// --- G E N E R A L • V A R I A B L E S ----------------------------------------------------------------
+
+$experimental-support-for-svg: true;
+$support-for-original-webkit-gradients: false;
+$experimental-support-for-opera: false;
+$multiple-phones: no;
+
+$base-font-size: 17px;          // Usage @include font-size (14px);
+$body-padding: 0;               // Don't Change. In case the value is changed, breakpoints on site.js need to be updated.
+$max-website-width: 1200px;     // Don't Change.
+
+@function strip-units($number) { @return $number / ($number * 0 + 1); }
+
+
+$website-layout: "-_.";
+$sidebar-width-primary: 300px;
+$sidebar-width-secondary: 275px;
+$widget-padding: 20px;
+// ↳ Sidebar size combinations --- 230 - 230 ||| 250 - 0 |||
+
+$level-2: 250 * 3;
+$level-3: 230 * 4;
+
+$min-sidebar-width: 250px;
+
+$percentage-sidebar-primary: (strip-units($sidebar-width-primary)/strip-units($max-website-width))*100%;
+$percentage-sidebar-secondary: (strip-units($sidebar-width-primary)/strip-units($max-website-width - $sidebar-width-primary))*100%;
+
+$test-breakpoint: ((($min-sidebar-width * 4)+($body-padding*2))) + 1;
+
+$topnav-hover-color-1: darken( #fff , 20 );
+$topnav-hover-color-2: $topnav-hover-color-1;
+// ↳ If $topnav-hover-color-2 value is different than $topnav-hover-color-1, a gradient is generated.
+
+$accent-color: #000;
+$footer-bg-color: lighten( #000 , 30 );
+$footer-logo-top-position: 0px;
+$footer-menu-shade: dark;
+// ↳ Options: light | dark
+
+$primary-sidebar: ".secondary-sidebar";
+$secondary-sidebar: ".primary-sidebar";
+
+*,
+*:before,
+*:after { @include box-sizing(border-box); }
+
+%clearfix { @include pie-clearfix; }
+%width-100 { width: 100%; }
+%visuallyhidden {
+
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.clr { display: none; }
+
+
+
+// --- M I X I N S --------------------------------------------------------------------------------------
+
+// Baseline, measured in pixels
+// The value should be the same as the font-size value for the html element
+// If the html element's font-size is set to 62.5% (of the browser's default font-size of 16px),
+// then the variable below would be 10px.
+
+$baseline-px: 16px;
+
+@mixin rem($property, $px-values) {
+    // Convert the baseline into rems
+    $baseline-rem: $baseline-px / 1rem * 1;
+    // Print the first line in pixel values
+    #{$property}: $px-values;
+    // If there is only one (numeric) value, return the property/value line for it.
+    @if type-of($px-values) == "number" {
+        #{$property}: $px-values / $baseline-rem; }
+    @else {
+        // Create an empty list that we can dump values into
+        $rem-values: ();
+    @each $value in $px-values {
+        // If the value is zero or not a number, return it
+        @if $value == 0 or type-of( $value ) != "number" {
+            $rem-values: append($rem-values, $value); }
+        @else {
+            $rem-values: append($rem-values, $value / $baseline-rem);
+        }
+    }
+    // Return the property and its list of converted values
+    #{$property}: $rem-values; }
+}
+
+
+
+// M E D I A - Q U E R Y - H E L P E R S
+
+    @mixin breakpoint( $query-type , $queries... ) {
+
+        //@media screen and ( #{$query-type}-width: strip-units( nth($queries, 1)+($body-padding * 2))/16 * 1em ) {
+        @media screen and ( #{$query-type}-width: strip-units( nth($queries, 1)+($body-padding * 2))/16 * 1em ) {
+
+            @content;
+        }
+
+        //$length: length($queries);
+
+        //@if $length == 1 {
+
+            //@media screen and ( #{$query-type}-width: strip-units( nth($queries, 1)+($body-padding * 2))/16 * 1em ) {
+
+                //@content;
+            //}
+        //}
+
+        // @else if $length == 2 and $query-type == range {
+
+        //     @media screen and (min-width: strip-units(nth($queries, 1)+($body-padding * 2))/16 * 1em) and (max-width: strip-units(nth($queries, 2)+($body-padding * 2))/16 * 1em) {
+
+        //         @content;
+        //     }
+        // }
+    }
+
+
+
+
+

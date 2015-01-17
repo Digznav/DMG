@@ -1,0 +1,71 @@
+
+// --- I M P O R T S ----------------------------------------------------------------------------
+
+@import "compass",
+
+        "partials/base",
+        "partials/normalize";
+
+        // "modules/layout-selector",
+        // "modules/form-base-styles",
+        // "modules/website-topnav";
+
+
+body {
+
+    font-size: strip-units($base-font-size)/16 * 100 * 1%; // ACHTUNG DO NOT TOUCH !
+    font-family: sans-serif;
+    font-size-adjust: 100%;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    // ----------------------/
+
+    background: #fff;
+    position: relative;
+    color: lighten( #000 , 20 );
+}
+
+#container {
+
+    max-width: $max-website-width;
+    margin: 0 auto;
+}
+
+.wrapper {
+	list-style: none;
+	padding: 30px;
+	margin: 0;
+
+	font-size: 14 / 16 * 1em;
+
+	li {
+		float: left;
+		width: (100 / 3 * 1%) - 2;
+		margin: 0 1% 20px;
+		background-color: darken(#FFF, 10);
+		border-top: 5px solid #333;
+		span:nth-child(odd) { background-color: rgba(#FFF, .4); }
+
+		.columns_type,
+		.tempname { text-transform: capitalize; }
+
+		&.one-column { background-color: rgba(#44C37F, .4); }
+		&.two-columns { background-color: rgba(#44C37F, .4); }
+		&.three-columns { background-color: rgba(#44C37F, .4); }
+		// &:.undefined-columns { background-color: lighten(#0F0, 30); }
+
+		&.cnv-progress { border-color:#9F181C; background-color: rgba(#9F181C, .4) }
+		&.cnv-done { border-color:#1D872C; }
+}
+
+
+	span {
+		display: block;
+		padding: .2em .5em;
+		line-height: 1.2;
+
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
