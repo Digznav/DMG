@@ -1,0 +1,4017 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Edit Site</title>
+
+</head>
+
+	<noscript>
+		It appears that your browser does not support JavaScript, or you have it disabled.  This site can be used only if the JavaScript enabled.
+		<p>
+			If JavaScript is disabled in your browser, please turn it back on then reload this page.
+			<META HTTP-EQUIV="REFRESH"
+      CONTENT = "3; URL=/scripts/main"></noscript>
+<body>
+
+		<div id="prevpanel" class="off">
+			<div id="prevwin">
+				<div class="pwwrap">
+					<div class="pwwmain">
+						<span class="pwtitle">
+							Generating Pages...
+							<!-- <strong id="numpages">0</strong>
+						of 330 -->
+					</span>
+
+				</div>
+			</div>
+		</div>
+		<div id="prevbg">&nbsp;</div>
+		<iframe id="ppif" name="ppif" src="" style="display:none;"></iframe>
+	</div>
+	<div id="header">
+		<div id="logo">
+			<span>Justia Web site Builder</span>
+		</div>
+		<div id="toplevel">
+			<div id="navrow1">
+				<span class="toolnav">
+					<div class="userinfo">
+						<span>
+							SITE: <b>justia-weinsteinlawoffice-com.justia.net</b>
+						</span>
+						<span>
+							USER: <b>Diego Miguel</b>
+						</span>
+
+						<div class="msgs"> <strong>Staging</strong>
+							<strong>Responsive</strong>
+
+						</div>
+					</div>
+					<ul class="buttons">
+						<li class="lo">
+							<a href="/scripts/logout">LOGOUT</a>
+						</li>
+						<li class=he>
+							<a href="">HELP</a>
+						</li>
+					</ul>
+					<div class="clr"></div>
+				</span>
+			</div>
+			<div class="navrow2"></div>
+		</div>
+		<div class="clr">&nbsp;</div>
+
+		<div id="tabsholder">
+			<ul id="tabs">
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=admin" class="tu">Admin</a>
+
+				</li>
+				<li>
+
+					<b><a href="/scripts/edit-site?selected=2218604&_page_mode=sum" class="ts">Content</a></b> 
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=designsummary&page=summary" class="tu">Design</a>
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=subscriptionsummary" class="tu">Subscriptions</a>
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=advanced" class="tu">Advanced Tools</a>
+
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="container">
+		<!-- begin content -->
+
+		<noscript>
+			<p>
+				<b>Javascript must be enabled to use this form.</b>
+			</p>
+		</noscript>
+
+		<form name="dataForm" method="post" action="edit-site"  onsubmit="return submitForm();">
+			<!-- BEGIN CONTENT -->
+			<div id="content">
+
+				<div id="pubcontainer">
+					<div id="pubmsg">
+						<button type="submit" class="biggraybtn" name="_action" value="Preview" onclick="showProgress()">Preview & Publish</button>
+						<div id="pubmsgbox">
+							<span class="pmbwrap">Saved changes not yet published!</span>
+							<div class="pubdesc">
+								Your changes will not be live until you publish your site. You can either publish it now,
+  			or publish it after all changes are completed.
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<script language="javascript">
+	
+	
+	
+	function showProgress() {
+		
+		pnl = document.getElementById('prevpanel');
+		pbg = document.getElementById('prevbg');
+		pif = document.getElementById('ppif');
+		pif.style.display = "block";
+		
+		
+		url = '/sm/jpreview?site=justia-weinsteinlawoffice-com';
+		
+		//getProgress(url);
+		
+		
+		h = document.body.offsetHeight + 'px';
+		pbg.style.height = pif.style.height = pnl.style.height = h;
+		pnl.className = 'on'
+		
+		return false;
+		
+	}
+
+
+
+</script>
+
+				<!-- BEGIN LEFTNAV-->
+				<div id="leftnav">
+
+					<h6>Content</h6>
+					<ul>
+
+						<li class="WebFolder-open">
+
+							<span class="selected">
+								<a href="edit-site?selected=2008888" title="Index">Index</a>
+								<span class="blockbuttons">
+
+									<button type="button" name="_action_up__2008888" class="upd">Up</button>
+
+									<button type="submit" name="_action_down__2008888" value="Down" class="dn" title="Move Down">Down</button>
+
+								</span>
+							</span>
+
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008892" class="unselected" title="Nav/Header/Footer">Nav/Header/Footer</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008905&_page_mode=sum" class="unselected" title="Firm Profile">Firm Profile</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008906&_page_mode=sum" class="unselected" title="Attorney Profiles">Attorney Profiles</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008907&_page_mode=sum" class="unselected" title="Practice Areas">Practice Areas</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2014105&_page_mode=sum" class="unselected" title="Successful Cases">Successful Cases</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2016268&_page_mode=sum" class="unselected" title="Testimonials">Testimonials</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2016269&_page_mode=sum" class="unselected" title="FAQs">FAQs</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2016270&_page_mode=sum" class="unselected" title="Important Terms">Important Terms</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2016271&_page_mode=sum" class="unselected" title="Newsletters">Newsletters</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2043337&_page_mode=sum" class="unselected" title="NJ Divorce Law">NJ Divorce Law</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008909" class="unselected" title="Contact Us">Contact Us</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008922" class="unselected" title="Site Map">Site Map</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008918&_page_mode=sum" class="unselected" title="Disclaimer, Privacy Policy & Terms of Service">Disclaimer, Privacy ...</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008923&_page_mode=sum" class="unselected" title="Misc">Misc</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2008927" class="unselected" title="Categories">Categories</a>
+						</li>
+
+						<li class="WebPage-open">
+							<a href="edit-site?_action_switch_screen=poweredit" class="unselected" >Edit Seo Info</a>
+						</li>
+
+					</ul>
+
+				</div>
+				<!-- END LEFTNAV-->
+
+				<div id="ccontainer">
+
+					<div class="dataform">
+						<div class="dfwrap">
+
+							<input type="submit" name="_action_cancel" value="Revert this Page to Last Saved" onclick="javascript:if(confirm('Reverting will permenantly DELETE
+any current, but unsaved, changes on this page.  Do you wish to revert to the last saved version of this page?')){return true;}else{return false;};"/>
+							<input type="submit" name="_action_submit" value="Save Changes"  style="font-weight:bold;" accesskey="s" />
+
+							<input type="submit" name="_action_preview_page" value="Rebuild Page" accesskey="r" />
+
+							<input type="submit" name="_action_process_css" value="Rebuild CSS" accesskey="c" />
+							<input type="submit" name="_action" value="Sync With Master" />
+
+						</div>
+					</div>
+
+					<div class="rootspan">
+						<div class="rswrap">
+
+							<script language="javascript">
+	cat_ay = []
+	function swapOptions(obj,i,j) {
+		var temp1 = cat_ay[i];
+		var temp2 = cat_ay[j];
+		cat_ay.splice(i,1,temp2);
+		cat_ay.splice(j,1,temp1);
+		getCategories();
+	}
+	function moveUp(i) {
+		obj = i;
+		for (i=0; i<cat_ay.length; i++) {
+			if (cat_ay[obj] == cat_ay[i]) {
+				if (i != 0) {
+					swapOptions(obj,i,i-1);
+				}	
+			}
+		}
+	}
+	function moveDown(i) {
+		obj = i;
+		for (i=cat_ay.length-1; i>=0; i--) {
+			if (cat_ay[obj] == cat_ay[i]) {
+				if (i != (cat_ay.length-1)) {
+					swapOptions(obj,i,i+1);
+				}
+			}
+		}
+	};
+	function removeItem(i){
+		var x = confirm("Are you sure you want to remove the label " + cat_ay[1] +" ?");
+		if (x) {
+			cat_ay.splice(i,1);
+			getCategories();
+		}
+	};
+	function getCategories() {
+		d = document.getElementById("categories");
+		d.innerHTML = "";
+		for (i=0; i<cat_ay.length; i++) {
+			isupdis = "";
+			isdndis = "";
+			if (i==0){ isupdis = "dsbld" };
+			if (i==cat_ay.length-1){ isdndis = "dsbld" };
+		
+			d.innerHTML += "<li><input type=\"text\" name=\"categories__2008888\" id=\"categories__2008888\" value=\""+ cat_ay[i] +"\" size=\"35\" onchange=\"updateArray("+ i +",this.value)\" /> \
+			<span class=\"btnholder\"><button type=\"button\" class=\"u"+isupdis+"\" onclick=\"moveUp("+i+")\">u</buton><button type=\"button\" class=\"d"+isdndis+"\" onclick=\"moveDown("+i+")\">d</buton>\
+			<button type=\"button\" class=\"addbtn\" onclick=\"removeItem("+i+")\">-</buton></span></li>";
+		}
+		d.innerHTML+= "<li class=\"last\"><button type=\"button\" class=\"addbtn\" onclick=\"addItem()\">+</button> Add New Category for Index </li>"
+	};
+	function addItem() {	
+		cat_ay.push("Name");
+		getCategories();
+	}
+	function updateArray(num,val) {
+		cat_ay[num] = val
+	}
+</script>
+
+							<script language="javascript">
+	function checkNew(val) {
+		clearEmpty(val, 'categorylabel__2008888')
+	}
+</script>
+
+							<div id="dev_advanced" class="dev_closed">
+								<span class="dev_tab">
+									<a href="javaScript:openPanel('dev_advanced')">Advanced Options</a>
+								</span>
+								<div id="dev_panel" class="tab1">
+									<div id="sectabs">
+										<span class="dev_closebtn">
+											<a href="javaScript:closePanel('dev_advanced')">x</a>
+										</span>
+										<ul>
+											<li class="tab1">
+												<a href="javaScript:switchTab('tab1')">Graphics</a>
+											</li>
+											<li class="tab2">
+												<a href="javaScript:switchTab('tab2')">Options</a>
+											</li>
+											<li class="tab3">
+												<a href="javaScript:switchTab('tab3')">Empty</a>
+											</li>
+
+										</ul>
+									</div>
+									<div class="dev_panelwrap">
+										<div id="tab1" class="screen">
+											<span class="desc">
+												<b>This tab helps you assign individual graphic to the Index section.</b> 
+												<br />
+												<br />
+												If a graphic is provided here, the default graphic in the design will be replaced with this one.
+				You can always revert back to the default by leaving graphic field blank.
+											</span>
+											<div class="options">
+
+												<input type="text" id="templategraphic__2008888" name="templategraphic__2008888" value="" size="" maxlength=""  />
+
+												<script language="JavaScript">
+function image_picker_templategraphic__2008888()
+{
+	var oWindow = openNewWindow("image-picker?field=templategraphic__2008888&file_dir=/preview/j/u/s/justia-weinsteinlawoffice-com&dir=/images/img&value=", 
+								"ImagePicker", 800, 600, true, true );
+	
+}
+</script>
+
+												<input type="button" value="Choose Existing"  onclick="image_picker_templategraphic__2008888()">
+
+												<script language="JavaScript">
+function upload_templategraphic__2008888()
+{
+	var oWindow = openNewWindow("file-upload?field=templategraphic__2008888&file_dir=/preview/j/u/s/justia-weinsteinlawoffice-com&dir=/images/img", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+												<input type="button" value="Upload New"  onclick="upload_templategraphic__2008888()">
+
+												<br />
+												Alt Text:
+												<input type="text" id="templategraphic_alt_text__2008888" name="templategraphic_alt_text__2008888" value="" size="60" maxlength=""  />
+											</div>
+
+											<div class="clr">&nbsp;</div>
+											<br />
+											<br />
+										</div>
+										<div id="tab2" class="screen">
+
+											<div class="options">
+
+												<label class="expanded">Section ID</label>
+
+												<input type="text" id="sectionid__2008888" name="sectionid__2008888" value="" size="" maxlength="200"  />
+
+												<div class="clr">&nbsp;</div>
+											</div>
+
+										</div>
+										<div id="tab3" class="screen">
+											<span class="desc">
+												<b>
+													Index Categories help you group pages in Index section using a custom category label.
+												</b>
+												<br />
+												<br />
+												<br />
+												To apply a category label to an individual page, go to that page and click on the advanced options
+				button, and select the labels tab.
+												<br />
+												<br />
+												NOTE: These categories can only be applied to a page within folder Index 
+				and cannot be applied to the folder/section (Index) itself.
+												<br />
+												Categories created at this level can also be added to your sub navigation.
+											</span>
+											<div class="clr">&nbsp;</div>
+											<input type="hidden" name="_reset" value="categories__2008888" />
+											<ul id="categories"></ul>
+
+										</div>
+										<input type="submit" name="_action_submit" value="Save Changes" style="font-weight:bold;" />
+
+									</div>
+								</div>
+							</div>
+
+							<div id="dev_hdn"></div>
+
+							<script language="javascript">getCategories()</script>
+
+							<h2>Index</h2>
+
+							<div class="developeroptions">
+								<div id="block__2008888" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2008888">
+												<input type="checkbox" id="checkboxblock__2008888" name="checkboxblock__2008888" checked value="checked" >
+												<a href="javaScript:openBlock('block__2008888')">Developer Options</a>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+										<label class="expanded">Title Tag (Full Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="titletag__2008888" name="titletag__2008888" value="New Jersey Divorce Lawyer  - NJ Family Law Attorney - Edward R. Weinstein" size="" maxlength="200"  />
+										</span>
+										<label class="expanded">H1 Tag (Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="h1tag__2008888" name="h1tag__2008888" value="New Jersey Divorce Lawyer Edward R. Weinstein Home" size="" maxlength="200"  />
+										</span>
+										<label class="expanded">H2 Tag (Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="h2tag__2008888" name="h2tag__2008888" value="Contact NJ Family Law Attorney Edward R. Weinstein" size="" maxlength="200"  />
+										</span>
+										<div class="hrclr">&nbsp;</div>
+										<div class="twocol">
+											<label class="expanded">Index Page Footer Text (Part 1)</label>
+											<span class="field">
+
+												<input type="text" id="seo_footer_text_part1__2008888" name="seo_footer_text_part1__2008888" value="New Jersey Divorce Lawyer Edward R. Weinstein Home" size="" maxlength="200"  />
+											</span>
+										</div>
+										<div class="twocol">
+
+											<label class="expanded">Index Page Footer Text (Part 2)</label>
+											<span class="field">
+
+												<input type="text" id="seo_footer_text_part2__2008888" name="seo_footer_text_part2__2008888" value="Contact NJ Family Law Attorney Edward R. Weinstein" size="" maxlength="200"  />
+											</span>
+
+										</div>
+										<div class="hrclr"></div>
+										<label class="expanded">Meta Description Prefix</label>
+										<span class="field">
+
+											<input type="text" id="meta_description_prefix__2008888" name="meta_description_prefix__2008888" value="" size="" maxlength=""  />
+										</span>
+										<div class="hrclr"></div>
+										<label class="expanded">Index Page Meta Description</label>
+										<span class="field">
+
+											<input type="text" id="meta_description__2008888" name="meta_description__2008888" value="Free Consultation - The Law Offices of Edward R. Weinstein, New Jersey Divorce Lawyers focused on divorce, child custody, child support, alimony,domestic violence, LGBT and other family law issues." size="" maxlength=""  />
+										</span>
+										<div class="hrclr"></div>
+										<label class="expanded">Index Page Meta Keywords</label>
+										<span class="field">
+
+											<input type="text" id="keywords__2008888" name="keywords__2008888" value="" size="" maxlength=""  />
+										</span>
+
+										<div class="hrclr"></div>
+
+										<label class="expanded">Custom Head Tags (will write into &lt;head&gt; tag.)</label>
+										<span class="field">
+
+											<textarea name="custom_headtags__2008888" cols= rows=3 >
+												<meta name="robots" content="noodp" />
+											</textarea>
+
+										</span>
+
+										<div class="hrclr"></div>
+
+										<label class="expanded">Header HTML - Imgwrap tag - img1 tag</label>
+										<span class="field">
+
+											<textarea name="imgwrap_img1_tag__2008888" cols= rows=3 ></textarea>
+
+										</span>
+
+										<label class="expanded">Header HTML - Imgwrap tag - img2 tag</label>
+										<span class="field">
+
+											<textarea name="imgwrap_img2_tag__2008888" cols= rows=3 ></textarea>
+
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<span class="fielddesctitle">
+								Your Web site Homepage welcomes new or prospective clients 
+to your site and describes what they will find as they browse 
+or search through your Web site sections or pages.
+							</span>
+							<div class="hrclr">&nbsp;</div>
+
+							<label class="expanded">Homepage Text</label>
+
+							<div class="clr">&nbsp;</div>
+
+							<div id="ppanel__2008888" class="ppanelblockgroup-show">
+								<div class="panelhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxppanel__2008888">
+											<input type="checkbox" id="checkboxppanel__2008888" name="checkboxppanel__2008888"  value="checked" >
+											<a href="javaScript:collapseBlock('ppanel__2008888','','ppanel')">Index Options</a>
+										</span>
+
+									</div>
+								</div>
+								<div class="ppform">
+									<div class="hrclr">&nbsp;</div>
+
+									<table border="0" cellspacing="5">
+										<tr>
+											<td>
+
+												<input type="hidden" name="_reset" value="showonfnav__2008888">
+												<input type="checkbox" id="showonfnav__2008888" name="showonfnav__2008888" checked value="checked" >
+												Add this Page to Footer Nav
+												<br />
+												<div class="clr">&nbsp;</div>
+												<strong>Footer Navbar Title</strong>
+
+												<input type="text" id="fnavtitle__2008888" name="fnavtitle__2008888" value="Home" size="" maxlength="300"  />
+											</td>
+										</tr>
+									</table>
+
+								</div>
+							</div>
+
+							<div id="components">
+
+								<div id="block__2014090" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2014090">
+												<input type="checkbox" id="checkboxblock__2014090" name="checkboxblock__2014090"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2014090')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="button" name="_action_up__2014090" class="upd">Up</button>
+
+												<button type="submit" name="_action_down__2014090" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2014090" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2014090"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2014090">
+															<input type="checkbox" id="checkboxdevblock__2014090" name="checkboxdevblock__2014090"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2014090')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2014090" id="availabletemplate__2014090" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2014090" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2014090" name="cctemplate__2014090" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2014090()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014090&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014090()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2014090()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014090&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2014090()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2014090" name="designtemplate__2014090" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2014090()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014090&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014090()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2014090()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014090&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2014090()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2014090" name="uniqueid__2014090" value="social" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2014090" name="parent_block__2014090" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2014090" name="classname__2014090" value="not-fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2014090" id="placement__2014090" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header"  selected>Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2014090" name="title__2014090" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2014090"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2014090" id="lev1_linkto__2014090" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >Firm Profile</option>
+
+												<option value="/attorneys" >Attorney Profiles</option>
+
+												<option value="/practiceareas" >Practice Areas</option>
+
+												<option value="/section_27" >Successful Cases</option>
+
+												<option value="/section_46" >Testimonials</option>
+
+												<option value="/section_47" >FAQs</option>
+
+												<option value="/section_48" >Important Terms</option>
+
+												<option value="/section_49" >Newsletters</option>
+
+												<option value="/section_64" >NJ Divorce Law</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2014090" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2014090" cols= rows=  style="height: 70pxpx;">
+												<p>Follow us on</p>
+												<a href="https://www.facebook.com/pages/Law-Offices-of-Edward-R-Weinstein-LLC/167967346599630" id="facebook" target="_blank">
+													<img src="http://lawyers.justia.com/s/facebook-24.png" alt="Facebook"></a>
+												<a href="https://twitter.com/EdwardWeinstein" id="twitter" target="_blank">
+													<img src="http://lawyers.justia.com/s/twitter-24.png" alt="Twitter"></a>
+												<a href="http://www.linkedin.com/company/685749" id="linkedin" target="_blank">
+													<img src="http://lawyers.justia.com/s/linkedin-24.png" alt="LinkedIn"></a>
+												<a href="http://lawyers.justia.com/firm/law-offices-of-edward-r-weinstein-49850" id="justiaprofile" target="_blank">
+													<img src="http://lawyers.justia.com/s/justia-24.png" alt="Justia Profile"></a>
+												<a href="https://plus.google.com/103787722212403335236/about" id="gplus" target="_blank">
+													<img src="http://lawyers.justia.com/s/google-plus-24.png" alt="Google Plus"></a>
+												<a href="http://www.youtube.com/user/erwlaw" target="_blank">
+													<img src="http://lawyers.justia.com/s/youtube-24.png" alt="YouTube Channel"></a>
+												<!-- Place this tag where you want the +1 button to render. -->
+												<div class="g-plusone" data-size="tall" data-annotation="none"></div>
+												<!-- Place this tag after the last +1 button tag. -->
+												<script type="text/javascript"> (function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();</script>
+												<!-- AddThis Button BEGIN -->
+												<div class="addthis_toolbox addthis_default_style ">
+													<a class="addthis_counter addthis_pill_style"></a>
+												</div>
+												<!-- AddThis Button END -->
+												<a href="javascript:window.print();" class="print" title="Print this page"></a>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2008891" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+												<span style="display:none">contactform</span>
+
+												<input type="hidden" name="_reset" value="checkboxblock__2008891">
+												<input type="checkbox" id="checkboxblock__2008891" name="checkboxblock__2008891" checked value="checked" >
+												<a href="javaScript:collapseBlock('block__2008891')">Contact Form</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2008891" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2008891" value="Down" class="dn" title="Move Down">Down</button>
+
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+											<div id="devblock__2008891"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2008891">
+															<input type="checkbox" id="checkboxdevblock__2008891" name="checkboxdevblock__2008891"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2008891')">Contact Form Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2008891" name="uniqueid__2008891" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2008891" name="parent_block__2008891" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2008891" name="classname__2008891" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2008891" id="placement__2008891" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header"  selected>Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+													<div class="clr">&nbsp;</div>
+
+													<label class="expanded">Section Title</label>
+													<span class="field">
+														If left empty, will update title from selected section.
+														<input type="text" id="title__2008891" name="title__2008891" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="title__2008891"></span>
+
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="nocontactustitle__2008891">
+														<input type="checkbox" id="nocontactustitle__2008891" name="nocontactustitle__2008891"  value="notite" >
+														Do not show the custom or default title to contact us page(mostly used for sites with contact form in the header)
+													</span>
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="linkto__2008891">
+														<input type="checkbox" id="linkto__2008891" name="linkto__2008891" checked value="/contactus" >Link title to contact us page</span>
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="donot_prefill_fields__2008891">
+														<input type="checkbox" id="donot_prefill_fields__2008891" name="donot_prefill_fields__2008891"  value="1" >Do Not Prefill Fields. eg: Your Name, Your Email, etc.</span>
+
+													<label class="expanded">Custom Form Handler</label>
+													<span class="field">
+														If left empty, will use "http://jweb.justia.com/sm/contactus"
+														<br />
+														use fullly qualified URl.
+														<input type="text" id="custom_form_handler__2008891" name="custom_form_handler__2008891" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="custom_form_handler__2008891"></span>
+
+													<label class="expanded">Return URL</label>
+													<span class="field">
+														If left empty, will set return url to the thankyou page with form.
+														<br />
+														use fullly qualified URl. eg. http://www.justia.com/thankyou.html
+														<input type="text" id="return_url__2008891" name="return_url__2008891" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="return_url__2008891"></span>
+
+													<label class="expanded">
+														Description: Display this
+														<select name="descriptionplacement__2008891" id="descriptionplacement__2008891" size=""  >
+															<option value="Above"  selected>Above</option>
+															<option value="Below" >Below</option>
+
+														</select>
+														form
+													</label>
+													<span class="field">
+
+														<textarea name="description__2008891" cols= rows=5 ></textarea>
+
+													</span>
+
+													<label class="expanded">Custom Email Subject Line</label>
+													<span class="field">
+
+														<input type="text" id="form_subject_line__2008891" name="form_subject_line__2008891" value="" size="" maxlength="200"  />
+													</span>
+
+													<label class="expanded">Custom Email Text</label>
+													<span class="field">
+
+														<textarea name="custom_email_text__2008891" cols= rows=5 ></textarea>
+
+													</span>
+
+													<label class="expanded">Custom Form Template</label>
+													<span class="field">
+														Default Path: masters/developing/oak.m/designs/oakleaf.d/templates/customforms/detailed_pi_1.html
+														<br />
+														<span style="color:red;">NOTE: Make Sure File Exists Before Publishing!</span>
+
+														<input type="text" id="customformtemplate__2008891" name="customformtemplate__2008891" value="masters/developing/oak.m/designs/oakleaf.d/templates/customforms/weinsteinlawoffice-short.html" size="" maxlength=""  />
+													</span>
+
+												</div>
+											</div>
+										</div>
+
+										<input type="hidden" name="_reset" value="contactform__2008891">
+										<input type="checkbox" id="contactform__2008891" name="contactform__2008891" checked value="checked" >
+										<label>
+											Include Contact Form which allows visitors to your Web site to directly contact you by email.
+										</label>
+										<br />
+
+										<input type="hidden" name="_reset" value="hide_contactform__2008891">
+										<input type="checkbox" id="hide_contactform__2008891" name="hide_contactform__2008891"  value="checked" >
+										<label>Hide this form on this page.</label>
+										<br />
+
+										<br />
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2014102" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2014102">
+												<input type="checkbox" id="checkboxblock__2014102" name="checkboxblock__2014102" checked value="checked" >
+												<a href="javaScript:collapseBlock('block__2014102')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2014102" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2014102" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2014102" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2014102"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2014102">
+															<input type="checkbox" id="checkboxdevblock__2014102" name="checkboxdevblock__2014102"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2014102')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2014102" id="availabletemplate__2014102" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2014102" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2014102" name="cctemplate__2014102" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2014102()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014102&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014102()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2014102()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014102&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2014102()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2014102" name="designtemplate__2014102" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2014102()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014102&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014102()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2014102()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014102&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2014102()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2014102" name="uniqueid__2014102" value="topnav2" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2014102" name="parent_block__2014102" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2014102" name="classname__2014102" value="not-fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2014102" id="placement__2014102" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header"  selected>Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2014102" name="title__2014102" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2014102"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2014102" id="lev1_linkto__2014102" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >Firm Profile</option>
+
+												<option value="/attorneys" >Attorney Profiles</option>
+
+												<option value="/practiceareas" >Practice Areas</option>
+
+												<option value="/section_27" >Successful Cases</option>
+
+												<option value="/section_46" >Testimonials</option>
+
+												<option value="/section_47" >FAQs</option>
+
+												<option value="/section_48" >Important Terms</option>
+
+												<option value="/section_49" >Newsletters</option>
+
+												<option value="/section_64" >NJ Divorce Law</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2014102" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2014102" cols= rows=  style="height: 70pxpx;">
+												<ul>
+
+													<li id="fc">
+														<a href="attorney-profiles.html">Our Attorneys</a>
+													</li>
+
+													<li>
+														<a href="practice-areas.html">Practice Areas</a>
+													</li>
+
+													<li>
+														<a href="testimonials.html">Testimonials</a>
+													</li>
+
+													<li>
+														<a href="faqs.html">Faqs</a>
+													</li>
+
+													<li>
+														<a href="important-terms.html">Important Terms</a>
+													</li>
+
+													<li>
+														<a href="firm-profile.html">Firm Profile</a>
+													</li>
+
+													<li>
+														<a href="http://www.newjerseydivorcelawyerblog.com/" target="_blank">Blog</a>
+													</li>
+
+													<li id="lc">
+														<a href="contact-us.html">Contact Us</a>
+													</li>
+
+												</ul>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2008889" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2008889">
+												<input type="checkbox" id="checkboxblock__2008889" name="checkboxblock__2008889" checked value="checked" >
+												<a href="javaScript:collapseBlock('block__2008889')">Custom Fragment</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2008889" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2008889" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2008889" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+											<div id="devblock__2008889"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2008889">
+															<input type="checkbox" id="checkboxdevblock__2008889" name="checkboxdevblock__2008889"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2008889')">Custom Fragment Options (Developer Only.)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2008889" name="uniqueid__2008889" value="pr_ar" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2008889" name="parent_block__2008889" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2008889" name="classname__2008889" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2008889" id="placement__2008889" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+													<div class="clr">&nbsp;</div>
+
+													<label class="expanded">Section Title</label>
+													<span class="field">
+														If left empty, will update title from selected section.
+														<input type="text" id="title__2008889" name="title__2008889" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="title__2008889"></span>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Description:</label>
+										<span class="field">
+
+											<textarea name="description__2008889" cols= rows=5 ></textarea>
+
+										</span>
+
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="listtype__2008889">
+											<input type="radio" name="listtype__2008889" value="default" checked>
+											Use First
+											<select name="defaultlistnumber__2008889" id="defaultlistnumber__2008889" size=""  >
+												<option value="1" >1</option>
+												<option value="2" >2</option>
+												<option value="3" >3</option>
+												<option value="4" >4</option>
+												<option value="5" >5</option>
+												<option value="6" >6</option>
+												<option value="7" >7</option>
+												<option value="8" >8</option>
+												<option value="9" >9</option>
+												<option value="10" >10</option>
+												<option value="11" >11</option>
+												<option value="12" >12</option>
+												<option value="13" >13</option>
+												<option value="14" >14</option>
+												<option value="15" >15</option>
+												<option value="16" >16</option>
+												<option value="17" >17</option>
+												<option value="18" >18</option>
+												<option value="19" >19</option>
+												<option value="20" >20</option>
+												<option value="21" >21</option>
+												<option value="22" >22</option>
+												<option value="23" >23</option>
+												<option value="24" >24</option>
+												<option value="25" >25</option>
+												<option value="26" >26</option>
+												<option value="27" >27</option>
+												<option value="28" >28</option>
+												<option value="29" >29</option>
+												<option value="30" >30</option>
+												<option value="31" >31</option>
+												<option value="32" >32</option>
+												<option value="33" >33</option>
+												<option value="34" >34</option>
+												<option value="35" >35</option>
+												<option value="36" >36</option>
+												<option value="37" >37</option>
+												<option value="38" >38</option>
+												<option value="39" >39</option>
+												<option value="40" >40</option>
+												<option value="41" >41</option>
+												<option value="42" >42</option>
+												<option value="43" >43</option>
+												<option value="44" >44</option>
+												<option value="45" >45</option>
+												<option value="46" >46</option>
+												<option value="47" >47</option>
+												<option value="48" >48</option>
+												<option value="49" >49</option>
+												<option value="50" >50</option>
+												<option value="51" >51</option>
+												<option value="52" >52</option>
+												<option value="53" >53</option>
+												<option value="54" >54</option>
+												<option value="55" >55</option>
+												<option value="56" >56</option>
+												<option value="57" >57</option>
+												<option value="58" >58</option>
+												<option value="59" >59</option>
+												<option value="60" >60</option>
+												<option value="61" >61</option>
+												<option value="62" >62</option>
+												<option value="63" >63</option>
+												<option value="64" >64</option>
+												<option value="65" >65</option>
+												<option value="66" >66</option>
+												<option value="67" >67</option>
+												<option value="68" >68</option>
+												<option value="69" >69</option>
+												<option value="70" >70</option>
+												<option value="71" >71</option>
+												<option value="72" >72</option>
+												<option value="73" >73</option>
+												<option value="74" >74</option>
+												<option value="75" >75</option>
+												<option value="76" >76</option>
+												<option value="77" >77</option>
+												<option value="78" >78</option>
+												<option value="79" >79</option>
+												<option value="80" >80</option>
+												<option value="81" >81</option>
+												<option value="82" >82</option>
+												<option value="83" >83</option>
+												<option value="84" >84</option>
+												<option value="85" >85</option>
+												<option value="86" >86</option>
+												<option value="87" >87</option>
+												<option value="88" >88</option>
+												<option value="89" >89</option>
+												<option value="90"  selected>90</option>
+												<option value="91" >91</option>
+												<option value="92" >92</option>
+												<option value="93" >93</option>
+												<option value="94" >94</option>
+												<option value="95" >95</option>
+												<option value="96" >96</option>
+												<option value="97" >97</option>
+												<option value="98" >98</option>
+												<option value="99" >99</option>
+												<option value="100" >100</option>
+
+											</select>
+											Pages from
+											<select name="defaultlistsource__2008889" id="defaultlistsource__2008889" size="1" >
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >Firm Profile</option>
+
+												<option value="/attorneys" >Attorney Profiles</option>
+
+												<option value="/practiceareas" selected>Practice Areas</option>
+
+												<option value="/section_27" >Successful Cases</option>
+
+												<option value="/section_46" >Testimonials</option>
+
+												<option value="/section_47" >FAQs</option>
+
+												<option value="/section_48" >Important Terms</option>
+
+												<option value="/section_49" >Newsletters</option>
+
+												<option value="/section_64" >NJ Divorce Law</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+											</select>
+
+											<br />
+
+											<input type="hidden" name="_reset" value="defaultshowdescription__2008889">
+											<input type="checkbox" id="defaultshowdescription__2008889" name="defaultshowdescription__2008889"  value="checked" >
+											Display
+											<select name="defaultshortdescchar__2008889" id="defaultshortdescchar__2008889" size=""  >
+												<option value="25"  selected>25</option>
+												<option value="50" >50</option>
+												<option value="60" >60</option>
+												<option value="70" >70</option>
+												<option value="75" >75</option>
+												<option value="80" >80</option>
+												<option value="85" >85</option>
+												<option value="90" >90</option>
+												<option value="95" >95</option>
+												<option value="100" >100</option>
+												<option value="125" >125</option>
+												<option value="150" >150</option>
+												<option value="175" >175</option>
+												<option value="200" >200</option>
+												<option value="30000" >All</option>
+
+											</select>
+											Characters of Annotation for each.
+											<div class="hrclr"></div>
+											Show More Link
+											<input type="hidden" name="_reset" value="morelink__2008889">
+											<input type="radio" name="morelink__2008889" value="" checked>
+											Never
+											<input type="hidden" name="_reset" value="morelink__2008889">
+											<input type="radio" name="morelink__2008889" value="foreach" >
+											For Each
+											<input type="hidden" name="_reset" value="morelink__2008889">
+											<input type="radio" name="morelink__2008889" value="attheend" >
+											At The End &nbsp;&nbsp;|&nbsp;&nbsp; Link Text
+											<input type="text" id="morelinktext__2008889" name="morelinktext__2008889" value="" size="10" maxlength="200"  />
+
+											<div class="hrclr"></div>
+											Expand Sub-Sections/Pages
+											<input type="hidden" name="_reset" value="expand__2008889">
+											<input type="radio" name="expand__2008889" value="" >
+											Never
+											<input type="hidden" name="_reset" value="expand__2008889">
+											<input type="radio" name="expand__2008889" value="insection" >
+											Within Section
+											<span style="display: inline-block; padding: 4px; border: 1px solid #999;">
+
+												<input type="hidden" name="_reset" value="expand__2008889">
+												<input type="radio" name="expand__2008889" value="always" checked>
+												Always | Max Levels:
+												<select name="maxlevels_for_always__2008889" id="maxlevels_for_always__2008889" size=""  >
+													<option value="1"  selected>1</option>
+													<option value="2" >2</option>
+													<option value="3" >3</option>
+													<option value="4" >4</option>
+													<option value="5" >5</option>
+													<option value="6" >6</option>
+													<option value="7" >7</option>
+													<option value="8" >8</option>
+													<option value="9" >9</option>
+
+												</select>
+
+											</span>
+										</span>
+										<div class="hrclr">&nbsp;</div>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="listtype__2008889">
+											<input type="radio" name="listtype__2008889" value="custom" >
+											Use Custom list Below
+											<br />
+
+											<input type="hidden" name="_reset" value="customshowdescription__2008889">
+											<input type="checkbox" id="customshowdescription__2008889" name="customshowdescription__2008889"  value="checked" >
+											Display
+											<select name="customshortdescchar__2008889" id="customshortdescchar__2008889" size=""  >
+												<option value="25"  selected>25</option>
+												<option value="50" >50</option>
+												<option value="100" >100</option>
+												<option value="150" >150</option>
+												<option value="200" >200</option>
+												<option value="30000" >30000</option>
+
+											</select>
+											Characters of Annotation for each.
+											<input type="hidden" name="_reset" value="expand__2008889">
+											<input type="checkbox" id="expand__2008889" name="expand__2008889"  value="checked" >Expand Sub-Sections/Pages</span>
+										<div class="clr">&nbsp;</div>
+
+										<div id="block__2008890" class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxblock__2008890">
+														<input type="checkbox" id="checkboxblock__2008890" name="checkboxblock__2008890"  value="checked" >
+														<a href="javaScript:collapseBlock('block__2008890')">Custom List</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<table class="linksgrid" cellspacing="0" cellpadding="3" border="0"></table>
+
+												<input type="button" class="edit" value="Create A New List" onclick="javaScript:location.href='edit-site?selected=2008890'" />
+												<div class="clr">&nbsp;</div>
+											</div>
+										</div>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2014130" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2014130">
+												<input type="checkbox" id="checkboxblock__2014130" name="checkboxblock__2014130" checked value="checked" >
+												<a href="javaScript:collapseBlock('block__2014130')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2014130" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2014130" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2014130" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2014130"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2014130">
+															<input type="checkbox" id="checkboxdevblock__2014130" name="checkboxdevblock__2014130"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2014130')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2014130" id="availabletemplate__2014130" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2014130" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2014130" name="cctemplate__2014130" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2014130()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014130&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014130()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2014130()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014130&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2014130()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2014130" name="designtemplate__2014130" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2014130()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014130&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014130()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2014130()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014130&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2014130()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2014130" name="uniqueid__2014130" value="sidebarLinks" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2014130" name="parent_block__2014130" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2014130" name="classname__2014130" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2014130" id="placement__2014130" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2014130" name="title__2014130" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2014130"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2014130" id="lev1_linkto__2014130" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >Firm Profile</option>
+
+												<option value="/attorneys" >Attorney Profiles</option>
+
+												<option value="/practiceareas" >Practice Areas</option>
+
+												<option value="/section_27" >Successful Cases</option>
+
+												<option value="/section_46" >Testimonials</option>
+
+												<option value="/section_47" >FAQs</option>
+
+												<option value="/section_48" >Important Terms</option>
+
+												<option value="/section_49" >Newsletters</option>
+
+												<option value="/section_64" >NJ Divorce Law</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2014130" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2014130" cols= rows=  style="height: 70pxpx;">
+												<ul>
+													<li>
+														<a href="nj-divorce-law.html">NJ Divorce Law</a>
+													</li>
+													<li>
+														<a href="successful-cases.html">History of Success</a>
+													</li>
+													<li>
+														<a href="testimonials.html">Testimonials Section</a>
+													</li>
+												</ul>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2014104" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2014104">
+												<input type="checkbox" id="checkboxblock__2014104" name="checkboxblock__2014104" checked value="checked" >
+												<a href="javaScript:collapseBlock('block__2014104')">Successful Cases</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2014104" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2014104" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2014104" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2014104"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2014104">
+															<input type="checkbox" id="checkboxdevblock__2014104" name="checkboxdevblock__2014104"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2014104')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2014104" id="availabletemplate__2014104" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2014104" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2014104" name="cctemplate__2014104" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2014104()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014104&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014104()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2014104()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014104&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2014104()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2014104" name="designtemplate__2014104" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2014104()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014104&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014104()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2014104()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014104&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2014104()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2014104" name="uniqueid__2014104" value="successfulCases" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2014104" name="parent_block__2014104" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2014104" name="classname__2014104" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2014104" id="placement__2014104" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2014104" name="title__2014104" value="Successful Cases" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2014104"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2014104" id="lev1_linkto__2014104" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >Firm Profile</option>
+
+												<option value="/attorneys" >Attorney Profiles</option>
+
+												<option value="/practiceareas" >Practice Areas</option>
+
+												<option value="/section_27" >Successful Cases</option>
+
+												<option value="/section_46" >Testimonials</option>
+
+												<option value="/section_47" >FAQs</option>
+
+												<option value="/section_48" >Important Terms</option>
+
+												<option value="/section_49" >Newsletters</option>
+
+												<option value="/section_64" >NJ Divorce Law</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2014104" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2014104" cols= rows=  style="height: 70pxpx;">
+												<p>
+													My client Susan first came into my office when she was just starting the divorce process. She had been a stay-at-home mom to her three sons for 15 years...
+													<a href="successful-cases.html">Read more...</a>
+												</p>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2014113" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2014113">
+												<input type="checkbox" id="checkboxblock__2014113" name="checkboxblock__2014113" checked value="checked" >
+												<a href="javaScript:collapseBlock('block__2014113')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2014113" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2014113" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2014113" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2014113"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2014113">
+															<input type="checkbox" id="checkboxdevblock__2014113" name="checkboxdevblock__2014113"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2014113')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2014113" id="availabletemplate__2014113" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2014113" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2014113" name="cctemplate__2014113" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2014113()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014113&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014113()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2014113()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014113&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2014113()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2014113" name="designtemplate__2014113" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2014113()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014113&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014113()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2014113()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014113&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2014113()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2014113" name="uniqueid__2014113" value="divorceGuide" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2014113" name="parent_block__2014113" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2014113" name="classname__2014113" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2014113" id="placement__2014113" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2014113" name="title__2014113" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2014113"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2014113" id="lev1_linkto__2014113" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >Firm Profile</option>
+
+												<option value="/attorneys" >Attorney Profiles</option>
+
+												<option value="/practiceareas" >Practice Areas</option>
+
+												<option value="/section_27" >Successful Cases</option>
+
+												<option value="/section_46" >Testimonials</option>
+
+												<option value="/section_47" >FAQs</option>
+
+												<option value="/section_48" >Important Terms</option>
+
+												<option value="/section_49" >Newsletters</option>
+
+												<option value="/section_64" >NJ Divorce Law</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2014113" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2014113" cols= rows=  style="height: 70pxpx;">
+												<!-- <a href="#">
+												<img src="images/divorceGuide.jpg" alt="FREE Divorce Guide" />
+											</a>
+											-->
+										</textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2405945" class="blockgroup-show">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2405945">
+											<input type="checkbox" id="checkboxblock__2405945" name="checkboxblock__2405945"  value="checked" >
+											<a href="javaScript:collapseBlock('block__2405945')">Custom Content</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2405945" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="submit" name="_action_down__2405945" value="Down" class="dn" title="Move Down">Down</button>
+
+											<button type="submit" name="_action_delete__2405945" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+
+										<div id="devblock__2405945"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2405945">
+														<input type="checkbox" id="checkboxdevblock__2405945" name="checkboxdevblock__2405945"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2405945')">Custom Content Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<label class="expanded">
+													Select A Template
+													<select name="availabletemplate__2405945" id="availabletemplate__2405945" size="1"  onchange="toggleCustom(this)" >
+														<option value="simpleblock"  selected>Simple Block</option>
+														<option value="aggregator" >RSS Aggregator</option>
+														<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+														<option value="internallist" >Internal List</option>
+														<option value="creditcard" >Credit Card</option>
+														<option value="flash" >Flash Inserter</option>
+														<option value="eventcalendar" >Event Calendar</option>
+														<option value="featureditems" >Featured Items</option>
+														<option value="scrollingtext" >Scrolling Text</option>
+														<option value="newsletter" >Newsletter Signup</option>
+														<option value="googlemaps" >Google Maps</option>
+														<option value="sectionsummary" >Section Summary</option>
+														<option value="recentitems" >Recent Items</option>
+														<option value="formdesigner" >Form Designer</option>
+														<option value="newsfeed" >Animated News Feed</option>
+														<option value="relateditems" >Related Items</option>
+														<option value="attorneyslist" >Attorney List</option>
+														<option value="qr_code" >QR Code</option>
+														<option value="slideshow" >Slideshow</option>
+														<option value="invisible" >Invisible Block</option>
+														<option value="formcreator" >Custom Form Creator</option>
+														<option value="social_media" >Social Media</option>
+														<option value="" >-----------------</option>
+														<option value="custom" >Custom Template</option>
+
+													</select>
+													<input type="submit" value="Set" name="_action_submit" />
+
+												</label>
+
+												<div id="blockavailabletemplate__2405945" style="display:none">
+													<label class="expanded">Custom Data Input Template</label>
+													<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+													<input type="text" id="cctemplate__2405945" name="cctemplate__2405945" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_cctemplate__2405945()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2405945&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_cctemplate__2405945()">
+
+													<script language="JavaScript">
+function upload_cctemplate__2405945()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2405945&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_cctemplate__2405945()">
+													<label class="expanded">Custom Design Template</label>
+													<span class="fielddesc">
+														Default Path: masters/developing/oak.m/designs/default.d/templates
+													</span>
+
+													<input type="text" id="designtemplate__2405945" name="designtemplate__2405945" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_designtemplate__2405945()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2405945&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_designtemplate__2405945()">
+
+													<script language="JavaScript">
+function upload_designtemplate__2405945()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2405945&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_designtemplate__2405945()"></div>
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2405945" name="uniqueid__2405945" value="youtube" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2405945" name="parent_block__2405945" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2405945" name="classname__2405945" value="fragment" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2405945" id="placement__2405945" size=""  >
+															<option value="Content" >Content</option>
+															<option value="Side Bar" >Side Bar</option>
+															<option value="Global"  selected>Global</option>
+															<option value="Header" >Header</option>
+															<option value="Footer" >Footer</option>
+															<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+															<option value="Content Top" >Content Top</option>
+															<option value="Default" >Default</option>
+															<option value="Bottomwrap" >Bottomwrap</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+
+												<div class="clr">&nbsp;</div>
+
+											</div>
+										</div>
+									</div>
+
+									<label class="expanded">Section Title</label>
+									<span class="field">
+
+										<input type="text" id="title__2405945" name="title__2405945" value="" size="" maxlength="200"  />
+										<input type="hidden" name="_label_" value="title__2405945"></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Link Title to:</label>
+									<span class="field">
+
+										<select name="lev1_linkto__2405945" id="lev1_linkto__2405945" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+											<option value="" >Select</option>
+
+											<option value="/index" >Index</option>
+
+											<option value="/navigation" >Nav/Header/Footer</option>
+
+											<option value="/section_2" >Firm Profile</option>
+
+											<option value="/attorneys" >Attorney Profiles</option>
+
+											<option value="/practiceareas" >Practice Areas</option>
+
+											<option value="/section_27" >Successful Cases</option>
+
+											<option value="/section_46" >Testimonials</option>
+
+											<option value="/section_47" >FAQs</option>
+
+											<option value="/section_48" >Important Terms</option>
+
+											<option value="/section_49" >Newsletters</option>
+
+											<option value="/section_64" >NJ Divorce Law</option>
+
+											<option value="/contactus" >Contact Us</option>
+
+											<option value="/sitemap" >Site Map</option>
+
+											<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+											<option value="/misc" >Misc</option>
+
+											<option value="/categories" >Categories</option>
+
+											<option value="">---------------------</option>
+
+											<option value="external"  >External link</option>
+										</select>
+
+										<span id="axchildren"></span>
+
+										<input type="hidden" name="linkto__2405945" value=""></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Homepage Section Text</label>
+
+									<span class="field">
+
+										<textarea name="description__2405945" cols= rows=  style="height: 70pxpx;">
+											<center>
+												<a href="https://www.youtube.com/user/erwlaw/videos" target="_blank">
+													<img src="photos/youtube.png"></a>
+											</center>
+										</textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2014193" class="blockgroup-show">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2014193">
+											<input type="checkbox" id="checkboxblock__2014193" name="checkboxblock__2014193"  value="checked" >
+											<a href="javaScript:collapseBlock('block__2014193')">In The Media</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2014193" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="submit" name="_action_down__2014193" value="Down" class="dn" title="Move Down">Down</button>
+
+											<button type="submit" name="_action_delete__2014193" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+
+										<div id="devblock__2014193"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2014193">
+														<input type="checkbox" id="checkboxdevblock__2014193" name="checkboxdevblock__2014193"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2014193')">Custom Content Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<label class="expanded">
+													Select A Template
+													<select name="availabletemplate__2014193" id="availabletemplate__2014193" size="1"  onchange="toggleCustom(this)" >
+														<option value="simpleblock"  selected>Simple Block</option>
+														<option value="aggregator" >RSS Aggregator</option>
+														<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+														<option value="internallist" >Internal List</option>
+														<option value="creditcard" >Credit Card</option>
+														<option value="flash" >Flash Inserter</option>
+														<option value="eventcalendar" >Event Calendar</option>
+														<option value="featureditems" >Featured Items</option>
+														<option value="scrollingtext" >Scrolling Text</option>
+														<option value="newsletter" >Newsletter Signup</option>
+														<option value="googlemaps" >Google Maps</option>
+														<option value="sectionsummary" >Section Summary</option>
+														<option value="recentitems" >Recent Items</option>
+														<option value="formdesigner" >Form Designer</option>
+														<option value="newsfeed" >Animated News Feed</option>
+														<option value="relateditems" >Related Items</option>
+														<option value="attorneyslist" >Attorney List</option>
+														<option value="qr_code" >QR Code</option>
+														<option value="slideshow" >Slideshow</option>
+														<option value="invisible" >Invisible Block</option>
+														<option value="formcreator" >Custom Form Creator</option>
+														<option value="social_media" >Social Media</option>
+														<option value="" >-----------------</option>
+														<option value="custom" >Custom Template</option>
+
+													</select>
+													<input type="submit" value="Set" name="_action_submit" />
+
+												</label>
+
+												<div id="blockavailabletemplate__2014193" style="display:none">
+													<label class="expanded">Custom Data Input Template</label>
+													<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+													<input type="text" id="cctemplate__2014193" name="cctemplate__2014193" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_cctemplate__2014193()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014193&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014193()">
+
+													<script language="JavaScript">
+function upload_cctemplate__2014193()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014193&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_cctemplate__2014193()">
+													<label class="expanded">Custom Design Template</label>
+													<span class="fielddesc">
+														Default Path: masters/developing/oak.m/designs/default.d/templates
+													</span>
+
+													<input type="text" id="designtemplate__2014193" name="designtemplate__2014193" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_designtemplate__2014193()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014193&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014193()">
+
+													<script language="JavaScript">
+function upload_designtemplate__2014193()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014193&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_designtemplate__2014193()"></div>
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2014193" name="uniqueid__2014193" value="inTheMedia" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2014193" name="parent_block__2014193" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2014193" name="classname__2014193" value="fragment" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2014193" id="placement__2014193" size=""  >
+															<option value="Content" >Content</option>
+															<option value="Side Bar" >Side Bar</option>
+															<option value="Global"  selected>Global</option>
+															<option value="Header" >Header</option>
+															<option value="Footer" >Footer</option>
+															<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+															<option value="Content Top" >Content Top</option>
+															<option value="Default" >Default</option>
+															<option value="Bottomwrap" >Bottomwrap</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+
+												<div class="clr">&nbsp;</div>
+
+											</div>
+										</div>
+									</div>
+
+									<label class="expanded">Section Title</label>
+									<span class="field">
+
+										<input type="text" id="title__2014193" name="title__2014193" value="In The Media" size="" maxlength="200"  />
+										<input type="hidden" name="_label_" value="title__2014193"></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Link Title to:</label>
+									<span class="field">
+
+										<select name="lev1_linkto__2014193" id="lev1_linkto__2014193" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+											<option value="" >Select</option>
+
+											<option value="/index" >Index</option>
+
+											<option value="/navigation" >Nav/Header/Footer</option>
+
+											<option value="/section_2" >Firm Profile</option>
+
+											<option value="/attorneys" >Attorney Profiles</option>
+
+											<option value="/practiceareas" >Practice Areas</option>
+
+											<option value="/section_27" >Successful Cases</option>
+
+											<option value="/section_46" >Testimonials</option>
+
+											<option value="/section_47" >FAQs</option>
+
+											<option value="/section_48" >Important Terms</option>
+
+											<option value="/section_49" >Newsletters</option>
+
+											<option value="/section_64" >NJ Divorce Law</option>
+
+											<option value="/contactus" >Contact Us</option>
+
+											<option value="/sitemap" >Site Map</option>
+
+											<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+											<option value="/misc" >Misc</option>
+
+											<option value="/categories" >Categories</option>
+
+											<option value="">---------------------</option>
+
+											<option value="external"  >External link</option>
+										</select>
+
+										<span id="axchildren"></span>
+
+										<input type="hidden" name="linkto__2014193" value=""></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Homepage Section Text</label>
+
+									<span class="field">
+
+										<textarea name="description__2014193" cols= rows=  style="height: 70pxpx;">
+											<a href="#">
+												<img src="images/inTheMedia.jpg" alt="In The Media" />
+											</a>
+										</textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2014197" class="blockgroup-hide">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2014197">
+											<input type="checkbox" id="checkboxblock__2014197" name="checkboxblock__2014197" checked value="checked" >
+											<a href="javaScript:collapseBlock('block__2014197')">Map</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2014197" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="submit" name="_action_down__2014197" value="Down" class="dn" title="Move Down">Down</button>
+
+											<button type="submit" name="_action_delete__2014197" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+
+										<div id="devblock__2014197"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2014197">
+														<input type="checkbox" id="checkboxdevblock__2014197" name="checkboxdevblock__2014197"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2014197')">Custom Content Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<label class="expanded">
+													Select A Template
+													<select name="availabletemplate__2014197" id="availabletemplate__2014197" size="1"  onchange="toggleCustom(this)" >
+														<option value="simpleblock"  selected>Simple Block</option>
+														<option value="aggregator" >RSS Aggregator</option>
+														<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+														<option value="internallist" >Internal List</option>
+														<option value="creditcard" >Credit Card</option>
+														<option value="flash" >Flash Inserter</option>
+														<option value="eventcalendar" >Event Calendar</option>
+														<option value="featureditems" >Featured Items</option>
+														<option value="scrollingtext" >Scrolling Text</option>
+														<option value="newsletter" >Newsletter Signup</option>
+														<option value="googlemaps" >Google Maps</option>
+														<option value="sectionsummary" >Section Summary</option>
+														<option value="recentitems" >Recent Items</option>
+														<option value="formdesigner" >Form Designer</option>
+														<option value="newsfeed" >Animated News Feed</option>
+														<option value="relateditems" >Related Items</option>
+														<option value="attorneyslist" >Attorney List</option>
+														<option value="qr_code" >QR Code</option>
+														<option value="slideshow" >Slideshow</option>
+														<option value="invisible" >Invisible Block</option>
+														<option value="formcreator" >Custom Form Creator</option>
+														<option value="social_media" >Social Media</option>
+														<option value="" >-----------------</option>
+														<option value="custom" >Custom Template</option>
+
+													</select>
+													<input type="submit" value="Set" name="_action_submit" />
+
+												</label>
+
+												<div id="blockavailabletemplate__2014197" style="display:none">
+													<label class="expanded">Custom Data Input Template</label>
+													<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+													<input type="text" id="cctemplate__2014197" name="cctemplate__2014197" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_cctemplate__2014197()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2014197&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_cctemplate__2014197()">
+
+													<script language="JavaScript">
+function upload_cctemplate__2014197()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2014197&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_cctemplate__2014197()">
+													<label class="expanded">Custom Design Template</label>
+													<span class="fielddesc">
+														Default Path: masters/developing/oak.m/designs/default.d/templates
+													</span>
+
+													<input type="text" id="designtemplate__2014197" name="designtemplate__2014197" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_designtemplate__2014197()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2014197&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_designtemplate__2014197()">
+
+													<script language="JavaScript">
+function upload_designtemplate__2014197()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2014197&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_designtemplate__2014197()"></div>
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2014197" name="uniqueid__2014197" value="map" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2014197" name="parent_block__2014197" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2014197" name="classname__2014197" value="fragment" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2014197" id="placement__2014197" size=""  >
+															<option value="Content" >Content</option>
+															<option value="Side Bar" >Side Bar</option>
+															<option value="Global"  selected>Global</option>
+															<option value="Header" >Header</option>
+															<option value="Footer" >Footer</option>
+															<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+															<option value="Content Top" >Content Top</option>
+															<option value="Default" >Default</option>
+															<option value="Bottomwrap" >Bottomwrap</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+
+												<div class="clr">&nbsp;</div>
+
+											</div>
+										</div>
+									</div>
+
+									<label class="expanded">Section Title</label>
+									<span class="field">
+
+										<input type="text" id="title__2014197" name="title__2014197" value="Map" size="" maxlength="200"  />
+										<input type="hidden" name="_label_" value="title__2014197"></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Link Title to:</label>
+									<span class="field">
+
+										<select name="lev1_linkto__2014197" id="lev1_linkto__2014197" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+											<option value="" >Select</option>
+
+											<option value="/index" >Index</option>
+
+											<option value="/navigation" >Nav/Header/Footer</option>
+
+											<option value="/section_2" >Firm Profile</option>
+
+											<option value="/attorneys" >Attorney Profiles</option>
+
+											<option value="/practiceareas" >Practice Areas</option>
+
+											<option value="/section_27" >Successful Cases</option>
+
+											<option value="/section_46" >Testimonials</option>
+
+											<option value="/section_47" >FAQs</option>
+
+											<option value="/section_48" >Important Terms</option>
+
+											<option value="/section_49" >Newsletters</option>
+
+											<option value="/section_64" >NJ Divorce Law</option>
+
+											<option value="/contactus" >Contact Us</option>
+
+											<option value="/sitemap" >Site Map</option>
+
+											<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+											<option value="/misc" >Misc</option>
+
+											<option value="/categories" >Categories</option>
+
+											<option value="">---------------------</option>
+
+											<option value="external"  >External link</option>
+										</select>
+
+										<span id="axchildren"></span>
+
+										<input type="hidden" name="linkto__2014197" value=""></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Homepage Section Text</label>
+
+									<span class="field">
+
+										<textarea name="description__2014197" cols= rows=  style="height: 70pxpx;">
+											<a target="_blank" href="https://maps.google.com/maps?daddr=The+Law+Offices+of+Edward+R.+Weinstein,+214+New+Jersey+18+%232a,+East+Brunswick,+NJ+08816,+United+States&hl=en&geocode=CXQE3wuo7p7_Fft6aQIdnKOQ-yHfJlLAwCIWGQ&gl=MX&t=m&z=16">
+												<img src="images/map.jpg" alt="In The Media" />
+											</a>
+										</textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2024047" class="blockgroup-hide">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2024047">
+											<input type="checkbox" id="checkboxblock__2024047" name="checkboxblock__2024047" checked value="checked" >
+											<a href="javaScript:collapseBlock('block__2024047')">Custom Content</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2024047" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="submit" name="_action_down__2024047" value="Down" class="dn" title="Move Down">Down</button>
+
+											<button type="submit" name="_action_delete__2024047" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+
+										<div id="devblock__2024047"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2024047">
+														<input type="checkbox" id="checkboxdevblock__2024047" name="checkboxdevblock__2024047"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2024047')">Custom Content Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<label class="expanded">
+													Select A Template
+													<select name="availabletemplate__2024047" id="availabletemplate__2024047" size="1"  onchange="toggleCustom(this)" >
+														<option value="simpleblock"  selected>Simple Block</option>
+														<option value="aggregator" >RSS Aggregator</option>
+														<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+														<option value="internallist" >Internal List</option>
+														<option value="creditcard" >Credit Card</option>
+														<option value="flash" >Flash Inserter</option>
+														<option value="eventcalendar" >Event Calendar</option>
+														<option value="featureditems" >Featured Items</option>
+														<option value="scrollingtext" >Scrolling Text</option>
+														<option value="newsletter" >Newsletter Signup</option>
+														<option value="googlemaps" >Google Maps</option>
+														<option value="sectionsummary" >Section Summary</option>
+														<option value="recentitems" >Recent Items</option>
+														<option value="formdesigner" >Form Designer</option>
+														<option value="newsfeed" >Animated News Feed</option>
+														<option value="relateditems" >Related Items</option>
+														<option value="attorneyslist" >Attorney List</option>
+														<option value="qr_code" >QR Code</option>
+														<option value="slideshow" >Slideshow</option>
+														<option value="invisible" >Invisible Block</option>
+														<option value="formcreator" >Custom Form Creator</option>
+														<option value="social_media" >Social Media</option>
+														<option value="" >-----------------</option>
+														<option value="custom" >Custom Template</option>
+
+													</select>
+													<input type="submit" value="Set" name="_action_submit" />
+
+												</label>
+
+												<div id="blockavailabletemplate__2024047" style="display:none">
+													<label class="expanded">Custom Data Input Template</label>
+													<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+													<input type="text" id="cctemplate__2024047" name="cctemplate__2024047" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_cctemplate__2024047()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2024047&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_cctemplate__2024047()">
+
+													<script language="JavaScript">
+function upload_cctemplate__2024047()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2024047&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_cctemplate__2024047()">
+													<label class="expanded">Custom Design Template</label>
+													<span class="fielddesc">
+														Default Path: masters/developing/oak.m/designs/default.d/templates
+													</span>
+
+													<input type="text" id="designtemplate__2024047" name="designtemplate__2024047" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_designtemplate__2024047()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2024047&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_designtemplate__2024047()">
+
+													<script language="JavaScript">
+function upload_designtemplate__2024047()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2024047&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_designtemplate__2024047()"></div>
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2024047" name="uniqueid__2024047" value="slide" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2024047" name="parent_block__2024047" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2024047" name="classname__2024047" value="none" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2024047" id="placement__2024047" size=""  >
+															<option value="Content" >Content</option>
+															<option value="Side Bar" >Side Bar</option>
+															<option value="Global" >Global</option>
+															<option value="Header"  selected>Header</option>
+															<option value="Footer" >Footer</option>
+															<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+															<option value="Content Top" >Content Top</option>
+															<option value="Default" >Default</option>
+															<option value="Bottomwrap" >Bottomwrap</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+
+												<div class="clr">&nbsp;</div>
+
+											</div>
+										</div>
+									</div>
+
+									<label class="expanded">Section Title</label>
+									<span class="field">
+
+										<input type="text" id="title__2024047" name="title__2024047" value="" size="" maxlength="200"  />
+										<input type="hidden" name="_label_" value="title__2024047"></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Link Title to:</label>
+									<span class="field">
+
+										<select name="lev1_linkto__2024047" id="lev1_linkto__2024047" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+											<option value="" >Select</option>
+
+											<option value="/index" >Index</option>
+
+											<option value="/navigation" >Nav/Header/Footer</option>
+
+											<option value="/section_2" >Firm Profile</option>
+
+											<option value="/attorneys" >Attorney Profiles</option>
+
+											<option value="/practiceareas" >Practice Areas</option>
+
+											<option value="/section_27" >Successful Cases</option>
+
+											<option value="/section_46" >Testimonials</option>
+
+											<option value="/section_47" >FAQs</option>
+
+											<option value="/section_48" >Important Terms</option>
+
+											<option value="/section_49" >Newsletters</option>
+
+											<option value="/section_64" >NJ Divorce Law</option>
+
+											<option value="/contactus" >Contact Us</option>
+
+											<option value="/sitemap" >Site Map</option>
+
+											<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+											<option value="/misc" >Misc</option>
+
+											<option value="/categories" >Categories</option>
+
+											<option value="">---------------------</option>
+
+											<option value="external"  >External link</option>
+										</select>
+
+										<span id="axchildren"></span>
+
+										<input type="hidden" name="linkto__2024047" value=""></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Homepage Section Text</label>
+
+									<span class="field">
+
+										<textarea name="description__2024047" cols= rows=  style="height: 70pxpx;"></textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2045769" class="blockgroup-hide">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2045769">
+											<input type="checkbox" id="checkboxblock__2045769" name="checkboxblock__2045769" checked value="checked" >
+											<a href="javaScript:collapseBlock('block__2045769')">Custom Content</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2045769" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="submit" name="_action_down__2045769" value="Down" class="dn" title="Move Down">Down</button>
+
+											<button type="submit" name="_action_delete__2045769" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+
+										<div id="devblock__2045769"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2045769">
+														<input type="checkbox" id="checkboxdevblock__2045769" name="checkboxdevblock__2045769"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2045769')">Custom Content Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<label class="expanded">
+													Select A Template
+													<select name="availabletemplate__2045769" id="availabletemplate__2045769" size="1"  onchange="toggleCustom(this)" >
+														<option value="simpleblock"  selected>Simple Block</option>
+														<option value="aggregator" >RSS Aggregator</option>
+														<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+														<option value="internallist" >Internal List</option>
+														<option value="creditcard" >Credit Card</option>
+														<option value="flash" >Flash Inserter</option>
+														<option value="eventcalendar" >Event Calendar</option>
+														<option value="featureditems" >Featured Items</option>
+														<option value="scrollingtext" >Scrolling Text</option>
+														<option value="newsletter" >Newsletter Signup</option>
+														<option value="googlemaps" >Google Maps</option>
+														<option value="sectionsummary" >Section Summary</option>
+														<option value="recentitems" >Recent Items</option>
+														<option value="formdesigner" >Form Designer</option>
+														<option value="newsfeed" >Animated News Feed</option>
+														<option value="relateditems" >Related Items</option>
+														<option value="attorneyslist" >Attorney List</option>
+														<option value="qr_code" >QR Code</option>
+														<option value="slideshow" >Slideshow</option>
+														<option value="invisible" >Invisible Block</option>
+														<option value="formcreator" >Custom Form Creator</option>
+														<option value="social_media" >Social Media</option>
+														<option value="" >-----------------</option>
+														<option value="custom" >Custom Template</option>
+
+													</select>
+													<input type="submit" value="Set" name="_action_submit" />
+
+												</label>
+
+												<div id="blockavailabletemplate__2045769" style="display:none">
+													<label class="expanded">Custom Data Input Template</label>
+													<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+													<input type="text" id="cctemplate__2045769" name="cctemplate__2045769" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_cctemplate__2045769()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2045769&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_cctemplate__2045769()">
+
+													<script language="JavaScript">
+function upload_cctemplate__2045769()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2045769&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_cctemplate__2045769()">
+													<label class="expanded">Custom Design Template</label>
+													<span class="fielddesc">
+														Default Path: masters/developing/oak.m/designs/default.d/templates
+													</span>
+
+													<input type="text" id="designtemplate__2045769" name="designtemplate__2045769" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_designtemplate__2045769()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2045769&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_designtemplate__2045769()">
+
+													<script language="JavaScript">
+function upload_designtemplate__2045769()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2045769&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_designtemplate__2045769()"></div>
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2045769" name="uniqueid__2045769" value="g-business" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2045769" name="parent_block__2045769" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2045769" name="classname__2045769" value="nofragment" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2045769" id="placement__2045769" size=""  >
+															<option value="Content" >Content</option>
+															<option value="Side Bar" >Side Bar</option>
+															<option value="Global" >Global</option>
+															<option value="Header" >Header</option>
+															<option value="Footer"  selected>Footer</option>
+															<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+															<option value="Content Top" >Content Top</option>
+															<option value="Default" >Default</option>
+															<option value="Bottomwrap" >Bottomwrap</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+
+												<div class="clr">&nbsp;</div>
+
+											</div>
+										</div>
+									</div>
+
+									<label class="expanded">Section Title</label>
+									<span class="field">
+
+										<input type="text" id="title__2045769" name="title__2045769" value="" size="" maxlength="200"  />
+										<input type="hidden" name="_label_" value="title__2045769"></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Link Title to:</label>
+									<span class="field">
+
+										<select name="lev1_linkto__2045769" id="lev1_linkto__2045769" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+											<option value="" >Select</option>
+
+											<option value="/index" >Index</option>
+
+											<option value="/navigation" >Nav/Header/Footer</option>
+
+											<option value="/section_2" >Firm Profile</option>
+
+											<option value="/attorneys" >Attorney Profiles</option>
+
+											<option value="/practiceareas" >Practice Areas</option>
+
+											<option value="/section_27" >Successful Cases</option>
+
+											<option value="/section_46" >Testimonials</option>
+
+											<option value="/section_47" >FAQs</option>
+
+											<option value="/section_48" >Important Terms</option>
+
+											<option value="/section_49" >Newsletters</option>
+
+											<option value="/section_64" >NJ Divorce Law</option>
+
+											<option value="/contactus" >Contact Us</option>
+
+											<option value="/sitemap" >Site Map</option>
+
+											<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+											<option value="/misc" >Misc</option>
+
+											<option value="/categories" >Categories</option>
+
+											<option value="">---------------------</option>
+
+											<option value="external"  >External link</option>
+										</select>
+
+										<span id="axchildren"></span>
+
+										<input type="hidden" name="linkto__2045769" value=""></span>
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Homepage Section Text</label>
+
+									<span class="field">
+
+										<textarea name="description__2045769" cols= rows=  style="height: 70pxpx;">
+											<a href="https://plus.google.com/103787722212403335236" rel="publisher"></a>
+										</textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2401791" class="blockgroup-show">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2401791">
+											<input type="checkbox" id="checkboxblock__2401791" name="checkboxblock__2401791"  value="checked" >
+											<a href="javaScript:collapseBlock('block__2401791')">New Jersey Divorce Lawyer Blog</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2401791" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="submit" name="_action_down__2401791" value="Down" class="dn" title="Move Down">Down</button>
+
+											<button type="submit" name="_action_delete__2401791" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+
+										<div id="devblock__2401791"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2401791">
+														<input type="checkbox" id="checkboxdevblock__2401791" name="checkboxdevblock__2401791"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2401791')">Custom Content Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<label class="expanded">
+													Select A Template
+													<select name="availabletemplate__2401791" id="availabletemplate__2401791" size="1"  onchange="toggleCustom(this)" >
+														<option value="simpleblock" >Simple Block</option>
+														<option value="aggregator" >RSS Aggregator</option>
+														<option value="jw_feeds"  selected>PubSub Based Feed Agregator</option>
+														<option value="internallist" >Internal List</option>
+														<option value="creditcard" >Credit Card</option>
+														<option value="flash" >Flash Inserter</option>
+														<option value="eventcalendar" >Event Calendar</option>
+														<option value="featureditems" >Featured Items</option>
+														<option value="scrollingtext" >Scrolling Text</option>
+														<option value="newsletter" >Newsletter Signup</option>
+														<option value="googlemaps" >Google Maps</option>
+														<option value="sectionsummary" >Section Summary</option>
+														<option value="recentitems" >Recent Items</option>
+														<option value="formdesigner" >Form Designer</option>
+														<option value="newsfeed" >Animated News Feed</option>
+														<option value="relateditems" >Related Items</option>
+														<option value="attorneyslist" >Attorney List</option>
+														<option value="qr_code" >QR Code</option>
+														<option value="slideshow" >Slideshow</option>
+														<option value="invisible" >Invisible Block</option>
+														<option value="formcreator" >Custom Form Creator</option>
+														<option value="social_media" >Social Media</option>
+														<option value="" >-----------------</option>
+														<option value="custom" >Custom Template</option>
+
+													</select>
+													<input type="submit" value="Set" name="_action_submit" />
+
+												</label>
+
+												<div id="blockavailabletemplate__2401791" style="display:none">
+													<label class="expanded">Custom Data Input Template</label>
+													<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+													<input type="text" id="cctemplate__2401791" name="cctemplate__2401791" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_cctemplate__2401791()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2401791&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_cctemplate__2401791()">
+
+													<script language="JavaScript">
+function upload_cctemplate__2401791()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2401791&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_cctemplate__2401791()">
+													<label class="expanded">Custom Design Template</label>
+													<span class="fielddesc">
+														Default Path: masters/developing/oak.m/designs/default.d/templates
+													</span>
+
+													<input type="text" id="designtemplate__2401791" name="designtemplate__2401791" value="" size="60" maxlength="680"  />
+
+													<script language="JavaScript">
+function file_picker_designtemplate__2401791()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2401791&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+													<input type="button" value="Pick"  onclick="file_picker_designtemplate__2401791()">
+
+													<script language="JavaScript">
+function upload_designtemplate__2401791()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2401791&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+													<input type="button" value="Upload"  onclick="upload_designtemplate__2401791()"></div>
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2401791" name="uniqueid__2401791" value="rss_feed" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2401791" name="parent_block__2401791" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2401791" name="classname__2401791" value="fragment rss-feed" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2401791" id="placement__2401791" size=""  >
+															<option value="Content" >Content</option>
+															<option value="Side Bar"  selected>Side Bar</option>
+															<option value="Global" >Global</option>
+															<option value="Header" >Header</option>
+															<option value="Footer" >Footer</option>
+															<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+															<option value="Content Top" >Content Top</option>
+															<option value="Default" >Default</option>
+															<option value="Bottomwrap" >Bottomwrap</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+
+												<div class="clr">&nbsp;</div>
+
+											</div>
+										</div>
+									</div>
+
+									<label class="expanded">Section Title</label>
+									<span class="field">
+
+										<input type="text" id="title__2401791" name="title__2401791" value="New Jersey Divorce Lawyer Blog" size="" maxlength="200"  />
+										<input type="hidden" name="_label_" value="title__2401791"></span>
+									<label class="expanded">Description</label>
+									<span class="field">
+
+										<textarea name="description__2401791" cols= rows=  style="height: 70pxpx;"></textarea>
+
+									</span>
+
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Feed ID(s) Comma separate multiple IDs (eg. 12,34,16)</label>
+									<span class="field">
+
+										<input type="text" id="feedid__2401791" name="feedid__2401791" value="1609" size="" maxlength="200"  />
+									</span>
+
+									<div class="clr">&nbsp;</div>
+
+									<label class="expanded">Link Title to: (eg. http://www.somelawblog.com)</label>
+									<span class="field">
+
+										<input type="text" id="titleextlink__2401791" name="titleextlink__2401791" value="http://www.newjerseydivorcelawyerblog.com/" size="" maxlength="200"  />
+									</span>
+
+									<span class="fields">
+
+										<input type="hidden" name="_reset" value="linknewwin__2401791">
+										<input type="checkbox" id="linknewwin__2401791" name="linknewwin__2401791" checked value="checked" >Open in a new window.</span>
+
+									<label class="expanded">Titles</label>
+
+									<span class="fields">
+										Show titles:
+										<select name="show_titles__2401791" id="show_titles__2401791" size=""  >
+											<option value="yes"  selected>Yes</option>
+											<option value="no" >No</option>
+
+										</select>
+									</span>
+
+									<label class="expanded">Number of posts</label>
+
+									<span class="fields">
+										Show:
+										<select name="numberofitems__2401791" id="numberofitems__2401791" size=""  >
+											<option value="1" >1</option>
+											<option value="2" >2</option>
+											<option value="3"  selected>3</option>
+											<option value="4" >4</option>
+											<option value="5" >5</option>
+											<option value="6" >6</option>
+											<option value="7" >7</option>
+											<option value="8" >8</option>
+											<option value="9" >9</option>
+											<option value="10" >10</option>
+											<option value="11" >11</option>
+											<option value="12" >12</option>
+											<option value="13" >13</option>
+											<option value="14" >14</option>
+											<option value="15" >15</option>
+											<option value="30" >30</option>
+											<option value="50" >50</option>
+											<option value="75" >75</option>
+											<option value="100" >100</option>
+											<option value="150" >150</option>
+
+										</select>
+										Most Recent Posts
+									</span>
+
+									<label class="expanded">Posts description</label>
+
+									<span class="fields">
+										Show description?
+										<select name="showdescription__2401791" id="showdescription__2401791" size=""  >
+											<option value="no" >Do Not Show Description</option>
+											<option value="yes"  selected>Show Description After Title</option>
+											<option value="first" >Show Description Before Title</option>
+
+										</select>
+									</span>
+
+									<span class="fields">
+										Characters of description for each:
+										<select name="descchar__2401791" id="descchar__2401791" size=""  >
+											<option value="25" >25</option>
+											<option value="50" >50</option>
+											<option value="100" >100</option>
+											<option value="150"  selected>150</option>
+											<option value="200" >200</option>
+											<option value="250" >250</option>
+											<option value="300" >300</option>
+											<option value="350" >350</option>
+											<option value="400" >400</option>
+											<option value="450" >450</option>
+											<option value="500" >500</option>
+											<option value="all" >ALL</option>
+
+										</select>
+									</span>
+
+									<span class="fields">
+										Pick the content of the posts from:
+										<select name="jw_content__2401791" id="jw_content__2401791" size=""  >
+											<option value="summary"  selected>Summary (default)</option>
+											<option value="body" >Full Content</option>
+
+										</select>
+									</span>
+
+									<label class="expanded">Dates</label>
+									<span class="fields">
+
+										<input type="hidden" name="_reset" value="showdates__2401791">
+										<input type="checkbox" id="showdates__2401791" name="showdates__2401791"  value="checked" >
+										Check this box to show the date
+										<br/>
+										Format:
+										<input type="text" id="dateformat__2401791" name="dateformat__2401791" value="" size="" maxlength="200"  />
+										leave blank for default: F j, Y (use PHP date formats)
+										<br />
+									</span>
+
+									<span class="fields">
+										Show posts from:
+										<select name="posts_from__2401791" id="posts_from__2401791" size=""  >
+											<option value="all"  selected>All the time (default)</option>
+											<option value="future" >Only The Future</option>
+											<option value="past" >Only The Past</option>
+											<option value="today" >Today</option>
+
+										</select>
+									</span>
+
+									<span class="fields">
+										Order:
+										<select name="post_order__2401791" id="post_order__2401791" size=""  >
+											<option value="DESC"  selected>DESC (Default)</option>
+											<option value="ASC" >ASC</option>
+
+										</select>
+									</span>
+
+									<label class="expanded">Links for the posts</label>
+									<span class="fields">
+										Open links in:
+										<select name="new_window__2401791" id="new_window__2401791" size=""  >
+											<option value="no" >the Same Window/Tab</option>
+											<option value="yes"  selected>a New Window/Tab</option>
+
+										</select>
+									</span>
+
+									<span class="fields">
+										Link posts back to the blog:
+										<select name="jw_link_posts__2401791" id="jw_link_posts__2401791" size=""  >
+											<option value="yes"  selected>Yes</option>
+											<option value="no" >No</option>
+
+										</select>
+									</span>
+
+									<label class="expanded">Additional Settings</label>
+
+									<span class="fields">
+										Require at least 1 post from each feed:
+										<select name="require_each_feed__2401791" id="require_each_feed__2401791" size=""  >
+											<option value="yes"  selected>Yes (default)</option>
+											<option value="no" >No</option>
+
+										</select>
+									</span>
+
+									<span class="fields">
+										Show Blog Name Link:
+										<select name="show_blog_name__2401791" id="show_blog_name__2401791" size=""  >
+											<option value="auto"  selected>Auto (only if more than one feed)</option>
+											<option value="yes" >Yes (Automatic Position)</option>
+											<option value="post" >Yes (With each post)</option>
+											<option value="header" >Yes (Once on top)</option>
+											<option value="no" >No</option>
+
+										</select>
+									</span>
+
+									<label class="expanded">More Link</label>
+									<span class="fields">
+										Show "more&raquo;" link:
+										<select name="show_more_link__2401791" id="show_more_link__2401791" size=""  >
+											<option value="auto" >Automatic (Yes if only 1 feed, no otherwise)</option>
+											<option value="yes" >Yes</option>
+											<option value="no"  selected>No</option>
+											<option value="custom" >Custom</option>
+
+										</select>
+									</span>
+
+									<span class="fields">
+										Custom URL for More Link:
+										<input type="text" id="more_link_custom__2401791" name="more_link_custom__2401791" value="" size="" maxlength="1024"  />
+									</span>
+
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<div id="block__2014093" class="blockgroup-show">
+								<div class="blockhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxblock__2014093">
+											<input type="checkbox" id="checkboxblock__2014093" name="checkboxblock__2014093"  value="checked" >
+											<a href="javaScript:collapseBlock('block__2014093')">Site Search</a>
+										</span>
+										<span class="blockbuttons">
+
+											<button type="submit" name="_action_up__2014093" value="Up" class="up" title="Move Up">Up</button>
+
+											<button type="button" name="_action_down__2014093" class="dnd">Down</button>
+
+											<button type="submit" name="_action_delete__2014093" value="Delete" class="del" title="Delete">Delete</button>
+										</span>
+									</div>
+								</div>
+								<div class="blockform">
+
+									<div class="developeronly">
+										<div id="devblock__2014093"  class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxdevblock__2014093">
+														<input type="checkbox" id="checkboxdevblock__2014093" name="checkboxdevblock__2014093"  value="checked" >
+														<a href="javaScript:collapseBlock('devblock__2014093')">Site Search Options (Developer Only)</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+
+												<div class="fourcol">
+													<label class="expanded">Unique ID</label>
+													<span class="field">
+
+														<input type="text" id="uniqueid__2014093" name="uniqueid__2014093" value="searchBar" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Parent Block</label>
+													<span class="field">
+
+														<input type="text" id="parent_block__2014093" name="parent_block__2014093" value="" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Class Name</label>
+													<span class="field">
+
+														<input type="text" id="classname__2014093" name="classname__2014093" value="fragment" size="60" maxlength=""  />
+													</span>
+												</div>
+												<div class="fourcol">
+													<label class="expanded">Placement</label>
+													<span class="field">
+														<select name="placement__2014093" id="placement__2014093" size=""  >
+															<option value="Side Bar"  selected>Side Bar</option>
+															<option value="Content" >Content</option>
+															<option value="Global" >Global</option>
+															<option value="Header" >Header</option>
+															<option value="Footer" >Footer</option>
+															<option value="Wildcard" >Wildcard</option>
+															<option value="Bodytext" >Bodytext</option>
+
+														</select>
+													</span>
+												</div>
+												<div class="clr">&nbsp;</div>
+												<label class="expanded">Custom Handler</label>
+												<span class="field">
+													If left empty, will use the default handler.
+													<input type="text" id="handler__2014093" name="handler__2014093" value="" size="" maxlength="200"  />
+												</span>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="threecol">
+										<label class="expanded">Site Search Title</label>
+										<span class="field">
+											(Optional)
+											<br />
+
+											<input type="text" id="title__2014093" name="title__2014093" value="" size="" maxlength="300"  />
+										</span>
+									</div>
+									<div class="twocol">
+										<label class="expanded">Image Button Path</label>
+										<span class="field">
+											If left empty, will use a standard 'Search' buttton
+											<br />
+
+											<input type="text" id="imgbutton__2014093" name="imgbutton__2014093" value="images/searchButton.png" size="" maxlength="300"  />
+										</span>
+									</div>
+									<div class="clr">&nbsp;</div>
+								</div>
+							</div>
+
+							<strong>Add New</strong>
+							<select name="_master_id_2008888">
+
+								<option value = "1000169">Custom Fragment</option>
+
+								<option value = "1000172">Custom Content</option>
+
+								<option value = "1000173">Custom Text</option>
+
+							</select>
+							<input type="submit" name="_action_new_child__2008888" value="Go"></div>
+						<p/>
+
+						<label class="expanded">
+							Toggle Menu Item
+							<br/>
+						</label>
+
+						<input type="hidden" name="_reset" value="toggleon__">
+						<input type="radio" name="toggleon__" value="off" >
+						Use Normal Menu Item, Normal Menu Item On, Toggle Item Off
+						<br/>
+
+						<input type="hidden" name="_reset" value="toggleon__">
+						<input type="radio" name="toggleon__" value="on" >
+						Replace Normal Menu Item with Toggle Menu Item , Normal Menu Item Off, Toggle Item On
+					</div>
+				</div>
+				<div class="clr">&nbsp;</div>
+
+				<div class="dataform">
+					<div class="dfwrap">
+
+						<input type="submit" name="_action_cancel" value="Revert this Page to Last Saved" onclick="javascript:if(confirm('Reverting will permenantly DELETE
+any current, but unsaved, changes on this page.  Do you wish to revert to the last saved version of this page?')){return true;}else{return false;};"/>
+						<input type="submit" name="_action_submit" value="Save Changes"  style="font-weight:bold;" accesskey="s" />
+
+						<input type="submit" name="_action_preview_page" value="Rebuild Page" accesskey="r" />
+
+						<input type="submit" name="_action_process_css" value="Rebuild CSS" accesskey="c" />
+						<input type="submit" name="_action" value="Sync With Master" />
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- END CONTENT -->
+	</form>
+
+	<!-- end content -->
+	<div id="footer">
+		<div class="copyright"></div>
+	</div>
+</div>
+<script language="javascript" src="/js/jwebbck.js"></script>
+</body>
+</html>

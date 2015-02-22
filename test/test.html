@@ -1,0 +1,2492 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Edit Site</title>
+
+	
+
+</head>
+
+	<noscript>
+		It appears that your browser does not support JavaScript, or you have it disabled.  This site can be used only if the JavaScript enabled.
+		<p>
+			If JavaScript is disabled in your browser, please turn it back on then reload this page.
+			<META HTTP-EQUIV="REFRESH"
+      CONTENT = "3; URL=/scripts/main"></noscript>
+<body>
+
+		<div id="prevpanel" class="off">
+			<div id="prevwin">
+				<div class="pwwrap">
+					<div class="pwwmain">
+						<span class="pwtitle">
+							Generating Pages...
+							<!-- <strong id="numpages">0</strong>
+						of 102 -->
+					</span>
+
+				</div>
+			</div>
+		</div>
+		<div id="prevbg">&nbsp;</div>
+		<iframe id="ppif" name="ppif" src="" style="display:none;"></iframe>
+	</div>
+	<div id="header">
+		<div id="logo">
+			<span>Justia Web site Builder</span>
+		</div>
+		<div id="toplevel">
+			<div id="navrow1">
+				<span class="toolnav">
+					<div class="userinfo">
+						<span>
+							SITE: <b>justia-prinz-lawfirm-com.justia.net</b>
+						</span>
+						<span>
+							USER: <b>Diego Miguel</b>
+						</span>
+
+						<div class="msgs"> <strong>Staging</strong>
+							<strong>Responsive</strong>
+
+						</div>
+					</div>
+					<ul class="buttons">
+						<li class="lo">
+							<a href="/scripts/logout">LOGOUT</a>
+						</li>
+						<li class=he>
+							<a href="">HELP</a>
+						</li>
+					</ul>
+					<div class="clr"></div>
+				</span>
+			</div>
+			<div class="navrow2"></div>
+		</div>
+		<div class="clr">&nbsp;</div>
+
+		<div id="tabsholder">
+			<ul id="tabs">
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=admin" class="tu">Admin</a>
+
+				</li>
+				<li>
+
+					<b><a href="/scripts/edit-site?selected=1565135&_page_mode=sum" class="ts">Content</a></b> 
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=designsummary&page=summary" class="tu">Design</a>
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=subscriptionsummary" class="tu">Subscriptions</a>
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=advanced" class="tu">Advanced Tools</a>
+
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="container">
+		<!-- begin content -->
+
+		<noscript>
+			<p>
+				<b>Javascript must be enabled to use this form.</b>
+			</p>
+		</noscript>
+
+		<form name="dataForm" method="post" action="edit-site"  onsubmit="return submitForm();">
+			<!-- BEGIN CONTENT -->
+			<div id="content">
+
+				<div id="pubcontainer">
+					<div id="pubmsg">
+						<button type="submit" class="biggraybtn" name="_action" value="Preview" onclick="showProgress()">Preview & Publish</button>
+						<div id="pubmsgbox">
+							<span class="pmbwrap">Saved changes not yet published!</span>
+							<div class="pubdesc">
+								Your changes will not be live until you publish your site. You can either publish it now,
+  			or publish it after all changes are completed.
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<script language="javascript">
+	
+	
+	
+	function showProgress() {
+		
+		pnl = document.getElementById('prevpanel');
+		pbg = document.getElementById('prevbg');
+		pif = document.getElementById('ppif');
+		pif.style.display = "block";
+		
+		
+		url = '/sm/jpreview?site=justia-prinz-lawfirm-com';
+		
+		//getProgress(url);
+		
+		
+		h = document.body.offsetHeight + 'px';
+		pbg.style.height = pif.style.height = pnl.style.height = h;
+		pnl.className = 'on'
+		
+		return false;
+		
+	}
+
+
+
+</script>
+
+				<!-- BEGIN LEFTNAV-->
+				<div id="leftnav">
+
+					<h6>Content</h6>
+					<ul>
+
+						<li class="WebFolder-open">
+
+							<span class="selected">
+								<a href="edit-site?selected=1565136" title="Index">Index</a>
+								<span class="blockbuttons">
+
+									<button type="button" name="_action_up__1565136" class="upd">Up</button>
+
+									<button type="submit" name="_action_down__1565136" value="Down" class="dn" title="Move Down">Down</button>
+
+								</span>
+							</span>
+
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565140" class="unselected" title="Nav/Header/Footer">Nav/Header/Footer</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1728548&_page_mode=sum" class="unselected" title="Who We Are">Who We Are</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565154&_page_mode=sum" class="unselected" title="Our Team">Our Team</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565155&_page_mode=sum" class="unselected" title="Practice Areas">Practice Areas</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1728551&_page_mode=sum" class="unselected" title="Career Development">Career Development</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1728552&_page_mode=sum" class="unselected" title="Educational Seminars">Educational Seminars</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565706&_page_mode=sum" class="unselected" title="News">News</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565707&_page_mode=sum" class="unselected" title="Resources">Resources</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565882&_page_mode=sum" class="unselected" title="Blogs">Blogs</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565157" class="unselected" title="Contact Us">Contact Us</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565167&_page_mode=sum" class="unselected" title="Disclaimer, Privacy Policy & Terms of Service">Disclaimer, Privacy ...</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565171" class="unselected" title="Site Map">Site Map</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565172&_page_mode=sum" class="unselected" title="Misc">Misc</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1565175" class="unselected" title="Categories">Categories</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=1754473&_page_mode=sum" class="unselected" title="Careers">Careers</a>
+						</li>
+
+						<li class="WebPage-open">
+							<a href="edit-site?_action_switch_screen=poweredit" class="unselected" >Edit Seo Info</a>
+						</li>
+
+					</ul>
+
+				</div>
+				<!-- END LEFTNAV-->
+
+				<div id="ccontainer">
+
+					<div class="dataform">
+						<div class="dfwrap">
+
+							<input type="submit" name="_action_cancel" value="Revert this Page to Last Saved" onclick="javascript:if(confirm('Reverting will permenantly DELETE
+any current, but unsaved, changes on this page.  Do you wish to revert to the last saved version of this page?')){return true;}else{return false;};"/>
+							<input type="submit" name="_action_submit" value="Save Changes"  style="font-weight:bold;" accesskey="s" />
+
+							<input type="submit" name="_action_preview_page" value="Rebuild Page" accesskey="r" />
+
+							<input type="submit" name="_action_process_css" value="Rebuild CSS" accesskey="c" />
+							<input type="submit" name="_action" value="Sync With Master" />
+
+						</div>
+					</div>
+
+					<div class="rootspan">
+						<div class="rswrap">
+
+							<script language="javascript">
+	cat_ay = []
+	function swapOptions(obj,i,j) {
+		var temp1 = cat_ay[i];
+		var temp2 = cat_ay[j];
+		cat_ay.splice(i,1,temp2);
+		cat_ay.splice(j,1,temp1);
+		getCategories();
+	}
+	function moveUp(i) {
+		obj = i;
+		for (i=0; i<cat_ay.length; i++) {
+			if (cat_ay[obj] == cat_ay[i]) {
+				if (i != 0) {
+					swapOptions(obj,i,i-1);
+				}	
+			}
+		}
+	}
+	function moveDown(i) {
+		obj = i;
+		for (i=cat_ay.length-1; i>=0; i--) {
+			if (cat_ay[obj] == cat_ay[i]) {
+				if (i != (cat_ay.length-1)) {
+					swapOptions(obj,i,i+1);
+				}
+			}
+		}
+	};
+	function removeItem(i){
+		var x = confirm("Are you sure you want to remove the label " + cat_ay[1] +" ?");
+		if (x) {
+			cat_ay.splice(i,1);
+			getCategories();
+		}
+	};
+	function getCategories() {
+		d = document.getElementById("categories");
+		d.innerHTML = "";
+		for (i=0; i<cat_ay.length; i++) {
+			isupdis = "";
+			isdndis = "";
+			if (i==0){ isupdis = "dsbld" };
+			if (i==cat_ay.length-1){ isdndis = "dsbld" };
+		
+			d.innerHTML += "<li><input type=\"text\" name=\"categories__1565136\" id=\"categories__1565136\" value=\""+ cat_ay[i] +"\" size=\"35\" onchange=\"updateArray("+ i +",this.value)\" /> \
+			<span class=\"btnholder\"><button type=\"button\" class=\"u"+isupdis+"\" onclick=\"moveUp("+i+")\">u</buton><button type=\"button\" class=\"d"+isdndis+"\" onclick=\"moveDown("+i+")\">d</buton>\
+			<button type=\"button\" class=\"addbtn\" onclick=\"removeItem("+i+")\">-</buton></span></li>";
+		}
+		d.innerHTML+= "<li class=\"last\"><button type=\"button\" class=\"addbtn\" onclick=\"addItem()\">+</button> Add New Category for Index </li>"
+	};
+	function addItem() {	
+		cat_ay.push("Name");
+		getCategories();
+	}
+	function updateArray(num,val) {
+		cat_ay[num] = val
+	}
+</script>
+
+							<script language="javascript">
+	function checkNew(val) {
+		clearEmpty(val, 'categorylabel__1565136')
+	}
+</script>
+
+							<div id="dev_advanced" class="dev_closed">
+								<span class="dev_tab">
+									<a href="javaScript:openPanel('dev_advanced')">Advanced Options</a>
+								</span>
+								<div id="dev_panel" class="tab1">
+									<div id="sectabs">
+										<span class="dev_closebtn">
+											<a href="javaScript:closePanel('dev_advanced')">x</a>
+										</span>
+										<ul>
+											<li class="tab1">
+												<a href="javaScript:switchTab('tab1')">Graphics</a>
+											</li>
+											<li class="tab2">
+												<a href="javaScript:switchTab('tab2')">Options</a>
+											</li>
+											<li class="tab3">
+												<a href="javaScript:switchTab('tab3')">Empty</a>
+											</li>
+
+										</ul>
+									</div>
+									<div class="dev_panelwrap">
+										<div id="tab1" class="screen">
+											<span class="desc">
+												<b>This tab helps you assign individual graphic to the Index section.</b> 
+												<br />
+												<br />
+												If a graphic is provided here, the default graphic in the design will be replaced with this one.
+				You can always revert back to the default by leaving graphic field blank.
+											</span>
+											<div class="options">
+
+												<input type="text" id="templategraphic__1565136" name="templategraphic__1565136" value="" size="" maxlength=""  />
+
+												<script language="JavaScript">
+function image_picker_templategraphic__1565136()
+{
+	var oWindow = openNewWindow("image-picker?field=templategraphic__1565136&file_dir=/preview/j/u/s/justia-prinz-lawfirm-com&dir=/images/img&value=", 
+								"ImagePicker", 800, 600, true, true );
+	
+}
+</script>
+
+												<input type="button" value="Choose Existing"  onclick="image_picker_templategraphic__1565136()">
+
+												<script language="JavaScript">
+function upload_templategraphic__1565136()
+{
+	var oWindow = openNewWindow("file-upload?field=templategraphic__1565136&file_dir=/preview/j/u/s/justia-prinz-lawfirm-com&dir=/images/img", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+												<input type="button" value="Upload New"  onclick="upload_templategraphic__1565136()">
+
+												<br />
+												Alt Text:
+												<input type="text" id="templategraphic_alt_text__1565136" name="templategraphic_alt_text__1565136" value="" size="60" maxlength=""  />
+											</div>
+
+											<div class="clr">&nbsp;</div>
+											<br />
+											<br />
+										</div>
+										<div id="tab2" class="screen">
+
+											<div class="options">
+
+												<label class="expanded">Section ID</label>
+
+												<input type="text" id="sectionid__1565136" name="sectionid__1565136" value="" size="" maxlength="200"  />
+
+												<div class="clr">&nbsp;</div>
+											</div>
+
+										</div>
+										<div id="tab3" class="screen">
+											<span class="desc">
+												<b>
+													Index Categories help you group pages in Index section using a custom category label.
+												</b>
+												<br />
+												<br />
+												<br />
+												To apply a category label to an individual page, go to that page and click on the advanced options
+				button, and select the labels tab.
+												<br />
+												<br />
+												NOTE: These categories can only be applied to a page within folder Index 
+				and cannot be applied to the folder/section (Index) itself.
+												<br />
+												Categories created at this level can also be added to your sub navigation.
+											</span>
+											<div class="clr">&nbsp;</div>
+											<input type="hidden" name="_reset" value="categories__1565136" />
+											<ul id="categories"></ul>
+
+										</div>
+										<input type="submit" name="_action_submit" value="Save Changes" style="font-weight:bold;" />
+
+									</div>
+								</div>
+							</div>
+
+							<div id="dev_hdn"></div>
+
+							<script language="javascript">getCategories()</script>
+
+							<h2>Index</h2>
+
+							<div class="developeroptions">
+								<div id="block__1565136" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__1565136">
+												<input type="checkbox" id="checkboxblock__1565136" name="checkboxblock__1565136"  value="checked" >
+												<a href="javaScript:openBlock('block__1565136')">Developer Options</a>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+										<label class="expanded">Title Tag (Full Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="titletag__1565136" name="titletag__1565136" value="Chicago Employment Lawyer - Cook County Business Attorney - Chicago Employment Discrimination Lawyer" size="" maxlength="200"  />
+										</span>
+										<label class="expanded">H1 Tag (Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="h1tag__1565136" name="h1tag__1565136" value="Chicago Employment Lawyer The Prinz Law Firm Home" size="" maxlength="200"  />
+										</span>
+										<label class="expanded">H2 Tag (Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="h2tag__1565136" name="h2tag__1565136" value="Contact Chicago Business Attorney The Prinz Law Firm" size="" maxlength="200"  />
+										</span>
+										<div class="hrclr">&nbsp;</div>
+										<div class="twocol">
+											<label class="expanded">Index Page Footer Text (Part 1)</label>
+											<span class="field">
+
+												<input type="text" id="seo_footer_text_part1__1565136" name="seo_footer_text_part1__1565136" value="Chicago Employment Lawyer The Prinz Law Firm Home" size="" maxlength="200"  />
+											</span>
+										</div>
+										<div class="twocol">
+
+											<label class="expanded">Index Page Footer Text (Part 2)</label>
+											<span class="field">
+
+												<input type="text" id="seo_footer_text_part2__1565136" name="seo_footer_text_part2__1565136" value="Contact Cook County Business Attorney The Prinz Law Firm" size="" maxlength="200"  />
+											</span>
+
+										</div>
+										<div class="hrclr"></div>
+										<label class="expanded">Meta Description Prefix</label>
+										<span class="field">
+
+											<input type="text" id="meta_description_prefix__1565136" name="meta_description_prefix__1565136" value="" size="" maxlength=""  />
+										</span>
+										<div class="hrclr"></div>
+										<label class="expanded">Index Page Meta Description</label>
+										<span class="field">
+
+											<input type="text" id="meta_description__1565136" name="meta_description__1565136" value="The Prinz Law Firm - Chicago Employment Lawyer - Cook County Business Attorney - Chicago Employment Discrimination Lawyer" size="" maxlength=""  />
+										</span>
+										<div class="hrclr"></div>
+										<label class="expanded">Index Page Meta Keywords</label>
+										<span class="field">
+
+											<input type="text" id="keywords__1565136" name="keywords__1565136" value="" size="" maxlength=""  />
+										</span>
+
+										<div class="hrclr"></div>
+
+										<label class="expanded">Custom Head Tags (will write into &lt;head&gt; tag.)</label>
+										<span class="field">
+
+											<textarea name="custom_headtags__1565136" cols= rows=3 ></textarea>
+
+										</span>
+
+										<div class="hrclr"></div>
+
+										<label class="expanded">Header HTML - Imgwrap tag - img1 tag</label>
+										<span class="field">
+
+											<textarea name="imgwrap_img1_tag__1565136" cols= rows=3 ></textarea>
+
+										</span>
+
+										<label class="expanded">Header HTML - Imgwrap tag - img2 tag</label>
+										<span class="field">
+
+											<textarea name="imgwrap_img2_tag__1565136" cols= rows=3 ></textarea>
+
+										</span>
+									</div>
+								</div>
+							</div>
+
+							<span class="fielddesctitle">
+								Your Web site Homepage welcomes new or prospective clients 
+to your site and describes what they will find as they browse 
+or search through your Web site sections or pages.
+							</span>
+							<div class="hrclr">&nbsp;</div>
+
+							<label class="expanded">Homepage Text</label>
+
+							<div class="clr">&nbsp;</div>
+
+							<div id="ppanel__1565136" class="ppanelblockgroup-show">
+								<div class="panelhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxppanel__1565136">
+											<input type="checkbox" id="checkboxppanel__1565136" name="checkboxppanel__1565136"  value="checked" >
+											<a href="javaScript:collapseBlock('ppanel__1565136','','ppanel')">Index Options</a>
+										</span>
+
+									</div>
+								</div>
+								<div class="ppform">
+									<div class="hrclr">&nbsp;</div>
+
+									<table border="0" cellspacing="5">
+										<tr>
+											<td>
+
+												<input type="hidden" name="_reset" value="showonfnav__1565136">
+												<input type="checkbox" id="showonfnav__1565136" name="showonfnav__1565136" checked value="checked" >
+												Add this Page to Footer Nav
+												<br />
+												<div class="clr">&nbsp;</div>
+												<strong>Footer Navbar Title</strong>
+
+												<input type="text" id="fnavtitle__1565136" name="fnavtitle__1565136" value="Home" size="" maxlength="300"  />
+											</td>
+										</tr>
+									</table>
+
+								</div>
+							</div>
+
+							<div id="components">
+
+								<div id="block__1565137" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__1565137">
+												<input type="checkbox" id="checkboxblock__1565137" name="checkboxblock__1565137"  value="checked" >
+												<a href="javaScript:collapseBlock('block__1565137')">Custom Fragment</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="button" name="_action_up__1565137" class="upd">Up</button>
+
+												<button type="submit" name="_action_down__1565137" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__1565137" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+											<div id="devblock__1565137"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__1565137">
+															<input type="checkbox" id="checkboxdevblock__1565137" name="checkboxdevblock__1565137"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__1565137')">Custom Fragment Options (Developer Only.)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__1565137" name="uniqueid__1565137" value="pr_ar" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__1565137" name="parent_block__1565137" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__1565137" name="classname__1565137" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__1565137" id="placement__1565137" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+													<div class="clr">&nbsp;</div>
+
+													<label class="expanded">Section Title</label>
+													<span class="field">
+														If left empty, will update title from selected section.
+														<input type="text" id="title__1565137" name="title__1565137" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="title__1565137"></span>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Description:</label>
+										<span class="field">
+
+											<textarea name="description__1565137" cols= rows=5 ></textarea>
+
+										</span>
+
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="listtype__1565137">
+											<input type="radio" name="listtype__1565137" value="default" checked>
+											Use First
+											<select name="defaultlistnumber__1565137" id="defaultlistnumber__1565137" size=""  >
+												<option value="1" >1</option>
+												<option value="2" >2</option>
+												<option value="3" >3</option>
+												<option value="4" >4</option>
+												<option value="5" >5</option>
+												<option value="6" >6</option>
+												<option value="7" >7</option>
+												<option value="8" >8</option>
+												<option value="9" >9</option>
+												<option value="10" >10</option>
+												<option value="11" >11</option>
+												<option value="12" >12</option>
+												<option value="13" >13</option>
+												<option value="14" >14</option>
+												<option value="15" >15</option>
+												<option value="16" >16</option>
+												<option value="17" >17</option>
+												<option value="18" >18</option>
+												<option value="19" >19</option>
+												<option value="20" >20</option>
+												<option value="21" >21</option>
+												<option value="22" >22</option>
+												<option value="23" >23</option>
+												<option value="24" >24</option>
+												<option value="25" >25</option>
+												<option value="26" >26</option>
+												<option value="27" >27</option>
+												<option value="28" >28</option>
+												<option value="29" >29</option>
+												<option value="30" >30</option>
+												<option value="31" >31</option>
+												<option value="32" >32</option>
+												<option value="33" >33</option>
+												<option value="34" >34</option>
+												<option value="35" >35</option>
+												<option value="36" >36</option>
+												<option value="37" >37</option>
+												<option value="38" >38</option>
+												<option value="39" >39</option>
+												<option value="40" >40</option>
+												<option value="41" >41</option>
+												<option value="42" >42</option>
+												<option value="43" >43</option>
+												<option value="44" >44</option>
+												<option value="45" >45</option>
+												<option value="46" >46</option>
+												<option value="47" >47</option>
+												<option value="48" >48</option>
+												<option value="49" >49</option>
+												<option value="50" >50</option>
+												<option value="51" >51</option>
+												<option value="52" >52</option>
+												<option value="53" >53</option>
+												<option value="54" >54</option>
+												<option value="55" >55</option>
+												<option value="56" >56</option>
+												<option value="57" >57</option>
+												<option value="58" >58</option>
+												<option value="59" >59</option>
+												<option value="60" >60</option>
+												<option value="61" >61</option>
+												<option value="62" >62</option>
+												<option value="63"  selected>63</option>
+												<option value="64" >64</option>
+												<option value="65" >65</option>
+												<option value="66" >66</option>
+												<option value="67" >67</option>
+												<option value="68" >68</option>
+												<option value="69" >69</option>
+												<option value="70" >70</option>
+												<option value="71" >71</option>
+												<option value="72" >72</option>
+												<option value="73" >73</option>
+												<option value="74" >74</option>
+												<option value="75" >75</option>
+												<option value="76" >76</option>
+												<option value="77" >77</option>
+												<option value="78" >78</option>
+												<option value="79" >79</option>
+												<option value="80" >80</option>
+												<option value="81" >81</option>
+												<option value="82" >82</option>
+												<option value="83" >83</option>
+												<option value="84" >84</option>
+												<option value="85" >85</option>
+												<option value="86" >86</option>
+												<option value="87" >87</option>
+												<option value="88" >88</option>
+												<option value="89" >89</option>
+												<option value="90" >90</option>
+												<option value="91" >91</option>
+												<option value="92" >92</option>
+												<option value="93" >93</option>
+												<option value="94" >94</option>
+												<option value="95" >95</option>
+												<option value="96" >96</option>
+												<option value="97" >97</option>
+												<option value="98" >98</option>
+												<option value="99" >99</option>
+												<option value="100" >100</option>
+
+											</select>
+											Pages from
+											<select name="defaultlistsource__1565137" id="defaultlistsource__1565137" size="1" >
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_51" >Who We Are</option>
+
+												<option value="/attorneys" >Our Team</option>
+
+												<option value="/practiceareas" selected>Practice Areas</option>
+
+												<option value="/section_54" >Career Development</option>
+
+												<option value="/section_55" >Educational Seminars</option>
+
+												<option value="/section_10" >News</option>
+
+												<option value="/section_11" >Resources</option>
+
+												<option value="/section_32" >Blogs</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_71" >Careers</option>
+
+											</select>
+
+											<br />
+
+											<input type="hidden" name="_reset" value="defaultshowdescription__1565137">
+											<input type="checkbox" id="defaultshowdescription__1565137" name="defaultshowdescription__1565137"  value="checked" >
+											Display
+											<select name="defaultshortdescchar__1565137" id="defaultshortdescchar__1565137" size=""  >
+												<option value="25"  selected>25</option>
+												<option value="50" >50</option>
+												<option value="60" >60</option>
+												<option value="70" >70</option>
+												<option value="75" >75</option>
+												<option value="80" >80</option>
+												<option value="85" >85</option>
+												<option value="90" >90</option>
+												<option value="95" >95</option>
+												<option value="100" >100</option>
+												<option value="125" >125</option>
+												<option value="150" >150</option>
+												<option value="175" >175</option>
+												<option value="200" >200</option>
+												<option value="30000" >All</option>
+
+											</select>
+											Characters of Annotation for each.
+											<div class="hrclr"></div>
+											Show More Link
+											<input type="hidden" name="_reset" value="morelink__1565137">
+											<input type="radio" name="morelink__1565137" value="" checked>
+											Never
+											<input type="hidden" name="_reset" value="morelink__1565137">
+											<input type="radio" name="morelink__1565137" value="foreach" >
+											For Each
+											<input type="hidden" name="_reset" value="morelink__1565137">
+											<input type="radio" name="morelink__1565137" value="attheend" >
+											At The End &nbsp;&nbsp;|&nbsp;&nbsp; Link Text
+											<input type="text" id="morelinktext__1565137" name="morelinktext__1565137" value="" size="10" maxlength="200"  />
+
+											<div class="hrclr"></div>
+											Expand Sub-Sections/Pages
+											<input type="hidden" name="_reset" value="expand__1565137">
+											<input type="radio" name="expand__1565137" value="" >
+											Never
+											<input type="hidden" name="_reset" value="expand__1565137">
+											<input type="radio" name="expand__1565137" value="insection" >
+											Within Section
+											<span style="display: inline-block; padding: 4px; border: 1px solid #999;">
+
+												<input type="hidden" name="_reset" value="expand__1565137">
+												<input type="radio" name="expand__1565137" value="always" checked>
+												Always | Max Levels:
+												<select name="maxlevels_for_always__1565137" id="maxlevels_for_always__1565137" size=""  >
+													<option value="1"  selected>1</option>
+													<option value="2" >2</option>
+													<option value="3" >3</option>
+													<option value="4" >4</option>
+													<option value="5" >5</option>
+													<option value="6" >6</option>
+													<option value="7" >7</option>
+													<option value="8" >8</option>
+													<option value="9" >9</option>
+
+												</select>
+
+											</span>
+										</span>
+										<div class="hrclr">&nbsp;</div>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="listtype__1565137">
+											<input type="radio" name="listtype__1565137" value="custom" >
+											Use Custom list Below
+											<br />
+
+											<input type="hidden" name="_reset" value="customshowdescription__1565137">
+											<input type="checkbox" id="customshowdescription__1565137" name="customshowdescription__1565137"  value="checked" >
+											Display
+											<select name="customshortdescchar__1565137" id="customshortdescchar__1565137" size=""  >
+												<option value="25"  selected>25</option>
+												<option value="50" >50</option>
+												<option value="100" >100</option>
+												<option value="150" >150</option>
+												<option value="200" >200</option>
+												<option value="30000" >30000</option>
+
+											</select>
+											Characters of Annotation for each.
+											<input type="hidden" name="_reset" value="expand__1565137">
+											<input type="checkbox" id="expand__1565137" name="expand__1565137"  value="checked" >Expand Sub-Sections/Pages</span>
+										<div class="clr">&nbsp;</div>
+
+										<div id="block__1565138" class="blockgroup-show" >
+											<div class="subblockhead">
+												<div>
+													<span class="blockgrouptitle">
+
+														<input type="hidden" name="_reset" value="checkboxblock__1565138">
+														<input type="checkbox" id="checkboxblock__1565138" name="checkboxblock__1565138"  value="checked" >
+														<a href="javaScript:collapseBlock('block__1565138')">Custom List</a>
+													</span>
+												</div>
+											</div>
+											<div class="subblockform">
+												<table class="linksgrid" cellspacing="0" cellpadding="3" border="0"></table>
+
+												<input type="button" class="edit" value="Create A New List" onclick="javaScript:location.href='edit-site?selected=1565138'" />
+												<div class="clr">&nbsp;</div>
+											</div>
+										</div>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__1565139" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+												<span style="display:none">contactform</span>
+
+												<input type="hidden" name="_reset" value="checkboxblock__1565139">
+												<input type="checkbox" id="checkboxblock__1565139" name="checkboxblock__1565139"  value="checked" >
+												<a href="javaScript:collapseBlock('block__1565139')">Contact Form</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__1565139" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__1565139" value="Down" class="dn" title="Move Down">Down</button>
+
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+											<div id="devblock__1565139"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__1565139">
+															<input type="checkbox" id="checkboxdevblock__1565139" name="checkboxdevblock__1565139"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__1565139')">Contact Form Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__1565139" name="uniqueid__1565139" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__1565139" name="parent_block__1565139" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__1565139" name="classname__1565139" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__1565139" id="placement__1565139" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global"  selected>Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+													<div class="clr">&nbsp;</div>
+
+													<label class="expanded">Section Title</label>
+													<span class="field">
+														If left empty, will update title from selected section.
+														<input type="text" id="title__1565139" name="title__1565139" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="title__1565139"></span>
+
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="nocontactustitle__1565139">
+														<input type="checkbox" id="nocontactustitle__1565139" name="nocontactustitle__1565139"  value="notite" >
+														Do not show the custom or default title to contact us page(mostly used for sites with contact form in the header)
+													</span>
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="linkto__1565139">
+														<input type="checkbox" id="linkto__1565139" name="linkto__1565139" checked value="/contactus" >Link title to contact us page</span>
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="donot_prefill_fields__1565139">
+														<input type="checkbox" id="donot_prefill_fields__1565139" name="donot_prefill_fields__1565139"  value="1" >Do Not Prefill Fields. eg: Your Name, Your Email, etc.</span>
+
+													<label class="expanded">Custom Form Handler</label>
+													<span class="field">
+														If left empty, will use "http://jweb.justia.com/sm/contactus"
+														<br />
+														use fullly qualified URl.
+														<input type="text" id="custom_form_handler__1565139" name="custom_form_handler__1565139" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="custom_form_handler__1565139"></span>
+
+													<label class="expanded">Return URL</label>
+													<span class="field">
+														If left empty, will set return url to the thankyou page with form.
+														<br />
+														use fullly qualified URl. eg. http://www.justia.com/thankyou.html
+														<input type="text" id="return_url__1565139" name="return_url__1565139" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="return_url__1565139"></span>
+
+													<label class="expanded">
+														Description: Display this
+														<select name="descriptionplacement__1565139" id="descriptionplacement__1565139" size=""  >
+															<option value="Above"  selected>Above</option>
+															<option value="Below" >Below</option>
+
+														</select>
+														form
+													</label>
+													<span class="field">
+
+														<textarea name="description__1565139" cols= rows=5 >(312) 212 - 4450</textarea>
+
+													</span>
+
+													<label class="expanded">Custom Email Subject Line</label>
+													<span class="field">
+
+														<input type="text" id="form_subject_line__1565139" name="form_subject_line__1565139" value="" size="" maxlength="200"  />
+													</span>
+
+													<label class="expanded">Custom Email Text</label>
+													<span class="field">
+
+														<textarea name="custom_email_text__1565139" cols= rows=5 ></textarea>
+
+													</span>
+
+													<label class="expanded">Custom Form Template</label>
+													<span class="field">
+														Default Path: masters/developing/oak.m/designs/oakleaf.d/templates/customforms/detailed_pi_1.html
+														<br />
+														<span style="color:red;">NOTE: Make Sure File Exists Before Publishing!</span>
+
+														<input type="text" id="customformtemplate__1565139" name="customformtemplate__1565139" value="masters/developing/oak.m/designs/oakleaf.d/templates/customforms/prinz-lawfirm-short.html" size="" maxlength=""  />
+													</span>
+
+												</div>
+											</div>
+										</div>
+
+										<input type="hidden" name="_reset" value="contactform__1565139">
+										<input type="checkbox" id="contactform__1565139" name="contactform__1565139"  value="checked" >
+										<label>
+											Include Contact Form which allows visitors to your Web site to directly contact you by email.
+										</label>
+										<br />
+
+										<input type="hidden" name="_reset" value="hide_contactform__1565139">
+										<input type="checkbox" id="hide_contactform__1565139" name="hide_contactform__1565139" checked value="checked" >
+										<label>Hide this form on this page.</label>
+										<br />
+
+										<br />
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__1709339" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__1709339">
+												<input type="checkbox" id="checkboxblock__1709339" name="checkboxblock__1709339"  value="checked" >
+												<a href="javaScript:collapseBlock('block__1709339')">Chicago Small Business Lawyer Blog</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__1709339" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__1709339" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__1709339" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__1709339"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__1709339">
+															<input type="checkbox" id="checkboxdevblock__1709339" name="checkboxdevblock__1709339"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__1709339')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__1709339" id="availabletemplate__1709339" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock" >Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds"  selected>PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__1709339" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__1709339" name="cctemplate__1709339" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__1709339()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__1709339&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__1709339()">
+
+														<script language="JavaScript">
+function upload_cctemplate__1709339()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__1709339&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__1709339()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__1709339" name="designtemplate__1709339" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__1709339()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__1709339&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__1709339()">
+
+														<script language="JavaScript">
+function upload_designtemplate__1709339()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__1709339&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__1709339()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__1709339" name="uniqueid__1709339" value="rss_feed" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__1709339" name="parent_block__1709339" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__1709339" name="classname__1709339" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__1709339" id="placement__1709339" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global"  selected>Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__1709339" name="title__1709339" value="Chicago Small Business Lawyer Blog" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__1709339"></span>
+										<label class="expanded">Description</label>
+										<span class="field">
+
+											<textarea name="description__1709339" cols= rows=  style="height: 70pxpx;"></textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Feed ID(s) Comma separate multiple IDs (eg. 12,34,16)</label>
+										<span class="field">
+
+											<input type="text" id="feedid__1709339" name="feedid__1709339" value="1230" size="" maxlength="200"  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to: (eg. http://www.somelawblog.com)</label>
+										<span class="field">
+
+											<input type="text" id="titleextlink__1709339" name="titleextlink__1709339" value="http://www.chicagosmallbusinesslawyerblog.com/" size="" maxlength="200"  />
+										</span>
+
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="linknewwin__1709339">
+											<input type="checkbox" id="linknewwin__1709339" name="linknewwin__1709339"  value="checked" >Open in a new window.</span>
+
+										<label class="expanded">Number of posts</label>
+
+										<span class="fields">
+											Show:
+											<select name="numberofitems__1709339" id="numberofitems__1709339" size=""  >
+												<option value="1" >1</option>
+												<option value="2" >2</option>
+												<option value="3"  selected>3</option>
+												<option value="4" >4</option>
+												<option value="5" >5</option>
+												<option value="6" >6</option>
+												<option value="7" >7</option>
+												<option value="8" >8</option>
+												<option value="9" >9</option>
+												<option value="10" >10</option>
+												<option value="11" >11</option>
+												<option value="12" >12</option>
+												<option value="13" >13</option>
+												<option value="14" >14</option>
+												<option value="15" >15</option>
+												<option value="30" >30</option>
+												<option value="50" >50</option>
+												<option value="75" >75</option>
+												<option value="100" >100</option>
+												<option value="150" >150</option>
+
+											</select>
+											Most Recent Posts
+										</span>
+
+										<label class="expanded">Posts description</label>
+
+										<span class="fields">
+											Show description?
+											<select name="showdescription__1709339" id="showdescription__1709339" size=""  >
+												<option value="no" >Do Not Show Description</option>
+												<option value="yes"  selected>Show Description After Title</option>
+												<option value="first" >Show Description Before Title</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Characters of description for each:
+											<select name="descchar__1709339" id="descchar__1709339" size=""  >
+												<option value="25" >25</option>
+												<option value="50" >50</option>
+												<option value="100" >100</option>
+												<option value="150"  selected>150</option>
+												<option value="200" >200</option>
+												<option value="250" >250</option>
+												<option value="300" >300</option>
+												<option value="350" >350</option>
+												<option value="400" >400</option>
+												<option value="450" >450</option>
+												<option value="500" >500</option>
+												<option value="all" >ALL</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Pick the content of the posts from:
+											<select name="jw_content__1709339" id="jw_content__1709339" size=""  >
+												<option value="summary"  selected>Summary (default)</option>
+												<option value="body" >Full Content</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Dates</label>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="showdates__1709339">
+											<input type="checkbox" id="showdates__1709339" name="showdates__1709339"  value="checked" >
+											Check this box to show the date
+											<br/>
+											Format:
+											<input type="text" id="dateformat__1709339" name="dateformat__1709339" value="" size="" maxlength="200"  />
+											leave blank for default: F j, Y (use PHP date formats)
+											<br />
+										</span>
+
+										<span class="fields">
+											Show posts from:
+											<select name="posts_from__1709339" id="posts_from__1709339" size=""  >
+												<option value="all"  selected>All the time (default)</option>
+												<option value="future" >Only The Future</option>
+												<option value="past" >Only The Past</option>
+												<option value="today" >Today</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Order:
+											<select name="post_order__1709339" id="post_order__1709339" size=""  >
+												<option value="DESC"  selected>DESC (Default)</option>
+												<option value="ASC" >ASC</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Links for the posts</label>
+										<span class="fields">
+											Open links in:
+											<select name="new_window__1709339" id="new_window__1709339" size=""  >
+												<option value="no"  selected>the Same Window/Tab</option>
+												<option value="yes" >a New Window/Tab</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Link posts back to the blog:
+											<select name="jw_link_posts__1709339" id="jw_link_posts__1709339" size=""  >
+												<option value="yes"  selected>Yes</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Additional Settings</label>
+
+										<span class="fields">
+											Require at least 1 post from each feed:
+											<select name="require_each_feed__1709339" id="require_each_feed__1709339" size=""  >
+												<option value="yes"  selected>Yes (default)</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Show Blog Name Link:
+											<select name="show_blog_name__1709339" id="show_blog_name__1709339" size=""  >
+												<option value="auto"  selected>Auto (only if more than one feed)</option>
+												<option value="yes" >Yes (Automatic Position)</option>
+												<option value="post" >Yes (With each post)</option>
+												<option value="header" >Yes (Once on top)</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">More Link</label>
+										<span class="fields">
+											Show "more&raquo;" link:
+											<select name="show_more_link__1709339" id="show_more_link__1709339" size=""  >
+												<option value="auto" >Automatic (Yes if only 1 feed, no otherwise)</option>
+												<option value="yes" >Yes</option>
+												<option value="no"  selected>No</option>
+												<option value="custom" >Custom</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Custom URL for More Link:
+											<input type="text" id="more_link_custom__1709339" name="more_link_custom__1709339" value="" size="" maxlength="1024"  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__1709341" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__1709341">
+												<input type="checkbox" id="checkboxblock__1709341" name="checkboxblock__1709341"  value="checked" >
+												<a href="javaScript:collapseBlock('block__1709341')">Chicago Executive Lawyer Blog</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__1709341" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__1709341" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__1709341" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__1709341"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__1709341">
+															<input type="checkbox" id="checkboxdevblock__1709341" name="checkboxdevblock__1709341"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__1709341')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__1709341" id="availabletemplate__1709341" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock" >Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds"  selected>PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__1709341" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__1709341" name="cctemplate__1709341" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__1709341()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__1709341&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__1709341()">
+
+														<script language="JavaScript">
+function upload_cctemplate__1709341()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__1709341&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__1709341()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__1709341" name="designtemplate__1709341" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__1709341()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__1709341&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__1709341()">
+
+														<script language="JavaScript">
+function upload_designtemplate__1709341()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__1709341&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__1709341()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__1709341" name="uniqueid__1709341" value="rss_feed" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__1709341" name="parent_block__1709341" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__1709341" name="classname__1709341" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__1709341" id="placement__1709341" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global"  selected>Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__1709341" name="title__1709341" value="Chicago Executive Lawyer Blog" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__1709341"></span>
+										<label class="expanded">Description</label>
+										<span class="field">
+
+											<textarea name="description__1709341" cols= rows=  style="height: 70pxpx;"></textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Feed ID(s) Comma separate multiple IDs (eg. 12,34,16)</label>
+										<span class="field">
+
+											<input type="text" id="feedid__1709341" name="feedid__1709341" value="1229" size="" maxlength="200"  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to: (eg. http://www.somelawblog.com)</label>
+										<span class="field">
+
+											<input type="text" id="titleextlink__1709341" name="titleextlink__1709341" value="http://www.chicagoexecutivelawyer.com/" size="" maxlength="200"  />
+										</span>
+
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="linknewwin__1709341">
+											<input type="checkbox" id="linknewwin__1709341" name="linknewwin__1709341"  value="checked" >Open in a new window.</span>
+
+										<label class="expanded">Number of posts</label>
+
+										<span class="fields">
+											Show:
+											<select name="numberofitems__1709341" id="numberofitems__1709341" size=""  >
+												<option value="1" >1</option>
+												<option value="2" >2</option>
+												<option value="3"  selected>3</option>
+												<option value="4" >4</option>
+												<option value="5" >5</option>
+												<option value="6" >6</option>
+												<option value="7" >7</option>
+												<option value="8" >8</option>
+												<option value="9" >9</option>
+												<option value="10" >10</option>
+												<option value="11" >11</option>
+												<option value="12" >12</option>
+												<option value="13" >13</option>
+												<option value="14" >14</option>
+												<option value="15" >15</option>
+												<option value="30" >30</option>
+												<option value="50" >50</option>
+												<option value="75" >75</option>
+												<option value="100" >100</option>
+												<option value="150" >150</option>
+
+											</select>
+											Most Recent Posts
+										</span>
+
+										<label class="expanded">Posts description</label>
+
+										<span class="fields">
+											Show description?
+											<select name="showdescription__1709341" id="showdescription__1709341" size=""  >
+												<option value="no" >Do Not Show Description</option>
+												<option value="yes"  selected>Show Description After Title</option>
+												<option value="first" >Show Description Before Title</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Characters of description for each:
+											<select name="descchar__1709341" id="descchar__1709341" size=""  >
+												<option value="25" >25</option>
+												<option value="50" >50</option>
+												<option value="100" >100</option>
+												<option value="150"  selected>150</option>
+												<option value="200" >200</option>
+												<option value="250" >250</option>
+												<option value="300" >300</option>
+												<option value="350" >350</option>
+												<option value="400" >400</option>
+												<option value="450" >450</option>
+												<option value="500" >500</option>
+												<option value="all" >ALL</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Pick the content of the posts from:
+											<select name="jw_content__1709341" id="jw_content__1709341" size=""  >
+												<option value="summary"  selected>Summary (default)</option>
+												<option value="body" >Full Content</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Dates</label>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="showdates__1709341">
+											<input type="checkbox" id="showdates__1709341" name="showdates__1709341"  value="checked" >
+											Check this box to show the date
+											<br/>
+											Format:
+											<input type="text" id="dateformat__1709341" name="dateformat__1709341" value="" size="" maxlength="200"  />
+											leave blank for default: F j, Y (use PHP date formats)
+											<br />
+										</span>
+
+										<span class="fields">
+											Show posts from:
+											<select name="posts_from__1709341" id="posts_from__1709341" size=""  >
+												<option value="all"  selected>All the time (default)</option>
+												<option value="future" >Only The Future</option>
+												<option value="past" >Only The Past</option>
+												<option value="today" >Today</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Order:
+											<select name="post_order__1709341" id="post_order__1709341" size=""  >
+												<option value="DESC"  selected>DESC (Default)</option>
+												<option value="ASC" >ASC</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Links for the posts</label>
+										<span class="fields">
+											Open links in:
+											<select name="new_window__1709341" id="new_window__1709341" size=""  >
+												<option value="no"  selected>the Same Window/Tab</option>
+												<option value="yes" >a New Window/Tab</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Link posts back to the blog:
+											<select name="jw_link_posts__1709341" id="jw_link_posts__1709341" size=""  >
+												<option value="yes"  selected>Yes</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Additional Settings</label>
+
+										<span class="fields">
+											Require at least 1 post from each feed:
+											<select name="require_each_feed__1709341" id="require_each_feed__1709341" size=""  >
+												<option value="yes"  selected>Yes (default)</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Show Blog Name Link:
+											<select name="show_blog_name__1709341" id="show_blog_name__1709341" size=""  >
+												<option value="auto"  selected>Auto (only if more than one feed)</option>
+												<option value="yes" >Yes (Automatic Position)</option>
+												<option value="post" >Yes (With each post)</option>
+												<option value="header" >Yes (Once on top)</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">More Link</label>
+										<span class="fields">
+											Show "more&raquo;" link:
+											<select name="show_more_link__1709341" id="show_more_link__1709341" size=""  >
+												<option value="auto" >Automatic (Yes if only 1 feed, no otherwise)</option>
+												<option value="yes" >Yes</option>
+												<option value="no"  selected>No</option>
+												<option value="custom" >Custom</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Custom URL for More Link:
+											<input type="text" id="more_link_custom__1709341" name="more_link_custom__1709341" value="" size="" maxlength="1024"  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__1992500" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__1992500">
+												<input type="checkbox" id="checkboxblock__1992500" name="checkboxblock__1992500"  value="checked" >
+												<a href="javaScript:collapseBlock('block__1992500')">Connect</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__1992500" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__1992500" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__1992500" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__1992500"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__1992500">
+															<input type="checkbox" id="checkboxdevblock__1992500" name="checkboxdevblock__1992500"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__1992500')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__1992500" id="availabletemplate__1992500" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__1992500" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__1992500" name="cctemplate__1992500" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__1992500()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__1992500&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__1992500()">
+
+														<script language="JavaScript">
+function upload_cctemplate__1992500()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__1992500&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__1992500()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__1992500" name="designtemplate__1992500" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__1992500()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__1992500&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__1992500()">
+
+														<script language="JavaScript">
+function upload_designtemplate__1992500()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__1992500&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__1992500()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__1992500" name="uniqueid__1992500" value="connect" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__1992500" name="parent_block__1992500" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__1992500" name="classname__1992500" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__1992500" id="placement__1992500" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__1992500" name="title__1992500" value="Connect" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__1992500"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__1992500" id="lev1_linkto__1992500" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_51" >Who We Are</option>
+
+												<option value="/attorneys" >Our Team</option>
+
+												<option value="/practiceareas" >Practice Areas</option>
+
+												<option value="/section_54" >Career Development</option>
+
+												<option value="/section_55" >Educational Seminars</option>
+
+												<option value="/section_10" >News</option>
+
+												<option value="/section_11" >Resources</option>
+
+												<option value="/section_32" >Blogs</option>
+
+												<option value="/contactus" >Contact Us</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_71" >Careers</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__1992500" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__1992500" cols= rows=  style="height: 70pxpx;">
+												<a href="https://twitter.com/prinzlawfirm/" id="twitter" target="_blank">
+													<img src="http://lawyers.justia.com/s/twitter-32.png" alt="Twitter"></a>
+												<a href="http://www.linkedin.com/company/the-prinz-law-firm-p.c." id="linkedin" target="_blank">
+													<img src="http://lawyers.justia.com/s/linkedin-32.png" alt="LinkedIn"></a>
+												<a href="http://lawyers.justia.com/firm/prinz-law-firm-31449" id="justiaprofile" target="_blank">
+													<img src="http://lawyers.justia.com/s/justia-32.png" alt="Justia Profile"></a>
+												<a href="https://plus.google.com/103053588070490346486/about" id="gplus" target="_blank">
+													<img src="http://lawyers.justia.com/s/google-plus-32.png" alt="Google Plus"></a>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2348343" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2348343">
+												<input type="checkbox" id="checkboxblock__2348343" name="checkboxblock__2348343"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2348343')">Doctor Employment Lawyer Blog</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2348343" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="button" name="_action_down__2348343" class="dnd">Down</button>
+
+												<button type="submit" name="_action_delete__2348343" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2348343"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2348343">
+															<input type="checkbox" id="checkboxdevblock__2348343" name="checkboxdevblock__2348343"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2348343')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2348343" id="availabletemplate__2348343" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock" >Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds"  selected>PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2348343" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2348343" name="cctemplate__2348343" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2348343()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2348343&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2348343()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2348343()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2348343&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2348343()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2348343" name="designtemplate__2348343" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2348343()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2348343&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2348343()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2348343()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2348343&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2348343()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2348343" name="uniqueid__2348343" value="rss_feed" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2348343" name="parent_block__2348343" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2348343" name="classname__2348343" value="fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2348343" id="placement__2348343" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global"  selected>Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2348343" name="title__2348343" value="Doctor Employment Lawyer Blog" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2348343"></span>
+										<label class="expanded">Description</label>
+										<span class="field">
+
+											<textarea name="description__2348343" cols= rows=  style="height: 70pxpx;"></textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Feed ID(s) Comma separate multiple IDs (eg. 12,34,16)</label>
+										<span class="field">
+
+											<input type="text" id="feedid__2348343" name="feedid__2348343" value="1231" size="" maxlength="200"  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to: (eg. http://www.somelawblog.com)</label>
+										<span class="field">
+
+											<input type="text" id="titleextlink__2348343" name="titleextlink__2348343" value="http://www.doctoremploymentlawyer.com/" size="" maxlength="200"  />
+										</span>
+
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="linknewwin__2348343">
+											<input type="checkbox" id="linknewwin__2348343" name="linknewwin__2348343"  value="checked" >Open in a new window.</span>
+
+										<label class="expanded">Number of posts</label>
+
+										<span class="fields">
+											Show:
+											<select name="numberofitems__2348343" id="numberofitems__2348343" size=""  >
+												<option value="1" >1</option>
+												<option value="2" >2</option>
+												<option value="3"  selected>3</option>
+												<option value="4" >4</option>
+												<option value="5" >5</option>
+												<option value="6" >6</option>
+												<option value="7" >7</option>
+												<option value="8" >8</option>
+												<option value="9" >9</option>
+												<option value="10" >10</option>
+												<option value="11" >11</option>
+												<option value="12" >12</option>
+												<option value="13" >13</option>
+												<option value="14" >14</option>
+												<option value="15" >15</option>
+												<option value="30" >30</option>
+												<option value="50" >50</option>
+												<option value="75" >75</option>
+												<option value="100" >100</option>
+												<option value="150" >150</option>
+
+											</select>
+											Most Recent Posts
+										</span>
+
+										<label class="expanded">Posts description</label>
+
+										<span class="fields">
+											Show description?
+											<select name="showdescription__2348343" id="showdescription__2348343" size=""  >
+												<option value="no" >Do Not Show Description</option>
+												<option value="yes"  selected>Show Description After Title</option>
+												<option value="first" >Show Description Before Title</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Characters of description for each:
+											<select name="descchar__2348343" id="descchar__2348343" size=""  >
+												<option value="25" >25</option>
+												<option value="50" >50</option>
+												<option value="100" >100</option>
+												<option value="150"  selected>150</option>
+												<option value="200" >200</option>
+												<option value="250" >250</option>
+												<option value="300" >300</option>
+												<option value="350" >350</option>
+												<option value="400" >400</option>
+												<option value="450" >450</option>
+												<option value="500" >500</option>
+												<option value="all" >ALL</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Pick the content of the posts from:
+											<select name="jw_content__2348343" id="jw_content__2348343" size=""  >
+												<option value="summary"  selected>Summary (default)</option>
+												<option value="body" >Full Content</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Dates</label>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="showdates__2348343">
+											<input type="checkbox" id="showdates__2348343" name="showdates__2348343"  value="checked" >
+											Check this box to show the date
+											<br/>
+											Format:
+											<input type="text" id="dateformat__2348343" name="dateformat__2348343" value="" size="" maxlength="200"  />
+											leave blank for default: F j, Y (use PHP date formats)
+											<br />
+										</span>
+
+										<span class="fields">
+											Show posts from:
+											<select name="posts_from__2348343" id="posts_from__2348343" size=""  >
+												<option value="all"  selected>All the time (default)</option>
+												<option value="future" >Only The Future</option>
+												<option value="past" >Only The Past</option>
+												<option value="today" >Today</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Order:
+											<select name="post_order__2348343" id="post_order__2348343" size=""  >
+												<option value="DESC"  selected>DESC (Default)</option>
+												<option value="ASC" >ASC</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Links for the posts</label>
+										<span class="fields">
+											Open links in:
+											<select name="new_window__2348343" id="new_window__2348343" size=""  >
+												<option value="no"  selected>the Same Window/Tab</option>
+												<option value="yes" >a New Window/Tab</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Link posts back to the blog:
+											<select name="jw_link_posts__2348343" id="jw_link_posts__2348343" size=""  >
+												<option value="yes"  selected>Yes</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">Additional Settings</label>
+
+										<span class="fields">
+											Require at least 1 post from each feed:
+											<select name="require_each_feed__2348343" id="require_each_feed__2348343" size=""  >
+												<option value="yes"  selected>Yes (default)</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Show Blog Name Link:
+											<select name="show_blog_name__2348343" id="show_blog_name__2348343" size=""  >
+												<option value="auto"  selected>Auto (only if more than one feed)</option>
+												<option value="yes" >Yes (Automatic Position)</option>
+												<option value="post" >Yes (With each post)</option>
+												<option value="header" >Yes (Once on top)</option>
+												<option value="no" >No</option>
+
+											</select>
+										</span>
+
+										<label class="expanded">More Link</label>
+										<span class="fields">
+											Show "more&raquo;" link:
+											<select name="show_more_link__2348343" id="show_more_link__2348343" size=""  >
+												<option value="auto" >Automatic (Yes if only 1 feed, no otherwise)</option>
+												<option value="yes" >Yes</option>
+												<option value="no"  selected>No</option>
+												<option value="custom" >Custom</option>
+
+											</select>
+										</span>
+
+										<span class="fields">
+											Custom URL for More Link:
+											<input type="text" id="more_link_custom__2348343" name="more_link_custom__2348343" value="" size="" maxlength="1024"  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<strong>Add New</strong>
+								<select name="_master_id_1565136">
+
+									<option value = "1000169">Custom Fragment</option>
+
+									<option value = "1000621">Site Search</option>
+
+									<option value = "1000173">Custom Text</option>
+
+									<option value = "1000172">Custom Content</option>
+
+								</select>
+								<input type="submit" name="_action_new_child__1565136" value="Go"></div>
+							<p/>
+
+							<label class="expanded">
+								Toggle Menu Item
+								<br/>
+							</label>
+
+							<input type="hidden" name="_reset" value="toggleon__">
+							<input type="radio" name="toggleon__" value="off" >
+							Use Normal Menu Item, Normal Menu Item On, Toggle Item Off
+							<br/>
+
+							<input type="hidden" name="_reset" value="toggleon__">
+							<input type="radio" name="toggleon__" value="on" >
+							Replace Normal Menu Item with Toggle Menu Item , Normal Menu Item Off, Toggle Item On
+						</div>
+					</div>
+					<div class="clr">&nbsp;</div>
+
+					<div class="dataform">
+						<div class="dfwrap">
+
+							<input type="submit" name="_action_cancel" value="Revert this Page to Last Saved" onclick="javascript:if(confirm('Reverting will permenantly DELETE
+any current, but unsaved, changes on this page.  Do you wish to revert to the last saved version of this page?')){return true;}else{return false;};"/>
+							<input type="submit" name="_action_submit" value="Save Changes"  style="font-weight:bold;" accesskey="s" />
+
+							<input type="submit" name="_action_preview_page" value="Rebuild Page" accesskey="r" />
+
+							<input type="submit" name="_action_process_css" value="Rebuild CSS" accesskey="c" />
+							<input type="submit" name="_action" value="Sync With Master" />
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- END CONTENT -->
+		</form>
+
+		<!-- end content -->
+		<div id="footer">
+			<div class="copyright"></div>
+		</div>
+	</div>
+
+	<script language="javascript" src="/js/jwebbck.js"></script>
+</body>
+</html>
