@@ -1,0 +1,105 @@
+/*HEADER*/
+//$headerBackground:#e6e6e6 url(images/ui-bg_highlight-soft_30_e6e6e6_1x100.png) 50% 50% repeat-x;
+$headerBackground:$colorBlue;
+$headerBorder:1px solid $colorBlue;
+//$headerBorder:none;
+$headerColorText:lighten($colorBlue,48%);
+$headerIcon:url(images/ui-icons_e4f8ff_256x240.png);
+
+/*CONTENT*/
+//$contentBackground:#ffffff url(images/ui-bg_flat_0_ffffff_40x100.png) 50% 50% repeat-x;
+$contentBackground:#ffffff;
+//$contentBorder:1px solid lighten($colorBlue,35%);
+$contentBorder:none;
+$contentColorText:#000;
+$contentIcon:url(images/ui-icons_f48220_256x240.png);
+
+
+/*DEFAULT STATE*/
+//$defaultBackground:#e6e6e6 url(images/ui-bg_glass_100_eee_1x400.png) 50% 50% repeat-x;
+$defaultBackground:lighten($colorBlue,48%);
+$defaultBorder:1px solid lighten($colorBlue,35%);
+$defaultColorText:darken($colorBlue,25%);
+$defaultIcon:url(images/ui-icons_00506e_256x240.png);
+
+/*HOVER STATE*/
+//$hoverBackground:#dadada url(images/ui-bg_glass_100_dadada_1x400.png) 50% 50% repeat-x;
+$hoverBackground:lighten($colorBlue,35%);
+$hoverBorder:1px solid darken($colorBlue,15%);
+$hoverColorText:darken($colorBlue,25%);
+$hoverIcon:url(images/ui-icons_00506e_256x240.png);
+
+/*ACTIVE STATE*/
+//$activeBackground:$colorBlue url(images/ui-bg_glass_20_033566_1x400.png) 50% 50% repeat-x;
+$activeBackground:darken($colorBlue,10%);
+$activeBorder:1px solid darken($colorBlue,25%);
+$activeColorText:lighten($colorBlue,48%);
+$activeIcon:url(images/ui-icons_e4f8ff_256x240.png);
+
+/*INTERACTION CUES - HIGHLIGHT*/
+$highlightBackground:lighten($colorYellow,30%) url(images/ui-bg_diagonals-medium_100_fdeab6_40x40.png) 50% 50% repeat;
+//$highlightBackground:lighten($colorYellow,30%);
+$highlightBorder:1px solid $colorYellow;
+$highlightColorText:darken($colorOrange,30%);
+$highlightIcon:url(images/ui-icons_f48220_256x240.png);
+
+/*INTERACTION CUES - ERROR*/
+$errorBackground:lighten($colorRed,40%) url(images/ui-bg_diagonals-medium_100_fcd8da_40x40.png) 50% 50% repeat;
+//$errorBackground:lighten($colorRed,40%);
+$errorBorder:1px solid $colorRed;
+$errorColorText:$colorRed;
+$errorIcon:url(images/ui-icons_ec1c24_256x240.png);
+
+/**/
+$widgetOverlay:#0269B8 url(images/ui-bg_diagonals-small_100_0269B8_40x40.png) 50% 50% repeat;
+$widgetShadow:#0269B8 url(images/ui-bg_flat_0_0269B8_40x100.png) 50% 50% repeat-x;
+
+/*Default*/
+// color:lighten($colorBlue,48%);			#e4f8ff		Background - Text Header
+// color:lighten($colorBlue,35%);			#a1e5ff		Border
+// color:darken($colorBlue,25%);			#00506e		Text
+
+/*Hover*/
+// color:lighten($colorBlue,35%);			#a1e5ff		Background
+// color:darken($colorBlue,15%);			#0075a2		Border
+// color:darken($colorBlue,25%);			#00506e		Text
+
+/*Active*/
+// color:darken($colorBlue,10%);			#08b			Background
+// color:darken($colorBlue,25%);			#00506e		Border
+// color:lighten($colorBlue,48%);			#e4f8ff		Text
+
+/*Highlight*/
+// color:lighten($colorYellow,30%);		#fdeab6		Background
+// color:darken($colorYellow,0%);			#f8bf22		Border
+// color:darken($colorOrange,30%);		#753906		Text
+// color:darken($colorOrange,0%);			#f48220		Icon
+
+/*Error*/
+// color:lighten($colorRed,40%);			#fcd8da
+// color:lighten($colorRed,0%);				#ec1c24
+
+/* Layout helpers
+----------------------------------*/
+@import "ui/#Libs-LayoutHelpers";
+
+/* Misc visuals
+----------------------------------*/
+@import "ui/#Libs-MiscVisuals";
+
+/* Overlays
+----------------------------------*/
+/*@import "ui/ui-Accordion";*/
+@import "ui/ui-Datepicker";
+
+/* Component containers
+----------------------------------*/
+@import "ui/#Libs-ComponentContainers";
+
+/* Interaction states
+----------------------------------*/
+@import "ui/#Libs-Interaction";
+
+/* Icons
+----------------------------------*/
+@import "ui/#Libs-Icons";

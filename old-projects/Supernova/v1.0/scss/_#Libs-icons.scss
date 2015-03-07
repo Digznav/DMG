@@ -1,0 +1,192 @@
+%LigatureSymbols {
+	font-family:$fontLigature;
+	-webkit-text-rendering:optimizeLegibility;
+	-moz-text-rendering:optimizeLegibility;
+	-ms-text-rendering:optimizeLegibility;
+	-o-text-rendering:optimizeLegibility;
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-ms-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	-webkit-font-feature-settings:"liga" 1, "dlig" 1;
+	-moz-font-feature-settings:"liga=1, dlig=1";
+	-ms-font-feature-settings:"liga" 1, "dlig" 1;
+	-o-font-feature-settings:"liga" 1, "dlig" 1;
+	font-feature-settings:"liga" 1, "dlig" 1;
+}
+.lsf { @extend %LigatureSymbols; }
+.lsf-icon {
+	&:before { @extend %LigatureSymbols; }
+	&.icoLogin:before { content:"\E087"; }
+	&.icoClose:before { content:"\E10f"; }
+}
+
+.symb-icon {
+	&:before { font-family:$fontWebSymbols; }
+	
+	&.icoFacebook:before { content:"\00E4"; }
+	&.icoTwitter:before { content:"\00E5"; }
+	&.icoVkontakte:before { content:"\00E6"; }
+	&.icoLinkedin:before { content:"\00E7"; }
+	&.icoGoogleplus:before { content:"\00E8"; }
+	&.icoOdnoklassniki:before { content:"\00E9"; }
+	&.icoTumblr:before { content:"\00EA"; }
+	&.icoInstagram:before { content:"\00EB"; }
+	&.icoLivejournal:before { content:"\00EC"; }
+	&.icoVimeo:before { content:"\00EE"; }
+	&.icoGoogle:before { content:"\00F2"; }
+	&.icoFlickr:before { content:"\004E"; }
+	&.icoBehance:before { content:"\004F"; }
+	&.icoBlogger:before { content:"\0050"; }
+	&.icoGithub:before { content:"\0052"; }
+	&.icoYoutube:before { content:"\00F0"; }
+	&.icoSkype:before { content:"\00EF"; }
+	&.icoPinterest:before { content:"\00ED"; }
+	&.icoEvernote:before { content:"\00A2"; }
+	&.icoPicassa:before { content:"\00A3"; }
+	&.icoDribble:before { content:"\00A4"; }
+	&.icoWeibo:before { content:"\00A5"; }
+	&.icoLastfm:before { content:"\00A6"; }
+	&.icoSoundcloud:before { content:"\00A7"; }
+	&.icoDropbox:before { content:"\00A8"; }
+	&.icoRevision:before { content:"\00AE"; }
+	&.icoKickstarter:before { content:"\00AF"; }
+	&.icoRssbox:before { content:"\00F1"; }
+	&.icoRss:before { content:"\0024"; }
+
+	&.icoPicture:before { content:"\0061"; }
+	&.icoText:before { content:"\005A"; }
+	&.icoSlideshow:before { content:"\0066"; }
+	&.icoGallery:before { content:"\0064"; }
+	&.icoMovie:before { content:"\0062"; }
+	&.icoMovieclip:before { content:"\0063"; }
+	&.icoTable:before { content:"\0069"; }
+	&.icoCode:before { content:"\005F"; }
+	&.icoLink:before { content:"\006F"; }
+	&.icoTerminal:before { content:"\0065"; }
+	&.icoNormal:before { content:"\006D"; }
+	&.icoAlbum:before { content:"\006E"; }
+	&.icoAlignleft:before { content:"\0046"; }
+	&.icoAligncenter:before { content:"\0045"; }
+	&.icoAlignright:before { content:"\0044"; }
+	&.icoOutdent:before { content:"\0048"; }
+	&.icoIndent:before { content:"\0047"; }
+	&.icoBullets:before { content:"\0049"; }
+	&.icoOrdered:before { content:"\004A"; }
+	&.icoArchive:before { content:"\0059"; }
+	&.icoFolder:before { content:"\006A"; }
+	&.icoRotateright:before { content:"\00A9"; }
+	&.icoRotateleft:before { content:"\00AA"; }
+	&.icoUser:before { content:"\002E"; }
+	&.icoGroup:before { content:"\00A1"; }
+	&.icoAdduser:before { content:"\00AB"; }
+	&.icoSynchronise:before { content:"\0021"; }
+	&.icoBoxed:before { content:"\0041"; }
+	&.icoBoxedlist:before { content:"\0042"; }
+	&.icoList:before { content:"\0043"; }
+	&.icoLogout:before { content:"\0060"; }
+	&.icoAlert:before { content:"\005C"; }
+	&.icoEdit:before { content:"\003F"; }
+	&.icoVertical:before { content:"\0068"; }
+	&.icoHorisontal:before { content:"\0067"; }
+	&.icoDiagonal:before { content:"\0070"; }
+	&.icoLock:before { content:"\0077"; }
+	&.icoUnlock:before { content:"\0076"; }
+	&.icoAttachment:before { content:"\003D"; }
+	&.icoSettings:before { content:"\005E"; }
+	&.icoCloudup:before { content:"\006C"; }
+	&.icoCloud:before { content:"\006B"; }
+
+	&.icoCalendar:before { content:"\003B"; }
+	&.icoClock:before { content:"\003A"; }
+	&.icoComment:before { content:"\0073"; }
+	&.icoCommentempty:before { content:"\0051"; }
+	&.icoHeart:before { content:"\0053"; }
+	&.icoHeartempty:before { content:"\0054"; }
+	&.icoViews:before { content:"\0058"; }
+	&.icoRating:before { content:"\0071"; }
+	&.icoStar:before { content:"\0074"; }
+	&.icoShare:before { content:"\0040"; }
+	&.icoChat:before { content:"\004B"; }
+	&.icoChatactive:before { content:"\004C"; }
+	&.icoTag:before { content:"\0072"; }
+	&.icoPin:before { content:"\0075"; }
+	&.icoWindow:before { content:"\002F"; }
+	&.icoSearch:before { content:"\0023"; }
+	&.icoShuffle:before { content:"\007E"; }
+	&.icoRepeat:before { content:"\00AC"; }
+	&.icoRetweet:before { content:"\0022"; }
+	&.icoLoader { font-family:$fontWebSymbols; }
+	&.icoFold:before { content:"\005B"; }
+	&.icoUnfold:before { content:"\005D"; }
+	&.icoOpenmenu:before { content:"\007B"; }
+	&.icoClosemenu:before { content:"\007D"; }
+	&.icoMute:before { content:"\0078"; }
+	&.icoHalfloud:before { content:"\0079"; }
+	&.icoLoud:before { content:"\007A"; }
+	&.icoReply:before { content:"\002C"; }
+	&.icoReplyall:before { content:"\002B"; }
+	&.icoForward:before { content:"\002D"; }
+	&.icoFullscreen:before { content:"\003E"; }
+	&.icoNormalscreen:before { content:"\003C"; }
+	&.icoPhone:before { content:"\007C"; }
+	&.icoMail:before { content:"\0038"; }
+
+	&.icoZoomin:before { content:"\00C2"; }
+	&.icoZoominoutline:before { content:"\00C0"; }
+	&.icoZoominfill:before { content:"\00C1"; }
+	&.icoZoomout:before { content:"\00C5"; }
+	&.icoZoomoutoutline:before { content:"\00C3"; }
+	&.icoZoomoutfill:before { content:"\00C4"; }
+	&.icoResize:before { content:"\00D1"; }
+	&.icoResizeoutline:before { content:"\00CF"; }
+	&.icoResizefill:before { content:"\00D0"; }
+	&.icoTop:before { content:"\00C8"; }
+	&.icoTopoutline:before { content:"\00C6"; }
+	&.icoTopfill:before { content:"\00C7"; }
+	&.icoBottom:before { content:"\00CB"; }
+	&.icoBottomoutline:before { content:"\00C9"; }
+	&.icoBottomfill:before { content:"\00CA"; }
+	&.icoRight:before { content:"\00D7"; }
+	&.icoRightoutline:before { content:"\00D5"; }
+	&.icoRightfill:before { content:"\00D6"; }
+	&.icoLeft:before { content:"\00D4"; }
+	&.icoLeftoutline:before { content:"\00D2"; }
+	&.icoLeftfill:before { content:"\00D3"; }
+	&.icoPlay:before { content:"\00DA"; }
+	&.icoPlayoutline:before { content:"\00D8"; }
+	&.icoPlayfill:before { content:"\00D9"; }
+	&.icoPause:before { content:"\00DD"; }
+	&.icoPauseoutline:before { content:"\00DB"; }
+	&.icoPausefill:before { content:"\00DC"; }
+	&.icoStop:before { content:"\00E0"; }
+	&.icoStopoutline:before { content:"\00DE"; }
+	&.icoStopfill:before { content:"\00DF"; }
+	&.icoSort:before { content:"\00E3"; }
+	&.icoSortoutline:before { content:"\00E1"; }
+	&.icoSortfill:before { content:"\00E2"; }
+	&.icoClose:before { content:"\00CE"; }
+	&.icoCloseoutline:before { content:"\00CC"; }
+	&.icoClosefill:before { content:"\00CD"; }
+	&.icoRotate:before { content:"\0055"; }
+	&.icoRotateoutline:before { content:"\0055"; }
+	&.icoRotatefill:before { content:"\0056"; }
+	&.icoDownload:before { content:"\002A"; }
+	&.icoDownloadoutline:before { content:"\0028"; }
+	&.icoDownloadfill:before { content:"\0026"; }
+	&.icoUpload:before { content:"\0029"; }
+	&.icoUploadoutline:before { content:"\0027"; }
+	&.icoUploadfill:before { content:"\0025"; }
+	&.icoDone:before { content:"\00F5"; }
+	&.icoDoneoutline:before { content:"\00F4"; }
+	&.icoDonefill:before { content:"\00F3"; }
+	&.icoPrevious:before { content:"\00F8"; }
+	&.icoPreviousoutline:before { content:"\00F7"; }
+	&.icoPreviousfill:before { content:"\00F6"; }
+	&.icoNext:before { content:"\00FB"; }
+	&.icoNextoutline:before { content:"\00FA"; }
+	&.icoNextfill:before { content:"\00F9"; }
+}
+.iconsColor { color:#fff; font-size:30px; }

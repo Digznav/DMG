@@ -1,0 +1,17 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/eduardo_morales.jpg" alt="Eduardo Morales"></div>
+		<img src="imgs/Banderas/mexico.png" alt="México" class="flag">
+		<h2>Dr. Eduardo F. Morales</h2>
+		<h3>Director de Ciencias Computacionales y Robótica del INAOE</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p><strong>Formación</strong></p>
+			<p>Doctorado  en Computación. The Turing Institute – Universidad De Strathclyde, Glasgow, Reino Unido, oct. 1988 – ago. 1992. </p>
+			<p>Maestría "Information Technology: knowledge-based systems" por la Universidad de Edimburgo, Reino Unido.</p>
+			<p>Licenciatura: Ingeniería Física por la  Universidad Autónoma Metropolitana –Azcapotzalco, México, D.F., sept. 1979 – marzo 1984</p>
+			<p>Publicaciones: revistas como journal of intelligents systems and application, Expert systems with applications.</p>
+		</div>
+	</div>
+</div>

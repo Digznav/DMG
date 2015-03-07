@@ -1,0 +1,18 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/matias_loyato.jpg" alt="Matías Loyato"></div>
+		<img src="imgs/Banderas/argentina.png" alt="Argentina" class="flag">
+		<h2>Matías Loyato</h2>
+		<h3>Vicepresidente eventos WOBI</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p><strong>Semblanza</strong></p>
+			<p>Economista de la Universidad de Buenos Aires con MBA en la Universidad Anahuac Norte, México.</p>
+			<p>Más 10 años de Experiencia en WOBI en Buenos Aires, Madrid, New York y México, en áreas como Business Intelligence, Marketing, ventas.</p>
+			<p>Actualmente es el Responsable de la Unidad de Negocios Evento.</p>
+			<p>Además es Profesor de Liderazgo de Licenciatura y MBA - Universidad Anahuac Norte.</p>
+			<p>Y ha dictado Conferencias de Liderazgo y talleres de estrategia para distintas Universidades y empresas de Guanajuato, Jalisco, Estado de México y D.F.</p>
+		</div>
+	</div>
+</div>

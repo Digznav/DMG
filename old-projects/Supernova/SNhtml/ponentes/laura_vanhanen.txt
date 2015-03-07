@@ -1,0 +1,17 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/Laura_Vanhanen.jpg" alt="Laura Vanhanen"></div>
+		<img src="imgs/Banderas/finlandia.png" alt="Finlandia" class="flag">
+		<h2>Laura Vanhanen</h2>
+		<h3>Consejera de Educación en el Parlamento Finlandés</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p>Graduada de la Universidad de Oulu 2006-2012, como profesora en educación intercultural.</p>
+			<p>Es consejera en el Parlamento Finlandés en el Comité de Educación y Cultura, es encargada de conducir investigaciones y análisis en distintos temas políticos, a su vez se reúne con representantes de diversos grupos de interés para recopilar información necesaria que ayude a los procesos de toma de decisiones.</p>
+			<p>En el 2011 fue Concejal en el proyecto "Women Without Borders", realizó un análisis detallados de conflictos actuales para una conferencia internacional en Viena, Austria, dicha conferencia promovía el empoderamiento de líderes femeninos en zonas de conflicto.</p>
+			<p>En el año 2010 fungió como coordinadora del proyecto "Finnish Youth Cooperation” éste proyecto se dirigía a varios asuntos políticos nacionales relacionados con la juventud. El objetivo del proyecto era promover un dialogo estructurado con los jóvenes y las personas que toman las decisiones en Finlandia.</p>
+			<p>2009-2010 Asistió a un miembro del Parlamento Europeo, en los comités relacionados con los Derechos de las mujeres y la igualdad de género. Así mismo trabajó con el grupo parlamentario LGBT abogando por la justicia social.</p>
+		</div>
+	</div>
+</div>

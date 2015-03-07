@@ -1,0 +1,23 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/dr_alberto_carraminana_alonso.jpg" alt="Dr. Alberto Carramiñana Alonso"></div>
+		<img src="imgs/Banderas/mexico.png" alt="México" class="flag">
+		<h2>Dr. Alberto Carramiñana Alonso</h2>
+		<h3>Director General del INAOE</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p><strong>Investigador titular C</strong></p>
+			<p><strong>Formación</strong></p>
+			<p>Doctorado en Astronomía de Rayos Gamma por la Universidad de Durham, Inglaterra, 1991.</p>
+			<p>Maestría en Ciencias Físicas, Facultad de Ciencias, UNAM, México, 1987.</p>
+			<p>Licenciatura en Física, Facultad de Ciencias, UNAM, México, 1986.</p>
+			<p><strong>Líneas de investigación:</strong></p>
+			<ul>
+				<li>Estrellas compactas.</li>
+				<li>Estudio e identificación de fuentes celestes de rayos gamma</li>
+				<li>Estudio y monitoreo de sitios astronómicos</li>
+			</ul>
+		</div>
+	</div>
+</div>

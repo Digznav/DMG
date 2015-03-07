@@ -1,0 +1,85 @@
+.snHeader {
+	width:100%;
+	margin-bottom:30px;
+	.pFH {
+		width:1024px;
+		margin:0 auto;
+	}
+}
+
+#logo {
+	float:left;
+	width:330px;
+	height:182px;
+	//margin:0 0 16px 0;
+	background:url(../imgs/design/logo.png) no-repeat center top;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+%formatNav {
+	float:right;
+	margin-right:48px;
+	//position:absolute;
+	@include box-sizing(border-box);
+	a {
+		float:left;
+		width:100%;
+		padding:9px;
+		color:$colorBlueOpaqueLight;
+		@include box-sizing(border-box);
+		@include text-shadow( 0 0 2px #000, 0 0 25px $colorBlueLight, 0 0 50px #000 );
+		@include transition(color .2s ease-out);
+		&:hover {
+			color:$colorOrangeOpaqueLight;
+			@include text-shadow( 0 0 2px #000, 0 0 25px $colorOrangeLight, 0 0 50px #000 );
+		}
+		&.active {
+			color:$colorOrangeLight;
+			@include text-shadow( 0 0 2px #000, 0 0 15px $colorOrangeDark, 0 0 50px #000 );
+		}
+	}
+	ul {
+		list-style:none;
+		li {
+			float:left;
+			//width:100%;
+		}
+	}
+}
+
+.mainNav {
+	@extend %formatNav;
+	//width:152px;
+	//margin:34px 0 0 26px;
+	//margin-left:26px;
+	font-family:$fontSupernova;
+	font-size:22px;
+	//font-weight:700;
+	li {
+		a {
+			text-transform:uppercase;
+			line-height:100%;
+			//padding:9px 0;
+			//text-align:right;
+		}
+	}
+}
+
+.socialNav {
+	@extend %formatNav;
+	//right:5.07%;
+	//right:26px;
+	//width:50px;
+	//margin-top:34px;
+	margin-top:47px;
+	line-height:100%;
+	font-size:30px;
+	//text-align:right;
+	font-weight:700;
+	@include box-sizing(border-box);
+	li {
+		//margin-bottom:26px;
+		a { color:#fff; }
+	}
+}

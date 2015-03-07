@@ -1,0 +1,45 @@
+@import "compass/css3";
+$colorBlue:#312783;
+
+$colorBrightBlue:#61C3D9;
+
+.is-countdown {
+	width:60%;
+	margin:0 20%;
+	font-size:26px;
+	//border:1px solid #ccc;
+	//background-color:#eee;
+	@include text-shadow( 0 0 10px #000, 0 0 20px #000 );
+}
+.countdown-rtl { direction:rtl; }
+.countdown-holding span { color:#888; }
+.countdown-row {
+	clear:both;
+	width:100%;
+	padding:0px 2px;
+	text-align:center;
+}
+.countdown-show1 .countdown-section { width:98%; }
+.countdown-show2 .countdown-section { width:48%; }
+.countdown-show3 .countdown-section { width:32.5%; }
+.countdown-show4 .countdown-section { width:24.5%; }
+.countdown-show5 .countdown-section { width:19.5%; }
+.countdown-show6 .countdown-section { width:16.25%; }
+.countdown-show7 .countdown-section { width:14%; }
+.countdown-section {
+	display:block;
+	float:left;
+	font-size:100%;
+	text-align:center;
+}
+.countdown-amount {
+	font-size:200%;
+}
+.countdown-period {
+	display:block;
+	color:$colorBrightBlue;
+}
+.countdown-descr {
+	display:block;
+	width:100%;
+}

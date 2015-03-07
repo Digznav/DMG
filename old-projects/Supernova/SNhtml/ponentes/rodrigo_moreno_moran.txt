@@ -1,0 +1,20 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/roy_di_wilde.jpg" alt="Rodrigo Moreno Morán"></div>
+		<img src="imgs/Banderas/mexico.png" alt="México" class="flag">
+		<h2>Rodrigo Moreno Morán</h2>
+		<h3>Live Act & Productor</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p><strong>Formación:</strong></p>
+			<p>Rodrigo Moreno Morán AKA "<em>Roy Di Wilde</em>" es originario de Puebla.</p>
+			<p>Conoció la música electrónica a los 12 años y fue investigando mas sobre el tema hasta conocer mas artistas del mismo.</p>
+			<p>A los 14 años comenzó a producir psytrance y ha colaborado con artistas nacionales como Distortion Trip, Blaster Machine, Plastic Pistols, Itama, Living Trance, entre otros, siempre con el objetivo de mejorar con cada canción su originalidad y sobre todo su talento.</p>
+			<p>Se inspira en artistas como Infected Mushroom, Zedd, Skrillex, Led Zeppelin, The Beatles, por mencionar algunos.</p>
+			<p>El desea que su música se escuche en otros estados de la república y ser reconocido como uno de los mejores artistas mexicanos e internacionales.</p>
+			<p>El cuenta con 1 EP llamado "<em>Little & Big</em>" bajo el sello italiano <strong>"@zombsterrecords"</strong></p>
+			<p>Actualmente sigue produciendo para los amantes de la música de cualquier tipo llevando en sus canciones lo primordial "Producir por gusto".</p>
+		</div>
+	</div>
+</div>
