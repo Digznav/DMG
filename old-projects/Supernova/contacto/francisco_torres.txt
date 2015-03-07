@@ -1,8 +1,0 @@
-<div style="max-width:700px;">
-	<h2>Francisco Torres</h2>
-	<p>Es titular de la Dirección General de las marcas Porsche y Bentley en México.</p>
-	<p>Con 29 años en la industria automotriz, destaca en su trayectoria que entre 2004 y 2011 ocupó la Gerencia  de Operaciones de Ventas de Audi de México, a cargo de la estrategia comercial de la marca y de su red de concesionarios, donde el egresado UDLAP con su equipo de trabajo logró un crecimiento sostenido en los volúmenes de ventas de la marca y alcanzó cifras récord para Audi en diversos años. </p>
-	<p>Entre 2003 y 2004, ocupó la Gerencia de Planeación de Transporte en Volkswagen de México como responsable del desarrollo de los servicios de transportación para el grupo VW en México. De 2000 a 2003 se desempeñó como Gerente de Transportación Internacional en la empresa  Volkswagen Transport GmbH en Wolfsburg, Alemania, donde era responsable de los servicios de transporte marítimo para vehículos del grupo VW entre Europa y los mercados de las Américas.</p>
-	<p>De 1986 al 2000, el Mtro. Torres Villegas desempeño diversos puestos gerenciales relacionados con la planeación, desarrollo y ejecución de múltiples proyectos de logística multimodal internacional, con alcance en las filiales del grupo VW en Estados Unidos, Canadá, Brasil, Argentina y Europa. </p>
-	<p>Actualmente como Director General de Porsche y Bentley en México tiene como responsabilidad la operación en su totalidad de ambas firmas en el mercado nacional.</p>
-</div>

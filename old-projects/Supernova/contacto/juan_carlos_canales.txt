@@ -1,5 +1,0 @@
-<div style="max-width:700px;">
-	<h2>Juan Carlos Canales</h2>
-	<p>Poeta y ensayista reconocido, poblano de nacimiento, realizo estudios sobre Literatura española en U.N.A.M y sobre psicoanálisis. Ha analizado profundamente la crisis del marxismo haciendo una nueva reformación teórica al respecto.</p>
-	<p>Todas sus obras poéticas se reúnen en Antología i(n)necesaria, Sobre el caos y Teoría, en donde expone sus posturas intelectuales y literarias. Actualmente da clases en la  Facultad de Filosofía y Letras de la B.U.A.P y trabaja como periodista radiofónico y como escritor, dirige un programa llamado  El territorio del nómada, que se transmite en Radio B.U.A.P  y escribe una columna llamada Mínima Moralia, la cual se publica en varios medios impresos, además escribe para E- Consulta, La Jornada de Oriente y Síntesis. Entre sus obras más importantes se encuentran: Antología (in)necesaria,  Soy a mi manera y Sobre el caos. Supernova le abre las puertas a este gran pensador, y a diseñar juntos el futuro.</p>
-</div>

@@ -1,4 +1,0 @@
-<div>
-	<img src="imgs/Contactos/" alt="" id="fotoPerfil">
-	<?php include('libs/simpleForm.php'); ?>
-</div>
