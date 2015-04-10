@@ -1,0 +1,2177 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=charset=ISO-8859-1" />
+	<title>Edit Site</title>
+
+	<script language="javascript" src="../js/dots.js"></script>
+	<script language="javascript" src="../rte/richtext.js"></script>
+	<script language="javascript" src="/js/utils.js"></script>
+	<script language="javascript" src="/js/connector.js"></script>
+
+	<script language="javascript" src="/js/developerutils.js"></script>
+
+	<style type="text/css"> 
+	@import url(/styles/typestyles.css);
+	@import url(/styles/sitewide.css);
+	
+	@import url(/styles/developer.css);
+	
+	
+</style>
+	<style type="text/css">
+	body {
+		behavior: url("/styles/csshover.htc");
+	}
+</style>
+</head>
+
+	<noscript>
+		It appears that your browser does not support JavaScript, or you have it disabled.  This site can be used only if the JavaScript enabled.
+		<p>
+			If JavaScript is disabled in your browser, please turn it back on then reload this page.
+			<META HTTP-EQUIV="REFRESH"
+      CONTENT = "3; URL=/scripts/main"></noscript>
+<body>
+
+		<div id="prevpanel" class="off">
+			<div id="prevwin">
+				<div class="pwwrap">
+					<div class="pwwmain">
+						<span class="pwtitle">
+							Generating Pages...
+							<!-- <strong id="numpages">0</strong>
+						of 345 -->
+					</span>
+
+					<img src="/graphics/main/progbar.gif" />
+				</div>
+			</div>
+		</div>
+		<div id="prevbg">&nbsp;</div>
+		<iframe id="ppif" name="ppif" src="" style="display:none;"></iframe>
+	</div>
+	<div id="header">
+		<div id="logo">
+			<span>Justia Web site Builder</span>
+		</div>
+		<div id="toplevel">
+			<div id="navrow1">
+				<span class="toolnav">
+					<div class="userinfo">
+						<span>
+							SITE: <b>justia-losvencedores-com.justia.net</b>
+						</span>
+						<span>
+							USER: <b>Diego Miguel</b>
+						</span>
+
+						<div class="msgs"> <strong>Staging</strong>
+							<strong>Responsive</strong>
+
+						</div>
+					</div>
+					<ul class="buttons">
+						<li class="lo">
+							<a href="/scripts/logout">LOGOUT</a>
+						</li>
+						<li class=he>
+							<a href="">HELP</a>
+						</li>
+					</ul>
+					<div class="clr"></div>
+				</span>
+			</div>
+			<div class="navrow2"></div>
+		</div>
+		<div class="clr">&nbsp;</div>
+
+		<div id="tabsholder">
+			<ul id="tabs">
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=admin" class="tu">Admin</a>
+
+				</li>
+				<li>
+
+					<b><a href="/scripts/edit-site?selected=2343010&_page_mode=sum" class="ts">Content</a></b> 
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=designsummary&page=summary" class="tu">Design</a>
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=subscriptionsummary" class="tu">Subscriptions</a>
+
+				</li>
+
+				<li>
+
+					<a href="/scripts/edit-site?_action_switch_screen=advanced" class="tu">Advanced Tools</a>
+
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="container">
+		<!-- begin content -->
+
+		<script language="JavaScript">
+
+<!--
+function submitForm() {
+        //make sure hidden and iframe values are in sync before submitting form
+        //to sync only 1 rte, use updateRTE(rte)
+        //to sync all rtes, use updateRTEs
+        updateRTEs();
+        //updateRTEs();
+        //alert("rte1 = " + document.RTEDemo.rte1.value);
+        
+        //change the following line to true to submit form
+        return true;
+}
+
+//Usage: initRTE(imagesPath, includesPath, cssFile)
+initRTE("../rte/images/", "../rte/", "");
+
+//-->
+</script>
+
+		<noscript>
+			<p>
+				<b>Javascript must be enabled to use this form.</b>
+			</p>
+		</noscript>
+
+		<form name="dataForm" method="post" action="edit-site"  onsubmit="return submitForm();">
+			<!-- BEGIN CONTENT -->
+			<div id="content">
+
+				<div id="pubcontainer">
+					<div id="pubmsg">
+						<button type="submit" class="biggraybtn" name="_action" value="Preview" onclick="showProgress()">Preview & Publish</button>
+						<div id="pubmsgbox">
+							<span class="pmbwrap">Saved changes not yet published!</span>
+							<div class="pubdesc">
+								Your changes will not be live until you publish your site. You can either publish it now,
+  			or publish it after all changes are completed.
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<script language="javascript">
+	
+	
+	
+	function showProgress() {
+		
+		pnl = document.getElementById('prevpanel');
+		pbg = document.getElementById('prevbg');
+		pif = document.getElementById('ppif');
+		pif.style.display = "block";
+		
+		
+		url = '/sm/jpreview?site=justia-losvencedores-com';
+		
+		//getProgress(url);
+		
+		
+		h = document.body.offsetHeight + 'px';
+		pbg.style.height = pif.style.height = pnl.style.height = h;
+		pnl.className = 'on'
+		
+		return false;
+		
+	}
+
+
+
+</script>
+
+				<!-- BEGIN LEFTNAV-->
+				<div id="leftnav">
+
+					<h6>Content</h6>
+					<ul>
+
+						<li class="WebFolder-open">
+
+							<span class="selected">
+								<a href="edit-site?selected=2343011" title="Index">Index</a>
+								<span class="blockbuttons">
+
+									<button type="button" name="_action_up__2343011" class="upd">Up</button>
+
+									<button type="submit" name="_action_down__2343011" value="Down" class="dn" title="Move Down">Down</button>
+
+								</span>
+							</span>
+
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343015" class="unselected" title="Nav/Header/Footer">Nav/Header/Footer</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343028&_page_mode=sum" class="unselected" title="La Firma">La Firma</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343029&_page_mode=sum" class="unselected" title="Nuestro Equipo">Nuestro Equipo</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343030&_page_mode=sum" class="unselected" title="&iquest;Qu&eacute; le pas&oacute;?">&iquest;Qu&eacute; l...</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343032" class="unselected" title="Cont&aacute;ctenos">Cont&aacute;ctenos</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343041&_page_mode=sum" class="unselected" title="Disclaimer, Privacy Policy & Terms of Service">Disclaimer, Privacy ...</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343045" class="unselected" title="Site Map">Site Map</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343046&_page_mode=sum" class="unselected" title="Misc">Misc</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343050" class="unselected" title="Categories">Categories</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343241&_page_mode=sum" class="unselected" title="&iexcl;Queremos Ayudarle!">&iexcl;Queremos Ayud...</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343243&_page_mode=sum" class="unselected" title="Casos Ganados">Casos Ganados</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343245&_page_mode=sum" class="unselected" title="Testimonios">Testimonios</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343246&_page_mode=sum" class="unselected" title="Compromiso con la Comunidad">Compromiso con la Co...</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343258&_page_mode=sum" class="unselected" title="Preguntas Frecuentes">Preguntas Frecuentes</a>
+						</li>
+
+						<li class="WebFolder">
+
+							<a href="edit-site?selected=2343613&_page_mode=sum" class="unselected" title="English">English</a>
+						</li>
+
+						<li class="WebPage-open">
+							<a href="edit-site?_action_switch_screen=poweredit" class="unselected" >Edit Seo Info</a>
+						</li>
+
+					</ul>
+
+				</div>
+				<!-- END LEFTNAV-->
+
+				<div id="ccontainer">
+
+					<div class="dataform">
+						<div class="dfwrap">
+
+							<input type="submit" name="_action_cancel" value="Revert this Page to Last Saved" onclick="javascript:if(confirm('Reverting will permenantly DELETE
+any current, but unsaved, changes on this page.  Do you wish to revert to the last saved version of this page?')){return true;}else{return false;};"/>
+							<input type="submit" name="_action_submit" value="Save Changes"  style="font-weight:bold;" accesskey="s" />
+
+							<input type="submit" name="_action_preview_page" value="Rebuild Page" accesskey="r" />
+
+							<input type="submit" name="_action_process_css" value="Rebuild CSS" accesskey="c" />
+							<input type="submit" name="_action" value="Sync With Master" />
+
+						</div>
+					</div>
+
+					<div class="rootspan">
+						<div class="rswrap">
+
+							<script language="javascript">
+	cat_ay = []
+	function swapOptions(obj,i,j) {
+		var temp1 = cat_ay[i];
+		var temp2 = cat_ay[j];
+		cat_ay.splice(i,1,temp2);
+		cat_ay.splice(j,1,temp1);
+		getCategories();
+	}
+	function moveUp(i) {
+		obj = i;
+		for (i=0; i<cat_ay.length; i++) {
+			if (cat_ay[obj] == cat_ay[i]) {
+				if (i != 0) {
+					swapOptions(obj,i,i-1);
+				}	
+			}
+		}
+	}
+	function moveDown(i) {
+		obj = i;
+		for (i=cat_ay.length-1; i>=0; i--) {
+			if (cat_ay[obj] == cat_ay[i]) {
+				if (i != (cat_ay.length-1)) {
+					swapOptions(obj,i,i+1);
+				}
+			}
+		}
+	};
+	function removeItem(i){
+		var x = confirm("Are you sure you want to remove the label " + cat_ay[1] +" ?");
+		if (x) {
+			cat_ay.splice(i,1);
+			getCategories();
+		}
+	};
+	function getCategories() {
+		d = document.getElementById("categories");
+		d.innerHTML = "";
+		for (i=0; i<cat_ay.length; i++) {
+			isupdis = "";
+			isdndis = "";
+			if (i==0){ isupdis = "dsbld" };
+			if (i==cat_ay.length-1){ isdndis = "dsbld" };
+		
+			d.innerHTML += "<li><input type=\"text\" name=\"categories__2343011\" id=\"categories__2343011\" value=\""+ cat_ay[i] +"\" size=\"35\" onchange=\"updateArray("+ i +",this.value)\" /> \
+			<span class=\"btnholder\"><button type=\"button\" class=\"u"+isupdis+"\" onclick=\"moveUp("+i+")\">u</buton><button type=\"button\" class=\"d"+isdndis+"\" onclick=\"moveDown("+i+")\">d</buton>\
+			<button type=\"button\" class=\"addbtn\" onclick=\"removeItem("+i+")\">-</buton></span></li>";
+		}
+		d.innerHTML+= "<li class=\"last\"><button type=\"button\" class=\"addbtn\" onclick=\"addItem()\">+</button> Add New Category for Index </li>"
+	};
+	function addItem() {	
+		cat_ay.push("Name");
+		getCategories();
+	}
+	function updateArray(num,val) {
+		cat_ay[num] = val
+	}
+</script>
+
+							<script language="javascript">
+	function checkNew(val) {
+		clearEmpty(val, 'categorylabel__2343011')
+	}
+</script>
+
+							<div id="dev_advanced" class="dev_closed">
+								<span class="dev_tab">
+									<a href="javaScript:openPanel('dev_advanced')">Advanced Options</a>
+								</span>
+								<div id="dev_panel" class="tab1">
+									<div id="sectabs">
+										<span class="dev_closebtn">
+											<a href="javaScript:closePanel('dev_advanced')">x</a>
+										</span>
+										<ul>
+											<li class="tab1">
+												<a href="javaScript:switchTab('tab1')">Graphics</a>
+											</li>
+											<li class="tab2">
+												<a href="javaScript:switchTab('tab2')">Options</a>
+											</li>
+											<li class="tab3">
+												<a href="javaScript:switchTab('tab3')">Empty</a>
+											</li>
+
+										</ul>
+									</div>
+									<div class="dev_panelwrap">
+										<div id="tab1" class="screen">
+											<span class="desc">
+												<b>This tab helps you assign individual graphic to the Index section.</b> 
+												<br />
+												<br />
+												If a graphic is provided here, the default graphic in the design will be replaced with this one.
+				You can always revert back to the default by leaving graphic field blank.
+											</span>
+											<div class="options">
+
+												<input type="text" id="templategraphic__2343011" name="templategraphic__2343011" value="" size="" maxlength=""  />
+
+												<script language="JavaScript">
+function image_picker_templategraphic__2343011()
+{
+	var oWindow = openNewWindow("image-picker?field=templategraphic__2343011&file_dir=/preview/j/u/s/justia-losvencedores-com&dir=/images/img&value=", 
+								"ImagePicker", 800, 600, true, true );
+	
+}
+</script>
+
+												<input type="button" value="Choose Existing"  onclick="image_picker_templategraphic__2343011()">
+
+												<script language="JavaScript">
+function upload_templategraphic__2343011()
+{
+	var oWindow = openNewWindow("file-upload?field=templategraphic__2343011&file_dir=/preview/j/u/s/justia-losvencedores-com&dir=/images/img", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+												<input type="button" value="Upload New"  onclick="upload_templategraphic__2343011()">
+
+												<br />
+												Alt Text:
+												<input type="text" id="templategraphic_alt_text__2343011" name="templategraphic_alt_text__2343011" value="" size="60" maxlength=""  />
+											</div>
+
+											<div class="clr">&nbsp;</div>
+											<br />
+											<br />
+										</div>
+										<div id="tab2" class="screen">
+
+											<div class="options">
+
+												<label class="expanded">Section ID</label>
+
+												<input type="text" id="sectionid__2343011" name="sectionid__2343011" value="" size="" maxlength="200"  />
+
+												<div class="clr">&nbsp;</div>
+											</div>
+
+										</div>
+										<div id="tab3" class="screen">
+											<span class="desc">
+												<b>
+													Index Categories help you group pages in Index section using a custom category label.
+												</b>
+												<br />
+												<br />
+												<br />
+												To apply a category label to an individual page, go to that page and click on the advanced options
+				button, and select the labels tab.
+												<br />
+												<br />
+												NOTE: These categories can only be applied to a page within folder Index 
+				and cannot be applied to the folder/section (Index) itself.
+												<br />
+												Categories created at this level can also be added to your sub navigation.
+											</span>
+											<div class="clr">&nbsp;</div>
+											<input type="hidden" name="_reset" value="categories__2343011" />
+											<ul id="categories"></ul>
+
+										</div>
+										<input type="submit" name="_action_submit" value="Save Changes" style="font-weight:bold;" />
+
+									</div>
+								</div>
+							</div>
+
+							<div id="dev_hdn"></div>
+
+							<script language="javascript">getCategories()</script>
+
+							<h2>Index</h2>
+
+							<div class="developeroptions">
+								<div id="block__2343011" class="blockgroup-hide">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2343011">
+												<input type="checkbox" id="checkboxblock__2343011" name="checkboxblock__2343011"  value="checked" >
+												<a href="javaScript:openBlock('block__2343011')">Developer Options</a>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+										<label class="expanded">Title Tag (Full Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="titletag__2343011" name="titletag__2343011" value="" size="" maxlength="200"  />
+										</span>
+										<label class="expanded">H1 Tag (Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="h1tag__2343011" name="h1tag__2343011" value="" size="" maxlength="200"  />
+										</span>
+										<label class="expanded">H2 Tag (Overwrite)</label>
+										<span class="field">
+
+											<input type="text" id="h2tag__2343011" name="h2tag__2343011" value="" size="" maxlength="200"  />
+										</span>
+										<div class="hrclr">&nbsp;</div>
+										<div class="twocol">
+											<label class="expanded">Index Page Footer Text (Part 1)</label>
+											<span class="field">
+
+												<input type="text" id="seo_footer_text_part1__2343011" name="seo_footer_text_part1__2343011" value="" size="" maxlength="200"  />
+											</span>
+										</div>
+										<div class="twocol">
+
+											<label class="expanded">Index Page Footer Text (Part 2)</label>
+											<span class="field">
+
+												<input type="text" id="seo_footer_text_part2__2343011" name="seo_footer_text_part2__2343011" value="" size="" maxlength="200"  />
+											</span>
+
+										</div>
+										<div class="hrclr"></div>
+										<label class="expanded">Meta Description Prefix</label>
+										<span class="field">
+
+											<input type="text" id="meta_description_prefix__2343011" name="meta_description_prefix__2343011" value="" size="" maxlength=""  />
+										</span>
+										<div class="hrclr"></div>
+										<label class="expanded">Index Page Meta Description</label>
+										<span class="field">
+
+											<input type="text" id="meta_description__2343011" name="meta_description__2343011" value="" size="" maxlength=""  />
+										</span>
+										<div class="hrclr"></div>
+										<label class="expanded">Index Page Meta Keywords</label>
+										<span class="field">
+
+											<input type="text" id="keywords__2343011" name="keywords__2343011" value="" size="" maxlength=""  />
+										</span>
+
+										<div class="hrclr"></div>
+
+										<label class="expanded">Custom Head Tags (will write into &lt;head&gt; tag.)</label>
+										<span class="field">
+
+											<textarea name="custom_headtags__2343011" cols= rows=3 ></textarea>
+
+										</span>
+
+										<div class="hrclr"></div>
+
+										<label class="expanded">Header HTML - Imgwrap tag - img1 tag</label>
+										<span class="field">
+
+											<textarea name="imgwrap_img1_tag__2343011" cols= rows=3 >
+												<div class="slideshow">
+													<div class="slide slide1"></div>
+													<div class="slide slide2"></div>
+													<div class="slide slide3"></div>
+													<div class="slide slide4"></div>
+												</div>
+											</textarea>
+
+										</span>
+
+										<label class="expanded">Header HTML - Imgwrap tag - img2 tag</label>
+										<span class="field">
+
+											<textarea name="imgwrap_img2_tag__2343011" cols= rows=3 >
+												<div class="wrapper">
+													<div class="box box1">
+														<div class="boximage">
+															<div class="boximg1"></div>
+															<div class="boximg2"></div>
+															<div class="boximg3"></div>
+															<div class="boximg4"></div>
+															<div class="boximg5"></div>
+															<div class="boximg6"></div>
+															<div class="boximg7"></div>
+															<div class="boximg8"></div>
+															<div class="boximg9"></div>
+															<div class="boximg10"></div>
+															<div class="boximg11"></div>
+															<div class="boximg12"></div>
+															<div class="boximg13"></div>
+															<div class="boximg14"></div>
+														</div>
+														<div class="boxtext">
+															<h3>
+																<a href="#">Como nos vio en</a>
+															</h3>
+															<p>
+																Maecenas iaculis lacus eget ante tincidunt, sit amet rutrum nunc aliqactouet nulla. Ut auctor consequat erat, id imperdiet...
+															</p>
+														</div>
+													</div>
+													<div class="box box2">
+														<a href="#" class="boximage"></a>
+														<div class="boxtext">
+															<h3>
+																<a href="#">Casos de &eacute;xito</a>
+															</h3>
+															<p>
+																Maecenas iaculis lacus eget ante tincidunt, sit amet rutrum nunc aliqactouet nulla. Ut auctor consequat erat, id imperdiet...
+															</p>
+														</div>
+													</div>
+													<div class="box box3">
+														<a href="#" class="boximage"></a>
+														<div class="boxtext">
+															<h3>
+																<a href="#">Videos</a>
+															</h3>
+															<p>
+																Maecenas iaculis lacus eget ante tincidunt, sit amet rutrum nunc aliqactouet nulla. Ut auctor consequat erat, id imperdiet...
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</textarea>
+
+									</span>
+								</div>
+							</div>
+						</div>
+
+						<span class="fielddesctitle">
+							Your Web site Homepage welcomes new or prospective clients 
+to your site and describes what they will find as they browse 
+or search through your Web site sections or pages.
+						</span>
+						<div class="hrclr">&nbsp;</div>
+
+						<label class="expanded">Homepage Text</label>
+						<span class="rte">
+
+							<script language="JavaScript">
+<!--
+//Usage: writeRichText(fieldname, html, width, height, buttons)
+writeRichText('description__2343011', '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<h1>Lorem ipsum dolor sit amet consectetur</h1><p>Ut egestas erat porta mauris eleifend eu viverra dolor cursus. Sed nibh dolor, malesuada sed fermentum nec, sagittis nec nibh. Pellentesque eget,&nbsp; nibh erat, in blandit ante, in hac habitasse,&nbsp; platea dictumst. Mauris sodales sem nulla, vel hendrerit orci. Praesent a neque in felis fermentum mollis.&nbsp; Nam a congue mi. Integer accumsan ornare orci, volutpat dapibus ligula sagittis vitae. Integer semper nulla non est mattis congue in id augue.</p><h4>Morbi consequat malesuada risus eget ultrices nibh</h4><p>Nunc pharetra dolor ut libero blandit viverra. Phasellus varius tempor malesuada. Sed ligula tellus, aliquet ut lobortis id, molestie vel nulla. Curabitur eu adipiscing lectus. Etiam libero enim, convallis tincidunt vestibulum et, dictum ac erat. Vestibulum nec ipsum quam, eget consectetur ipsum. Phasellus a lectus ut odio tincidunt molestie non non ligula. Donec adipiscing, risus ut sollicitudin venenatis; augue leo porttitor massa, vitae iaculis ante quam in ipsum.</p><p>Curabitur faucibus dictum dolor. Donec in bibendum leo. Aenean interdum massa tellus, eget hendrerit urna placerat eu. Praesent sollicitudin laoreet felis sed consectetur. Mauris eget consequat sapien. Nam faucibus lorem eget magna pretium, at tempus sem vehicula. Donec non ultrices nibh, nec tristique mauris. Sed sit amet nulla quis massa ultricies dapibus sed at quam. Maecenas interdum tortor blandit semper tincidunt. Sed faucibus pellentesque mauris. Vestibulum id interdum est. Morbi sollicitudin</p><h4>Phasellus tincidunt tincidunt enim non euismod</h4><p>In lorem augue, facilisis at eleifend a, aliquet id mi. Praesent sit amet lorem ac mauris convallis viverra. Fusce consectetur ornare sapien, ac fermentum nisi tincidunt in. Fusce vel porttitor sem. Vestibulum auctor, quam id varius viverra, eros erat consectetur sem, ut iaculis orci turpis a orci.</p><p>Vivamus at mi at massa volutpat lobortis aliquet eu est. Fusce dapibus nisi sed nisi lobortis rhoncus. Proin in mi leo, ac hendrerit eros. Ut id elementum magna.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n', 533, 250, true, false);
+//-->
+</script>
+
+							<div class="clr">&nbsp;</div>
+
+							<div id="ppanel__2343011" class="ppanelblockgroup-show">
+								<div class="panelhead">
+									<div>
+										<span class="blockgrouptitle">
+
+											<input type="hidden" name="_reset" value="checkboxppanel__2343011">
+											<input type="checkbox" id="checkboxppanel__2343011" name="checkboxppanel__2343011"  value="checked" >
+											<a href="javaScript:collapseBlock('ppanel__2343011','','ppanel')">Index Options</a>
+										</span>
+
+									</div>
+								</div>
+								<div class="ppform">
+									<div class="hrclr">&nbsp;</div>
+
+									<table border="0" cellspacing="5">
+										<tr>
+											<td>
+
+												<input type="hidden" name="_reset" value="showonfnav__2343011">
+												<input type="checkbox" id="showonfnav__2343011" name="showonfnav__2343011" checked value="checked" >
+												Add this Page to Footer Nav
+												<br />
+												<div class="clr">&nbsp;</div>
+												<strong>Footer Navbar Title</strong>
+
+												<input type="text" id="fnavtitle__2343011" name="fnavtitle__2343011" value="Inicio" size="" maxlength="300"  />
+											</td>
+										</tr>
+									</table>
+
+								</div>
+							</div>
+
+							<div id="components">
+
+								<div id="block__2346200" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2346200">
+												<input type="checkbox" id="checkboxblock__2346200" name="checkboxblock__2346200"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2346200')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="button" name="_action_up__2346200" class="upd">Up</button>
+
+												<button type="submit" name="_action_down__2346200" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2346200" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2346200"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2346200">
+															<input type="checkbox" id="checkboxdevblock__2346200" name="checkboxdevblock__2346200"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2346200')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2346200" id="availabletemplate__2346200" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2346200" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2346200" name="cctemplate__2346200" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2346200()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2346200&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2346200()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2346200()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2346200&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2346200()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2346200" name="designtemplate__2346200" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2346200()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2346200&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2346200()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2346200()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2346200&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2346200()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2346200" name="uniqueid__2346200" value="english_link" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2346200" name="parent_block__2346200" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2346200" name="classname__2346200" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2346200" id="placement__2346200" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header"  selected>Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2346200" name="title__2346200" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2346200"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2346200" id="lev1_linkto__2346200" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >La Firma</option>
+
+												<option value="/attorneys" >Nuestro Equipo</option>
+
+												<option value="/practiceareas" >&iquest;Qu&eacute; le pas&oacute;?</option>
+
+												<option value="/contactus" >Cont&aacute;ctenos</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_16" >&iexcl;Queremos Ayudarle!</option>
+
+												<option value="/section_17" >Casos Ganados</option>
+
+												<option value="/section_18" >Testimonios</option>
+
+												<option value="/section_19" >Compromiso con la Comunidad</option>
+
+												<option value="/section_22" >Preguntas Frecuentes</option>
+
+												<option value="/section_59" >English</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2346200" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2346200" cols= rows=  style="height: 70pxpx;">
+												<a href="english.html">
+													<img src="images/english_link.png"></a>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2346201" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2346201">
+												<input type="checkbox" id="checkboxblock__2346201" name="checkboxblock__2346201"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2346201')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2346201" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2346201" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2346201" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2346201"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2346201">
+															<input type="checkbox" id="checkboxdevblock__2346201" name="checkboxdevblock__2346201"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2346201')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2346201" id="availabletemplate__2346201" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2346201" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2346201" name="cctemplate__2346201" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2346201()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2346201&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2346201()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2346201()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2346201&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2346201()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2346201" name="designtemplate__2346201" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2346201()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2346201&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2346201()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2346201()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2346201&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2346201()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2346201" name="uniqueid__2346201" value="donation_badge" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2346201" name="parent_block__2346201" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2346201" name="classname__2346201" value="widget" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2346201" id="placement__2346201" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2346201" name="title__2346201" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2346201"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2346201" id="lev1_linkto__2346201" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >La Firma</option>
+
+												<option value="/attorneys" >Nuestro Equipo</option>
+
+												<option value="/practiceareas" >&iquest;Qu&eacute; le pas&oacute;?</option>
+
+												<option value="/contactus" >Cont&aacute;ctenos</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_16" >&iexcl;Queremos Ayudarle!</option>
+
+												<option value="/section_17" >Casos Ganados</option>
+
+												<option value="/section_18" >Testimonios</option>
+
+												<option value="/section_19" >Compromiso con la Comunidad</option>
+
+												<option value="/section_22" >Preguntas Frecuentes</option>
+
+												<option value="/section_59" >English</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2346201" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2346201" cols= rows=  style="height: 70pxpx;">
+												<img src="images/donation_badge.png"></textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2343014" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+												<span style="display:none">contactform</span>
+
+												<input type="hidden" name="_reset" value="checkboxblock__2343014">
+												<input type="checkbox" id="checkboxblock__2343014" name="checkboxblock__2343014"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2343014')">Contact Form</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2343014" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2343014" value="Down" class="dn" title="Move Down">Down</button>
+
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+											<div id="devblock__2343014"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2343014">
+															<input type="checkbox" id="checkboxdevblock__2343014" name="checkboxdevblock__2343014"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2343014')">Contact Form Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2343014" name="uniqueid__2343014" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2343014" name="parent_block__2343014" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2343014" name="classname__2343014" value="widget" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2343014" id="placement__2343014" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+													<div class="clr">&nbsp;</div>
+
+													<label class="expanded">Section Title</label>
+													<span class="field">
+														If left empty, will update title from selected section.
+														<input type="text" id="title__2343014" name="title__2343014" value="Cont&aacute;ctenos" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="title__2343014"></span>
+
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="nocontactustitle__2343014">
+														<input type="checkbox" id="nocontactustitle__2343014" name="nocontactustitle__2343014"  value="notite" >
+														Do not show the custom or default title to contact us page(mostly used for sites with contact form in the header)
+													</span>
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="linkto__2343014">
+														<input type="checkbox" id="linkto__2343014" name="linkto__2343014" checked value="/contactus" >Link title to contact us page</span>
+													<span class="fields">
+
+														<input type="hidden" name="_reset" value="donot_prefill_fields__2343014">
+														<input type="checkbox" id="donot_prefill_fields__2343014" name="donot_prefill_fields__2343014"  value="1" >Do Not Prefill Fields. eg: Your Name, Your Email, etc.</span>
+
+													<label class="expanded">Custom Form Handler</label>
+													<span class="field">
+														If left empty, will use "http://jweb.justia.com/sm/contactus"
+														<br />
+														use fullly qualified URl.
+														<input type="text" id="custom_form_handler__2343014" name="custom_form_handler__2343014" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="custom_form_handler__2343014"></span>
+
+													<label class="expanded">Return URL</label>
+													<span class="field">
+														If left empty, will set return url to the thankyou page with form.
+														<br />
+														use fullly qualified URl. eg. http://www.justia.com/thankyou.html
+														<input type="text" id="return_url__2343014" name="return_url__2343014" value="" size="" maxlength="200"  />
+														<input type="hidden" name="_label_" value="return_url__2343014"></span>
+
+													<label class="expanded">
+														Description: Display this
+														<select name="descriptionplacement__2343014" id="descriptionplacement__2343014" size=""  >
+															<option value="Above"  selected>Above</option>
+															<option value="Below" >Below</option>
+
+														</select>
+														form
+													</label>
+													<span class="field">
+
+														<textarea name="description__2343014" cols= rows=5 >
+															<span>Consulta Gratuita</span>
+															<br>
+															(844) 300-0844
+															<br>(213) 293-1501</textarea>
+
+													</span>
+
+													<label class="expanded">Custom Email Subject Line</label>
+													<span class="field">
+
+														<input type="text" id="form_subject_line__2343014" name="form_subject_line__2343014" value="" size="" maxlength="200"  />
+													</span>
+
+													<label class="expanded">Custom Email Text</label>
+													<span class="field">
+
+														<textarea name="custom_email_text__2343014" cols= rows=5 ></textarea>
+
+													</span>
+
+													<label class="expanded">Custom Form Template</label>
+													<span class="field">
+														Default Path: masters/developing/oak.m/designs/oakleaf.d/templates/customforms/detailed_pi_1.html
+														<br />
+														<span style="color:red;">NOTE: Make Sure File Exists Before Publishing!</span>
+
+														<input type="text" id="customformtemplate__2343014" name="customformtemplate__2343014" value="masters/developing/oak.m/designs/oakleaf.d/templates/customforms/losvencedores-short.html" size="" maxlength=""  />
+													</span>
+
+												</div>
+											</div>
+										</div>
+
+										<input type="hidden" name="_reset" value="contactform__2343014">
+										<input type="checkbox" id="contactform__2343014" name="contactform__2343014" checked value="checked" >
+										<label>
+											Include Contact Form which allows visitors to your Web site to directly contact you by email.
+										</label>
+										<br />
+
+										<input type="hidden" name="_reset" value="hide_contactform__2343014">
+										<input type="checkbox" id="hide_contactform__2343014" name="hide_contactform__2343014"  value="checked" >
+										<label>Hide this form on this page.</label>
+										<br />
+
+										<br />
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2346205" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2346205">
+												<input type="checkbox" id="checkboxblock__2346205" name="checkboxblock__2346205"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2346205')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2346205" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2346205" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2346205" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2346205"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2346205">
+															<input type="checkbox" id="checkboxdevblock__2346205" name="checkboxdevblock__2346205"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2346205')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2346205" id="availabletemplate__2346205" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2346205" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2346205" name="cctemplate__2346205" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2346205()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2346205&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2346205()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2346205()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2346205&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2346205()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2346205" name="designtemplate__2346205" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2346205()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2346205&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2346205()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2346205()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2346205&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2346205()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2346205" name="uniqueid__2346205" value="social" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2346205" name="parent_block__2346205" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2346205" name="classname__2346205" value="widget" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2346205" id="placement__2346205" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2346205" name="title__2346205" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2346205"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2346205" id="lev1_linkto__2346205" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >La Firma</option>
+
+												<option value="/attorneys" >Nuestro Equipo</option>
+
+												<option value="/practiceareas" >&iquest;Qu&eacute; le pas&oacute;?</option>
+
+												<option value="/contactus" >Cont&aacute;ctenos</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_16" >&iexcl;Queremos Ayudarle!</option>
+
+												<option value="/section_17" >Casos Ganados</option>
+
+												<option value="/section_18" >Testimonios</option>
+
+												<option value="/section_19" >Compromiso con la Comunidad</option>
+
+												<option value="/section_22" >Preguntas Frecuentes</option>
+
+												<option value="/section_59" >English</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2346205" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2346205" cols= rows=  style="height: 70pxpx;">
+												<a href="#" target="_blank">
+													<img src="http://lawyers.justia.com/s/facebook-64.png" alt="Facebook" />
+												</a>
+												<a href="#" target="_blank">
+													<img src="http://lawyers.justia.com/s/twitter-64.png" alt="Twitter" />
+												</a>
+												<a href="#" target="_blank">
+													<img src="http://lawyers.justia.com/s/linkedin-64.png" alt="LinkedIn" />
+												</a>
+												<a href="#" target="_blank">
+													<img src="http://lawyers.justia.com/s/justia-64.png" alt="Justia" />
+												</a>
+												<a href="#" target="_blank">
+													<img src="http://lawyers.justia.com/s/google-plus-64.png" alt="GooglePlus" />
+												</a>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2346204" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2346204">
+												<input type="checkbox" id="checkboxblock__2346204" name="checkboxblock__2346204"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2346204')">Suscr&iacute;bete a nuestro bolet&iacute;n</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2346204" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="submit" name="_action_down__2346204" value="Down" class="dn" title="Move Down">Down</button>
+
+												<button type="submit" name="_action_delete__2346204" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2346204"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2346204">
+															<input type="checkbox" id="checkboxdevblock__2346204" name="checkboxdevblock__2346204"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2346204')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2346204" id="availabletemplate__2346204" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock" >Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter"  selected>Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2346204" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2346204" name="cctemplate__2346204" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2346204()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2346204&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2346204()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2346204()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2346204&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2346204()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2346204" name="designtemplate__2346204" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2346204()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2346204&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2346204()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2346204()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2346204&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2346204()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2346204" name="uniqueid__2346204" value="newsletter_fragment" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2346204" name="parent_block__2346204" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2346204" name="classname__2346204" value="widget" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2346204" id="placement__2346204" size=""  >
+																<option value="Content" >Content</option>
+																<option value="Side Bar"  selected>Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2346204" name="title__2346204" value="Suscr&iacute;bete a nuestro bolet&iacute;n" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2346204"></span>
+										<div class="clr">&nbsp;</div>
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2346204" id="lev1_linkto__2346204" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >La Firma</option>
+
+												<option value="/attorneys" >Nuestro Equipo</option>
+
+												<option value="/practiceareas" >&iquest;Qu&eacute; le pas&oacute;?</option>
+
+												<option value="/contactus" >Cont&aacute;ctenos</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_16" >&iexcl;Queremos Ayudarle!</option>
+
+												<option value="/section_17" >Casos Ganados</option>
+
+												<option value="/section_18" >Testimonios</option>
+
+												<option value="/section_19" >Compromiso con la Comunidad</option>
+
+												<option value="/section_22" >Preguntas Frecuentes</option>
+
+												<option value="/section_59" >English</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2346204" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Description</label>
+										<span class="field">
+
+											<textarea name="description__2346204" cols= rows=  style="height: 100pxpx;"></textarea>
+
+										</span>
+
+										<div class="hrclr">&nbsp;</div>
+										<h4>Newsletter Signup Form Options</h4>
+
+										<label class="expanded">Handler:</label>
+										Defaults to: http://jweb.justia.com/sm/newsletter
+										<span class="field">
+
+											<input type="text" id="form_handler__2346204" name="form_handler__2346204" value="" size="" maxlength=""  />
+										</span>
+										<div class="clr">&nbsp;</div>
+										<label class="expanded">Return URL:</label>
+										Defaults to: http://justia-losvencedores-com.justia.net/thank-you.html
+										<span class="field">
+
+											<input type="text" id="return_url__2346204" name="return_url__2346204" value="" size="" maxlength=""  />
+										</span>
+
+										<div class="clr">&nbsp;</div>
+										<div class="twocol">
+											<label class="expanded">Receiving Email:</label>
+											Defaults to: dan@justia.com
+											<span class="field">
+
+												<input type="text" id="email_to__2346204" name="email_to__2346204" value="" size="" maxlength=""  />
+											</span>
+										</div>
+										<div class="twocol">
+											<label class="expanded">Default Text In Email Field:</label>
+											Defaults to: Your Email
+											<span class="field">
+
+												<input type="text" id="default_text__2346204" name="default_text__2346204" value="" size="" maxlength=""  />
+											</span>
+
+										</div>
+										<div class="hrclr">&nbsp;</div>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="include_address_field__2346204">
+											<input type="checkbox" id="include_address_field__2346204" name="include_address_field__2346204"  value="checked" >Include Address fields (Address, City, State, Zip)</span>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="unsubscribe_option__2346204">
+											<input type="checkbox" id="unsubscribe_option__2346204" name="unsubscribe_option__2346204"  value="checked" >Include options to Subscribe or Unsubscribe</span>
+										<span class="fields">
+
+											<input type="hidden" name="_reset" value="include_name_field__2346204">
+											<input type="checkbox" id="include_name_field__2346204" name="include_name_field__2346204"  value="checked" >Include Field for Name</span>
+										<div class="hrclr">&nbsp;</div>
+
+										<input type="hidden" name="_reset" value="send_confirmation_email__2346204">
+										<input type="checkbox" id="send_confirmation_email__2346204" name="send_confirmation_email__2346204"  value="checked" >
+										Send the Thank you message.
+										<br />
+
+										<span class="fielddesctitle">Enter the Confirmation message below.</span>
+										<span class="field">
+
+											<textarea name="confirmation_message__2346204" cols= rows=  style="height: 200px;width: 533px;"></textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<div id="block__2346214" class="blockgroup-show">
+									<div class="blockhead">
+										<div>
+											<span class="blockgrouptitle">
+
+												<input type="hidden" name="_reset" value="checkboxblock__2346214">
+												<input type="checkbox" id="checkboxblock__2346214" name="checkboxblock__2346214"  value="checked" >
+												<a href="javaScript:collapseBlock('block__2346214')">Custom Content</a>
+											</span>
+											<span class="blockbuttons">
+
+												<button type="submit" name="_action_up__2346214" value="Up" class="up" title="Move Up">Up</button>
+
+												<button type="button" name="_action_down__2346214" class="dnd">Down</button>
+
+												<button type="submit" name="_action_delete__2346214" value="Delete" class="del" title="Delete">Delete</button>
+											</span>
+										</div>
+									</div>
+									<div class="blockform">
+
+										<div class="developeronly">
+
+											<div id="devblock__2346214"  class="blockgroup-show" >
+												<div class="subblockhead">
+													<div>
+														<span class="blockgrouptitle">
+
+															<input type="hidden" name="_reset" value="checkboxdevblock__2346214">
+															<input type="checkbox" id="checkboxdevblock__2346214" name="checkboxdevblock__2346214"  value="checked" >
+															<a href="javaScript:collapseBlock('devblock__2346214')">Custom Content Options (Developer Only)</a>
+														</span>
+													</div>
+												</div>
+												<div class="subblockform">
+													<label class="expanded">
+														Select A Template
+														<select name="availabletemplate__2346214" id="availabletemplate__2346214" size="1"  onchange="toggleCustom(this)" >
+															<option value="simpleblock"  selected>Simple Block</option>
+															<option value="aggregator" >RSS Aggregator</option>
+															<option value="jw_feeds" >PubSub Based Feed Agregator</option>
+															<option value="internallist" >Internal List</option>
+															<option value="creditcard" >Credit Card</option>
+															<option value="flash" >Flash Inserter</option>
+															<option value="eventcalendar" >Event Calendar</option>
+															<option value="featureditems" >Featured Items</option>
+															<option value="scrollingtext" >Scrolling Text</option>
+															<option value="newsletter" >Newsletter Signup</option>
+															<option value="googlemaps" >Google Maps</option>
+															<option value="sectionsummary" >Section Summary</option>
+															<option value="recentitems" >Recent Items</option>
+															<option value="formdesigner" >Form Designer</option>
+															<option value="newsfeed" >Animated News Feed</option>
+															<option value="relateditems" >Related Items</option>
+															<option value="attorneyslist" >Attorney List</option>
+															<option value="qr_code" >QR Code</option>
+															<option value="slideshow" >Slideshow</option>
+															<option value="invisible" >Invisible Block</option>
+															<option value="formcreator" >Custom Form Creator</option>
+															<option value="social_media" >Social Media</option>
+															<option value="" >-----------------</option>
+															<option value="custom" >Custom Template</option>
+
+														</select>
+														<input type="submit" value="Set" name="_action_submit" />
+
+													</label>
+
+													<div id="blockavailabletemplate__2346214" style="display:none">
+														<label class="expanded">Custom Data Input Template</label>
+														<span class="fielddesc">Default Path: master_templates/customcontent</span>
+
+														<input type="text" id="cctemplate__2346214" name="cctemplate__2346214" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_cctemplate__2346214()
+{
+	var oWindow = openNewWindow("file-picker?field=cctemplate__2346214&file_dir=&dir=master_templates/customcontent&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_cctemplate__2346214()">
+
+														<script language="JavaScript">
+function upload_cctemplate__2346214()
+{
+	var oWindow = openNewWindow("file-upload?field=cctemplate__2346214&file_dir=&dir=master_templates/customcontent", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_cctemplate__2346214()">
+														<label class="expanded">Custom Design Template</label>
+														<span class="fielddesc">
+															Default Path: masters/developing/oak.m/designs/default.d/templates
+														</span>
+
+														<input type="text" id="designtemplate__2346214" name="designtemplate__2346214" value="" size="60" maxlength="680"  />
+
+														<script language="JavaScript">
+function file_picker_designtemplate__2346214()
+{
+	var oWindow = openNewWindow("file-picker?field=designtemplate__2346214&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates&cols=50&rows=10&value=", 
+								"FilePicker", 700, 300, true, true) ;
+}
+</script>
+														<input type="button" value="Pick"  onclick="file_picker_designtemplate__2346214()">
+
+														<script language="JavaScript">
+function upload_designtemplate__2346214()
+{
+	var oWindow = openNewWindow("file-upload?field=designtemplate__2346214&file_dir=&dir=masters/developing/oak.m/designs/default.d/templates", "UploadFile", 500, 50, true, true) ;
+}
+</script>
+														<input type="button" value="Upload"  onclick="upload_designtemplate__2346214()"></div>
+													<div class="fourcol">
+														<label class="expanded">Unique ID</label>
+														<span class="field">
+
+															<input type="text" id="uniqueid__2346214" name="uniqueid__2346214" value="scroller" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Parent Block</label>
+														<span class="field">
+
+															<input type="text" id="parent_block__2346214" name="parent_block__2346214" value="" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Class Name</label>
+														<span class="field">
+
+															<input type="text" id="classname__2346214" name="classname__2346214" value="widget" size="60" maxlength=""  />
+														</span>
+													</div>
+													<div class="fourcol">
+														<label class="expanded">Placement</label>
+														<span class="field">
+															<select name="placement__2346214" id="placement__2346214" size=""  >
+																<option value="Content"  selected>Content</option>
+																<option value="Side Bar" >Side Bar</option>
+																<option value="Global" >Global</option>
+																<option value="Header" >Header</option>
+																<option value="Footer" >Footer</option>
+																<option value="ProfileCoreInfo" >ProfileCoreInfo</option>
+																<option value="Content Top" >Content Top</option>
+																<option value="Default" >Default</option>
+																<option value="Bottomwrap" >Bottomwrap</option>
+																<option value="Wildcard" >Wildcard</option>
+																<option value="Bodytext" >Bodytext</option>
+
+															</select>
+														</span>
+													</div>
+
+													<div class="clr">&nbsp;</div>
+
+												</div>
+											</div>
+										</div>
+
+										<label class="expanded">Section Title</label>
+										<span class="field">
+
+											<input type="text" id="title__2346214" name="title__2346214" value="" size="" maxlength="200"  />
+											<input type="hidden" name="_label_" value="title__2346214"></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Link Title to:</label>
+										<span class="field">
+
+											<select name="lev1_linkto__2346214" id="lev1_linkto__2346214" size="1" onchange="showChildren(this.value, 2)" style="width:150px;font-size:10px;">
+												<option value="" >Select</option>
+
+												<option value="/index" >Index</option>
+
+												<option value="/navigation" >Nav/Header/Footer</option>
+
+												<option value="/section_2" >La Firma</option>
+
+												<option value="/attorneys" >Nuestro Equipo</option>
+
+												<option value="/practiceareas" >&iquest;Qu&eacute; le pas&oacute;?</option>
+
+												<option value="/contactus" >Cont&aacute;ctenos</option>
+
+												<option value="/legalinfo" >Disclaimer, Privacy Policy & Terms of Service</option>
+
+												<option value="/sitemap" >Site Map</option>
+
+												<option value="/misc" >Misc</option>
+
+												<option value="/categories" >Categories</option>
+
+												<option value="/section_16" >&iexcl;Queremos Ayudarle!</option>
+
+												<option value="/section_17" >Casos Ganados</option>
+
+												<option value="/section_18" >Testimonios</option>
+
+												<option value="/section_19" >Compromiso con la Comunidad</option>
+
+												<option value="/section_22" >Preguntas Frecuentes</option>
+
+												<option value="/section_59" >English</option>
+
+												<option value="">---------------------</option>
+
+												<option value="external"  >External link</option>
+											</select>
+
+											<span id="axchildren"></span>
+
+											<input type="hidden" name="linkto__2346214" value=""></span>
+										<div class="clr">&nbsp;</div>
+
+										<label class="expanded">Homepage Section Text</label>
+
+										<span class="field">
+
+											<textarea name="description__2346214" cols= rows=  style="height: 70pxpx;">
+												<a class="previous"></a>
+												<a class="next"></a>
+												<ul>
+													<li>
+														"Mark Albert ofrece una asesor&iacute;a altamente capaz, experta, innovadora y eficaz. Luch&oacute; por nuestro caso legal en California con la tenacidad de un bulldog, contra algunos de los abogados m&aacute;s temibles en el estado. Y lleva el caso personalmente, trata a los clientes como amigos, as&iacute; como a los empleadores. No dudar&iacute;a en recomendarlo."
+														<span>Martin Karo - Cliente</span>
+													</li>
+													<li>
+														"Mark es un pensador profundo e innovador que se levanta al desaf&iacute;o, no importa cuan grande. En los a&ntilde;os que he conocido Mark, ha sido un excelente recurso, as&iacute; como un amigo de confianza. Su generoso esp&iacute;ritu completa el cuadro."
+														<span>Chris Kacher - Cliente</span>
+													</li>
+													<li>
+														"Mark hizo un trabajo excelente tomando un caso y lo solucion&oacute; en la primera oportunidad en la cara de su oponente".
+														<span>Kenneth A. OBrien - Cliente</span>
+													</li>
+													<li>
+														"El Sr. Albert manej&oacute; mi caso con un alto nivel de profesionalismo e integridad. Fue cap&aacute;z de resolverlo satisfactoriamente y su conocimiento superior fue clave en este desenlace. He usado y continuar&iacute;a utilizando sus servicios si fuera necesario.&rdquo;
+														<span>Dennis Bilden - Cliente</span>
+													</li>
+												</ul>
+											</textarea>
+
+										</span>
+
+										<div class="clr">&nbsp;</div>
+									</div>
+								</div>
+
+								<strong>Add New</strong>
+								<select name="_master_id_2343011">
+
+									<option value = "1000169">Custom Fragment</option>
+
+									<option value = "1000621">Site Search</option>
+
+									<option value = "1000173">Custom Text</option>
+
+									<option value = "1000172">Custom Content</option>
+
+								</select>
+								<input type="submit" name="_action_new_child__2343011" value="Go"></div>
+							<p/>
+
+							<label class="expanded">
+								Toggle Menu Item
+								<br/>
+							</label>
+
+							<input type="hidden" name="_reset" value="toggleon__">
+							<input type="radio" name="toggleon__" value="off" >
+							Use Normal Menu Item, Normal Menu Item On, Toggle Item Off
+							<br/>
+
+							<input type="hidden" name="_reset" value="toggleon__">
+							<input type="radio" name="toggleon__" value="on" >
+							Replace Normal Menu Item with Toggle Menu Item , Normal Menu Item Off, Toggle Item On
+						</div>
+					</div>
+					<div class="clr">&nbsp;</div>
+
+					<div class="dataform">
+						<div class="dfwrap">
+
+							<input type="submit" name="_action_cancel" value="Revert this Page to Last Saved" onclick="javascript:if(confirm('Reverting will permenantly DELETE
+any current, but unsaved, changes on this page.  Do you wish to revert to the last saved version of this page?')){return true;}else{return false;};"/>
+							<input type="submit" name="_action_submit" value="Save Changes"  style="font-weight:bold;" accesskey="s" />
+
+							<input type="submit" name="_action_preview_page" value="Rebuild Page" accesskey="r" />
+
+							<input type="submit" name="_action_process_css" value="Rebuild CSS" accesskey="c" />
+							<input type="submit" name="_action" value="Sync With Master" />
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- END CONTENT -->
+		</form>
+
+		<!-- end content -->
+		<div id="footer">
+			<div class="copyright"></div>
+		</div>
+	</div>
+</body>
+</html>
