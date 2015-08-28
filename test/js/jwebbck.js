@@ -1,3 +1,7 @@
+javascript:var s = document.getElementsByTagName('select'); var cs = s[1]; var l = cs.options.length; var sf = document.createElement('div'); var sfs = sf.style;sfs.position = 'absolute'; sfs.top='0'; sfs.left='0'; sfs.width='200px'; sfs.height='25px';sfs.background='#222'; sfs.border='3px solid #9b2323'; sfs.padding='10px'; var inp = document.createElement('input');sf.appendChild(inp); document.body.appendChild(sf);inp.size='30'; inp.type = 'text'; inp.name='query'; inp.style.width='200px'; inp.focus(); inp.addEventListener('keyup', function(e) { var q = e.target.value; if (q == '' || q == ' ') { return; }for (var i=0; i<l;i++) { if (cs.options[i].text.match(q)) { cs.selectedIndex = i; break; } } }, false);
+
+
+
 'use strict';
 
 var elements = document.querySelectorAll('#components > div');

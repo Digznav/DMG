@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+THEPID=$(pgrep -f compilewatch)
+if [ "$?" -eq 0 ]; then  
+	kill $THEPID > /dev/null
+	echo "$(tput setaf 2)[stop]$(tput sgr0) compass stopped."
+else
+	echo "$(tput setaf 1)[stop]$(tput sgr0) compass process not found."
+fi
+
+THEPID=$(pgrep -f uglifyjs)
+if [ "$?" -eq 0 ]; then  
+	kill $THEPID > /dev/null
+	echo "$(tput setaf 2)[stop]$(tput sgr0) uglifyjs stopped."
+else
+	echo "$(tput setaf 1)[stop]$(tput sgr0) uglifyjs process not found."
+fi
+
+THEPID=$(pgrep -f livereloadx)
+if [ "$?" -eq 0 ]; then  
+	kill $THEPID > /dev/null
+	echo "$(tput setaf 2)[stop]$(tput sgr0) Local web server stopped."
+else
+	echo "$(tput setaf 1)[stop]$(tput sgr0) Local web server process not found."
+fi

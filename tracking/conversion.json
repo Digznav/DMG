@@ -1,14 +1,199 @@
 [
 
-	{
-		"ticket": "92806",
-		"client": "Roth Law Group",
-		"url": "http://justia-rothlawgroup-com.justia.net/",
-		"designer": "Eduardo",
-		"column": "1",
-		"template": "elm",
-		"status": false
-	},
+		{
+			"ticket": "96587",
+			"client": "John M. Kenney",
+			"url": "http://justia-pennsylvania-lawyer-net.justia.net/",
+			"designer": "Olimpia",
+			"column": "1",
+			"template": "cypress",
+			"status": true,
+			"tags": ""
+		},
+
+		{
+			"ticket": "96756",
+			"client": "Reyes Browne Reilley",
+			"url": "http://justia-reyeslaw-com.justia.net/",
+			"designer": "Erika",
+			"column": "1",
+			"template": "",
+			"status": true,
+			"tags": ""
+		},
+
+		{
+			"ticket": "93653",
+			"client": "Hartsoe Law Firm",
+			"url": "http://justia-maryvillepersonalinjury-com.justia.net/",
+			"designer": "Eduardo",
+			"column": "1",
+			"template": "",
+			"status": true,
+			"tags": "One off, Elm style main image, Custom PA list, Custom RSS, Custom CF, Two columns CF"
+		},
+
+		{
+			"ticket": "95836",
+			"client": "Pistotnik Law Offices",
+			"url": "http://justia-pistotniklaw-com.justia.net/",
+			"designer": "Eduardo",
+			"column": "1",
+			"template": "elm",
+			"status": true,
+			"tags": "CF over main image, special internal banner, custom PA list, New two columns format, Footer social JS, New title format in CF"
+		},
+
+		{
+			"ticket": "96089",
+			"client": "Aretsky Law Group",
+			"url": "http://justia-fathersrightsnj-com.justia.net/",
+			"designer": "Donovan",
+			"column": "2",
+			"template": "hawk",
+			"status": true,
+			"tags": "testimonials slideshow, banner slideshow, CF above banner, new captcha mixins"
+		},
+
+		{
+			"ticket": "95227",
+			"client": "Andrea Vacca",
+			"url": "http://justia-vaccalaw-com.justia.net/",
+			"designer": "Irma",
+			"column": "1",
+			"template": "cypress",
+			"status": true
+		},
+
+		{
+			"ticket": "94248",
+			"client": "MacKenzie & Associates",
+			"url": "http://justia-mackenzielaw-com.justia.net/",
+			"designer": "Erika",
+			"column": "1",
+			"template": "elm",
+			"status": true
+		},
+
+		{
+			"ticket": "94105",
+			"client": "Lenahan & Dempsey",
+			"url": "http://justia-lenahandempsey-com.justia.net/",
+			"designer": "Donovan",
+			"column": "1",
+			"template": "cypress",
+			"status": true
+		},
+
+		{
+			"ticket": "94286",
+			"client": "Jeffrey Benjamin",
+			"url": "http://justia-new-york-attorney-org.justia.net/",
+			"designer": "Donovan",
+			"column": "3",
+			"template": "rhino",
+			"status": true
+		},
+		
+		{
+			"ticket": "93132",
+			"client": "Silverman, Thompson, Slutkin & White",
+			"url": "http://justia-mdmalpracticeattorney-com.justia.net/",
+			"designer": "Donovan",
+			"column": "2",
+			"template": "owl",
+			"status": true
+		},
+
+		{
+			"ticket": "94323",
+			"client": "Jeffrey T. Greenberg",
+			"url": "http://justia-19percent-com.justia.net/",
+			"designer": "Irma",
+			"column": "2",
+			"template": "violet",
+			"status": true
+		},
+
+		{
+			"ticket": "94279",
+			"client": "Jeffrey P. Gale",
+			"url": "http://justia-jeffgalelaw-com.justia.net/",
+			"designer": "Eduardo",
+			"column": "2",
+			"template": "",
+			"status": true
+		},
+
+		{
+			"ticket": "93126",
+			"client": "Cave Law Firm",
+			"url": "http://justia-caveattorneys-com.justia.net/",
+			"designer": "Irma",
+			"column": "2",
+			"template": "carnation",
+			"status": true
+		},
+
+		{
+			"ticket": "93148",
+			"client": "M. Hedayat & Associates",
+			"url": "http://justia-mha-law-com.justia.net/",
+			"designer": "Irma",
+			"column": "1",
+			"template": "birch",
+			"status": true
+		},
+	
+		{
+			"ticket": "90018",
+			"client": "Robert Kreisman",
+			"url": "http://justia-robertkreisman-com.justia.net/",
+			"designer": "Erika",
+			"column": "1",
+			"template": "elm",
+			"status": true
+		},
+
+		{
+			"ticket": "93093",
+			"client": "M. Devin Whitt",
+			"url": "http://justia-whittlawfirm-com.justia.net/",
+			"designer": "Irma",
+			"column": "2",
+			"template": "dandelion",
+			"status": true
+		},
+
+		{
+			"ticket": "92869",
+			"client": "Geoffrey M. Yaryan",
+			"url": "http://justia-palmdesertcriminallawyer-com.justia.net/",
+			"designer": "Irma",
+			"column": "2",
+			"template": "pelican",
+			"status": true
+		},
+
+		{
+			"ticket": "92048",
+			"client": "Grabel & Associates",
+			"url": "http://justia-grabellaw-com.justia.net/",
+			"designer": "Erika",
+			"column": "1",
+			"template": "",
+			"status": true
+		},
+
+		{
+			"ticket": "92806",
+			"client": "Roth Law Group",
+			"url": "http://justia-rothlawgroup-com.justia.net/",
+			"designer": "Eduardo",
+			"column": "1",
+			"template": "elm",
+			"status": true
+		},
 
 		{
 			"ticket": "91533",

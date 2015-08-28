@@ -1,0 +1,710 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"boder",
+				"pa-border-color"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"imag",
+				"image-url"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"image",
+				"image-width"
+			],
+			[
+				"lih",
+				"lighten"
+			],
+			[
+				"index",
+				"index-widget"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"text",
+				"text-container-02"
+			],
+			[
+				"perce",
+				"percentage-value"
+			],
+			[
+				"max",
+				"max-website-width"
+			],
+			[
+				"75px",
+				"750px"
+			],
+			[
+				"for",
+				"formdesc"
+			],
+			[
+				"body",
+				"bodytext"
+			],
+			[
+				"social",
+				"social-icons-gutter"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"light",
+				"lighten"
+			],
+			[
+				"dark",
+				"darken"
+			],
+			[
+				"li",
+				"lis	list-style"
+			],
+			[
+				"bl",
+				"bdl+	border-left: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"bb",
+				"bdb+	border-bottom: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"bt",
+				"bdt+	border-top: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"bdl",
+				"bdl+	border-left: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"br",
+				"bdr+	border-right: ${1:1px} ${2:solid} ${3:#000};"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"last_filter": "sass",
+		"selected_items":
+		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"hmt",
+				"HTMLPrettify"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ht ml",
+				"Set Syntax: HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"si",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/diegomiguel/DMG/tracking",
+		"/Users/diegomiguel/DMG/tracking/css"
+	],
+	"file_history":
+	[
+		"/Users/diegomiguel/DMG/tracking/conversion.json",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/diegomiguel/Documents/dailybasis/WORK.txt",
+		"/Users/diegomiguel/Documents/daily/Responsive Blog Conversion.txt",
+		"/Users/diegomiguel/Documents/daily/snipets-css.txt",
+		"/Users/diegomiguel/jwebstyle.css",
+		"/Users/diegomiguel/justatic/www/shared/scss/partials/_alert.scss",
+		"/Users/diegomiguel/justatic/www/shared/scss/modules/_law.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/practice-areas/_practice-areas-round.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/index.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/interna.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/js/site.js",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/_backpages.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/mha-law-com.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/short-contact-form/_scf-single-column.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/badges/_badges-01.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_helpers.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/resp.txt",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/practice-areas/_practice-areas-box.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_form-base-styles.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_fonts.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/banner-image/_banner-image-01.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/index/_columns-content.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_web-classes.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/interna2.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/interna3.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/contact-us.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/partials/_settings.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_mixin-button-for-links.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/topnav/_topnav-01.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/start",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/untitled.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_functions.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/partials/_base.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/scss/modules/_title-decorations.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/fonts/font.css",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/css/fonts/font copy.css",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/inedx.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/mha-law-com.d/config.rb",
+		"/Users/diegomiguel/Documents/US States Abbreviations.txt",
+		"/Users/diegomiguel/Documents/single column.txt",
+		"/Users/diegomiguel/Documents/Responsive Blog Conversion.txt",
+		"/Users/diegomiguel/Documents/WORK.txt",
+		"/Users/diegomiguel/Documents/tests.txt",
+		"/Users/diegomiguel/Documents/snipets-css.txt",
+		"/Users/diegomiguel/Documents/snipets.txt",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/WP-Conversions/guntrustlawyer/-2015-01-27/css/scss/modules/_layout-helper.scss",
+		"/Users/diegomiguel/DMG/tracing/conversion.json",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/Cedar widgets.txt",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/WP Conversions/gravel2gavel/resp.txt",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/WP R-Conversions/sacramentoinjuryattorneysblog/index.html",
+		"/Users/diegomiguel/Documents/snipets-css.haml",
+		"/Volumes/DIGZ/lnk.txt",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/Oldies/hamblinlaw-com.d/index.html",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/Oldies/hamblinlaw-com.d/css/hamblinlaw-com_global.css",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/Oldies/hamblinlaw-com.d/css/sass/handheld.scss",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/Oldies/hamblinlaw-com.d/inde.html",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/R-Sites/arnoldsmithlaw-com2.d/files 2014-08-04/expungement-process.html",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/R-Sites/arnoldsmithlaw-com2.d/files.html",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/R-Sites/falseclaimsactattorney-com.d/css/scss/falseclaimsactattorney-com.scss",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/R-Sites/falseclaimsactattorney-com.d/index.html",
+		"/Users/diegomiguel/Documents/jWeb/TWEAKS/R-Sites/falseclaimsactattorney-com.d/js/site.js",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/blair-law-com_global.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/index.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/contactUs.html",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/js/site.js",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/interna.html",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Installed Packages/Theme - Flatland.sublime-package",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/Side Bar Folders.sublime-settings",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/partials/_siteInfo.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/modules/_mixin-button-for-links.scss",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/blair-law-com_global.css",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/modules/_form-base-styles.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/modules/_website-topnav.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/modules/_layout-selector.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/modules/_layout-helper.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/partials/_normalize.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/css/scss/partials/_base.scss",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/config.rb",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/resp.txt",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/diegomiguel/Desktop/as.scss",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Syntax Highlighting for Sass/Completions/SHS-Sass-Functions/Sass-Functions.sublime-completions",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Syntax Highlighting for Sass/Completions/SHS-CSS-Properties/CSS-Properties.sublime-completions",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Syntax Highlighting for Sass/Completions/SHS-Compass-Variables/Compass-Variables-Root.sublime-completions",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/Syntax Highlighting for Sass/Completions/SHS-Compass-Mixins/Compass-Mixins.sublime-completions",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/diegomiguel/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/images/footer-logo.png",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/images/container.png",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/images/hfrag.png",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/images/tagline.png",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/images/ssidebar.png",
+		"/Users/diegomiguel/Documents/jWeb/Conversions/R-Reconversions/blair-law-com2.d/images/footer.png"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"template\": \"cypress\",",
+			"\"column\": \"1\",",
+			"\"url\":",
+			"\"template\": \"violet\",",
+			"\"column\": \"1\",",
+			"\"column\": \"3\",",
+			"\"template\": \"clover\",",
+			"\"column\": \"1\",",
+			"\"column\": \"2\",",
+			"birch",
+			"<li class=\"li",
+			".s-txt",
+			"width",
+			"1em",
+			"<span>",
+			"<img src",
+			"<strong>",
+			"<a class=\"badge",
+			"<a class=\"badge ",
+			"#e9e9e9",
+			"&:",
+			"cycler",
+			"1025px",
+			"900px",
+			"nth($custom-breakpoint, 3)",
+			"$magic-number",
+			"nth($custom-breakpoint, 2)",
+			"nth($custom-breakpoint, 3)",
+			"nth($custom-breakpoint, 2)",
+			"nth($custom-breakpoint, 1)",
+			"'",
+			"#101d2b",
+			"400px",
+			"margin",
+			"<li>",
+			"'",
+			"0",
+			"50px",
+			"40p",
+			"50px",
+			"40",
+			"55px",
+			"55",
+			"55px",
+			"shade",
+			"#fd8824",
+			"50px",
+			"60px",
+			"50px",
+			"55px",
+			"ea5c25",
+			"px",
+			"30",
+			"fff",
+			"$textarea-height",
+			"$vertical-gutter",
+			"112643",
+			"85px",
+			"50px",
+			"73",
+			"52595C",
+			"display: inline-block;\n            // float: left;",
+			"696969",
+			"#contactform",
+			"formdesc",
+			"photos",
+			"formde",
+			"formdesc",
+			"/jshared",
+			"<!--#include virtual=\"/cgi-bin/captcha.pl\" -->",
+			"$widget-padding",
+			"f5f5f5",
+			"darken",
+			"21",
+			"wdgt-qrcode",
+			"#0f4b71",
+			"wdgt-qrcode",
+			"\"",
+			"797e85",
+			"112643",
+			"<script src=\"/js/site.min.js?",
+			"jshared",
+			"src=\"/jshared",
+			"=\"/jshared",
+			"jshared",
+			"<!--#include virtual=\"/cgi-bin/captcha.pl\" -->",
+			"$accent-color",
+			"darken",
+			"1024px",
+			"400px",
+			"roboto",
+			"url",
+			"Roboto",
+			"/jshared",
+			"<!--#include virtual=\"/cgi-bin/captcha.pl\" -->",
+			"css/global.css?",
+			"style",
+			"clear",
+			"style",
+			"demandforced3",
+			"<hr>",
+			"<p>",
+			"socialshare_seminars",
+			"<center>\n<img src=\"//www.demandforced3.com/b/css/1.0/images/bttn_reviews180.png\" style=\"cursor: pointer;\" name=\"reviews_tile\" id=\"reviews_tile_m\"  onclick=\"javascript:window.open('//www.demandforced3.com/b/etile_reviews_popup.jsp?d3cp_exid=mha-law&d3cp_source=My%20Website','newwindow', 'width=790px, top=0, left=0, toolbar=no, menubar=no, scrollbars=1, resizable=1, location=no, status=0');\" />\n</center>",
+			"schedule-appointment",
+			"primercontactform",
+			"socialHeader",
+			"!function(doc, id){\nvar js;\nvar scriptElement = doc.getElementsByTagName(\"script\")[0];\nif (!doc.getElementById(id)) {\njs = doc.createElement(\"script\");\njs.id = id;\njs.src = \"//dyn.yelpcdn.com/biz_badge_js/yelp/R8mXlNfPWF2fuxpvMcqGbA.js\";\nscriptElement.parentNode.insertBefore(js, scriptElement);\n}\n} (document, \"yelp-biz-badge-script-yelp-R8mXlNfPWF2fuxpvMcqGbA\");",
+			"<span style=\"margin-right:3px;\">\n<a href=\"https://www.facebook.com/mhalaw\" id=\"facebook\" target=\"_blank\">\n	<img src=\"http://lawyers.justia.com/s/facebook-24.png\" alt=\"Facebook\">\n</a>\n<a href=\"https://plus.google.com/111063283373881734701/posts\" id=\"gplus\" target=\"_blank\">\n<img src=\"http://lawyers.justia.com/s/google-plus-24.png\" alt=\"Google Plus\">\n</a>\n<a href=\"https://twitter.com/mhalaw\" id=\"twitter\" target=\"_blank\">\n<img src=\"http://lawyers.justia.com/s/twitter-24.png\" alt=\"Twitter\">\n</a>\n<a href=\"http://www.linkedin.com/company/m.-hedayat---associates-p.c.?trk=ppro_cprof\" id=\"linkedin\" target=\"_blank\">\n<img src=\"http://lawyers.justia.com/s/linkedin-24.png\" alt=\"LinkedIn\">\n</a>\n<a href=\"http://lawyers.justia.com/firm/m-hedayat-associates-7246\" id=\"justiaprofile\" target=\"_blank\">\n<img src=\"http://lawyers.justia.com/s/justia-24.png\" alt=\"Justia Profile\">\n</a>\n</span>\n<span id=\"quora\">\n<a target=\"_blank\" href=\"http://www.quora.com/Mazyar-M-Hedayat\">\n	<img width=\"71\" height=\"26\" alt=\"Follow Mazyar M. Hedayat on Quora\" src=\"images/quora.png\">\n</a></span>\n<span id=\"yelp\">\n<div id=\"yelp-biz-badge-yelp-R8mXlNfPWF2fuxpvMcqGbA\">\n	M. Hedayat & Associates, P.C.\n</div></span>\n\n\n\n\n<script type=\"text/javascript\">\n!function(doc, id){\nvar js;\nvar scriptElement = doc.getElementsByTagName(\"script\")[0];\nif (!doc.getElementById(id)) {\njs = doc.createElement(\"script\");\njs.id = id;\njs.src = \"//dyn.yelpcdn.com/biz_badge_js/yelp/R8mXlNfPWF2fuxpvMcqGbA.js\";\nscriptElement.parentNode.insertBefore(js, scriptElement);\n}\n} (document, \"yelp-biz-badge-script-yelp-R8mXlNfPWF2fuxpvMcqGbA\");\n\n\n</script> ",
+			"888.888.8888",
+			"href",
+			"connect",
+			"http://www.avvo.com/attorneys/60446-il-mazyar-hedayat-1103406.html?utm_campaign=avvo_rating&utm_content=1217583&utm_medium=avvo_badge&utm_source=avvo",
+			"pieChart",
+			"twitter",
+			"<a class=\"badge pry",
+			"badge pry",
+			"href",
+			"a href",
+			"class=\"badge pry",
+			"class=\"badge",
+			"pry-",
+			" class=\"badge pry",
+			" class=\"badge",
+			"testimonials",
+			"<li>",
+			"\"",
+			"testimonials"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<script src=\"/js/site.js?",
+			"http://justia-mha-law-com.justia.net/jshared",
+			"<span class=\"fld\"><center><img src=\"https://dl.dropbox.com/u/16134501/QAbookmarklet/images/captchaimage.jpg\"></center></span><label for=\"imagetext\"> <strong>Enter text from the Image Above:</strong><span><input name=\"imagetext\" placeholder=\"(ENTER TEXT)\" type=\"text\" id=\"ImageText\"><span id=\"captchainstructions\">Please enter the text from the image on the left.</span></span></label>",
+			"css/mha-law-com.css?",
+			"\n</body>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tracking-projects.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"conve",
+				"conversion.json"
+			],
+			[
+				"cove",
+				"conversion.json"
+			],
+			[
+				"scf",
+				"css/scss/modules/short-contact-form/_scf-single-column.scss"
+			],
+			[
+				"back",
+				"css/scss/_backpages.scss"
+			],
+			[
+				"help",
+				"css/scss/modules/_helpers.scss"
+			],
+			[
+				"resp",
+				"resp.txt"
+			],
+			[
+				"bades",
+				"css/scss/modules/badges/_badges-01.scss"
+			],
+			[
+				"badges",
+				"css/scss/modules/badges/_badges-01.scss"
+			],
+			[
+				"bo",
+				"css/scss/modules/practice-areas/_practice-areas-box.scss"
+			],
+			[
+				"pa",
+				"css/scss/modules/practice-areas/_practice-areas-round.scss"
+			],
+			[
+				"form",
+				"css/scss/modules/_form-base-styles.scss"
+			],
+			[
+				"fonts",
+				"css/scss/modules/_fonts.scss"
+			],
+			[
+				"banner",
+				"css/scss/modules/banner-image/_banner-image-01.scss"
+			],
+			[
+				"col",
+				"css/scss/modules/index/_columns-content.scss"
+			],
+			[
+				"web",
+				"css/scss/modules/_web-classes.scss"
+			],
+			[
+				"colum",
+				"css/scss/modules/index/_columns-content.scss"
+			],
+			[
+				"button",
+				"css/scss/modules/_mixin-button-for-links.scss"
+			],
+			[
+				"columns",
+				"css/scss/modules/index/_columns-content.scss"
+			],
+			[
+				"badge",
+				"css/scss/modules/badges/_badges-01.scss"
+			],
+			[
+				"topnav",
+				"css/scss/modules/topnav/_topnav-01.scss"
+			],
+			[
+				"bad",
+				"css/scss/modules/badges/_badges-01.scss"
+			],
+			[
+				"hel",
+				"css/scss/modules/_helpers.scss"
+			],
+			[
+				"setting",
+				"css/scss/partials/_settings.scss"
+			],
+			[
+				"fut",
+				"css/scss/modules/_functions.scss"
+			],
+			[
+				"helper",
+				"css/scss/modules/_helpers.scss"
+			],
+			[
+				"base",
+				"css/scss/partials/_base.scss"
+			],
+			[
+				"tit",
+				"css/scss/modules/_title-decorations.scss"
+			],
+			[
+				"font",
+				"css/scss/modules/_fonts.scss"
+			],
+			[
+				"fon",
+				"css/fonts/font copy.css"
+			],
+			[
+				"mha",
+				"css/scss/mha-law-com.scss"
+			],
+			[
+				"we",
+				"css/scss/modules/_web-classes.scss"
+			],
+			[
+				"",
+				"css/scss/blair-law-com_global.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/dailybasis/dailybasis.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

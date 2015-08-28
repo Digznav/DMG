@@ -1,0 +1,7 @@
+#!/bin/bash
+
+compass compile
+if [ "$?" -ne "0" ]; then
+	tput bel
+	# say "ごめんなさい" -v Kyoko
+fi
