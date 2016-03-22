@@ -1,0 +1,262 @@
+.GPRAboutPanel {
+	&#Ambicion { display:block; }
+}
+
+/* Ambición
+==========================================================================*/
+//#Ambicion { display:none; }
+
+#container.backGPR_AcercaDe_Ambicion {
+	background:url(../imgs/design/back_GPR_AcercaDe.png) no-repeat 11% bottom;
+	// url(../imgs/pantallasDemo/3-GPR-AcercaDe1.jpg) no-repeat center -188px;
+}
+
+.GPRNav {
+	@extend %safeMargin;
+	a {
+		line-height:33px;
+		&.l1 { width:177px; padding-left:7px; }
+		&.l2 { width:143px; padding-left:19px; }
+		&.l3 { width:150px; padding-left:15px; }
+	}
+}
+
+.s11hca1 {
+	@extend %safeMargin;
+	.s11bT11, .s11bI12 { float:left; height:184px; }
+	.s11bT11 {
+		width:191px;
+		padding:0 20px 0 17px;
+		background-color:$backColor_GPR_Ambicion_box1_1;
+		@include box-sizing(border-box);
+		h4 {
+			font-family:$fontDinCondMedium;
+			font-size:21px;
+			line-height:25px;
+			padding:28px 0 4px;
+			text-transform:uppercase;
+			color:$textColor_GPR_Ambicion_Title_box1_1;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 19px;
+		}
+		p {
+			font-size:12px;
+			line-height:15px;
+			color:$textColor_GPR_Ambicion_Text_box1_1;
+		}
+	}
+	.s11bI12 {
+		width:360px;
+		margin-left:192px;
+		img { width:100%; }
+	}
+}
+
+.s11hca2 {
+	@extend %safeMargin;
+	.s11bT21, .s11bT22 {
+		float:left;
+		height:247px;
+		@include box-sizing(border-box);
+		h4 {
+			font-family:$fontDinCondMedium;
+			font-size:21px;
+			line-height:25px;
+			text-transform:uppercase;
+		}
+		p { line-height:15px; }
+		ul { @extend %changeImgList; }
+	}
+	.s11bT21 {
+		width:383px;
+		padding:0 20px;
+		background-color:$backColor_GPR_Ambicion_box2_1;
+		color:$textColor_GPR_Ambicion_box2_1;
+		font-size:12px;
+		h4 { padding:18px 0 4px; }
+		ul { margin-left:15px; }
+	}
+	.s11bT22 {
+		width:192px;
+		padding:0 15px 0 24px;
+		background-color:$backColor_GPR_Ambicion_box2_2;
+		color:$textColor_GPR_Ambicion_box2_2;
+		h4 {
+			padding:36px 0 4px;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 27px;
+		}
+	}
+}
+
+/* Modelo de negocio
+==========================================================================*/
+//#Modelo { display:none; }
+
+#container.backGPR_AcercaDe_Modelo {
+	background:url(../imgs/design/back_GPR_AcercaDe.png) no-repeat 11% bottom;
+}
+
+.s11vcmd1, .s11vcmd2, .s11vcmd3 { float:left; @include box-sizing(border-box); }
+
+.s11vcmd1 {
+	@extend %safeMargin;
+	width:191px;
+	height:190px;
+	padding:0 17px;
+	background-color:$backColor_GPR_Modelo_col1;
+	color:$textColor_GPR_Modelo_col1;
+	h4 {
+		font-family:$fontDinCondMedium;
+		font-size:21px;
+		line-height:25px;
+		padding:28px 0 11px;
+		text-transform:uppercase;
+		background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 19px;
+	}
+	p { font-size:12px; line-height:15px; }
+}
+.s11vcmd2 {
+	width:330px;
+	height:345px;
+	padding:15px 8px 0 25px;
+	margin-top:87px;
+	background-color:$backColor_GPR_Modelo_col2;
+	color:$textColor_GPR_Modelo_col2;
+	p { line-height:14px; }
+	.s11impT {
+		font-family:$fontDinCondBold;
+		font-size:15px;
+		text-transform:uppercase;
+		color:$textColor_GPR_Modelo_ImportantText;
+	}
+}
+.s11vcmd3 {
+	width:347px;
+	margin-top:4px;
+	img { width:100%; }
+}
+
+
+/* Datos clave
+==========================================================================*/
+//#Datos { display:none; }
+
+#container.backGPR_AcercaDe_Datos {
+	background:url(../imgs/design/back.png) no-repeat right bottom;
+	//url(../imgs/pantallasDemo/3-GPR-AcercaDe32.jpg) no-repeat center -188px;
+}
+
+%generalBoxFormat {
+	float:left;
+	@include box-sizing(border-box);
+}
+
+.s11hcdat1 {
+	@extend %safeMargin;
+	position:relative;
+	margin-top:62px;
+	.s11hrimgno1 {
+		position:absolute;
+		margin:-10px 0 0 -78px;
+	}
+	.s11bT11 {
+		@extend %generalBoxFormat;
+		width:148px;
+		height:148px;
+		padding:70px 19px 0;
+		font-size:14px;
+		line-height:16px;
+		background-color:$backColor_GPR_Datos_box1_1;
+		color:$textColor_GPR_Datos_box1_1;
+	}
+	.s11bT12 {
+		@extend %generalBoxFormat;
+		width:282px;
+		height:148px;
+		text-align:right;
+		padding:31px 9px 0;
+		font-size:18px;
+		line-height:18px;
+		background:url(../imgs/design/GPR/backBottles.png) no-repeat 60px 100px;
+		background-color:$backColor_GPR_Datos_box1_2;
+		color:$textColor_GPR_Datos_box1_2;
+		font-family:$fontNewBaskervilleItalic;
+		p {
+			padding-top:12px;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat right top;
+		}
+	}
+}
+.s11hcdat2 {
+	@extend %safeMargin;
+	.s11bT21 {
+		@extend %generalBoxFormat;
+		width:148px;
+		height:148px;
+		padding:48px 16px 0 0;
+		text-align:right;
+		background-color:$backColor_GPR_Datos_box2_1;
+		color:$textColor_GPR_Datos_box2_1;
+		.s11bTi1 {
+			font-family:$fontDinCondMedium;
+			font-size:36px;
+			line-height:38px;
+		}
+		p {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:17px;
+			line-height:18px;
+		}
+	}
+	.s11bT22 {
+		@extend %generalBoxFormat;
+		width:282px;
+		height:148px;
+		padding:40px 12px 0;
+		font-size:15px;
+		line-height:15px;
+		background:url(../imgs/design/peopleWhite.png) no-repeat 10px 14px;
+		background-color:$backColor_GPR_Datos_box2_2;
+		color:$textColor_GPR_Datos_box2_2;
+		.ib1 {
+			@extend %generalBoxFormat;
+			width:116px;
+			height:98px;
+			border-right:1px solid $borderColor_GPR_Datos_box_Separator;
+			padding-top:24px;
+		}
+		.ib2 {
+			@extend %generalBoxFormat;
+			width:142px;
+			padding:24px 0 0 11px;
+		}
+		.s11bTi2 {
+			font-family:$fontDinCondMedium;
+			font-size:31px;
+			line-height:31px;
+		}
+		.s11bTisll2 {
+			font-family:$fontDinCondMedium;
+			font-size:24px;
+			line-height:26px;
+			text-transform:uppercase;
+		}
+	}
+}
+.s11hcdat3 {
+	@extend %safeMargin;
+	.s11bT31 {
+		width:356px;
+		padding:19px 82px 19px 0;
+		margin-left:148px;
+		text-align:right;
+		background-color:$backColor_GPR_Datos_box3_1;
+		color:$textColor_GPR_Datos_box3_1;
+		font-family:$fontNewBaskervilleItalic;
+		font-size:18px;
+		line-height:20px;
+		@include box-sizing(border-box);
+	}
+}
+/*.hc_dat_3 {
+	.boxTxt_3_1 {}
+}*/

@@ -1,0 +1,99 @@
+$font_path: "fonts/";
+$font_pathPRM: "fonts/PRM/";
+@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url($font_path + 'websymbolsligaregular.eot');
+	src:	url($font_path + 'websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'websymbolsligaregular.woff') format('woff'),
+				url($font_path + 'websymbolsligaregular.ttf') format('truetype'),
+				url($font_path + 'websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+/*@font-face {
+	font-family:'ModernPictogramsNormal';
+	src:	url($font_path + 'modernpics-webfont.eot');
+	src:	url($font_path + 'modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'modernpics-webfont.woff') format('woff'),
+				url($font_path + 'modernpics-webfont.ttf') format('truetype'),
+				url($font_path + 'modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+/*@font-face {
+	font-family:'LigatureSymbols';
+	src:	url($font_path + 'LigatureSymbols-2.11.eot');
+	src:	url($font_path + 'LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'LigatureSymbols-2.11.woff') format('woff'),
+				url($font_path + 'LigatureSymbols-2.11.ttf') format('truetype'),
+				url($font_path + 'LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+	src:	url($font_path + 'LigatureSymbols-2.11.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+@font-face {
+	font-family:'dinRegular';
+	src:	url($font_pathPRM + 'din-regular.eot');
+	src:	url($font_pathPRM + 'din-regular.eot?#iefix') format('embedded-opentype'),
+				url($font_pathPRM + 'din-regular.woff') format('woff'),
+				url($font_pathPRM + 'din-regular.ttf') format('truetype'),
+				url($font_pathPRM + 'din-regular.svg#dinRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'dinMedium';
+	src:	url($font_pathPRM + 'din-medium.eot');
+	src:	url($font_pathPRM + 'din-medium.eot?#iefix') format('embedded-opentype'),
+				url($font_pathPRM + 'din-medium.woff') format('woff'),
+				url($font_pathPRM + 'din-medium.ttf') format('truetype'),
+				url($font_pathPRM + 'din-medium.svg#dinMedium') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'dinCondMedium';
+	src:	url($font_pathPRM + 'dinCond_medium.eot');
+	src:	url($font_pathPRM + 'dinCond_medium.eot?#iefix') format('embedded-opentype'),
+				url($font_pathPRM + 'dinCond_medium.woff') format('woff'),
+				url($font_pathPRM + 'dinCond_medium.ttf') format('truetype'),
+				url($font_pathPRM + 'dinCond_medium.svg#dinCondMedium') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'dinCondBold';
+	src:	url($font_pathPRM + 'dinCond-bold.eot');
+	src:	url($font_pathPRM + 'dinCond-bold.eot?#iefix') format('embedded-opentype'),
+				url($font_pathPRM + 'dinCond-bold.woff') format('woff'),
+				url($font_pathPRM + 'dinCond-bold.ttf') format('truetype'),
+				url($font_pathPRM + 'dinCond-bold.svg#dinCondBold') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'newBaskervilleRoman';
+	src:	url($font_pathPRM + 'newbaskerville-roman.eot');
+	src:	url($font_pathPRM + 'newbaskerville-roman.eot?#iefix') format('embedded-opentype'),
+				url($font_pathPRM + 'newbaskerville-roman.woff') format('woff'),
+				url($font_pathPRM + 'newbaskerville-roman.ttf') format('truetype'),
+				url($font_pathPRM + 'newbaskerville-roman.svg#newBaskervilleRoman') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'newBaskervilleItalic';
+	src:	url($font_pathPRM + 'newbaskerville-italic.eot');
+	src:	url($font_pathPRM + 'newbaskerville-italic.eot?#iefix') format('embedded-opentype'),
+				url($font_pathPRM + 'newbaskerville-italic.woff') format('woff'),
+				url($font_pathPRM + 'newbaskerville-italic.ttf') format('truetype'),
+				url($font_pathPRM + 'newbaskerville-italic.svg#newBaskervilleItalic') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}

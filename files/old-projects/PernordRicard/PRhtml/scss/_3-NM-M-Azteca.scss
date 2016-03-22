@@ -1,0 +1,69 @@
+.aztecaBack {
+	background:none;
+	//background:url(../imgs/brands/Azteca/bg_Azteca.jpg) no-repeat top center;
+	//background-size:cover;
+}
+.fmtAzteca {
+	background-color:#000 !important;
+	.NMbottle {
+		left:665px;
+		width:255px;
+	}
+	.sectionTitle {
+		color:#fff !important;
+		background-image:url(../imgs/design/lines/lineWhite_FFFFFF_98.png);
+	}
+	.popUpNM {
+		background-color:#FFD961;
+		h4 {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+			color:#1B3664;
+		}
+		p { color:#808284; font-style:italic; }
+	}
+}
+
+.NM-Azteca {
+	.s3cl1 {
+		.c1b2 {
+			background-color:#FFD961;
+			color:#000;
+			height:156px;
+		}
+		.Mrc-Social { margin-top:38px; }
+	}
+	
+	.s3cl2 {
+		.c2b1 {
+			background-color:#FFD961;
+			h4 {
+				background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+				color:#1B3664;
+			}
+			p { color:#808284; font-style:italic; }
+		}
+
+		.c2b2 {
+			height:200px;
+			color:#1B3664;
+			background-color:#E8E8E7;
+			h4 {
+				color:#1B3664;
+				background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+			}
+			ul { list-style-image:url(../imgs/design/listImg_Blue.png); }
+		}
+	}
+
+	.s3cl3 {
+		.c3b3 {
+			background-color:#e8e8e7;
+			color:#1b3664;
+			//h4 { color:#1b3664; }
+			
+			//.cctl-ttl { color:#1b3664; }
+		}
+
+		.dcrp-txt { background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 19px; }
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"news": [
+		{
+			"id": 1,
+			"Encabezado": "Proceso de estudios y egresos",
+			"Dia": "20",
+			"Mes": "Julio",
+			"Anio": "2013",
+			"Contenido": "En la actualidad la Fundación mantiene en proceso de estudios, a 75 Becarios en instituciones como la UDLA, el ITESM, la UPAEP, la ULSA, el ITAM, en sus diversos Campus.<br>Al día de hoy la Fundación ha egresado a 536 Jóvenes titulados tanto de Licenciaturas Universitarias, como de Carreras Técnicas.",
+			"Resumen": "En la actualidad la Fundación mantiene en proceso de estudios, a 75 Becarios en instituciones como la UDLA..."
+		},
+		{
+			"id": 2,
+			"Encabezado": "Educar para un México mejor",
+			"Dia": "20",
+			"Mes": "Julio",
+			"Anio": "2013",
+			"Contenido": "Desde el año 2000, la Fundación Taboada viene implementando el Programa <strong>&quot;Educar para un México Mejor&quot;</strong> que consiste en la impartición de clases a estudiantes becarios de Primaria, Secundaria y Preparatoria, que tienen problemas de estudio, en especial con las materias de Matemáticas, Física, Química e Inglés. Los estudiantes al mismo tiempo, también reciben una clase de Valores Universales.",
+			"Resumen": "Desde el año 2000, la Fundación Taboada viene implementando el Programa &quot;Educar para..."
+		},
+		{
+			"id": 3,
+			"Encabezado": "Educar para un México mejor",
+			"Dia": "20",
+			"Mes": "Julio",
+			"Anio": "2013",
+			"Contenido": "Desde el año 2000, la Fundación Taboada viene implementando el Programa <strong>&quot;Educar para un México Mejor&quot;</strong> que consiste en la impartición de clases a estudiantes becarios de Primaria, Secundaria y Preparatoria, que tienen problemas de estudio, en especial con las materias de Matemáticas, Física, Química e Inglés. Los estudiantes al mismo tiempo, también reciben una clase de Valores Universales.",
+			"Resumen": "Desde el año 2000, la Fundación Taboada viene implementando el Programa &quot;Educar para..."
+		},
+		{
+			"id": 4,
+			"Encabezado": "Lorem Ipsum Lorem Ipsum",
+			"Dia": "19",
+			"Mes": "Agosto",
+			"Anio": "2013",
+			"Contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sed eros mollis semper. In in justo vitae turpis ornare ornare. Integer a magna nec mi placerat ultrices. Ut pretium dui nulla, lobortis hendrerit justo scelerisque ut. Curabitur arcu nibh, fringilla id felis a, viverra iaculis lorem. Sed cursus neque mi, ac tempus nibh consectetur vel. Maecenas eu suscipit erat. Ut pretium dui nulla.",
+			"Resumen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin sed eros mollis semper. In..."
+		},
+		{
+			"id": 5,
+			"Encabezado": "Quisque at blandit nibh",
+			"Dia": "3",
+			"Mes": "Febrero",
+			"Anio": "2014",
+			"Contenido": "Quisque a volutpat lorem. Proin consequat, nisl quis pretium posuere, lacus nisi fermentum lectus, eget pretium purus mi vitae sapien. Ut at lacus lectus. Praesent luctus pulvinar neque et ultrices. Nunc scelerisque enim a pellentesque sodales. Suspendisse vel purus ac risus blandit fermentum dignissim id leo. Vivamus in aliquam quam. Phasellus quis nibh vitae lacus elementum accumsan id id arcu. Sed odio nisl, imperdiet sit amet urna vitae, vestibulum fringilla dui. Donec aliquam luctus mi, quis interdum arcu pretium eget. Sed vulputate urna ut felis accumsan condimentum.",
+			"Resumen": "Quisque a volutpat lorem. Proin consequat, nisl quis pretium posuere, lacus nisi fermentum lectus, eget..."
+		},
+		{
+			"id": 6,
+			"Encabezado": "Nunc quis sollicitudin urna",
+			"Dia": "3",
+			"Mes": "Octubre",
+			"Anio": "2013",
+			"Contenido": "Nunc quis ullamcorper est, a placerat lorem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis iaculis sit amet est quis lobortis. Nullam ac volutpat erat. Aenean lacus ligula, scelerisque et ipsum eu, fringilla bibendum tellus.",
+			"Resumen": "Nunc quis ullamcorper est, a placerat lorem. Cum sociis natoque penatibus et magnis dis parturient..."
+		},
+		{
+			"id": 7,
+			"Encabezado": "Quisque at blandit nibh",
+			"Dia": "3",
+			"Mes": "Octubre",
+			"Anio": "2013",
+			"Contenido": "Quisque a volutpat lorem. Proin consequat, nisl quis pretium posuere, lacus nisi fermentum lectus, eget pretium purus mi vitae sapien. Ut at lacus lectus. Praesent luctus pulvinar neque et ultrices. Nunc scelerisque enim a pellentesque sodales. Suspendisse vel purus ac risus blandit fermentum dignissim id leo. Vivamus in aliquam quam. Phasellus quis nibh vitae lacus elementum accumsan id id arcu.",
+			"Resumen": "Quisque a volutpat lorem. Proin consequat, nisl quis pretium posuere, lacus nisi fermentum lectus, eget..."
+		}
+	]
+}

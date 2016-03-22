@@ -1,0 +1,312 @@
+$reservWidth:270;
+$reservPadding:10;
+
+select {
+	@include appearance(none);
+	background-image:url('arrow.png') !important;
+	background-repeat:no-repeat;
+	background-position:right center;
+	text-indent:0.01px;
+	text-overflow:"";
+	border:none;
+}
+textarea, input, select {
+	&.invalid {
+		background-color:lighten($colorRed,3%) !important;
+		//border:1px solid $colorRed !important;
+	}
+}
+
+$normalLabel:floor(30*($reservWidth - ($reservPadding*2))/100);
+$normalInput:floor(70*($reservWidth - ($reservPadding*2))/100);
+$ladaWitdh:50;
+$ladaMargin:0;
+$numberWidth:$normalInput - ($ladaWitdh + $ladaMargin);
+
+.reservation {
+	position:fixed;
+	right:-$reservWidth+px;
+	top:50%;
+	width:$reservWidth+px;
+	color:#fff;
+	background-color:darken($colorBlue,5%);
+	z-index:100;
+	h2 {
+		width:100%;
+		margin:0;
+		margin-bottom:10px;
+		padding:0;
+		line-height:44px;
+		border-bottom:2px dotted #fff;
+		text-transform:uppercase;
+		text-align:center;
+	}
+	form { position:relative; width:100%; }
+	fieldset {
+		float:left;
+		width:100%;
+		@include box-sizing(border-box);
+		margin-bottom:5px;
+		padding:0 $reservPadding+px;
+		input, select, textarea { @include border-radius(0); }
+		&.normalFormat {
+			label {
+				display:inline-block;
+				width:$normalLabel+px;
+			}
+			input, select {
+				width:$normalInput+px;
+				border:none;
+				@include box-sizing(border-box);
+				padding:3px 1px;
+				font-size:.8em;
+				background-color:#fff;
+			}
+			input {
+				
+				&.phoneLada { width:$ladaWitdh+px; margin-right:$ladaMargin+px; }
+				&.phoneNumber {
+					width:$numberWidth+px;
+					border-left:1px solid $colorBlue;
+					@include box-sizing(border-box);
+				}
+			}
+		}
+		&.fullFormat {
+			label {
+				display:inline-block;
+				width:floor(100*($reservWidth - ($reservPadding*2))/100) + px;
+				line-height:28px;
+				text-align:center;
+			}
+			textarea {
+				width:floor(100*($reservWidth - ($reservPadding*2))/100) + px;
+				border:none;
+				@include box-sizing(border-box);
+				padding:3px 1px;
+				font-size:.8em;
+				resize:none;
+				outline:none;
+			}
+		}
+	}
+	.isButton {
+		width:50%;
+		&:before { font-size:20px; }
+	}
+	#tempDisabled {
+		display:none;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		@include alphaColorIE(rgba(darken($colorBlue,40%),.4));
+		z-index:200;
+	}
+}
+
+$personWidth:220;
+%floatingBoxesRever {
+	position:absolute;
+	display:none;
+	right:$reservWidth+px;
+	top:50%;
+	background-color:#fff;
+	z-index:100;
+	& > p {
+		padding:.5em 1em 0;
+		font-size:.8em;
+		font-weight:700;
+		color:darken($colorBlue,15%);
+	}
+	& > div { font-size:12px; width:100%; }
+	.isButton {
+		width:50%;
+		margin:0;
+		margin-top:.5em;
+		text-align:center;
+		font-size:15px;
+		&:before { font-size:20px; }
+	}
+}
+#calRange {
+	@extend %floatingBoxesRever;
+	width:250px;
+}
+#perQuantity {
+	@extend %floatingBoxesRever;
+	width:$personWidth+px;
+	div {
+		padding:.5em 1em 1em;
+		@include box-sizing(border-box);
+	}
+	table { width:100%; }
+	td, th { padding:0; width:percentage(.3333); }
+	label {
+		display:inline-block;
+		//width:floor(30*$personWidth/100) + px;
+		width:50%;
+		font-weight:700;
+		text-transform:uppercase;
+	}
+	input {
+		//width:floor(70*$personWidth/100) + px;
+		width:50%;
+		padding:5px 1px;
+		@include box-sizing(border-box);
+		border:1px solid $colorBlue;
+		font-size:25px;
+		text-align:center;
+		color:$colorBlue;
+		margin-bottom:.2em;
+	}
+}
+.changeFecha {
+	width:94%;
+	margin:0 3%;
+	font-size:.8em;
+	label { font-weight:700; }
+}
+
+
+.fechaReserv, .personasReserv {
+	float:left;
+	width:120px;
+	/*input {
+		width:100%;
+		border:none;
+		background:none;
+		color:#fff;
+		text-align:center;
+		&::-webkit-input-placeholder { color:#fff; }
+		&:-moz-placeholder { color:#fff; }
+		&::-moz-placeholder { color:#fff; }
+		&:-ms-input-placeholder { color:#fff; }
+	}*/
+	span {
+		width:100%;
+		display:inline-block;
+		text-align:center;
+		cursor:pointer;
+	}
+	h3 {
+		display:inline-block;
+		margin:0;
+		width:60px;
+		text-align:center;
+		color:#fff;
+		font-size:15px;
+		font-weight:400;
+		line-height:40px;
+	}
+	table { width:120px; }
+	td {
+		width:60px;
+		padding:0;
+		border:1px solid #fff;
+		@include box-sizing(border-box);
+		text-align:center;
+	}
+}
+
+.fechaReserv {
+	margin-right:10px;
+	span { float:left; }
+	#openFechaClic {
+		background-color:none;
+		@include transition(background-color .1s ease-out);
+		&:hover {
+			/*@include alphaColorIE(rgba(darken($colorRed,30%),.45));*/
+			background-color:darken($colorBlue, 30%);
+		}
+		&.activeDate { background-color:darken($colorBlue, 30%); }
+	}
+	.dayFormat1 {
+		font-size:12px;
+		line-height:20px;
+		text-transform:uppercase;
+	}
+	.dayFormat2 {
+		line-height:49px;
+		font-size:35px;
+		border-top:1px solid #fff;
+		border-bottom:1px solid #fff;
+	}
+}
+
+.personasReserv {
+	margin-top:40px;
+	div { position:relative; }
+	label {
+		position:absolute;
+		width:100%;
+		line-height:18px;
+		font-size:12px;
+		text-transform:uppercase;
+	}
+	#openPersonaClic {
+		background-color:none;
+		@include transition(background-color .1s ease-out);
+		&:hover {
+			/*@include alphaColorIE(rgba(darken($colorRed,30%),.45));*/
+			background-color:darken($colorBlue, 30%);
+		}
+		&.activePersona { background-color:darken($colorBlue, 30%); }
+	}
+	span {
+		padding-top:20px;
+		@include box-sizing(border-box);
+		&.perFormat1 { line-height:71px; font-size:30px; }
+		&.perFormat2 { line-height:25px; }
+	}
+}
+
+#openHoteLash {
+	position:fixed;
+	display:inline-block;
+	right:0;
+	top:50%;
+	width:80px;
+	height:210px;
+	margin-top:-105px;
+	font-size:20px;
+	text-transform:uppercase;
+	@include alphaColorIE(rgba(darken($colorBlue,5%),.6));
+	color:#fff;
+	overflow:hidden;
+	@include transition(background-color .1s ease-out, color .1s ease-out);
+	&:hover {
+		@include alphaColorIE(rgba(#fff,.8));
+		color:$colorBlue;
+	}
+	span {
+		display:inline-block;
+		text-align:center;
+	}
+	.symb-icon {
+		width:80px;
+		line-height:60px;
+		font-size:30px;
+	}
+	.verticalText {
+		font-weight:700;
+		-webkit-transform:rotate(270deg);
+		-moz-transform:rotate(270deg);
+		-ms-transform:rotate(270deg);
+		-o-transform:rotate(270deg);
+		transform:rotate(270deg);
+		-webkit-transform-origin:62% 170%;
+		-moz-transform-origin:62% 170%;
+		-ms-transform-origin:62% 170%;
+		-o-transform-origin:62% 170%;
+		transform-origin:62% 170%;
+		filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+}
+.lt-ie9 {
+	#openHoteLash .verticalText { margin:0 0 0 26px; }
+	textarea, input, select {
+		&.invalid { background-color:lighten($colorRed,20%) !important; }
+	}
+}

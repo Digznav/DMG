@@ -1,0 +1,82 @@
+/*HEADER*/
+//$headerBackground:#e6e6e6 url(images/ui-bg_highlight-soft_30_e6e6e6_1x100.png) 50% 50% repeat-x;
+$headerBackground:$colorOrange;
+$headerBorder:1px solid $colorOrange;
+//$headerBorder:none;
+$headerColorText:lighten($colorOrange,48%);
+$headerIcon:url(images/ui-icons_e4f8ff_256x240.png);
+
+/*CONTENT*/
+//$contentBackground:#ffffff url(images/ui-bg_flat_0_ffffff_40x100.png) 50% 50% repeat-x;
+$contentBackground:$colorYellowOpaque;
+//$contentBorder:1px solid lighten($colorBlue,35%);
+$contentBorder:none;
+$contentColorText:#000;
+$contentIcon:url(images/ui-icons_f48220_256x240.png);
+
+
+/*DEFAULT STATE*/
+//$defaultBackground:#e6e6e6 url(images/ui-bg_glass_100_eee_1x400.png) 50% 50% repeat-x;
+$defaultBackground:lighten($colorOrange,15%);
+$defaultBorder:1px solid lighten($colorOrange,5%);
+$defaultColorText:#fff;
+$defaultIcon:url(images/ui-icons_00506e_256x240.png);
+
+/*HOVER STATE*/
+//$hoverBackground:#dadada url(images/ui-bg_glass_100_dadada_1x400.png) 50% 50% repeat-x;
+$hoverBackground:$colorYellowOpaque;
+$hoverBorder:1px solid $colorOrange;
+$hoverColorText:$colorOrange;
+$hoverIcon:url(images/ui-icons_f48220_256x240.png);
+
+/*ACTIVE STATE*/
+//$activeBackground:$colorGreen url(images/ui-bg_glass_20_033566_1x400.png) 50% 50% repeat-x;
+$activeBackground:lighten($colorGreen,5%);
+$activeBorder:1px solid darken($colorGreen,5%);
+$activeColorText:#fff;
+$activeIcon:url(images/ui-icons_e4f8ff_256x240.png);
+
+/*INTERACTION CUES - HIGHLIGHT*/
+$highlightBackground:lighten($colorYellowOpaque,30%) url(images/ui-bg_diagonals-medium_100_fdeab6_40x40.png) 50% 50% repeat;
+//$highlightBackground:lighten($colorYellowOpaque,30%);
+$highlightBorder:1px solid $colorYellowOpaque;
+$highlightColorText:darken($colorOrange,30%);
+$highlightIcon:url(images/ui-icons_f48220_256x240.png);
+
+/*INTERACTION CUES - ERROR*/
+$errorBackground:lighten($colorRed,40%) url(images/ui-bg_diagonals-medium_100_fcd8da_40x40.png) 50% 50% repeat;
+//$errorBackground:lighten($colorRed,40%);
+$errorBorder:1px solid $colorRed;
+$errorColorText:$colorRed;
+$errorIcon:url(images/ui-icons_ec1c24_256x240.png);
+
+/**/
+$widgetOverlay:#0269B8 url(images/ui-bg_diagonals-small_100_0269B8_40x40.png) 50% 50% repeat;
+$widgetShadow:#0269B8 url(images/ui-bg_flat_0_0269B8_40x100.png) 50% 50% repeat-x;
+
+/* Layout helpers
+----------------------------------*/
+@import "ui/#Libs-LayoutHelpers";
+
+/* Misc visuals
+----------------------------------*/
+@import "ui/#Libs-MiscVisuals";
+
+/* Overlays
+----------------------------------*/
+/*@import "ui/ui-Accordion";*/
+
+$datepickerWidth:250px;
+@import "ui/ui-Datepicker";
+
+/* Component containers
+----------------------------------*/
+@import "ui/#Libs-ComponentContainers";
+
+/* Interaction states
+----------------------------------*/
+@import "ui/#Libs-Interaction";
+
+/* Icons
+----------------------------------*/
+@import "ui/#Libs-Icons";

@@ -1,0 +1,8 @@
+[21-Jan-2013 20:50:19] PHP Warning:  POST Content-Length of 19426216 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[21-Jan-2013 21:03:55] PHP Warning:  POST Content-Length of 14902378 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[06-Dec-2013 17:30:54 America/Mexico_City] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 33896 bytes) in /home/descubre/public_html/administrador/cabanas/SimpleImage.php on line 12
+[06-Dec-2013 17:34:43 America/Mexico_City] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 33896 bytes) in /home/descubre/public_html/administrador/cabanas/SimpleImage.php on line 12
+[06-Dec-2013 17:37:40 America/Mexico_City] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 33896 bytes) in /home/descubre/public_html/administrador/cabanas/SimpleImage.php on line 12
+[14-Dec-2013 16:19:00 America/Mexico_City] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8474 bytes) in /home/descubre/public_html/administrador/cabanas/SimpleImage.php on line 12
+[14-Dec-2013 16:19:51 America/Mexico_City] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8474 bytes) in /home/descubre/public_html/administrador/cabanas/SimpleImage.php on line 12
+[14-Dec-2013 16:20:42 America/Mexico_City] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8474 bytes) in /home/descubre/public_html/administrador/cabanas/SimpleImage.php on line 12

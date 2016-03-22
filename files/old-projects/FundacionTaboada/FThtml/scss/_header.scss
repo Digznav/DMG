@@ -1,0 +1,228 @@
+body > header {
+	position:absolute;
+	width:100%;
+	height:125px;
+	@include background-gradientLinear($colorBlue, url("../imgs/background_blue_header_gradient.png"), lighten($colorBlue,5%) 0%, darken($colorBlue,5%) 100%);
+	border-bottom:solid 4px #fff;
+	@include box-shadow(0 0 20px rgba(#000,.5));
+	z-index:90;
+	& > div {
+		width:940px;
+		margin:0 auto;
+	}
+}
+.logo {
+	position:absolute;
+	display:inline-block;
+	width:142px;
+	height:182px;
+	text-indent:-9999px;
+	background:url('../imgs/sprite.png') no-repeat 0 0;
+	@include box-shadow(0 0 10px rgba(#000,.5));
+	overflow:hidden;
+	z-index:100;
+}
+.contFormLang {
+	float:right;
+	width:396px;
+	height:55px;
+	@include box-sizing(border-box);
+	border:solid 2px lighten($colorBlue,8%);
+	border-top:none;
+	@include border-radius(0 0 10px 10px);
+	@include box-shadow(0 0 10px rgba(#000,.5));
+	@include background-gradientLinear(darken($colorBlue,4%), url("../imgs/form_blue_gradient.jpg"), darken($colorBlue,11%) 0%, darken($colorBlue,2%) 100%);
+}
+%formatFormLang {
+	float:left;
+	height:100%;
+	font-size:13px;
+	text-transform:uppercase;
+}
+%formButton {
+	margin:0;
+	border:none;
+	color:#fff;
+	background:$colorGreenLight;
+}
+form.exAlumnos {
+	@extend %formatFormLang;
+	width:322px;
+	@include box-sizing(border-box);
+	padding:0 10px;
+	border-left:solid 2px lighten($colorBlue,8%);
+	legend {
+		font-weight:bold;
+		line-height:20px;
+		color:lighten($colorBlue,35%);
+	}
+	input {
+		width:127px;
+		height:25px;
+		padding:0 2px;
+		border:none;
+		margin-right:4px;
+		@include border-radius(3px);
+		&[type="submit"] {
+			@extend %formButton;
+			width:30px;
+			font-family:$fontWebSymbols;
+		}
+	}
+	.typeButton {
+		float:left;
+		@extend %formButton;
+		line-height:25px;
+		margin:0 5px 0 0;
+		padding:0 10px;
+		font-size:12px;
+		@include border-radius(3px);
+		background:lighten($colorBlue,20%);
+		text-transform:uppercase;
+		span {
+			font-family:$fontWebSymbols;
+			font-size:20px;
+		}
+		&.icoList span:before { content:"\0042"; }
+		&.icoAdmin span:before { content:"\005E"; }
+		&.icoLogout {
+			background:$colorRed;
+			span:before { content:"\0060"; }
+		}
+		&:last-of-type { margin-right:0; }
+	}
+}
+
+.loginError {
+	width:280px;
+	position:absolute;
+	top:55px;
+	margin-left:89px;
+	border:2px solid #F00;
+	@include border-radius(0 0 10px 10px);
+	background:#a00;
+	border-top:none;
+	color:#fff;
+	@include box-shadow(0 0 10px rgba(#000,.5));
+}
+.langEngEsp {
+	@extend %formatFormLang;
+	width:70px;
+	overflow:hidden;
+	a {
+		display:inline-block;
+		width:100%;
+		line-height:26px;
+		background:rgba(darken($colorBlue,10%),.5);
+		text-align:center;
+		color:#fff;
+		@include box-shadow(inset 0 0 10px rgba(#000,.8));
+		&:hover {
+			background:rgba(lighten($colorBlue,5%),.8);
+		}
+		&:last-of-type {
+			border-top:1px solid lighten($colorBlue,8%);
+			@include border-radius(0 0 0 7px);
+		}
+		&.activeLang {
+			background:lighten($colorYellow,5%);
+			color:$colorBlue;
+			font-weight:bold;
+		}
+	}
+}
+
+.social {
+	display:none;
+	float:right;
+	height:35px;
+	text-transform:uppercase;
+	color:#fff;
+	a {
+		display:inline-block;
+		width:27px;
+		line-height:27px;
+		margin:4px 0 0 5px;
+		text-indent:9999px;
+		overflow:hidden;
+		background:url('../imgs/sprite.png') no-repeat;
+		&.fb { background-position:-2px -194px; }
+		&.tw { background-position:-33px -194px; }
+	}
+	span {
+		float:left;
+		line-height:35px;
+		font-size:14px;
+	}
+}
+
+
+nav.mainNav {
+	float:right;
+	height:35px;
+	font-size:13px;
+	margin-top:35px;
+	& > ul {
+		& > li {
+			display:inline-block;
+			height:35px;
+			border-right:2px dotted #fff;
+			& > a {
+				display:inline-block;
+				line-height:35px;
+				padding:0 11px;
+				color:#fff;
+				text-transform:uppercase;
+				/*background:transparent url("../imgs/menu_black_gradient.png") repeat-x 0 -70px;*/
+				@include background-gradientLinear(transparent, url("../imgs/menu_black_gradient.png"), rgba(#000, 0) 30%, rgba(#000, .3) 100%);
+				background-position:0 35px;
+				@include transition(color .1s ease-out, background-position .2s ease-out .2s);
+			}
+			& > a:hover, &:hover > a {
+				/*@include background-gradientLinear(transparent, url("../imgs/menu_black_gradient.png"), rgba(#000, 0) 30%, rgba(#000, .3) 100%);*/
+				background-position:0 0;
+				color:$colorYellow;
+			}
+			.activeNav {
+				background-position:0 0;
+				color:$colorYellow;
+			}
+		}
+		& > li:first-child {
+			border-left:2px dotted #fff;
+		}
+	}
+	li {
+		ul {
+			position:absolute;
+			display:none;
+			@include box-sizing(border-box);
+			width:200px;
+			height:auto;
+			z-index:900;
+		}
+		&:hover ul { display:block; }
+		li {
+			display:block;
+			float:none;
+			width:100%;
+			background:rgba(lighten($colorBlue,5%),.9);
+			a {
+				display:block;
+				width:100%;
+				line-height:28px;
+				@include box-sizing(border-box);
+				padding-left:10px;
+				font-size:12px;
+				text-align:left;
+				color:#fff;
+				text-transform:uppercase;
+				@include transition(all .2s ease-out);
+				&:hover {
+					background:$colorBlue;
+					/*color:darken($colorBlue,20%);*/
+				}
+			}
+		}
+	}
+}

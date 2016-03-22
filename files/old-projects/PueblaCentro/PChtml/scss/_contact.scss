@@ -1,0 +1,206 @@
+.cntctCnt {
+	@extend %floatFullSize;
+	display:none;
+	position:relative;
+	height:250px;
+	border-bottom:10px solid $colorOrange;
+	background-color:$colorGreen;
+	.pFCntct {
+		@extend %insideContFormat;
+		position:relative;
+		/*padding-top:16px;
+		@include box-sizing(border-box);*/
+	}
+}
+
+$wthFlds:350;
+.curtain {
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0,0,0,.5);
+	z-index:10;
+}
+
+$wthMsgs:450;
+.cllbck-frmt {
+	display:none;
+	position:absolute;
+	width:$wthMsgs+px;
+	left:50%;
+	margin-left:(-$wthMsgs/2)+px;
+	padding:20px;
+	color:$colorYellowOpaque;
+	@include box-sizing(border-box);
+	z-index:11;
+	span {
+		float:left;
+		width:10%;
+		font-size:25px;
+		//margin-right:10px;
+		line-height:37px;
+	}
+	h2 {
+		font-family:$fontCorben;
+		line-height:37px;
+	}
+	.prt { float:left; width:90%; }
+	&.success {
+		background-color:rgba(#fff,.9);
+		color:$colorGreen;
+	}
+	&.error {
+		background-color:rgba($colorRed,.9);
+	}
+}
+
+.fldsFrmt {
+	float:left;
+	width:$wthFlds+px;
+	margin:16px 0 0 25px;
+	padding:0;
+	@include box-sizing(border-box);
+	label {
+		display:block;
+		width:100%;
+		color:$colorYellowOpaque;
+		line-height:20px;
+		padding-left:4px;
+		@include box-sizing(border-box);
+	}
+	input, textarea, select, button {
+		float:left;
+		width:100%;
+		border:solid $colorYellowOpaque;
+		border-width:1px 0 1px 1px;
+		background-color:$colorGreen;
+		color:$colorYellowOpaque;
+		padding:0 4px;
+		margin:0 0 4px 0;
+		//line-height:16px;
+		font-size:13px;
+		@include box-sizing(border-box);
+	}
+	input, textarea {
+		&::-webkit-input-placeholder { color:$colorYellowOpaque; }
+		&::-moz-placeholder { color:$colorYellowOpaque; }
+		&:-moz-placeholder { color:$colorYellowOpaque; }
+		&:-ms-input-placeholder { color:$colorYellowOpaque; }
+	}
+	input, select { height:22px; }
+	textarea { height:65px; resize:none; overflow:auto; }
+	select {
+		padding-right:0;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		background:$arrowSVG_Path no-repeat right top;
+		background-color:$colorGreen;
+	}
+
+	&.cl-1 { margin-left:74px; }
+	&.cl-2 { margin-right:25px; }
+
+	.flds {
+		float:left;
+		width:100%;
+	}
+
+	.fld-1 {
+		input, select, textarea { border-width:1px; }
+	}
+	.fld-2 {
+		input, select {
+			//width:floor($wthFlds/2)+px;
+			width:50%;
+			&.lst { border-width:1px; }
+		}
+	}
+	.fld-3 {
+		input, select {
+			//width:floor($wthFlds/3)+px;
+			width:33%;
+			&.lst {
+				border-width:1px;
+				//width:(floor($wthFlds/3) + ($wthFlds % 3) ) +px;
+				width:34%;
+			}
+		}
+	}
+	.snd-info {
+		width:195px;
+		height:35px;
+		margin:4px 0 0 78px;
+		padding:0;
+		border:none;
+		background-color:desaturate(lighten($colorOrange,5%), 30%);
+		color:lighten($colorOrange,30%);
+		@include transition(background-color .2s ease-out, color .2s ease-out);
+
+		span {
+			text-transform:uppercase;
+			font-size:25px;
+			font-weight:700;
+			&#lderSbmt { display:none; }
+		}
+
+		&:hover, &:focus {
+			background-color:$colorOrange;
+			color:#fff;
+		}
+		&.ctvBttn { background-color:$colorOrange; color:#fff; }
+	}
+}
+
+.clsFrm {
+	position:static;
+	float:left;
+	width:30px;
+	height:30px;
+	margin-top:16px;
+	background:$spriteSVG_Path no-repeat;
+	background-position:-285px -98px;
+	background-color:rgba($colorYellowOpaque,.4);
+	text-indent:-9999px;
+	overflow:hidden;
+	@include transition(background-color .2s ease-out);
+	&:hover { background-color:$colorYellowOpaque; }
+}
+
+.opnFrm {
+	//display:none;
+	position:absolute;
+	width:50px;
+	height:260px;
+	top:500px;
+	left:50%;
+	margin-left:-498px;
+	//margin-left:-603px;
+	//padding-left:28px;
+	border-bottom:10px solid $colorOrange;
+	background-color:rgba($colorGreen,.8);
+	color:$colorYellowOpaque;
+	@include box-sizing(border-box);
+	@include transition(background-color ease-out .2s);
+	&:hover {
+		background-color:rgba($colorOrange,.8);
+	}
+	span {
+		display:block;
+		position:absolute;
+		top:152px;
+		left:-21px;
+		line-height:50px;
+		font-size:20px;
+		font-weight:700;
+		text-transform:uppercase;
+		-webkit-transform:rotate(-90deg);
+		-moz-transform:rotate(-90deg);
+		-ms-transform:rotate(-90deg);
+		-o-transform:rotate(-90deg);
+		filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+}

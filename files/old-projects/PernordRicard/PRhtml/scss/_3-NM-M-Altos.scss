@@ -1,0 +1,62 @@
+.altosBack {
+	background:url(../imgs/brands/Altos/bg_Altos.jpg) repeat;
+	//background-size:cover;
+}
+.fmtAltos {
+	background-color:#EFEFEE !important;
+	.popUpNM {
+		background:#D02028 url(../imgs/brands/Altos/bg_rojo.jpg) repeat;
+		color:#fff;
+		h4 {
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 16px;
+		}
+	}
+}
+
+.NM-Altos {
+	.s3cl1 {
+		text-align:center;
+		.c1b1 { margin-top:0; }
+		.c1b2 {
+			background-color:transparent;
+			height:147px;
+			padding:6px 6px 6px 0;
+
+			img { width:100%; height:100%; }
+		}
+		.site-Bttn { margin-bottom:10px; }
+	}
+
+	.s3cl2 {
+		.c2b1 {
+			background:#D02028 url(../imgs/brands/Altos/bg_rojo.jpg) repeat;
+			color:#fff;
+			h4 {
+				background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 16px;
+			}
+		}
+		.c2b2 {
+			height:225px;
+			color:#fff;
+			background:#00B0C7 url(../imgs/brands/Altos/bg_azul.jpg) repeat;
+			h4 { background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 16px; }
+			p { padding:0; margin:0; }
+		}
+	}
+
+	.s3cl3 {
+		.c3b2 { margin-top:105px; }
+		.c3b3 {
+			margin-top:0;
+			background-color:#FFFFFF;
+			color:#1b3664;
+			//h4 { color:#1b3664; }
+			
+			//.cctl-ttl { color:#1b3664; }
+		}
+
+		.dcrp-txt {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 19px;
+		}
+	}
+}

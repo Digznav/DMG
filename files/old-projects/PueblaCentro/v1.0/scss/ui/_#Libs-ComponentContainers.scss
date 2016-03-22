@@ -1,0 +1,33 @@
+/* Component containers
+----------------------------------*/
+%fontFamilySize {
+	font-size:1em;
+}
+
+.ui-widget {
+	@extend %fontFamilySize;
+	.ui-widget {
+		font-size:1em;
+	}
+	input { @extend %fontFamilySize; }
+	select { @extend %fontFamilySize; }
+	textarea { @extend %fontFamilySize; }
+	button { @extend %fontFamilySize; }
+}
+
+.ui-widget-content {
+	border:$contentBorder;
+	background:$contentBackground;
+	color:$contentColorText;
+	a {
+		color:$contentColorText;
+	}
+}
+
+.ui-widget-header {
+	border:$headerBorder;
+	background:$headerBackground;
+	color:$headerColorText;
+	font-weight:bold;
+	a { color:$headerColorText; }
+}

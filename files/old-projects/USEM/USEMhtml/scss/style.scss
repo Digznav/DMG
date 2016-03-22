@@ -1,0 +1,63 @@
+@import "fonts";
+@import "reset";
+@import "mixins";
+@import "compass/css3";
+
+$FF_AmbleRegular:'AmbleRegular', 'Arial', sans-serif;
+$FF_AmbleItalic:'AmbleItalic', 'Arial', sans-serif;
+$FF_AmbleBold:'AmbleBold', 'Arial', sans-serif;
+$FF_AmbleBoldItalic:'AmbleBoldItalic', 'Arial', sans-serif;
+$FF_webSymbols:'WebSymbolsRegular', 'Arial', sans-serif;
+$FF_ModernPic:'ModernPictogramsNormal', 'Arial', sans-serif;
+
+$darkGreen:rgb(13,68,32);
+$lightGreen:rgb(117,191,90);
+$generalSize:900px;
+$red:#E1001A;
+
+$colorDommy:rgba(#000,.1);
+$borderDommy:1px solid #000;
+
+//@include box-sizing(border-box);
+
+body { font-family:$FF_AmbleRegular; }
+em, i { font-family:$FF_AmbleItalic; }
+strong, b {
+	font-family:$FF_AmbleBold;
+	em, i {
+		font-family:$FF_AmbleBoldItalic;
+	}
+}
+
+.clearfix:before,
+.clearfix:after {
+	content:" ";
+	display:table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.clearfix {
+	*zoom:1;
+}
+
+@import "Libs-icons";
+
+/*::::Encabezado::::*/
+@import "header";
+
+/*::::Contenido principal::::*/
+@import "container";
+
+/*::::Galeria::::*/
+@import "galeria";
+
+/*::::Footer::::*/
+@import "footer";
+
+/*::::Media Queries::::*/
+@media all and (max-width:$generalSize) {
+	.footUSEM, .greenBar { width:$generalSize; }
+}

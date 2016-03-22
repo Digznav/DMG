@@ -1,0 +1,71 @@
+
+<thead>
+	<tr class="tpSpc"><th>Las Campanas</th><th>166 m<span class="spr">2</span></th></tr>
+	<tr class="dscrp"><th>Montaje</th><th>Personas</th></tr>
+</thead>
+<tbody>
+	<tr><td>Tipo U</td><td>50</td></tr>
+	<tr><td>Auditorio</td><td>160</td></tr>
+	<tr><td>Escuela</td><td>60</td></tr>
+	<tr><td>Imperial</td><td>60</td></tr>
+	<tr><td>Cocktail<small>(sentados)</small></td><td>80</td></tr>
+	<tr><td>Cocktail<small>(parados)</small></td><td>100</td></tr>
+	<tr><td>Ruso</td><td>56</td></tr>
+	<tr><td>Banquete<small>(buffet)</small></td><td>140</td></tr>
+	<tr><td>Banquete</td><td>140</td></tr>
+	<tr><td>Herradura</td><td>50</td></tr>
+</tbody>
+
+
+<thead>
+	<tr class="tpSpc"><th>Catedral<br>1 y 2</th><th>32 m<span class="spr">2</span></th></tr>
+	<tr class="dscrp"><th>Montaje</th><th>Personas</th></tr>
+</thead>
+<tbody>
+	<tr><td>Tipo U</td><td>25</td></tr>
+	<tr><td>Auditorio</td><td>20</td></tr>
+	<tr><td>Escuela</td><td>N/A</td></tr>
+	<tr><td>Imperial</td><td>30</td></tr>
+	<tr><td>Cocktail<small>(sentados)</small></td><td>20</td></tr>
+	<tr><td>Cocktail<small>(parados)</small></td><td>N/A</td></tr>
+	<tr><td>Ruso</td><td>N/A</td></tr>
+	<tr><td>Banquete<small>(buffet)</small></td><td>N/A</td></tr>
+	<tr><td>Banquete</td><td>20</td></tr>
+	<tr><td>Herradura</td><td>25</td></tr>
+</tbody>
+
+
+<thead>
+	<tr class="tpSpc"><th>Restaurante<br>Ajonjolí</th><th>71.5 m<span class="spr">2</span></th></tr>
+	<tr class="dscrp"><th>Montaje</th><th>Personas</th></tr>
+</thead>
+<tbody>
+	<tr><td>Tipo U</td><td>N/A</td></tr>
+	<tr><td>Auditorio</td><td>50</td></tr>
+	<tr><td>Escuela</td><td>20</td></tr>
+	<tr><td>Imperial</td><td>N/A</td></tr>
+	<tr><td>Cocktail<small>(sentados)</small></td><td>60</td></tr>
+	<tr><td>Cocktail<small>(parados)</small></td><td>N/A</td></tr>
+	<tr><td>Ruso</td><td>30</td></tr>
+	<tr><td>Banquete<small>(buffet)</small></td><td>50</td></tr>
+	<tr><td>Banquete</td><td>N/A</td></tr>
+	<tr><td>Herradura</td><td>30</td></tr>
+</tbody>
+
+
+<thead>
+	<tr class="tpSpc"><th>Área de<br>alberca</th><th>180 m<span class="spr">2</span></th></tr>
+	<tr class="dscrp"><th>Montaje</th><th>Personas</th></tr>
+</thead>
+<tbody>
+	<tr><td>Tipo U</td><td>N/A</td></tr>
+	<tr><td>Auditorio</td><td>N/A</td></tr>
+	<tr><td>Escuela</td><td>N/A</td></tr>
+	<tr><td>Imperial</td><td>N/A</td></tr>
+	<tr><td>Cocktail<small>(sentados)</small></td><td>60</td></tr>
+	<tr><td>Cocktail<small>(parados)</small></td><td>N/A</td></tr>
+	<tr><td>Ruso</td><td>N/A</td></tr>
+	<tr><td>Banquete<small>(buffet)</small></td><td>60</td></tr>
+	<tr><td>Banquete</td><td>60</td></tr>
+	<tr><td>Herradura</td><td>N/A</td></tr>
+</tbody>

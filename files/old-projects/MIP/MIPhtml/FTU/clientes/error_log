@@ -1,0 +1,226 @@
+[30-Oct-2013 11:56:54 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'Puebla is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(66): SqlQuery->setNumber('Puebla')
+#1 /home/mipcom/public_html/clientes/editar.php(20): DatosEmpresaMySqlDAO->insert(Object(DatosEmpresa))
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[31-Oct-2013 14:22:21 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'Pue is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(66): SqlQuery->setNumber('Pue')
+#1 /home/mipcom/public_html/clientes/editar.php(20): DatosEmpresaMySqlDAO->insert(Object(DatosEmpresa))
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[06-Nov-2013 10:07:00 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/mipcom/public_html/clientes/editar_form.php on line 250
+[06-Nov-2013 11:54:51 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'ciudad 1 is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(66): SqlQuery->setNumber('ciudad 1')
+#1 /home/mipcom/public_html/clientes/editar.php(20): DatosEmpresaMySqlDAO->insert(Object(DatosEmpresa))
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[06-Nov-2013 22:57:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_BREAK, expecting ',' or ';' in /home/mipcom/public_html/clientes/editar.php on line 34
+[06-Nov-2013 22:58:11 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_BREAK, expecting ',' or ';' in /home/mipcom/public_html/clientes/editar.php on line 34
+[06-Nov-2013 23:01:18 America/Mexico_City] PHP Fatal error:  Call to undefined method Acceso::generatePassword() in /home/mipcom/public_html/clientes/editar.php on line 64
+[06-Nov-2013 23:02:18 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia) VALUES ('huguemx@hotmail.com', 'b05ea47eea8ae6eafc2002a6d7928f61')<--Duplicate entry '' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(190): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(66): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(69): AccesoMySqlDAO->insert(Object(Acceso))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[06-Nov-2013 23:11:11 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia) VALUES ('vhromeroc@gmail.com', '14ab3d42705b6a616394ab4e2fca31f3')<--Duplicate entry '' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(190): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(66): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(69): AccesoMySqlDAO->insert(Object(Acceso))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[06-Nov-2013 23:25:44 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('huguemx@hotmail.com', '66ad1ea68e8c6d412cdd0f31f95f87d9', 'Cliente')<--Duplicate entry 'huguemx@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(69): AccesoMySqlDAO->insert(Object(Acceso))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[06-Nov-2013 23:27:03 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('huguemx@hotmail.com', 'ac809fb8c6a7acf119ea088fa9864c4d', 'Cliente')<--Duplicate entry 'huguemx@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(72): AccesoMySqlDAO->insert(Object(Acceso))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[07-Nov-2013 18:14:13 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO DatosEmpresa (idCliente, Nombre, Direccion, idCiudad, idMpio, idEstado, CP) VALUES ('2', 'janeth', 'test', '0', '0', '21', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`DatosEmpresa`, CONSTRAINT `FK_DatosEmpresa_localidades` FOREIGN KEY (`idCiudad`) REFERENCES `localidades` (`id`))' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(71): DatosEmpresaMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(23): DatosEmpresaMySqlDAO->insert(Object(DatosEmpresa))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[07-Nov-2013 18:14:49 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message ' is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(66): SqlQuery->setNumber('')
+#1 /home/mipcom/public_html/clientes/editar.php(23): DatosEmpresaMySqlDAO->insert(Object(DatosEmpresa))
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[07-Nov-2013 18:26:14 America/Mexico_City] PHP Catchable fatal error:  Object of class SqlQuery could not be converted to string in /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php on line 95
+[07-Nov-2013 18:32:45 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/mipcom/public_html/clientes/editar.php on line 26
+[07-Nov-2013 21:12:53 America/Mexico_City] PHP Fatal error:  Call to undefined function generatePassword() in /home/mipcom/public_html/class/bo/Security.class.php on line 9
+[08-Nov-2013 00:01:05 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:01:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:01:16 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:01:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:01:18 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:01:19 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:01:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/mipcom/public_html/plantilla/plantilla.php on line 29
+[08-Nov-2013 00:06:11 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':' in /home/mipcom/public_html/clientes/editar.php on line 3
+[08-Nov-2013 00:06:31 America/Mexico_City] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/mipcom/public_html/clientes/editar.php:3) in /home/mipcom/public_html/include_dao.php on line 56
+[08-Nov-2013 10:56:27 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'Miguel Angel Hernández Acuña', 'Director Adjunto', 'multimedia@vmasideas.com', '2221992850', '103', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[08-Nov-2013 10:58:40 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'Miguel Angel Hernández Acuña', '', '', '', '', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[08-Nov-2013 16:20:21 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'Hugo', 'Cargo3', 'hugo.juarez@t-systems.com', '2239135', '', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[08-Nov-2013 16:21:24 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'Hugo', 'Cargo3', 'hugo.juarez@t-systems.com', '2239135', '', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[08-Nov-2013 17:22:37 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'HUgo', 'Cargo3', 'hugo.juarez@t-systems.com', '22222222', '', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 10:26:48 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'Hugo', 'Cargo3', 'maxtor94@hotmail.com', '222222', '', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 10:44:45 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Contacto (idCliente, Nombre, Cargo, Email, Telefono, Ext, Acceso) VALUES ('1', 'Hugo', 'Cargo3', 'maxtor94@hotmail.com', '222222', '', '')<--Cannot add or update a child row: a foreign key constraint fails (`mipcom_db`.`Contacto`, CONSTRAINT `FK_Contacto_DatosEmpresa` FOREIGN KEY (`idCliente`) REFERENCES `DatosEmpresa` (`Id`) ON DELETE CASCADE)' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(281): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/ContactoMySqlDAO.class.php(74): ContactoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/clientes/editar.php(51): ContactoMySqlDAO->insert(Object(Contacto))
+#4 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 17:55:48 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', 'a88ac9e98f37bac94bcf93d68361c5da', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(72): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 17:57:26 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '3cfec31a03e658f8c716acf9a5b7eef5', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(72): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 17:58:15 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '2c3b1af587db7a24387462c962f9144e', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(72): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 18:00:33 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', 'baee789cf8d5d9081e8fd82c7f89711d', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(72): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 18:02:11 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '2884c99daf6f04d9c4c7e01432ac11d8', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(74): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 18:06:06 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '96a36d3a9dbcd58c863ea9441b76d78a', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(75): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[10-Nov-2013 18:08:14 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', 'c69823e2e21368464d4ee14222598e7b', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(75): Security::registerUser('maxtor94@hotmai...', 'Hugo', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[11-Nov-2013 13:34:12 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('multimedia@vmasideas.com', 'b55f643a38a63f4f290ce55ec6b36a5c', 'Cliente')<--Duplicate entry 'multimedia@vmasideas.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(72): Security::registerUser('multimedia@vmas...', 'Miguel Angel He...', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[11-Nov-2013 13:34:59 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('multimedia@vmasideas.com', '2f223203676a78ab349c8e49f3281e93', 'Cliente')<--Duplicate entry 'multimedia@vmasideas.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(54): Security::registerUser('multimedia@vmas...', 'Miguel', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[17-Nov-2013 16:44:16 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '27ecf8a96780543d9fa4dd25d579944b', 'Cliente')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/clientes/editar.php(54): Security::registerUser('maxtor94@hotmai...', 'HugoMartin', 'Cliente')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57

@@ -1,0 +1,114 @@
+//Tamaño maximo
+//1080 + 175 = 1255
+
+//Tamaño grande
+//1255 + scroll Width = 1280
+@media all and (max-width:1280px) and (min-width:1211px) {
+
+	/* ==========================================================================
+		 Header Queries
+		 ========================================================================== */
+	.mainNav {
+		ul.navP1 a {
+			&.wd1 { width:65px; }
+			//&.wd2 { width:120px; }
+			&.wd3 { width:90px; }
+			//&.wd4 { width:75px; }
+			&.wd5 { width:80px; }
+		}
+		ul.navP2 a {
+			&.wd1 { width:90px; }
+			&.wd2 { width:95px; }
+			&.wd3 { width:90px; }
+			&.wd4 { width:70px; }
+			&.wd5 { width:80px; }
+			&.wd6 { width:80px; }
+			&.wd7 { width:60px; }
+		}
+	}
+
+	/* ==========================================================================
+		 Container Queries
+		 ========================================================================== */
+}
+
+//Tamaño Mediano
+//1010 + 175 = 1185
+
+//1185 + scroll Width = 1210
+$mainNavHeight2:70;
+$newNavHeight:floor($mainNavHeight2/2);
+$newDeco2Hght:$headerHeight - ($deco1Height+$mainNavHeight2 + 1);
+
+@media all and (max-width:1210px) {
+	/* ==========================================================================
+		 Header Queries
+		 ========================================================================== */
+	#container > header .deco2 { height:$newDeco2Hght+px; }
+	.mainNav {
+		padding-left:190px;
+		ul {
+			width:100%;
+			li a {
+				width:100% !important;
+				height:$newNavHeight+px !important;
+				line-height:$newNavHeight+px !important;
+				&.navFist-FstEle { padding:0; }
+			}
+			&.navP1 {
+				border-bottom:1px solid lighten($colorGray,5%);
+				li { width:20% !important; }
+			}
+			&.navP2 li { width:14.28% !important; }
+		}
+	}
+
+	/* ==========================================================================
+		 Container Queries
+		 ========================================================================== */
+	.extraInfo {
+		width:180px;
+		top:170px;
+		left:50%;
+		margin-left:-480px;
+		.availableTable {
+			margin-top:0;
+			font-size:0.7em;
+			td { padding:.5em 0; }
+		}
+	}
+}
+
+@media all and (max-width:1024px) {
+	#container > header {
+		height: 115px;
+	}
+	#openTxtLash {
+		left:-50px;
+		width:50px;
+	}
+	#openHoteLash {
+		width:50px;
+		.symb-icon {
+			width:50px;
+		}
+		.verticalText {
+			font-weight:700;
+			-webkit-transform:rotate(270deg);
+			-moz-transform:rotate(270deg);
+			-ms-transform:rotate(270deg);
+			-o-transform:rotate(270deg);
+			transform:rotate(270deg);
+			-webkit-transform-origin:56% 200%;
+			-moz-transform-origin:56% 200%;
+			-ms-transform-origin:56% 200%;
+			-o-transform-origin:56% 200%;
+			transform-origin:56% 200%;
+		}
+	}
+	.weather {
+		left:120px;
+		top:87px;
+		padding-left:40px;
+	}
+}

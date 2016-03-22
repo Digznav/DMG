@@ -1,0 +1,82 @@
+//==========================================================================
+//SCROLL PERSONALIZADO
+//==========================================================================
+	//Color del thumb
+		$scrollThumbColor_General:$colorBlue;
+	//Color de fondo del track
+		$scrollTrackColor_General:#E6E7E8; //$colorGrayLightDarkDarken;
+
+%columnFormat {
+	float:left;
+	@include box-sizing(border-box);
+}
+%columnFormatBoxSizingOnly {
+	@include box-sizing(border-box);
+}
+%changeImgList { list-style-image:url(../imgs/design/listImg.png); }
+%changeImgList2 { list-style-image:url(../imgs/design/listImg2.png); }
+%safeMargin { margin-left:155px; }
+
+.PRMPanel {
+	display:none;
+	width:100%;
+	float:left;
+}
+
+.sectionHeader {
+	@extend %safeMargin;
+	color:$textColor_GeneralSections_Header;
+	.sectionTitle, .pageTitle, .imgTitle {
+		margin:0;
+		font-size:20px;
+	}
+	.sectionTitle {
+		line-height:20px;
+		padding:10px 0 6px;
+		font-family:$fontDinCondMedium;
+		text-transform:uppercase;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left bottom;
+	}
+	.pageTitle {
+		font-family:$fontNewBaskervilleItalic;
+		line-height:29px;
+	}
+	.imgTitle {
+		padding-top:3px;
+		height:56px;
+		img { float:left; }
+	}
+}
+
+.innerNav {
+	a {
+		float:left;
+		font-family:$fontDinCondMedium;
+		font-size:15px;
+		text-transform:uppercase;
+		background-color:$backColor_AllSections_NavLink_Default;
+		color:$textColor_AllSections_NavLink_Default;
+		@include box-sizing(border-box);
+		@include transition(background-color .2s ease-out, color .2s ease-out);
+		&:hover {
+			background-color:lighten($backColor_AllSections_NavLink_Active,8%);
+			color:$textColor_AllSections_NavLink_Active;
+		}
+		&.activePanel {
+			background-color:$backColor_AllSections_NavLink_Active;
+			color:$textColor_AllSections_NavLink_Active;
+		}
+	}
+}
+
+.outWorld {
+	position:absolute;
+	width:121px;
+	height:120px;
+}
+
+::-webkit-scrollbar { width:6px; }
+::-webkit-scrollbar-thumb {
+	background:$scrollThumbColor_General !important;
+}
+::-webkit-scrollbar-track-piece  { background:$scrollTrackColor_General !important; }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><hotel><nombre>HOTEL POSADA MOLINA</nombre>
+	<descripcion>Bienvenido a su mejor opción de hospedaje en el bello pueblo mágico de Cuetzalan. En el hotel Posada Molina usted gozara de unas vacaciones inolvidables. Somos una empresa certificada con el distintivo M y le ofrecemos los más altos estándares de calidad y servicio. Porqué usted y su familia lo merecen. Estamos en la calle principal de Cuetzalan, a tan solo 300 metros de la catedral. Tenemos acceso para autos y camiones.</descripcion>
+	<tit1>NÚMERO DE HABITACIONES</tit1>
+	<tit2>COSTO TEMPORADA BAJA</tit2>
+	<tit3>COSTO TEMPORADA ALTA </tit3><caracteristica><car1>3 Sencillas
+1 Cama Matrimonial</car1><car2>1 o 2 personas $495.00</car2><car3>1 o 2 personas $595.00</car3></caracteristica><caracteristica><car1>3 King size
+1 Cama King size</car1><car2>1 o 2 personas $595.00</car2><car3>1 o 2 personas $695.00</car3></caracteristica><caracteristica><car1>14 Dobles 
+2 Camas Matrimoniales</car1><car2>2,3 y 4 personas $680.00</car2><car3>2, 3 y 4 personas $750.00</car3></caracteristica><caracteristica><car1>3 Triples
+3 Camas Matrimoniales</car1><car2>3, 4, 5 y 6 personas $750.00</car2><car3>3, 4, 5 y 6 personas $900.00</car3></caracteristica><aclaracion>Se considera temporada alta, los puentes vacacionales, vacaciones de semana santa, diciembre y verano y temporada de feria del café en octubre.</aclaracion>
+	<adicionales>Tv con Cable
+Ventilador
+Internet Inalámbrico
+Estacionamiento
+Agua las 24 Horas
+Alberca
+Baño Adentro
+Restaurant (Capacidad 40 - 44 Personas)</adicionales>
+	<restricciones>Precios más IVA</restricciones><imagenes>10</imagenes> </hotel>

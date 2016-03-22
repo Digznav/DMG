@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><hotel><nombre>HOTEL MESÓN YOHUALICHAN</nombre>
+	<descripcion>Su inicio como hotel es en 1987 brindando servicio a todos los visitantes que llegan a Cuetzalan, caracterizado por instalaciones muy cómodas y llenas de descanso para todos sus huéspedes, somos una empresa certificada con el distintivo M.
+La calidad y calidez nos distinguen. Estamos a 400 metros de la catedral. Tenemos acceso para autos y camiones.</descripcion>
+	<tit1>SERVICIOS</tit1>
+	<tit2>HABITACIONES</tit2>
+	<tit3>COSTO</tit3><caracteristica><car1>Cama King Size
+Agua caliente
+TV x Cable
+Room Service
+Vista Panorámica (consultar disponibilidad)
+Cobertor eléctrico (época de frío)Frigobar</car1><car2>7 Sencillas</car2><car3>1 persona
+$300.00	</car3></caracteristica><caracteristica><car1>4 Habitaciones disponibles con 2 camas individuales
+7 Habitaciones con 2 camas matrimoniales
+1 habitación con 1 cama King Size y 1 cama individual
+Agua caliente
+TV x Cables
+Room Service
+Vista Panorámica (consultar disponibilidad)
+Cobertor eléctrico (época de frío)Frigobar</car1><car2>11 Dobles</car2><car3>2 personas
+$550.00
+3 o 4 personas
+$750.00</car3></caracteristica><caracteristica><car1>2 camas matrimoniales y una cama King Size
+Agua caliente
+TV x Cable
+Room Service
+Cobertor Eléctrico
+Vista Panorámica
+Sillón
+Áreas alfombradas</car1><car2>2 Suites</car2><car3>De 1 a 6 personas
+$1,000.00</car3></caracteristica><caracteristica><car1>2 camas King Size y 2 camas individuales
+Agua Caliente
+TV x Cable
+Room Service
+Frigobar
+Cobertor Eléctrico
+Sala
+Terraza
+Vista Panorámica
+Áreas alfombradas</car1><car2>1 Suite</car2><car3>De 1 a 6 personas
+$1,000.00</car3></caracteristica><aclaracion>En caso de requerir factura es mas impuestos. </aclaracion>
+	<adicionales>Restaurant
+Guarda Equipaje
+Periódicos. Fines de Semana, Estatales
+Equipo audiovisual
+Equipamiento para conferencias
+Zona WiFi
+Salón de lectura
+Juegos de Mesa. Cartas, Domino, Ajedrez
+Servicio de niñera.(Bajo petición)
+Estacionamiento Propio
+Servicio de lavandería
+Servicio de planchado
+Servicio despertador</adicionales>
+	<restricciones>No Mascotas
+No Planchar en Habitaciones
+No Fumar en Habitaciones</restricciones><imagenes>9</imagenes> </hotel>

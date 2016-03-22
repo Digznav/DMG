@@ -1,0 +1,232 @@
+@import "compass/css3";
+
+$colorBlue:#00ADEE;
+
+/* Medidas generales del slider */
+$widthBase:644;
+$paddingBase:0;
+$borderBase:0;
+
+$pikaWidth:($widthBase + (($paddingBase + $borderBase) * 2)) + px;
+$pikaHeight:338px;
+
+/* Contenedor de las imagenes */
+$pikaStagePadding:$paddingBase+px;
+$pikaStageWidth:$pikaWidth+px;
+
+/* Caption */
+/* [Top]	[Right] [Bottom] [Left] */
+$pikaStageCaptionPosition:$pikaStagePadding $pikaStagePadding $pikaStagePadding $pikaStagePadding;
+$pikaCaptionBackgrund:darken($colorBlue,20%);
+
+/* Botones de Navegación Next/Prev - Imagenes */
+/* [Top]	[Right:Next Button] [Bottom] [Left:Prev Button] */
+$pikaImgnavPosition:$pikaStagePadding $pikaStagePadding $pikaStagePadding $pikaStagePadding;
+/* Botones de reproducción Play/Pause - Imagenes */
+$pikaPlaybackTop:$pikaStagePadding;
+
+/* Contador */
+$pikaCounterPosition:$pikaStagePadding $pikaStagePadding $pikaStagePadding $pikaStagePadding;
+$pikaCounterBackground:darken($colorBlue,20%);
+
+/* Carousel thumbs */
+$numberofThumbs:6;
+$pikaThumbsHeight:60px;
+$pikaThumbMarginRL:0;
+$pikaThumbMarginRight:0;
+$pikaThumbPadding:0;
+$pikaThumbBorder:2;
+
+$x:floor($widthBase / $numberofThumbs);
+$pikaThumbContainer:$x * $numberofThumbs;
+$pikaThumbWidth:$x - ($pikaThumbMarginRL + $pikaThumbMarginRight);
+
+
+
+/* Style the thumbnails */
+.pika-thumbs {
+	padding:0;
+	height:$pikaThumbsHeight;
+	li {
+		float:left;
+		width:$pikaThumbWidth+px;
+		height:$pikaThumbsHeight;
+		@include box-sizing(border-box);
+		margin:0 $pikaThumbMarginRL+px;
+		padding:$pikaThumbPadding;
+		@if $pikaThumbBorder == 0 {
+			border:none;
+		} @else {
+			border:$pikaThumbBorder+px solid #fff;
+			border-top:($pikaThumbBorder*2)+px solid #fff;
+		}
+		background:#fafafa;
+		overflow:hidden;
+		cursor:pointer;
+		.clip {
+			position:relative;
+			width:100%;
+			height:100%;
+			text-align:center;
+			vertical-align:middle;
+			overflow:hidden;
+		}
+	}
+}
+
+/* jCarousel Styles */
+
+.jcarousel-container-horizontal {
+	padding:0;
+	overflow:hidden;
+}
+.jcarousel-clip-horizontal {
+	width:$pikaThumbContainer+px;
+}
+.jcarousel-item-horizontal {
+	margin-right:$pikaThumbMarginRight+px;
+}
+	
+/* The stage is the wrapper. The image fills 100% the height of the stage */
+
+%staticSize {
+	width:$pikaStageWidth;
+}
+.pika-stage {
+	@extend %staticSize;
+	position:relative;
+	height:$pikaHeight;
+	padding:$pikaStagePadding;
+	@if $borderBase == 0 {
+		border:none;
+	} @else {
+		border:$borderBase+px solid #fff;
+		border-bottom:none;
+	}
+	background:#fff;
+	text-align:center;
+	img {
+		width:100%;
+		height:100%;
+	}
+	.caption {
+		position:absolute;
+		right:nth($pikaStageCaptionPosition, 2);
+		bottom:nth($pikaStageCaptionPosition, 3);
+		left:nth($pikaStageCaptionPosition, 4);
+		padding:10px;
+		font-size:15px;
+		text-align:left;
+		color:#fafafa;
+		background:$pikaCaptionBackgrund;
+		p {
+			padding:0;
+			margin:0;
+			line-height:14px;
+		}
+	}
+}
+
+/* Ths play, pause, prev and next buttons */
+%navigationImage {
+	width:50px;
+	top:nth($pikaImgnavPosition,1);
+	bottom:nth($pikaImgnavPosition,3);
+}
+%playbackImage {
+	display:none;
+	height:100px;
+	width:50px;
+	top:$pikaPlaybackTop;
+	left:50%;
+	margin-left:-25px;
+}
+.pika-imgnav {
+	a {
+		position:absolute;
+		display:block;
+		text-indent:-5000px;
+		background:url(images/pikaSprite.png) no-repeat;
+		overflow:hidden;
+		cursor:pointer;
+		z-index:3;
+		&.previous {
+			@extend %navigationImage;
+			left:nth($pikaImgnavPosition,4);
+			background-position:0 50%;
+		}
+		&.next {
+			@extend %navigationImage;
+			right:nth($pikaImgnavPosition,2);
+			background-position:-50px 50%;
+		}
+		&.play {
+			@extend %playbackImage;
+			background-position:-150px 50%;
+		}
+		&.pause {
+			@extend %playbackImage;
+			background-position:-100px 50%;
+		}
+	}
+}
+
+/* The previous and next textual buttons */
+%navigationText {
+	display:block;
+	width:auto;
+}
+.pika-textnav {
+	@extend %staticSize;
+	display:none;
+	position:absolute;
+	bottom:10px;
+	margin:10px 0 0 0;
+	overflow:hidden;
+	a {
+		padding:4px;
+		font-size:12px;
+		text-decoration:none;
+		color:#333;
+		&.previous {
+			@extend %navigationText;
+			float:left;
+		}
+		&.next {
+			@extend %navigationText;
+			float:right;
+		}
+	}
+}
+
+/*for the tool tips*/
+.pika-tooltip {
+	position:absolute;
+	padding:3px;
+	border:3px solid #000;
+	font-size:12px;	
+	background-color:rgba(0,0,0,0.7);
+	color:#fff;
+}
+.pika-counter {
+	position:absolute;
+	top:nth($pikaCounterPosition,1);
+	left:nth($pikaCounterPosition,4);
+	padding:3px;
+	font-size:11px;
+	background:$pikaCounterBackground;
+	color:#fff;
+}
+
+/* If using user thumbnails there's a pause well the new large image loads. This is the loader for that */		
+.pika-loader {
+	position:absolute;
+	width:60px;
+	top:15px;
+	right:15px;
+	padding:5px 3px;
+	font-size:11px;
+	text-align:right;
+	background:rgba(0,0,0,0.9) url(images/loading.gif) no-repeat 3px 3px;
+	color:#fff;
+}

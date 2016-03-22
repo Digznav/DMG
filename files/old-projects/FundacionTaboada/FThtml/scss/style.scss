@@ -1,0 +1,105 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans");
+@import "normalize";
+@import "fonts";
+@import "compass/css3";
+@import "mixins";
+
+/* ==========================================================================
+	 HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+	 ========================================================================== */
+
+@import "h5bpStyles";
+
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+$fontGeneral:'Myriad Pro', 'Arial', sans-serif;
+$fontWebSymbols:'WebSymbolsRegular', 'Arial', sans-serif;
+$fontModernPic:'ModernPictogramsNormal', 'Arial', sans-serif;
+/*$fontPermian:'PermianSerifRegular', 'Times New Roman', serif;*/
+$fontJungle:'Junge', serif;
+$fontPT:'PT Sans', 'Arial', sans-serif;
+$colorBlue:#0269B8;
+$colorGreenLight:#6EBD02;
+$colorGreen:#1F7F11;
+$colorYellow:#FBE014;
+$colorGray:#D6D6D6;
+$colorRed:#E1001A;
+$colorLightGray:lighten($colorGray,10%);
+$colorDarkGray:darken($colorGray,35%);
+$colorDommy:rgba(#000,.1);
+
+body {
+	font-family:$fontPT;
+	/*background:darken($colorBlue, 20%);
+	background:lighten($colorBlue, 40%);*/
+}
+ul {
+	margin:0;
+	padding:0;
+}
+
+@import "header";
+@import "container";
+@import "administrador";
+@import "accordion";
+
+.accr {
+	h3 {
+		font-size:16px;
+		font-weight:bold;
+	}
+	div { font-size:13px; }
+}
+
+@import "colorbox";
+@import "simplePagination";
+@import "footer";
+
+/* ==========================================================================
+	 Media Queries
+	 ========================================================================== */
+
+/*@media all and (min-width:941px) {
+	header {
+		width:100%;
+		div {
+			width:940px;
+			margin:0 auto;
+		}
+	}
+}*/
+
+@media all and (max-width:940px) {
+	body > header {
+		width:940px;
+		& > div {
+			width:100%;
+			margin:0;
+		}
+	}
+	.container {
+		left:0;
+		margin-left:0;
+	}
+	body > footer {
+		width:940px;
+		& > div {
+			&:nth-of-type(1) {
+				width:100%;
+				margin:0;
+			}
+		}
+	}
+}
+
+/* ==========================================================================
+	 Helper classes
+	 ========================================================================== */
+@import "helperClasses";
+
+/* ==========================================================================
+	 Print styles
+	 ========================================================================== */
+@import "printStyles";

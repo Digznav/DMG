@@ -1,0 +1,27 @@
+@mixin pos_size ($ancho:10px, $alto:10px, $margen_top:0, $margen_left:0, $index:0, $top_total:50%, $left_total:50%, $posicion:absolute) {
+	position:$posicion;
+	width:$ancho;
+	height:$alto;
+	top:$top_total;
+	left:$left_total;
+	z-index:100 + $index;
+	margin:$margen_top 0 0 $margen_left;
+}
+
+
+/* Default font size in pixels if not overridden. */
+$baseFontSize:16;
+
+/* Convert PX units to EMs. */
+/* Ex: margin-right: pem(16); */
+@function pxem($pxval, $base: $baseFontSize) {
+	@return #{$pxval / $base}em;
+}
+
+@mixin alphaColorIE ($colour:#fff) {
+	$ieColour:ie-hex-str($colour);
+	background-color:$colour;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ieColour},endColorstr=#{$ieColour});
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ieColour},endColorstr=#{$ieColour});
+	zoom:1;
+}

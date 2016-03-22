@@ -1,0 +1,44 @@
+/*
+$darkGreen
+$lightGreen
+$generalSize
+$colorDommy
+$borderDommy
+*/
+/*::::Footer::::*/
+	.footUSEM {
+		/*position:absolute;
+		left:0;
+		right:0;
+		bottom:0;*/
+		float:left;
+		width:100%;
+		height:60px;
+		background:transparent url(../imgs/bgFooter.png);
+		z-index:250;
+		nav {
+			width:$generalSize;
+			margin:20px auto;
+			font-size:11px;
+			ul {
+				position:relative;
+				width:$generalSize;
+				height:20px;
+				text-align:center;
+				/*background:$colorDommy;*/
+				li {
+					display:inline-block;
+					text-align:center;
+					a {
+						display:inline-block;
+						line-height:21px;
+						color:$darkGreen;
+						text-transform:uppercase;
+						padding:0 10px;
+						border-right:1px solid $darkGreen;
+					}
+					&:last-of-type a { border:none; }
+				}
+			}
+		}
+	}

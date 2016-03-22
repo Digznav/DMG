@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC|Finger+Paint|Archivo+Black);
+@media screen and (orientation: portrait) {
+	body {
+		background: -webkit-linear-gradient(180deg, #FFF, rgba(0,0,255,.4) );
+		background:    -moz-linear-gradient(180deg, #FFF, rgba(0,0,255,.4) );
+		background:      -o-linear-gradient(180deg, #FFF, rgba(0,0,255,.4) );
+		background:         linear-gradient(180deg, #FFF, rgba(0,0,255,.4) );
+	}
+}
+@media screen and (orientation: landscape) {
+	body {
+		background: -webkit-linear-gradient(270deg, #FFF, rgba(141,141,141,.6) );
+		background:    -moz-linear-gradient(270deg, #FFF, rgba(141,141,141,.6) );
+		background:      -o-linear-gradient(270deg, #FFF, rgba(141,141,141,.6) );
+		background:         linear-gradient(270deg, #FFF, rgba(141,141,141,.6) );
+	}
+}
+
+h1 {font-family: 'Marcellus SC', serif;}
+h2 {font-family: 'Finger Paint', cursive;}
+h3 {font-family: 'Archivo Black', sans-serif;}
+
+div:target div {background:rgba(0,0,255,.4);}
+header {
+	display:block;
+	padding:0px 0px 5px 0px;
+	margin:0px 20px;
+	height:80px;
+	width:890px;
+	float:left;
+}
+
+header hgroup {
+	display:block;
+	float:left;	
+}
+
+header hgroup h1 {
+	font-size:x-large;
+	margin-bottom:5px;
+	color:#006;
+}
+
+header hgroup h2 {
+	font-size:large;
+	margin:0px;	
+	color:#006;
+}
+
+header #logo {
+	float:right;
+}
+
+nav#mainnav {
+	display:block;
+	float:left;
+	width:80px;
+	margin:10px 0px 0px 20px;
+	border-left:3px solid #ccf;
+	border-bottom:3px solid #ccf;
+	padding:15px;
+	background-color:#eee;
+	font-size:small;
+}
+
+nav#mainnav ul {
+	margin:0px;
+	padding:0px;
+}
+
+nav#mainnav li {
+	display:block;
+}
+
+#content {
+	margin:0px 20px;
+}
+
+#content h1  {
+	margin:0px;
+	padding-top:10px;
+	font-size:x-large;
+	color:#006;
+	letter-spacing:10px;
+	font-variant:small-caps;
+}
+
+#content div h2  {
+	float:right;
+	font-size:xx-large;
+	color:#006;
+}
+
+#content>div {
+	clear:both;	
+}
+
+#content div div {
+	float:left;
+	padding:10px;
+	width: 500px;
+	border:1px solid #006;
+	font-size:small;
+}
+
+aside#partners {
+	clear:both;
+	margin:0px 20px;
+	display:block;
+}
+
+aside#partners div {
+	width: 340px;
+	float:left;
+	padding:5px;
+	font-size:x-small;
+	background:#ccc;
+	-webkit-transition: background 0.5s ease-in;
+	-moz-transition: background 0.5s ease-in;
+	transition: background 0.5s ease-in;
+}
+
+aside#partners div:hover {
+	background:#fff;
+}
+
+aside#partners h2 {
+	margin-bottom:0px;
+	font-size:large;
+	color:#006;	
+}
+
+footer {
+	display:block;
+	margin:0px 20px;
+	clear:both;
+	border-top:1px solid #006;
+	font-style:italic;
+	width:1050px;
+	text-align:right;
+}
+
+a:hover {
+	color:#f60;
+}

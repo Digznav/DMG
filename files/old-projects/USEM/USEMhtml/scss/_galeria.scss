@@ -1,0 +1,125 @@
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Contenedor de texto::::::::*/
+$galleryHeight:290px;
+.contentGallery {
+	position:relative;
+	float:left;
+	@include box-sizing(border-box);
+	width:100%;
+	height:$galleryHeight;
+	/*padding:0 20px;*/
+	margin:8px 0;
+	font-size:13px;
+	overflow:hidden;
+	/*background:$colorDommy;*/
+}
+.albumDiv {
+	position:relative;
+	float:left;
+	width:435px;
+	height:$galleryHeight;
+	overflow-x:hidden;
+	overflow-y:auto;
+	/*background:$colorDommy;*/
+	ul {
+		position:relative;
+		list-style:none;
+		li {
+			position:relative;
+			display:inline-block;
+			float:left;
+			width:129px;
+			height:72px;
+			margin:0 9px 15px 0;
+			font-size:11px;
+			border:2px solid darken($darkGreen, 10%);
+			a {
+				display:inline-block;
+				width:100%;
+				height:100%;
+				color:#fff;
+				background:$colorDommy;
+				overflow:hidden;
+				> img { width:100%; }
+				span {
+					display:none;
+					position:absolute;
+					bottom:0;
+					left:0;
+					right:0;
+					padding:2px 0;
+					text-align:center;
+					font-weight:bold;
+					background:rgba(#000,.6);
+				}
+			}
+			&:nth-of-type(3n) { margin-right:0; }
+			&.albumSelected {
+				border-color:$lightGreen;
+			}
+		}
+	}
+
+	.galleryAdvice {
+		position:relative;
+		@include box-sizing(border-box);
+		width:350px;
+		margin:75px auto 0;
+		padding:5px 0 20px;
+		border:5px dashed $lightGreen;
+		font-size:13px;
+		text-align:center;
+		span {
+			font-family:$FF_ModernPic;
+			font-size:70px;
+			color:$lightGreen;
+		}
+		strong { font-size:18px; }
+	}
+	.galleryLoading {
+		display:none;
+		@extend .galleryAdvice;
+		border-color:darken($darkGreen, 10%);
+	}
+	.galleryError {
+		display:none;
+		@extend .galleryAdvice;
+		margin-top:60px;
+		border-color:$red;
+		span { font-family:$FF_webSymbols; color:$red; }
+		/*a {
+			color:$lightGreen;
+			text-decoration:underline;
+			&:hover { color:darken($lightGreen,15%); }
+		}*/
+
+	}
+
+	&::-webkit-scrollbar {
+		width:12px;
+		background:rgba(darken($darkGreen,10%),.4);
+		border-radius:6px;
+	}
+	&::-webkit-scrollbar-thumb {
+		background:rgba(darken($darkGreen,10%),.7);
+		border-radius:6px;
+	}
+}
+.imagesDiv {
+	@extend .albumDiv;
+	margin:0 0 0 30px;
+	.imagesList { display:none; }
+}
+.titleAlbum {
+	display:inline-block;
+	line-height:35px;
+	font-size:15px;
+	color:#fff;
+	strong {
+		color:$lightGreen;
+		text-transform:uppercase;
+	}
+}
+.titleGallery {
+	display:none;
+	@extend .titleAlbum;
+}

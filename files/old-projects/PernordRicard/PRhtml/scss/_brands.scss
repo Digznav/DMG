@@ -1,0 +1,207 @@
+$colorChivas1:#a08c64;
+$colorChivas2:#5a1e1e;
+%formatBrandsContents {
+	float:left;
+	margin-top:34px;
+}
+.ourBrands {
+	width:1024px;
+	.contSide {
+		@extend %formatBrandsContents;
+		width:520px;
+		margin-left:104px;
+		header {
+			width:100%;
+		}
+	}
+	.imageSide {
+		@extend %formatBrandsContents;
+		margin-left:26px;
+		width:360px;
+		height:470px;
+	}
+	&.brandAbsolut {
+		.brdTitle { color:$colorBlue; }
+		.imageSide { background:url(../imgs/brands/Absolut/botella.png) no-repeat top center; }
+	}
+	&.brandChivas {
+		.brdTitle { color:$colorChivas1; }
+		.brdSocial { color:$colorChivas1; }
+		.titleCocktails { background-color:$colorChivas1 !important; }
+		.brdHistory { background-color:$colorChivas2 !important; }
+		.imageSide { background:url(../imgs/brands/Chivas/botella.png) no-repeat top center; }
+	}
+	&.brandBallantine {
+		.brdTitle { color:$colorGray2; }
+		.imageSide { background:url(../imgs/brands/Ballantine/botella.png) no-repeat top center; }
+	}
+	&.brandPassport {
+		.brdTitle { color:$colorGreen; }
+		.titleCocktails, .brdHistory {
+			background-color:$colorGreen !important;
+		}
+		.imageSide { background:url(../imgs/brands/Passport/botella.png) no-repeat top center; }
+	}
+	&.brandAztecaOro {
+		.brdTitle { color:$colorGray2; }
+		.titleCocktails, .brdHistory {
+			background-color:$colorYellow !important;
+			color:$colorGray2 !important;
+		}
+		.imageSide { background:url(../imgs/brands/AztecaOro/botella.png) no-repeat top center; }
+	}
+	&.brandCaribeCooler {
+		.brdTitle { color:$colorBlue; }
+		.imageSide { background:url(../imgs/brands/CaribeCooler/botella.png) no-repeat top center; }
+	}
+
+
+	.brdTitle {
+		float:left;
+		line-height:50px;
+		padding-left:50px;
+		margin-top:16px;
+		font-size:23.54pt;
+		font-style:italic;
+		font-family:$fontNewBaskervilleItalic;
+	}
+	.brdSocial {
+		float:right;
+		color:$colorBlue;
+		margin-top:44px;
+		span {
+			float:left;
+			padding-right:16px;
+			margin-right:5px;
+			height:22px;
+			line-height:22px;
+			text-transform:uppercase;
+			font-size:14pt;
+			background:url(../imgs/plus-ico.png) no-repeat;
+			background-position:right center;
+			font-family:$fontDinCondMedium;
+		}
+		a {
+			float:left;
+			width:22px;
+			height:22px;
+			line-height:22px;
+			overflow:hidden;
+			text-indent:9999px;
+			&.icoFace {
+				background:url(../imgs/share-facebook.png) no-repeat;
+				margin-right:5px;
+			}
+			&.icoTwit {
+				background:url(../imgs/share-twitter.png) no-repeat;
+			}
+		}
+	}
+	.brdDescrip {
+		width:470px;
+		min-height:182px;
+		margin-left:50px;
+		background-color:#fff;
+		background-image:url(../imgs/line1.png);
+		background-repeat:no-repeat;
+		background-position:15px 20px;
+		color:$colorGray2;
+		@include box-sizing(border-box);
+		padding:33px 29px 15px 15px;
+		font-family:$fontDinCondMedium;
+		font-size:14px;
+		text-transform:uppercase;
+		p {
+			padding:0;
+			margin:0;
+		}
+		ul {
+			margin-left:18px;
+		}
+	}
+	.dlc {
+		float:right;
+		margin-top:18px;
+		font-size:14px;
+		color:$colorGray2;
+		span {
+			float:left;
+			font-weight:bold;
+			height:23px;
+			line-height:23px;
+			text-transform:uppercase;
+			background:url(../imgs/plus-ico.png) no-repeat;
+			background-position:right center;
+			font-family:$fontDinCondMedium;
+		}
+		a {
+			float:left;
+			height:23px;
+			line-height:23px;
+			padding:0 14px;
+			overflow:hidden;
+			color:$colorGray2;
+			font-style:italic;
+			font-family:$fontNewBaskervilleItalic;
+			&.dlcLogo {
+				border-right:2px solid #333;
+			}
+		}
+	}
+	.titleCocktails {
+		position:absolute;
+		height:30px;
+		line-height:30px;
+		padding:3px 10px;
+		margin-top:-36px;
+		font-size:14px;
+		color:#fff;
+		background-color:#8EB1D6;
+		.titPart1 {
+			font-family:$fontNewBaskervilleItalic;
+			font-style:italic;
+		}
+		.titPart2 {
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			font-weight:bold;
+		}
+	}
+	.pikCocktails {
+		float:left;
+		width:290px;
+		height:188px;
+		img {
+			width:100%;
+			height:100%;
+		}
+	}
+	.brdHistory {
+		float:left;
+		width:230px;
+		height:188px;
+		overflow-x:hidden;
+		overflow-y:auto;
+		color:#fff;
+		background-color:#124677;
+		@include box-sizing(border-box);
+		padding:35px 10px 29px 20px;
+		font-style:italic;
+		font-family:$fontNewBaskervilleItalic;
+		font-weight:400;
+		&::-webkit-scrollbar {
+			background: inherit;
+			width: 10px;
+		}
+
+	}
+}
+/*::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}*/
+::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	background:#fff;
+}
+::-webkit-scrollbar-track-piece  { background:rgba(#fff,.2); }

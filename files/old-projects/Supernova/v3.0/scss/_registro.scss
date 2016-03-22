@@ -1,0 +1,58 @@
+.uploadDoc {
+	padding:5px 0 5px 10px;
+	input[type="file"] {
+		font-size:14px;
+		border:1px solid $colorBlueOpaqueLight;
+		color:#fff;
+	}
+	label {
+		width:auto;
+		background-color:transparent;
+	}
+}
+
+.selfCheck {
+	position:relative;
+	span {
+		line-height:26px;
+		font-size:14px;
+		font-weight:700;
+		text-transform:uppercase;
+		color:$colorBlueOpaqueLight;
+	}
+	input[type="checkbox"] {
+		width:auto;
+		position:absolute;
+		top:4px;
+		left:1px;
+		z-index:-1;
+	}
+}
+
+.docBackColor {
+	padding:10px;
+	background-color:darken($colorBlueDark,20%);
+}
+
+#checkBut {
+	float:left;
+	//display:inline-block;
+}
+.checkMask {
+	float:left;
+	width:20px;
+	height:20px;
+	margin:3px 12px 0 0;
+	background-color:transparent;
+	border:2px solid $colorBlueOpaqueDark;
+	@include border-radius(2px);
+	@include box-sizing(border-box);
+	&.activeCheck {
+		background-color:$colorBlueLight;
+	}
+}
+
+.upButCont {
+	margin-top:10px;
+	display:none;
+}

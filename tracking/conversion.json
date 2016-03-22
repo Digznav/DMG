@@ -1,946 +1,946 @@
 [
 
-		{
-			"ticket": "101757",
-			"client": "Marc L. Gugliuzza",
-			"url": "http://justia-avoidprobate-com.justia.net/",
-			"designer": "Donovan",
-			"column": "1",
-			"template": "",
-			"status": true,
-			"tags": "Dynamic google maps, Cards"
-		},
+	{
+		"ticket": "101757",
+		"client": "Marc L. Gugliuzza",
+		"url": "http://justia-avoidprobate-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": "Dynamic google maps, Cards"
+	},
 
-		{
-			"ticket": "97956",
-			"client": "Bernard D'Orazio",
-			"url": "http://justia-dorazio-law-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "cypress",
-			"status": true,
-			"tags": ""
-		},
+	{
+		"ticket": "97956",
+		"client": "Bernard D'Orazio",
+		"url": "http://justia-dorazio-law-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "cypress",
+		"status": true,
+		"tags": ""
+	},
 
-		{
-			"ticket": "97921",
-			"client": "Resnick Law Group",
-			"url": "http://justia-thenjemploymentlawfirm-com.justia.net/",
-			"designer": "Donovan",
-			"column": "3",
-			"template": "",
-			"status": true,
-			"tags": "Blast"
-		},
+	{
+		"ticket": "97921",
+		"client": "Resnick Law Group",
+		"url": "http://justia-thenjemploymentlawfirm-com.justia.net/",
+		"designer": "Donovan",
+		"column": "3",
+		"template": "",
+		"status": true,
+		"tags": "Blast"
+	},
 
-		{
-			"ticket": "96587",
-			"client": "John M. Kenney",
-			"url": "http://justia-pennsylvania-lawyer-net.justia.net/",
-			"designer": "Olimpia",
-			"column": "1",
-			"template": "cypress",
-			"status": true,
-			"tags": ""
-		},
+	{
+		"ticket": "96587",
+		"client": "John M. Kenney",
+		"url": "http://justia-pennsylvania-lawyer-net.justia.net/",
+		"designer": "Olimpia",
+		"column": "1",
+		"template": "cypress",
+		"status": true,
+		"tags": ""
+	},
 
-		{
-			"ticket": "96756",
-			"client": "Reyes Browne Reilley",
-			"url": "http://justia-reyeslaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "",
-			"status": true,
-			"tags": ""
-		},
+	{
+		"ticket": "96756",
+		"client": "Reyes Browne Reilley",
+		"url": "http://justia-reyeslaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": ""
+	},
 
-		{
-			"ticket": "93653",
-			"client": "Hartsoe Law Firm",
-			"url": "http://justia-maryvillepersonalinjury-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "",
-			"status": true,
-			"tags": "One off, Elm style main image, Custom PA list, Custom RSS, Custom CF, Two columns CF"
-		},
+	{
+		"ticket": "93653",
+		"client": "Hartsoe Law Firm",
+		"url": "http://justia-maryvillepersonalinjury-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": "One off, Elm style main image, Custom PA list, Custom RSS, Custom CF, Two columns CF"
+	},
 
-		{
-			"ticket": "95836",
-			"client": "Pistotnik Law Offices",
-			"url": "http://justia-pistotniklaw-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "elm",
-			"status": true,
-			"tags": "CF over main image, special internal banner, custom PA list, New two columns format, Footer social JS, New title format in CF"
-		},
+	{
+		"ticket": "95836",
+		"client": "Pistotnik Law Offices",
+		"url": "http://justia-pistotniklaw-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "elm",
+		"status": true,
+		"tags": "CF over main image, special internal banner, custom PA list, New two columns format, Footer social JS, New title format in CF"
+	},
 
-		{
-			"ticket": "96089",
-			"client": "Aretsky Law Group",
-			"url": "http://justia-fathersrightsnj-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "hawk",
-			"status": true,
-			"tags": "testimonials slideshow, banner slideshow, CF above banner, new captcha mixins"
-		},
+	{
+		"ticket": "96089",
+		"client": "Aretsky Law Group",
+		"url": "http://justia-fathersrightsnj-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "hawk",
+		"status": true,
+		"tags": "testimonials slideshow, banner slideshow, CF above banner, new captcha mixins"
+	},
 
-		{
-			"ticket": "95227",
-			"client": "Andrea Vacca",
-			"url": "http://justia-vaccalaw-com.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "cypress",
-			"status": true
-		},
+	{
+		"ticket": "95227",
+		"client": "Andrea Vacca",
+		"url": "http://justia-vaccalaw-com.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "cypress",
+		"status": true
+	},
 
-		{
-			"ticket": "94248",
-			"client": "MacKenzie & Associates",
-			"url": "http://justia-mackenzielaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "elm",
-			"status": true
-		},
+	{
+		"ticket": "94248",
+		"client": "MacKenzie & Associates",
+		"url": "http://justia-mackenzielaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "elm",
+		"status": true
+	},
 
-		{
-			"ticket": "94105",
-			"client": "Lenahan & Dempsey",
-			"url": "http://justia-lenahandempsey-com.justia.net/",
-			"designer": "Donovan",
-			"column": "1",
-			"template": "cypress",
-			"status": true
-		},
+	{
+		"ticket": "94105",
+		"client": "Lenahan & Dempsey",
+		"url": "http://justia-lenahandempsey-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "cypress",
+		"status": true
+	},
 
-		{
-			"ticket": "94286",
-			"client": "Jeffrey Benjamin",
-			"url": "http://justia-new-york-attorney-org.justia.net/",
-			"designer": "Donovan",
-			"column": "3",
-			"template": "rhino",
-			"status": true
-		},
-		
-		{
-			"ticket": "93132",
-			"client": "Silverman, Thompson, Slutkin & White",
-			"url": "http://justia-mdmalpracticeattorney-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "owl",
-			"status": true
-		},
-
-		{
-			"ticket": "94323",
-			"client": "Jeffrey T. Greenberg",
-			"url": "http://justia-19percent-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "violet",
-			"status": true
-		},
-
-		{
-			"ticket": "94279",
-			"client": "Jeffrey P. Gale",
-			"url": "http://justia-jeffgalelaw-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "2",
-			"template": "",
-			"status": true
-		},
-
-		{
-			"ticket": "93126",
-			"client": "Cave Law Firm",
-			"url": "http://justia-caveattorneys-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "carnation",
-			"status": true
-		},
-
-		{
-			"ticket": "93148",
-			"client": "M. Hedayat & Associates",
-			"url": "http://justia-mha-law-com.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "birch",
-			"status": true
-		},
+	{
+		"ticket": "94286",
+		"client": "Jeffrey Benjamin",
+		"url": "http://justia-new-york-attorney-org.justia.net/",
+		"designer": "Donovan",
+		"column": "3",
+		"template": "rhino",
+		"status": true
+	},
 	
-		{
-			"ticket": "90018",
-			"client": "Robert Kreisman",
-			"url": "http://justia-robertkreisman-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "elm",
-			"status": true
-		},
+	{
+		"ticket": "93132",
+		"client": "Silverman, Thompson, Slutkin & White",
+		"url": "http://justia-mdmalpracticeattorney-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "owl",
+		"status": true
+	},
 
-		{
-			"ticket": "93093",
-			"client": "M. Devin Whitt",
-			"url": "http://justia-whittlawfirm-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
+	{
+		"ticket": "94323",
+		"client": "Jeffrey T. Greenberg",
+		"url": "http://justia-19percent-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "violet",
+		"status": true
+	},
 
-		{
-			"ticket": "92869",
-			"client": "Geoffrey M. Yaryan",
-			"url": "http://justia-palmdesertcriminallawyer-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "pelican",
-			"status": true
-		},
+	{
+		"ticket": "94279",
+		"client": "Jeffrey P. Gale",
+		"url": "http://justia-jeffgalelaw-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "2",
+		"template": "",
+		"status": true
+	},
 
-		{
-			"ticket": "92048",
-			"client": "Grabel & Associates",
-			"url": "http://justia-grabellaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "",
-			"status": true
-		},
+	{
+		"ticket": "93126",
+		"client": "Cave Law Firm",
+		"url": "http://justia-caveattorneys-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "carnation",
+		"status": true
+	},
 
-		{
-			"ticket": "92806",
-			"client": "Roth Law Group",
-			"url": "http://justia-rothlawgroup-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "elm",
-			"status": true
-		},
+	{
+		"ticket": "93148",
+		"client": "M. Hedayat & Associates",
+		"url": "http://justia-mha-law-com.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "birch",
+		"status": true
+	},
 
-		{
-			"ticket": "91533",
-			"client": "Wolfe Law Firm",
-			"url": "http://justia-thewolfelaw-com.justia.net/",
-			"designer": "Donovan",
-			"column": "1",
-			"template": "cypress",
-			"status": true
-		},
+	{
+		"ticket": "90018",
+		"client": "Robert Kreisman",
+		"url": "http://justia-robertkreisman-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "elm",
+		"status": true
+	},
 
-		{
-			"ticket": "92171",
-			"client": "Michael Delsignore",
-			"url": "http://justia-delsignoredefense-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
+	{
+		"ticket": "93093",
+		"client": "M. Devin Whitt",
+		"url": "http://justia-whittlawfirm-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
 
-		{
-			"ticket": "92153",
-			"client": "Hartsoe Law Firm",
-			"url": "http://justia-knoxvilleinjury-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "",
-			"status": true
-		},
+	{
+		"ticket": "92869",
+		"client": "Geoffrey M. Yaryan",
+		"url": "http://justia-palmdesertcriminallawyer-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "pelican",
+		"status": true
+	},
 
-		{
-			"ticket": "91608",
-			"client": "Lee Law Offices",
-			"url": "http://justia-leeandsmith-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "carnation",
-			"status": true
-		},
+	{
+		"ticket": "92048",
+		"client": "Grabel & Associates",
+		"url": "http://justia-grabellaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "",
+		"status": true
+	},
 
-		{
-			"ticket": "91835",
-			"client": "Hoffman & Associates",
-			"url": "http://justia-hoffmanlawoffice-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
+	{
+		"ticket": "92806",
+		"client": "Roth Law Group",
+		"url": "http://justia-rothlawgroup-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "elm",
+		"status": true
+	},
 
-		{
-			"ticket": "91517",
-			"client": "Malatesta Law Office",
-			"url": "http://justia-malatestalawoffice-com.justia.net/",
-			"designer": "Donovan",
-			"column": "1",
-			"template": "birch",
-			"status": true
-		},
+	{
+		"ticket": "91533",
+		"client": "Wolfe Law Firm",
+		"url": "http://justia-thewolfelaw-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "cypress",
+		"status": true
+	},
 
-		{
-			"ticket": "91581",
-			"client": "Larson | Albert",
-			"url": "http://justia-losvencedores-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "birch",
-			"status": true
-		},
+	{
+		"ticket": "92171",
+		"client": "Michael Delsignore",
+		"url": "http://justia-delsignoredefense-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
 
-		{
-			"ticket": "91443",
-			"client": "Dingess, Foster, Luciana, Davidson & Chleboski",
-			"url": "http://justia-dfllegal-com.justia.net/",
-			"designer": "Erika",
-			"column": "3",
-			"template": "robin",
-			"status": true
-		},
+	{
+		"ticket": "92153",
+		"client": "Hartsoe Law Firm",
+		"url": "http://justia-knoxvilleinjury-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "",
+		"status": true
+	},
 
-		{
-			"ticket": "91267",
-			"client": "Ram, Olson, Cereghino & Kopczynski",
-			"url": "http://justia-ramolson-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "owl",
-			"status": true
-		},
+	{
+		"ticket": "91608",
+		"client": "Lee Law Offices",
+		"url": "http://justia-leeandsmith-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "carnation",
+		"status": true
+	},
 
-		{
-			"ticket": "91364",
-			"client": "Adams & Luka",
-			"url": "http://justia-adamsluka-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "violet",
-			"status": true
-		},
+	{
+		"ticket": "91835",
+		"client": "Hoffman & Associates",
+		"url": "http://justia-hoffmanlawoffice-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
 
-		{
-			"ticket": "91226",
-			"client": "Michelle Gee",
-			"url": "http://justia-geelaw-com.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "birch",
-			"status": true
-		},
+	{
+		"ticket": "91517",
+		"client": "Malatesta Law Office",
+		"url": "http://justia-malatestalawoffice-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "birch",
+		"status": true
+	},
 
-		{
-			"ticket": "90986",
-			"client": "Leopold & Associates",
-			"url": "http://justia-valerieleopold-com.justia.net/",
-			"designer": "Eduerado",
-			"column": "3",
-			"template": "lion",
-			"status": true
-		},
+	{
+		"ticket": "91581",
+		"client": "Larson | Albert",
+		"url": "http://justia-losvencedores-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "birch",
+		"status": true
+	},
 
-		{
-			"ticket": "90678",
-			"client": "Moseley Collins",
-			"url": "http://justia-moseleycollins-com.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "",
-			"status": true
-		},
+	{
+		"ticket": "91443",
+		"client": "Dingess, Foster, Luciana, Davidson & Chleboski",
+		"url": "http://justia-dfllegal-com.justia.net/",
+		"designer": "Erika",
+		"column": "3",
+		"template": "robin",
+		"status": true
+	},
 
-		{
-			"ticket": "90693",
-			"client": "Edward Weinstein",
-			"url": "http://justia-weinsteinlawoffice-com.justia.net/",
-			"designer": "Irma",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "90336",
-			"client": "Prinz Law Firm",
-			"url": "http://justia-prinz-lawfirm-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "2",
-			"template": "hippo",
-			"status": false
-		},
-		{
-			"ticket": "90121",
-			"client": "Andrew M. Dansicker",
-			"url": "http://justia-mdemploymentlawyer-com.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "cypress",
-			"status": true
-		},
-		{
-			"ticket": "89848",
-			"client": "Skoloff & Wolfe",
-			"url": "http://justia-skoloffwolfe-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "89933",
-			"client": "Berlik Law",
-			"url": "http://justia-berliklaw-com.justia.net/",
-			"designer": "Donovan",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "89838",
-			"client": "Jason R. Antoine",
-			"url": "http://justia-antoinelaw-pro.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "cypress",
-			"status": true
-		},
-		{
-			"ticket": "89654",
-			"client": "Krause Donovan Estate Law Partners",
-			"url": "http://justia-madisonestateplanninglawyer-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "clover",
-			"status": true
-		},
-		{
-			"ticket": "89557",
-			"client": "Ken Shigley",
-			"url": "http://justia-georgiatruckingaccidentattorney-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "89497",
-			"client": "James Kottaras",
-			"url": "http://justia-jklaws-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "89249",
-			"client": "Davis Law Group",
-			"url": "http://justia-illinoisdriverslicensereinstatementlawyer-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "clover",
-			"status": true
-		},
-		{
-			"ticket": "89427",
-			"client": "Cynthia Macklin",
-			"url": "http://justia-lawmacklin-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "carnation",
-			"status": true
-		},
-		{
-			"ticket": "89388",
-			"client": "Needle Law Firm",
-			"url": "http://justia-needlelawfirm-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "cedar",
-			"status": true
-		},
-		{
-			"ticket": "89224",
-			"client": "Frank Fernandez",
-			"url": "http://justia-thefernandezfirm-com.justia.net/",
-			"designer": "Erika",
-			"column": "3",
-			"template": "tiger",
-			"status": true
-		},
-		{
-			"ticket": "88868",
-			"client": "Phillips & Associates",
-			"url": "http://justia-tpglaws-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "tiger",
-			"status": true
-		},
-		{
-			"ticket": "88859",
-			"client": "Leydorf Law Firm",
-			"url": "http://justia-leydorflawfirm-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "violet",
-			"status": true
-		},
-		{
-			"ticket": "88869",
-			"client": "Ogden Law Firm",
-			"url": "http://justia-ogdenlawmodesto-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "88641",
-			"client": "Serafini, Michalowski & Derkacz",
-			"url": "http://justia-smdalaw-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "88827",
-			"client": "Ingrid Gherman",
-			"url": "http://justia-nysdivorcelawyer-net.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "88680",
-			"client": "Salvatore G. Gangemi",
-			"url": "http://justia-gangemilaw-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "owl",
-			"status": true
-		},
-		{
-			"ticket": "88507",
-			"client": "Elder Law Firm",
-			"url": "http://justia-elder-lawfirm-com.justia.net/",
-			"designer": "Donovan",
-			"column": "1",
-			"template": "birch",
-			"status": true
-		},
-		{
-			"ticket": "88489",
-			"client": "Frank Coxwell",
-			"url": "http://justia-mississippibankruptcyhelp-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "88440",
-			"client": "Madalon Law Firm",
-			"url": "http://justia-madalonlaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "88107",
-			"client": "John Merriam & Gordon Webb",
-			"url": "http://justia-cruiselawusa-com.justia.net/",
-			"designer": "Donovan/Irma",
-			"column": "2",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "88112",
-			"client": "Kevin S. Little",
-			"url": "http://justia-ksllawfirm-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "tulip",
-			"status": true
-		},
-		{
-			"ticket": "88122",
-			"client": "Christopher Simon",
-			"url": "http://justia-athenslawyers-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "88114",
-			"client": "Christopher Simon",
-			"url": "http://justia-savannah-accident-attorneys-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "87667",
-			"client": "Grant Dwyer Law",
-			"url": "http://justia-grantdwyerlaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "87398",
-			"client": "Malecki Law",
-			"url": "http://justia-aboutsecuritieslaw-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "cheetah",
-			"status": true
-		},
-		{
-			"ticket": "87254",
-			"client": "Goldfinger Personal Injury Law",
-			"url": "http://justia-personalinjurylawyertoronto-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "87270",
-			"client": "Doug Goyen",
-			"url": "http://justia-douggoyen-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "eagle",
-			"status": true
-		},
-		{
-			"ticket": "87249",
-			"client": "Deemer & Associates",
-			"url": "http://justia-deemer-law-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "bonsai",
-			"status": true
-		},
-		{
-			"ticket": "86923",
-			"client": "Ted Smith",
-			"url": "http://justia-smithlaw-bz.justia.net/",
-			"designer": "Irma",
-			"column": "1",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "86730",
-			"client": "Christopher Simon",
-			"url": "http://justia-christophersimon-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "86899",
-			"client": "Raines Feldman",
-			"url": "http://justia-syversonlaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "86815",
-			"client": "Maiona Ward",
-			"url": "http://justia-maionapc-com.justia.net/",
-			"designer": "Donovan",
-			"column": "3",
-			"template": "cheetah",
-			"status": true
-		},
-		{
-			"ticket": "86381",
-			"client": "David M. Goldman",
-			"url": "http://justia-jacksonvillelawyer-pro.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "clover",
-			"status": true
-		},
-		{
-			"ticket": "86780",
-			"client": "Lyttle Law Firm",
-			"url": "http://justia-lyttlelaw-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "86457",
-			"client": "Carabin & Shaw",
-			"url": "http://justia-abogado-carabinshaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "86239",
-			"client": "Brager Tax Law Group",
-			"url": "http://justia-bragertaxlaw-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "owl",
-			"status": true
-		},
-		{
-			"ticket": "86124",
-			"client": "Bradley A. Sacks",
-			"url": "http://justia-sackslaw-org.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "owl",
-			"status": true
-		},
-		{
-			"ticket": "85420",
-			"client": "Joseph A. Romano",
-			"url": "http://justia-winningatlaw-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "duck",
-			"status": true
-		},
-		{
-			"ticket": "85777",
-			"client": "Lusk, Drasites & Tolisano",
-			"url": "http://justia-westandforjustice-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "85908",
-			"client": "Salseda Law Group",
-			"url": "http://justia-salsedalawfirm-com.justia.net/",
-			"designer": "Donovan",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "85742",
-			"client": "Raines Feldman",
-			"url": "http://justia-raineslaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "85264",
-			"client": "Bradford Cohen",
-			"url": "http://justia-crimdefend-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "jaguar",
-			"status": true
-		},
-		{
-			"ticket": "85193",
-			"client": "Kathleen McCarthy",
-			"url": "http://justia-kmmdefense-com.justia.net/",
-			"designer": "Erika",
-			"column": "2",
-			"template": "cheetah",
-			"status": true
-		},
-		{
-			"ticket": "85492",
-			"client": "Hofland & Tomsheck",
-			"url": "http://justia-hoflandlaw-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "84947",
-			"client": "Hofland & Tomsheck",
-			"url": "http://justia-hoflandlaw-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "1",
-			"template": "bamboo",
-			"status": false
-		},
-		{
-			"ticket": "85549",
-			"client": "Shelton Maxted Walkley",
-			"url": "http://justia-sheltonlawok-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "hawk",
-			"status": true
-		},
-		{
-			"ticket": "85248",
-			"client": "McGuire & Associates",
-			"url": "http://justia-mandabusinesslaw-com.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "jaguar",
-			"status": true
-		},
-		{
-			"ticket": "84367",
-			"client": "Bottar Leone",
-			"url": "http://justia-bottarleone-com.justia.net/",
-			"designer": "Erika",
-			"column": "1",
-			"template": "bamboo",
-			"status": true
-		},
-		{
-			"ticket": "84154",
-			"client": "Carabin & Shaw",
-			"url": "http://justia-carabinshaw-com.justia.net/",
-			"designer": "Erika",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "83895",
-			"client": "Kollias & Giese",
-			"url": "http://justia-dupageattorneys-net.justia.net/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "clover",
-			"status": true
-		},
-		{
-			"ticket": "84317",
-			"client": "Duffy & Duffy",
-			"url": "http://www.duffyduffylaw.com/",
-			"designer": "Irma",
-			"column": "3",
-			"template": "lion",
-			"status": true
-		},
-		{
-			"ticket": "84037",
-			"client": "Patrick Mahaney",
-			"url": "http://justia-mahaneylaw-com.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "blossom",
-			"status": true
-		},
-		{
-			"ticket": "83457",
-			"client": "Rufus Alldredge",
-			"url": "http://justia-mississippicriminaldefender-com.justia.net/",
-			"designer": "Erika",
-			"column": "3",
-			"template": "cheetah",
-			"status": true
-		},
-		{
-			"ticket": "83314",
-			"client": "Edward A. Smith",
-			"url": "http://justia-autoaccident-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "iris",
-			"status": true
-		},
-		{
-			"ticket": "82955",
-			"client": "Goldstein, Bachman & Newman",
-			"url": "http://www.goldsteinbachman.com/",
-			"designer": "Eduardo",
-			"column": "3",
-			"template": "tiger",
-			"status": true
-		},
-		{
-			"ticket": "82645",
-			"client": "Parsons & Associates",
-			"url": "http://justia-parsonslawgroup-com.justia.net/",
-			"designer": "Eduardo",
-			"column": "2",
-			"template": "tulip",
-			"status": true
-		},
-		{
-			"ticket": "82131",
-			"client": "Joshua L. Goldstein",
-			"url": "http://www.jgoldlaw.com/",
-			"designer": "Natalia",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "82037",
-			"client": "Sundeen Salinas & Pyle",
-			"url": "http://www.ssrplaw.com/",
-			"designer": "Edith",
-			"column": "2",
-			"template": "dandelion",
-			"status": true
-		},
-		{
-			"ticket": "81911",
-			"client": "Greg Hill & Associates",
-			"url": "http://www.greghillassociates.com/",
-			"designer": "Edith",
-			"column": "3",
-			"template": "bear",
-			"status": true
-		},
-		{
-			"ticket": "81848",
-			"client": "Blair Law Firm",
-			"url": "http://www.blair-law.com/",
-			"designer": "Irma",
-			"column": "3",
-			"template": "",
-			"status": true
-		},
-		{
-			"ticket": "81855",
-			"client": "JustiaIT",
-			"url": "http://blossom.justia.net/",
-			"designer": "Irma",
-			"column": "2",
-			"template": "blossom",
-			"status": true
-		},
-		{
-			"ticket": "81734",
-			"client": "David Hagy",
-			"url": "http://www.hagylaw.com/",
-			"designer": "Edith",
-			"column": "3",
-			"template": "tiger",
-			"status": true
-		}
+	{
+		"ticket": "91267",
+		"client": "Ram, Olson, Cereghino & Kopczynski",
+		"url": "http://justia-ramolson-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "owl",
+		"status": true
+	},
+
+	{
+		"ticket": "91364",
+		"client": "Adams & Luka",
+		"url": "http://justia-adamsluka-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "violet",
+		"status": true
+	},
+
+	{
+		"ticket": "91226",
+		"client": "Michelle Gee",
+		"url": "http://justia-geelaw-com.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "birch",
+		"status": true
+	},
+
+	{
+		"ticket": "90986",
+		"client": "Leopold & Associates",
+		"url": "http://justia-valerieleopold-com.justia.net/",
+		"designer": "Eduerado",
+		"column": "3",
+		"template": "lion",
+		"status": true
+	},
+
+	{
+		"ticket": "90678",
+		"client": "Moseley Collins",
+		"url": "http://justia-moseleycollins-com.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "",
+		"status": true
+	},
+
+	{
+		"ticket": "90693",
+		"client": "Edward Weinstein",
+		"url": "http://justia-weinsteinlawoffice-com.justia.net/",
+		"designer": "Irma",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "90336",
+		"client": "Prinz Law Firm",
+		"url": "http://justia-prinz-lawfirm-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "2",
+		"template": "hippo",
+		"status": false
+	},
+	{
+		"ticket": "90121",
+		"client": "Andrew M. Dansicker",
+		"url": "http://justia-mdemploymentlawyer-com.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "cypress",
+		"status": true
+	},
+	{
+		"ticket": "89848",
+		"client": "Skoloff & Wolfe",
+		"url": "http://justia-skoloffwolfe-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "89933",
+		"client": "Berlik Law",
+		"url": "http://justia-berliklaw-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "89838",
+		"client": "Jason R. Antoine",
+		"url": "http://justia-antoinelaw-pro.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "cypress",
+		"status": true
+	},
+	{
+		"ticket": "89654",
+		"client": "Krause Donovan Estate Law Partners",
+		"url": "http://justia-madisonestateplanninglawyer-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "clover",
+		"status": true
+	},
+	{
+		"ticket": "89557",
+		"client": "Ken Shigley",
+		"url": "http://justia-georgiatruckingaccidentattorney-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "89497",
+		"client": "James Kottaras",
+		"url": "http://justia-jklaws-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "89249",
+		"client": "Davis Law Group",
+		"url": "http://justia-illinoisdriverslicensereinstatementlawyer-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "clover",
+		"status": true
+	},
+	{
+		"ticket": "89427",
+		"client": "Cynthia Macklin",
+		"url": "http://justia-lawmacklin-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "carnation",
+		"status": true
+	},
+	{
+		"ticket": "89388",
+		"client": "Needle Law Firm",
+		"url": "http://justia-needlelawfirm-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "cedar",
+		"status": true
+	},
+	{
+		"ticket": "89224",
+		"client": "Frank Fernandez",
+		"url": "http://justia-thefernandezfirm-com.justia.net/",
+		"designer": "Erika",
+		"column": "3",
+		"template": "tiger",
+		"status": true
+	},
+	{
+		"ticket": "88868",
+		"client": "Phillips & Associates",
+		"url": "http://justia-tpglaws-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "tiger",
+		"status": true
+	},
+	{
+		"ticket": "88859",
+		"client": "Leydorf Law Firm",
+		"url": "http://justia-leydorflawfirm-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "violet",
+		"status": true
+	},
+	{
+		"ticket": "88869",
+		"client": "Ogden Law Firm",
+		"url": "http://justia-ogdenlawmodesto-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "88641",
+		"client": "Serafini, Michalowski & Derkacz",
+		"url": "http://justia-smdalaw-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "88827",
+		"client": "Ingrid Gherman",
+		"url": "http://justia-nysdivorcelawyer-net.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "88680",
+		"client": "Salvatore G. Gangemi",
+		"url": "http://justia-gangemilaw-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "owl",
+		"status": true
+	},
+	{
+		"ticket": "88507",
+		"client": "Elder Law Firm",
+		"url": "http://justia-elder-lawfirm-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "birch",
+		"status": true
+	},
+	{
+		"ticket": "88489",
+		"client": "Frank Coxwell",
+		"url": "http://justia-mississippibankruptcyhelp-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "88440",
+		"client": "Madalon Law Firm",
+		"url": "http://justia-madalonlaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "88107",
+		"client": "John Merriam & Gordon Webb",
+		"url": "http://justia-cruiselawusa-com.justia.net/",
+		"designer": "Donovan/Irma",
+		"column": "2",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "88112",
+		"client": "Kevin S. Little",
+		"url": "http://justia-ksllawfirm-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "tulip",
+		"status": true
+	},
+	{
+		"ticket": "88122",
+		"client": "Christopher Simon",
+		"url": "http://justia-athenslawyers-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "88114",
+		"client": "Christopher Simon",
+		"url": "http://justia-savannah-accident-attorneys-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "87667",
+		"client": "Grant Dwyer Law",
+		"url": "http://justia-grantdwyerlaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "87398",
+		"client": "Malecki Law",
+		"url": "http://justia-aboutsecuritieslaw-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "cheetah",
+		"status": true
+	},
+	{
+		"ticket": "87254",
+		"client": "Goldfinger Personal Injury Law",
+		"url": "http://justia-personalinjurylawyertoronto-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "87270",
+		"client": "Doug Goyen",
+		"url": "http://justia-douggoyen-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "eagle",
+		"status": true
+	},
+	{
+		"ticket": "87249",
+		"client": "Deemer & Associates",
+		"url": "http://justia-deemer-law-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "bonsai",
+		"status": true
+	},
+	{
+		"ticket": "86923",
+		"client": "Ted Smith",
+		"url": "http://justia-smithlaw-bz.justia.net/",
+		"designer": "Irma",
+		"column": "1",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "86730",
+		"client": "Christopher Simon",
+		"url": "http://justia-christophersimon-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "86899",
+		"client": "Raines Feldman",
+		"url": "http://justia-syversonlaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "86815",
+		"client": "Maiona Ward",
+		"url": "http://justia-maionapc-com.justia.net/",
+		"designer": "Donovan",
+		"column": "3",
+		"template": "cheetah",
+		"status": true
+	},
+	{
+		"ticket": "86381",
+		"client": "David M. Goldman",
+		"url": "http://justia-jacksonvillelawyer-pro.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "clover",
+		"status": true
+	},
+	{
+		"ticket": "86780",
+		"client": "Lyttle Law Firm",
+		"url": "http://justia-lyttlelaw-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "86457",
+		"client": "Carabin & Shaw",
+		"url": "http://justia-abogado-carabinshaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "86239",
+		"client": "Brager Tax Law Group",
+		"url": "http://justia-bragertaxlaw-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "owl",
+		"status": true
+	},
+	{
+		"ticket": "86124",
+		"client": "Bradley A. Sacks",
+		"url": "http://justia-sackslaw-org.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "owl",
+		"status": true
+	},
+	{
+		"ticket": "85420",
+		"client": "Joseph A. Romano",
+		"url": "http://justia-winningatlaw-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "duck",
+		"status": true
+	},
+	{
+		"ticket": "85777",
+		"client": "Lusk, Drasites & Tolisano",
+		"url": "http://justia-westandforjustice-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "85908",
+		"client": "Salseda Law Group",
+		"url": "http://justia-salsedalawfirm-com.justia.net/",
+		"designer": "Donovan",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "85742",
+		"client": "Raines Feldman",
+		"url": "http://justia-raineslaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "85264",
+		"client": "Bradford Cohen",
+		"url": "http://justia-crimdefend-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "jaguar",
+		"status": true
+	},
+	{
+		"ticket": "85193",
+		"client": "Kathleen McCarthy",
+		"url": "http://justia-kmmdefense-com.justia.net/",
+		"designer": "Erika",
+		"column": "2",
+		"template": "cheetah",
+		"status": true
+	},
+	{
+		"ticket": "85492",
+		"client": "Hofland & Tomsheck",
+		"url": "http://justia-hoflandlaw-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "84947",
+		"client": "Hofland & Tomsheck",
+		"url": "http://justia-hoflandlaw-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "1",
+		"template": "bamboo",
+		"status": false
+	},
+	{
+		"ticket": "85549",
+		"client": "Shelton Maxted Walkley",
+		"url": "http://justia-sheltonlawok-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "hawk",
+		"status": true
+	},
+	{
+		"ticket": "85248",
+		"client": "McGuire & Associates",
+		"url": "http://justia-mandabusinesslaw-com.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "jaguar",
+		"status": true
+	},
+	{
+		"ticket": "84367",
+		"client": "Bottar Leone",
+		"url": "http://justia-bottarleone-com.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "bamboo",
+		"status": true
+	},
+	{
+		"ticket": "84154",
+		"client": "Carabin & Shaw",
+		"url": "http://justia-carabinshaw-com.justia.net/",
+		"designer": "Erika",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "83895",
+		"client": "Kollias & Giese",
+		"url": "http://justia-dupageattorneys-net.justia.net/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "clover",
+		"status": true
+	},
+	{
+		"ticket": "84317",
+		"client": "Duffy & Duffy",
+		"url": "http://www.duffyduffylaw.com/",
+		"designer": "Irma",
+		"column": "3",
+		"template": "lion",
+		"status": true
+	},
+	{
+		"ticket": "84037",
+		"client": "Patrick Mahaney",
+		"url": "http://justia-mahaneylaw-com.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "blossom",
+		"status": true
+	},
+	{
+		"ticket": "83457",
+		"client": "Rufus Alldredge",
+		"url": "http://justia-mississippicriminaldefender-com.justia.net/",
+		"designer": "Erika",
+		"column": "3",
+		"template": "cheetah",
+		"status": true
+	},
+	{
+		"ticket": "83314",
+		"client": "Edward A. Smith",
+		"url": "http://justia-autoaccident-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "iris",
+		"status": true
+	},
+	{
+		"ticket": "82955",
+		"client": "Goldstein, Bachman & Newman",
+		"url": "http://www.goldsteinbachman.com/",
+		"designer": "Eduardo",
+		"column": "3",
+		"template": "tiger",
+		"status": true
+	},
+	{
+		"ticket": "82645",
+		"client": "Parsons & Associates",
+		"url": "http://justia-parsonslawgroup-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "2",
+		"template": "tulip",
+		"status": true
+	},
+	{
+		"ticket": "82131",
+		"client": "Joshua L. Goldstein",
+		"url": "http://www.jgoldlaw.com/",
+		"designer": "Natalia",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "82037",
+		"client": "Sundeen Salinas & Pyle",
+		"url": "http://www.ssrplaw.com/",
+		"designer": "Edith",
+		"column": "2",
+		"template": "dandelion",
+		"status": true
+	},
+	{
+		"ticket": "81911",
+		"client": "Greg Hill & Associates",
+		"url": "http://www.greghillassociates.com/",
+		"designer": "Edith",
+		"column": "3",
+		"template": "bear",
+		"status": true
+	},
+	{
+		"ticket": "81848",
+		"client": "Blair Law Firm",
+		"url": "http://www.blair-law.com/",
+		"designer": "Irma",
+		"column": "3",
+		"template": "",
+		"status": true
+	},
+	{
+		"ticket": "81855",
+		"client": "JustiaIT",
+		"url": "http://blossom.justia.net/",
+		"designer": "Irma",
+		"column": "2",
+		"template": "blossom",
+		"status": true
+	},
+	{
+		"ticket": "81734",
+		"client": "David Hagy",
+		"url": "http://www.hagylaw.com/",
+		"designer": "Edith",
+		"column": "3",
+		"template": "tiger",
+		"status": true
+	}
 ]

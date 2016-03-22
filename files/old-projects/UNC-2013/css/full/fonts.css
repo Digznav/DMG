@@ -1,0 +1,22 @@
+/*--------------------------- @[Web Symbols Regular] --------------------------------*/
+@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url('fonts/websymbols-regular-webfont.eot');
+	src:	url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				url('fonts/websymbols-regular-webfont.woff') format('woff'),
+				url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+				url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'ModernPictogramsNormal';
+	src:	url('fonts/modernpics-webfont.eot');
+	src:	url('fonts/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+				url('fonts/modernpics-webfont.woff') format('woff'),
+				url('fonts/modernpics-webfont.ttf') format('truetype'),
+				url('fonts/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

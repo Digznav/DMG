@@ -1,0 +1,63 @@
+.passportBack {
+	background:none;
+	//background:url(../imgs/brands/Chivas/bg_Chivas.jpg) no-repeat top center;
+	//background-size:cover;
+}
+.fmtPassport {
+	background-color:#0A0B0D !important;
+	.sectionTitle {
+		color:#fff !important;
+		background-image:url(../imgs/design/lines/lineWhite_FFFFFF_98.png);
+	}
+	/*.popUpNM {
+		background-color:#A18E66;
+		h4 {
+			background:url(../imgs/design/lines/lineDarkBrown_5A1E1D_98.png) no-repeat left 16px;
+			color:#5A1E1D;
+		}
+		p { color:#fff; }
+	}*/
+}
+
+.NM-Passport {
+	.s3cl1 {
+		.c1b2 {
+			background-color:#7FB941;
+			color:#fff;
+			height:156px;
+		}
+	}
+	
+	.s3cl2 {
+		.c2b1 {
+			background-color:#7FB941;
+			h4 {
+				background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+				color:#1b3664;
+			}
+			p { color:#FFF; }
+		}
+		.c2b2 {
+			height:280px;
+			color:#fff;
+			background-color:#B1B1AF;
+			h4 {
+				background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+				color:#1b3664;
+			}
+			ul { list-style-image:url(../imgs/design/listImg_White.png); }
+		}
+	}
+
+	.s3cl3 {
+		.c3b3 {
+			background-color:#FFFFFF;
+			color:#606060;
+			h4 { color:#1B3664; }
+			
+			.cctl-ttl { color:#7FB941; }
+		}
+
+		.dcrp-txt { background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 19px; }
+	}
+}

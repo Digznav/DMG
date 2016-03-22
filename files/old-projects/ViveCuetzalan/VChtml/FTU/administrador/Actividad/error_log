@@ -1,0 +1,1 @@
+[02-Apr-2014 21:27:55 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivecuet/public_html/2013/administrador/Actividad/editar.php:35) in /home/vivecuet/public_html/2013/administrador/Actividad/libs/editar-Generales.php on line 38

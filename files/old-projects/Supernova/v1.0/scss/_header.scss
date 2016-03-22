@@ -1,0 +1,114 @@
+$textColor_Nav_FirstLevel_Active:$colorBrightBlue;
+$textColor_Nav_SecondLevel_Active:$colorBrightBlue;
+
+$shadowColor_General_Blue:$colorBrightBlue;
+$shadowColor_General_Green:$colorGreen;
+
+body > header {
+	width:100%;
+	//background-color:$backColor_Header;
+}
+
+#logo {
+	float:left;
+	width:404px;
+	height:120px;
+	margin:16px 0 16px 26px;
+	background-color:#fff;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+.navCont {
+	float:left;
+	width:152px;
+	margin:68px 0 0 26px;
+	font-size:22px;
+	font-weight:700;
+	//background-color:rgba(#333,.2);
+	@include box-sizing(border-box);
+	ul {
+		list-style:none;
+		li { float:left; width:100%; }
+	}
+	a {
+		float:left;
+		width:100%;
+		//@include transition(text-shadow .2s ease-out);
+		@include text-shadow(
+			0px 0px 2px $shadowColor_General_Blue,
+			0px 0px 5px $shadowColor_General_Blue,
+			0px 0px 10px $shadowColor_General_Blue,
+			0px 0px 25px $shadowColor_General_Blue
+		);
+		@include box-sizing(border-box);
+	}
+	.stLvl {
+		position:relative;
+		& > li {
+			& > a {
+				text-transform:uppercase;
+				line-height:22px;
+				padding:9px 16px;
+				text-align:right;
+			}
+			&:hover {
+				& > a {
+					@include text-shadow(
+						0px 0px 2px $colorGreen,
+						0px 0px 5px $colorGreen,
+						0px 0px 10px $colorGreen,
+						0px 0px 25px $colorGreen
+					);
+				}
+				/*.ndLvl {
+					display:block;
+				}*/
+			}
+		}
+	}
+	.ndLvl {
+		display:none;
+		position:absolute;
+		left:152px;
+		width:94px;
+		@include box-sizing(border-box);
+		a {
+			line-height:22px;
+			padding:9px 0;
+			font-size:20px;
+			&:hover {
+				@include text-shadow(
+					0px 0px 2px $shadowColor_General_Green,
+					0px 0px 5px $shadowColor_General_Green,
+					0px 0px 10px $shadowColor_General_Green,
+					0px 0px 25px $shadowColor_General_Green
+				);
+			}
+		}
+	}
+}
+%formatNav { width:100%; }
+.mainNav {
+	@extend %formatNav;
+}
+
+.socialNav {
+	@extend %formatNav;
+	margin-top:68px;
+	li {
+		width:33.33% !important;
+		text-align:center;
+		a {
+			color:#fff;
+			&:hover {
+				@include text-shadow(
+					0px 0px 2px $shadowColor_General_Green,
+					0px 0px 5px $shadowColor_General_Green,
+					0px 0px 10px $shadowColor_General_Green,
+					0px 0px 25px $shadowColor_General_Green
+				);
+			}
+		}
+	}
+}

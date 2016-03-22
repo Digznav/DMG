@@ -1,0 +1,149 @@
+@import "compass/css3";
+
+$colorBlue:#0269B8;
+
+/* Medidas generales del slider */
+$widthBase:690;
+$paddingBase:0;
+$borderBase:0;
+
+$pikaWidth:($widthBase + (($paddingBase + $borderBase) * 2)) + px;
+$pikaHeight:380px;
+
+/* Contenedor de las imagenes */
+$pikaStagePadding:$paddingBase+px;
+$pikaStageWidth:$widthBase+px;
+
+/* Caption */
+/* [Top] [Right] [Bottom] [Left] */
+$pikaStageCaptionPosition:$pikaStagePadding $pikaStagePadding $pikaStagePadding $pikaStagePadding;
+$pikaCaptionBackground:darken(rgba($colorBlue,.7),20%);
+
+/* Botones de Navegación Next/Prev - Imagenes */
+/* [Top] [Right:Next Button] [Bottom] [Left:Prev Button] */
+$pikaImgnavPosition:$pikaStagePadding $pikaStagePadding $pikaStagePadding $pikaStagePadding;
+/* Botones de reproducción Play/Pause - Imagenes */
+$pikaPlaybackTop:$pikaStagePadding;
+
+/* Contador */
+$pikaCounterPosition:0 0 -20px 15px;
+
+/*.pikachoose {
+	width:$pikaWidth;
+	margin:0 auto;
+	a {
+		color:#fff;
+	}
+}*/
+
+%absolutePosition {
+	position:absolute;
+	top:0;
+	left:0;
+}
+.pika-stage {
+	position:relative;
+	width:$pikaStageWidth;
+	height:$pikaHeight;
+	padding:$pikaStagePadding;
+	@if $borderBase == 0 {
+		border:none;
+	} @else {
+		border:$borderBase+px solid #999;
+	}
+	text-align:center;
+	@include box-shadow(0 10px 5px #888);
+	.pika-aniwrap {
+		@extend %absolutePosition;
+		width:100%;
+	}
+	.main-image {
+		@extend %absolutePosition;
+	}
+	.pika-ani {
+		display:none;
+		position:relative;
+		margin:0 auto;
+		z-index:2;
+	}
+	img {
+		width:100%;
+		height:100%;
+	}
+	.caption {
+		position:absolute;
+		right:nth($pikaStageCaptionPosition, 2);
+		bottom:nth($pikaStageCaptionPosition, 3);
+		left:nth($pikaStageCaptionPosition, 4);
+		padding:10px;
+		font-size:15px;
+		text-align:left;
+		color:#fafafa;
+		background:$pikaCaptionBackground;
+		p {
+			line-height:110%;
+			padding:0;
+			margin:0;
+		}
+	}
+}
+
+.pika-textnav {
+	display:none;
+}
+
+.pika-counter {
+	@extend .pika-textnav;
+	position:absolute;
+	bottom:nth($pikaCounterPosition,3);
+	left:nth($pikaCounterPosition,4);
+	font-size:11px;
+}
+
+#pikame {
+	display:none;
+}
+
+/* Ths play, pause, prev and next buttons */
+%navigation {
+	width:50px; height:100%;
+	top:nth($pikaImgnavPosition,1);
+	bottom:nth($pikaImgnavPosition,3);
+}
+%playback {
+	display:none;
+	height:100px;
+	width:50px;
+	top:$pikaPlaybackTop;
+	left:50%;
+	margin-left:-25px;
+}
+.pika-imgnav {
+	a {
+		position:absolute;
+		display:block;
+		text-indent:-5000px;
+		background:url(images/pikaSprite.png) no-repeat;
+		overflow:hidden;
+		cursor:pointer;
+		z-index:3;
+		&.previous {
+			@extend %navigation;
+			left:nth($pikaImgnavPosition,4);
+			background-position:0 50%;
+		}
+		&.next {
+			@extend %navigation;
+			right:nth($pikaImgnavPosition,2);
+			background-position:-50px 50%;
+		}
+		&.play {
+			@extend %playback;
+			background-position:-150px 50%;
+		}
+		&.pause {
+			@extend %playback;
+			background-position:-100px 50%;
+		}
+	}
+}

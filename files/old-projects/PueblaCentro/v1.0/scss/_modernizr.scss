@@ -1,0 +1,88 @@
+/*lt-ie9
+js														js
+no-flexbox										flexbox
+no-canvas											canvas
+no-canvastext									canvastext
+no-webgl											webgl
+no-touch											no-touch
+no-geolocation								geolocation
+postmessage										postmessage
+no-websqldatabase							websqldatabase
+no-indexeddb									indexeddb
+hashchange										hashchange
+no-history										history
+draganddrop										draganddrop
+no-websockets									websockets
+no-rgba												rgba
+no-hsla												hsla
+no-multiplebgs								multiplebgs
+no-backgroundsize							backgroundsize
+no-borderimage								borderimage
+no-borderradius								borderradius
+no-boxshadow									boxshadow
+no-textshadow									textshadow
+no-opacity										opacity
+no-cssanimations							cssanimations
+no-csscolumns									csscolumns
+no-cssgradients								cssgradients
+no-cssreflections							cssreflections
+no-csstransforms							csstransforms
+no-csstransforms3d						csstransforms3d
+no-csstransitions							csstransitions
+fontface											fontface
+generatedcontent							generatedcontent
+no-video											video
+no-audio											audio
+localstorage									localstorage
+sessionstorage								sessionstorage
+no-webworkers									webworkers
+no-applicationcache						applicationcache
+no-svg												svg
+no-inlinesvg									inlinesvg
+no-smil												smil
+no-svgclippaths								svgclippaths
+*/
+
+.no-rgba {
+	.ftHeader {
+		.mnNvCnt { background-color:$colorGreen; }
+		.mainNav a, .socialNav a {
+			&:hover { background-color:$coloyYellowOpaque_OverGreen_RGBA_20; }
+			&.actvNv { background-color:$coloyYellowOpaque_OverGreen_RGBA_40; }
+		}
+	}
+	.clsFrm {
+		background-color:$coloyYellowOpaque_OverGreen_RGBA_40;
+		&:hover { background-color:$colorYellowOpaque; }
+	}
+	/*.fldsFrmt .submitButton {
+		background-color:$coloyOrange_OverGreen_RGBA_40;
+	}*/
+	.Wrapper .pFWrppr { background-color:#fff; }
+
+	.clmn .thrClmn-Bx li a:hover, .frmt-Nv li a:hover { background-color:$coloyYellowOpaque_OverOrange_RGBA_20; }
+	.clmn .thrClmn-Bx li a.crrnt, .frmt-Nv li a.crrnt { background-color:$coloyYellowOpaque_OverOrange_RGBA_40; }
+
+	.curtain { background-color:rgba(0,0,0,.5); }
+	.cllbck-frmt {
+		&.success { background-color:#fff; }
+		&.error { background-color:$colorRed; }
+	}
+}
+
+.no-backgroundsize {
+	.background-image { background-image:url(../imgs/design/bg_3.jpg); }
+}
+
+%SpritePNG { background-image:$spritePNG_Path; }
+.no-svg {
+	.ftHeader {
+		.logo { @extend %SpritePNG; }
+		.mainNav a { @extend %SpritePNG; }
+		.socialNav a { @extend %SpritePNG; }
+	}
+	.fldsFrmt select { background-image:$arrowPNG_Path; }
+	.clsFrm { @extend %SpritePNG; }
+
+	.ttl-Section .ttl-lgo { @extend %SpritePNG; }
+}

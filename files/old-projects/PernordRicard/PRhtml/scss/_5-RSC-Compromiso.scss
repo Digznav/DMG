@@ -1,0 +1,66 @@
+//.RSCCompromiso { background:url(../imgs/pantallasDemo/7-RSC-Compromiso.jpg) no-repeat center -188px; }                                                                          
+
+.RSCCompromisoPanel {
+	margin:32px 0 0 88px;
+}
+
+.s51vc1 {
+	@extend %columnFormat;
+	background:url(../imgs/design/RSC/shakeHands.png) no-repeat 139px 17px;
+	.c1bT1 {
+		margin-top:188px;
+		width:225px;
+		height:251px;
+		padding:20px 9px 0 0;
+		@include box-sizing(border-box);
+		h3 {
+			padding-top:16px;
+			line-height:20px;
+			font-size:22px;
+			font-family:$fontNewBaskervilleItalic;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat right top;
+			text-align:right;
+			color:$colorBlue;
+		}
+	}
+}
+
+.s51vc2 {
+	@extend %columnFormat;
+	.c2bT1 {
+		width:391px;
+		height:188px;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 15px 19px;
+		background-color:#fff;
+		color:#B3B3B0;
+		padding:30px 19px 0 15px;
+		@include box-sizing(border-box);
+		p {
+			text-align:justify;
+			line-height:14px;
+			font-size:12px;
+		}
+	}
+	.c2bT2 {
+		float:left;
+		width:55px;
+		height:230px;
+		margin-left:146px;
+		background:url(../imgs/design/RSC/icoList.png) no-repeat left 26px;
+	}
+	.c2bT3 {
+		@extend %changeImgList2;
+		float:left;
+		width:270px;
+		height:230px;
+		//background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 15px 19px;
+		background-color:$colorBlue;
+		color:#fff;
+		padding:32px 12px 0 32px;
+		line-height:17px;
+		font-size:14px;
+		font-family:$fontDinCondMedium;
+		text-transform:uppercase;
+		@include box-sizing(border-box);
+	}
+}

@@ -1,0 +1,22 @@
+$font_path: "fonts/";
+@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url($font_path + 'websymbols-regular-webfont.eot');
+	src:	url($font_path + 'websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'websymbols-regular-webfont.woff') format('woff'),
+				url($font_path + 'websymbols-regular-webfont.ttf') format('truetype'),
+				url($font_path + 'websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:'ModernPictogramsNormal';
+	src:	url($font_path + 'modernpics-webfont.eot');
+	src:	url($font_path + 'modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'modernpics-webfont.woff') format('woff'),
+				url($font_path + 'modernpics-webfont.ttf') format('truetype'),
+				url($font_path + 'modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

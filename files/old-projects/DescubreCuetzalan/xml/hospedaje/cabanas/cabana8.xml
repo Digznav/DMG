@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hotel>
+    <nombre></nombre>
+    <descripcion></descripcion>
+    <tit1></tit1>
+    <tit2></tit2>
+    <tit3></tit3>
+    <caracteristica>
+        <car1>Cama King Size
+            Agua caliente
+            TV x Cable
+            Room Service
+            Vista Panorámica (consultar disponibilidad)
+            Cobertor eléctrico (época de frío)Frigobar</car1>
+        <car2>7 Sencillas</car2>
+        <car3>1 persona	$280.00</car3>
+    </caracteristica>
+    <caracteristica>
+        <car1>4 Habitaciones disponibles con 2 camas individuales
+            7 Habitaciones con 2 camas matrimoniales
+            Agua caliente
+            TV x Cables
+            Room Service
+            Vista Panorámica (consultar disponibilidad)
+            Cobertor eléctrico (época de frío)Frigobar</car1>
+        <car2>11 Dobles</car2>
+        <car3>2 personas
+            $500.00
+            3 personas
+            $550.00
+            4 personas
+            $650.00</car3>
+    </caracteristica>
+    <caracteristica>
+        <car1>2 camas matrimoniales y una cama King Size
+            Agua caliente
+            TV x Cable
+            Room Service
+            Cobertor Eléctrico
+            Vista Panorámica
+            Sillón
+            Áreas alfombradas</car1>
+        <car2>2 Suites</car2>
+        <car3>De 1 a 6 personas
+            $800.00</car3>
+    </caracteristica>
+    <caracteristica>
+        <car1>3 camas King Size
+            Agua Caliente
+            TV x Cable
+            Room Service
+            Frigobar
+            Cobertor Eléctrico
+            Sala
+            Terraza
+            Vista Panorámica
+            Áreas alfombradas</car1>
+        <car2>1 Suite</car2>
+        <car3>De 1 a 6 personas
+            $800.00</car3>
+    </caracteristica>
+    <aclaracion></aclaracion>
+    <adicionales>Restaurant</adicionales>
+    <restricciones>No se aceptan mascotas</restricciones>
+    <imagenes></imagenes>
+</hotel>

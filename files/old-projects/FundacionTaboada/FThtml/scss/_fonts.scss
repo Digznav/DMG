@@ -1,0 +1,11 @@
+$font_path: "fonts/";
+@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url($font_path + 'websymbolsligaregular.eot');
+	src:	url($font_path + 'websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'websymbolsligaregular.woff') format('woff'),
+				url($font_path + 'websymbolsligaregular.ttf') format('truetype'),
+				url($font_path + 'websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}

@@ -1,0 +1,73 @@
+//.PRMContacto { background:url(../imgs/pantallasDemo/4-PRM-Contacto.jpg) no-repeat center -188px; }
+
+.PRMContactoPanel {
+	margin:19px 0 0 74px;
+	.c1bT1 {
+		float:left;
+		width:193px;
+	}
+	.c1bT2 {
+		float:left;
+		width:564px;
+		height:420px;
+		padding:15px 0 0 47px;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 47px 15px;
+		background-color:#fff;
+		color:#B3B3B0;
+		@include box-sizing(border-box);
+		.inCol {
+			float:left;
+			margin-top:17px;
+			&.cl1 {
+				width:250px;
+				margin-right:31px;
+			}
+			&.cl2 {
+				width:236px;
+			}
+		}
+		h2 {
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			font-size:14px;
+			line-height:17px;
+			color:$colorBlue;
+		}
+		ul {
+			list-style:none;
+			
+			h3 {
+				color:$colorBlue;
+				font-family:$fontNewBaskervilleItalic;
+				font-size:16px;
+				line-height:14px;
+				padding-top:4px;
+			}
+			p {
+				font-size:11px;
+				line-height:12px;
+			}
+			&#Corp { margin-bottom:18px; }
+			&#Plantas {
+				li { margin-bottom:2px; }
+			}
+			&#Oficinas {
+				li { margin-bottom:13px; }
+			}
+		}
+		.escribenos {
+			display:block;
+			margin-top:31px;
+			font-size:16px;
+			line-height:19px;
+			font-family:$fontNewBaskervilleItalic;
+			color:$colorBlue;
+		}
+	}
+	a {
+		color:inherit;
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+}

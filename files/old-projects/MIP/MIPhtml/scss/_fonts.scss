@@ -1,0 +1,78 @@
+$font_path: "fonts/";
+
+/*------------- NO BORRAR -------------*/
+/*@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url($font_path + 'websymbols-regular-webfont.eot');
+	src:	url($font_path + 'websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'websymbols-regular-webfont.woff') format('woff'),
+				url($font_path + 'websymbols-regular-webfont.ttf') format('truetype'),
+				url($font_path + 'websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}*/
+@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url($font_path + 'websymbolsligaregular.eot');
+	src:	url($font_path + 'websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'websymbolsligaregular.woff') format('woff'),
+				url($font_path + 'websymbolsligaregular.ttf') format('truetype'),
+				url($font_path + 'websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+/*@font-face {
+	font-family:'ModernPictogramsNormal';
+	src:	url($font_path + 'modernpics-webfont.eot');
+	src:	url($font_path + 'modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'modernpics-webfont.woff') format('woff'),
+				url($font_path + 'modernpics-webfont.ttf') format('truetype'),
+				url($font_path + 'modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+/*@font-face { 
+	font-family:'GeneralEnclosedFoundIcons';
+	src:	url($font_path + 'general_enclosed_foundicons.eot');
+	src:	url($font_path + 'general_enclosed_foundicons.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'general_enclosed_foundicons.woff') format('woff'),
+				url($font_path + 'general_enclosed_foundicons.ttf') format('truetype'),
+				url($font_path + 'general_enclosed_foundicons.svg#GeneralEnclosedFoundIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+/*------------- NO BORRAR -------------*/
+
+/*-- NO PUEDES USAR NEUTRAFACE, NO TIENE LICENCIA PARA WEB --*/
+/*
+@font-face {
+	font-family: 'NeutrafaceBook';
+	src:	url($font_path + 'neutra2text-book.eot');
+	src:	url($font_path + 'neutra2text-book.eot') format('embedded-opentype'),
+				url($font_path + 'neutra2text-book.woff') format('woff'),
+				url($font_path + 'neutra2text-book.ttf') format('truetype'),
+				url($font_path + 'neutra2text-book.svg#Neutraface2TextBook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NeutrafaceBold';
+	src:	url($font_path + 'neutra2text-bold.eot');
+	src:	url($font_path + 'neutra2text-bold.eot') format('embedded-opentype'),
+				url($font_path + 'neutra2text-bold.woff') format('woff'),
+				url($font_path + 'neutra2text-bold.ttf') format('truetype'),
+				url($font_path + 'neutra2text-bold.svg#Neutraface2TextBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NeutrafaceLight';
+	src:	url($font_path + 'neutra2text-light.eot');
+	src:	url($font_path + 'neutra2text-light.eot') format('embedded-opentype'),
+				url($font_path + 'neutra2text-light.woff') format('woff'),
+				url($font_path + 'neutra2text-light.ttf') format('truetype'),
+				url($font_path + 'neutra2text-light.svg#Neutraface2TextLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/

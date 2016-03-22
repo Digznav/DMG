@@ -1,0 +1,13 @@
+body{
+	width: 100px;
+}
+
+#test{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.weatherItem.odd.day{
+	width: 100px;
+
+}

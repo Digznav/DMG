@@ -1,0 +1,191 @@
+//.GPRPilares { background:url(../imgs/pantallasDemo/3-GPR-Pilares.jpg) no-repeat center -188px; }
+
+//==========================================================================
+//GRUPO PERNOD RICARD - PILARES ESTRATÉGICOS
+//==========================================================================
+	//Color de fondo y texto de la PRIMERA CAJA de texto de la PRIMERA COLUMNA
+		$backColor_GPR_Pilares_box1_1:$colorBlue;
+		$numberColor_GPR_Pilares_box1_1:#fff;
+		$titleColor_GPR_Pilares_box1_1:#fff;
+		//Color de bordes
+			$borderColor_GPR_Title_box1_1:#fff;
+		$textColor_GPR_Pilares_box1_1:#fff;
+	//Color de fondo y texto de la SEGUNDA CAJA de texto de la PRIMERA COLUMNA
+		$backColor_GPR_Pilares_box1_2:transparent;
+		$numberColor_GPR_Pilares_box1_2:$colorBlue;
+		$titleColor_GPR_Pilares_box1_2:$colorBlue;
+		$textColor_GPR_Pilares_box1_2:$colorBlue;
+
+	//Color de fondo y texto de la PRIMERA CAJA de texto de la SEGUNDA COLUMNA
+		$backColor_GPR_Pilares_box2_1:#fff;
+		$numberColor_GPR_Pilares_box2_1:$colorBlue;
+		$titleColor_GPR_Pilares_box2_1:$colorBlue;
+		$textColor_GPR_Pilares_box2_1:#B3B3B0;
+	//Color de fondo y texto de la SEGUNDA CAJA de texto de la SEGUNDA COLUMNA
+		$backColor_GPR_Pilares_box2_2:$colorBlue;
+		$numberColor_GPR_Pilares_box2_2:#fff;
+		$textColor_GPR_Pilares_box2_2:#fff;
+
+	//Color de fondo y texto de la PRIMERA CAJA de texto de la TERCERA COLUMNA
+		$backColor_GPR_Pilares_box3_1:#7EA4CF;
+		$numberColor_GPR_Pilares_box3_1:#fff;
+		$textColor_GPR_Pilares_box3_1:$colorBlue;
+
+
+//.GPRPilaresPanel {}
+.s13vc1 {
+	@extend %columnFormat;
+	.s13bT11 {
+		width:190px;
+		height:190px;
+		margin:25px 0px 0px 77px;
+		background:url(../imgs/design/GPR/backBottlesSmall.png) no-repeat 40px 30px;
+		background-color:$backColor_GPR_Pilares_box1_1;
+		h3 {
+			padding:13px 0 6px 15px;
+			line-height:50px;
+			font-family:$fontDinCondMedium;
+			font-size:39px;
+			color:$numberColor_GPR_Pilares_box1_1;
+		}
+		h4 {
+			width:100px;
+			margin:0 0 8px 15px;
+			padding-left:6px;
+			line-height:36px;
+			border-top:1px solid $borderColor_GPR_Title_box1_1;
+			border-bottom:1px solid $borderColor_GPR_Title_box1_1;
+			font-family:$fontDinCondMedium;
+			font-size:20px;
+			text-transform:uppercase;
+			color:$titleColor_GPR_Pilares_box1_1;
+		}
+		p {
+			padding-left:15px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:18px;
+			line-height:16px;
+			color:$textColor_GPR_Pilares_box1_1;
+		}
+	}
+	.s13bT12 {
+		//@extend %columnFormat;
+		width:267px;
+		height:256px;
+		background:url(../imgs/design/GPR/secondNo1.png) no-repeat 17px 75px;
+		background-color:$backColor_GPR_Pilares_box1_2;
+		text-align:right;
+		padding:49px 15px 0 0;
+		@include box-sizing(border-box);
+		h3 {
+			line-height:40px;
+			font-family:$fontDinCondMedium;
+			font-size:39px;
+			color:$numberColor_GPR_Pilares_box1_2;
+		}
+		h4 {
+			margin-bottom:4px;
+			padding:0 0 7px 0;
+			line-height:25px;
+			font-family:$fontDinCondMedium;
+			font-size:20px;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat right bottom;
+			color:$titleColor_GPR_Pilares_box1_2;
+		}
+		p {
+			padding-left:15px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:18px;
+			line-height:16px;
+			color:$textColor_GPR_Pilares_box1_2;
+		}
+	}
+}
+
+.s13vc2 {
+	@extend %columnFormat;
+	.s13bT21 {
+		width:330px;
+		height:149px;
+		margin-top:120px;
+		background-color:$backColor_GPR_Pilares_box2_1;
+		h3 {
+			float:left;
+			padding:17px 8px 0 11px;
+			line-height:40px;
+			font-family:$fontDinCondMedium;
+			font-size:39px;
+			color:$numberColor_GPR_Pilares_box2_1;
+		}
+		h4 {
+			float:left;
+			color:$titleColor_GPR_Pilares_box2_1;
+			margin-bottom:12px;
+			padding:27px 0 13px 0;
+			line-height:25px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:22px;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left bottom;
+		}
+		p {
+			float:left;
+			padding-left:34px;
+			font-family:$fontDinCondMedium;
+			font-size:15px;
+			line-height:16px;
+			color:$textColor_GPR_Pilares_box2_1;
+		}
+	}
+	.s13bT22 {
+		width:175px;
+		height:149px;
+		margin-left:155px;
+		background:url(../imgs/design/peopleBlueLight.png) no-repeat 8px 22px;
+		background-color:$backColor_GPR_Pilares_box2_2;
+		text-align:right;
+		h3 {
+			padding: 11px 11px 5px 0;
+			margin: 0 15px 10px 0;
+			line-height:40px;
+			font-family:$fontDinCondMedium;
+			font-size:39px;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat right bottom;
+			color:$numberColor_GPR_Pilares_box2_2;
+		}
+		p {
+			padding-right:15px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:17px;
+			line-height:16px;
+			color:$textColor_GPR_Pilares_box2_2;
+		}
+	}
+}
+.s13vc3 {
+	@extend %columnFormat;
+	.s13bT31 {
+		width:231px;
+		height:234px;
+		background:url(../imgs/design/GPR/teamPrice.png) no-repeat 42px 7px;
+		background-color:$backColor_GPR_Pilares_box3_1;
+		margin-top:35px;
+		h3 {
+			padding: 16px 0 0 18px;
+			margin-bottom: 32px;
+			line-height:40px;
+			font-family:$fontDinCondMedium;
+			font-size:39px;
+			color:$numberColor_GPR_Pilares_box3_1;
+		}
+		p {
+			padding:8px 0 0 32px;
+			font-family:$fontDinCondMedium;
+			font-size: 20px;
+			line-height: 22px;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat 32px 0px;
+			color:$textColor_GPR_Pilares_box3_1;
+			text-transform:uppercase;
+		}
+	}
+}

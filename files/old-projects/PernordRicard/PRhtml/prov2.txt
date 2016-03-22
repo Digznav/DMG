@@ -1,0 +1,172 @@
+//Selección de categorias
+<fieldset class="selectCategories">
+	<div class="allChk-Cont">
+		<div class="cl-Fmt-Frm c-1">
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el allCat-el" tabindex="-1" name="allCategories" value="Catalogo_PRM_Marcas.pdf"><div class="msk msk-Bt allCat-Bt"></div><label>TODAS LAS CATEGORÍAS</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Brandies.pdf"><div class="msk msk-Bt"></div><label>BRANDY</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Whiskies.pdf"><div class="msk msk-Bt"></div><label>WHISKY</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Vodkas.pdf"><div class="msk msk-Bt"></div><label>VODKA</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Rones.pdf"><div class="msk msk-Bt"></div><label>RON</label></div>
+		</div>
+		<div class="cl-Fmt-Frm c-2">
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Tequilas.pdf"><div class="msk msk-Bt"></div><label>TEQUILA</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Vinos.pdf"><div class="msk msk-Bt"></div><label>VINO</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Ginebras.pdf"><div class="msk msk-Bt"></div><label>GINEBRA</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Cognacs.pdf"><div class="msk msk-Bt"></div><label>COÑAC</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Champagnes.pdf"><div class="msk msk-Bt"></div><label>CHAMPAGNE</label></div>
+		</div>
+		<div class="cl-Fmt-Frm c-3">
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Licores.pdf"><div class="msk msk-Bt"></div><label>LICORES</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Baja_Graduacion.pdf"><div class="msk msk-Bt"></div><label>LISTOS PARA BEBER (RTD)</label></div>
+			<div class="mnCnt-Frm mn-ck"><input type="checkbox" class="mn-el" tabindex="-1" name="categories[]" value="Catalogo_PRM_Otras_Marcas.pdf"><div class="msk msk-Bt"></div><label>OTRAS CATEGORÍAS</label></div>
+		</div>
+	</div>
+	<!-- <div class="clearfix">
+		<div class="mnCnt-Frm mn-rd rdsFmt mrgSf-Frm">
+			<input type="checkbox" class="mn-el" name="acceptPart1">
+			<div class="msk msk-Bt"></div><label>He leído y acepto los términos del aviso de privacidad</label>
+		</div>
+	</div>
+	<input type="submit" name="" id="accptCategory" class="isButton accptCatBut dsbldBttn" value="ACEPTAR" disabled> -->
+</fieldset>
+
+//Menu
+<li><a href="/~rootprm/site/Nuestras-marcas/Nuestras-Categorias" class="doItSlide <?php echo ($currentPage[1] == 'Nuestras-Categorias') ? 'activeNav' : '' ?>">Nuestras categorías</a></li>
+
+/~rootprm/site/
+/PernordRicard/PRhtml/FTU/
+
+//Inicio
+jQuery(function($) {
+	/*$('.sliderLoader').hide();
+	$('.sliderCont').show();*/
+	/*var maxHeight = 0;
+	$('.navPart').each(function() {
+		if ($(this).height() > maxHeight) {
+			maxHeight = $(this).height();
+		}
+	});
+	$('.navPart').height(maxHeight);*/
+});
+
+
+//Footer
+	<a href="#">Suscribete</a>
+
+
+				<header class="sectionHeader">
+					<h2 class="sectionTitle">NuestrAS MARCAS</h2>
+			  </header>
+				
+				<div class="">
+                 <!--RECETA-->
+                 <div></div>
+               
+               
+
+                
+                </div>
+                
+                
+                <div class="contSide clearfix">
+		<header class="clearfix">
+		  <h2 class="brdTitle"><img src="../imgs/brands/Absolut/logo.png" width="68" height="14" alt="Absolut"></h2></header>
+
+          <div>	<p>Coloc&aacute;ndose como icono global, Absolut ha redefinido la categor&iacute;a del vodka siendo una marca con un esp&iacute;ritu creativo e innovador que inspira a sus consumidores a transformar su realidad en algo excepcional.</p>
+			
+		</div></div>		  <div class="brdSocial"><span>Síguenos</span><a href="#" class="icoFace"><img src="../imgs/design/FbIcon.png"></a><a href="#" class="icoTwit"><img src="../imgs/design/TwIcon.png"><img src="../imgs/design/YouTubeIcon.png" alt="Youtube"></a> <br>
+	      SITIO OFICIAL</div>
+<div><img src="../imgs/brands/Absolut/botella.png" width="362" height="470" alt="Absolut"></div>
+		<div class="brdDescrip clearfix">
+       
+		
+		
+		<div class="clearfix">
+        
+			<span class="titleCocktails"><span class="titPart1">Absolut Cocteles</span></span>
+			<div id="pikame" class="pikCocktails">
+				<img src="../imgs/brands/Absolut/Cocteles/img1.jpg" alt="coctel1">ABSOLUT TONIC + CÓMO HACER LA MEZCLA
+                <div> Ingredientes:<br>
+                Absolut Azul, agua quina y rodaja de lim&oacute;n.<br>
+Vaso:<br>
+Highball.<br>
+Adorno:<br>
+Rodaja de lim&oacute;n.<br>
+M&eacute;todo:<br>
+30% Absolut azul y 70% agua quina. Mezclar todos los ingredientes en un vaso highball con hielos. Decora con la rodaja de lim&oacute;n. </div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="imageSide"></div>
+</div>
+				<nav class="innerNav"></nav>
+			</div>
+		</div>
+
+		22 26 74 48 03
+
+
+
+
+		<p>PERNOD RICARD MÉXICO PRESENTA:</p>
+		<p>BOUTIQUE D'HIVER: UNA EXPERIENCIA DE LUJO</p>
+		<p>&middot;Pernod Ricard México abre las puertas de Boutique D'Hiver, una nueva y sofisticada experiencia de compra del portafolio de marcas ultra premium</p>
+		<br>
+		<p><strong>México D.F. a 14 de noviembre de 2013.-</strong> Como parte de una novedosa estrategia de sus marcas ultra Premium, Pernod Ricard presenta en la Ciudad de México &quot;BOUTIQUE D'HIVER&quot;, una pop-up store, ubicada en el centro comercial Antara Fashion Hall, que abrirá sus puertas al consumidor para ofrecerle una única y sofisticada experiencia de compra de lo más selecto de sus destilados.</p>
+		<p>La boutique abrirá sus puertas a partir del 14 de noviembre al 31 de diciembre de 2013 de 11am a 8pm; contará con una atención y asesoría especializada de nuestro portafolio de productos de lujo a través de un embajador de marca y un staff altamente capacitado.</p>
+		<p>BOUTIQUE D'HIVER ofrecerá a lujos consumidores valores agregados adicional a la compra, tales como grabado de botellas y vasos, envolturas súper Premium y elaboración de canastas con entrega a domicilio. Habrá degustaciones y diferentes experiencias de marca como Absolut y Chivas Regal.</p>
+		<p>BOUTIQUE D'HIVER cuenta con una agenda de actividades, en las cuales cada una de sus marcas de lujo ofrecerán una experiencia única a su público.</p>
+		<p>Boutique D'Hiver se convierte en un concepto vanguardista y elegante que busca ofrecer una experiencia única al consumidor, en una atmósfera exclusiva que conjuga el lujo y la sofisticación.</p>
+		<br>
+		<p class='subtitle'>Boutique D'Hiver, Premium spirits, lujo y tradición.</p>
+		<p>Acerca de Pernod Ricard</p>
+		<p>Pernod Ricard, presente en más de 70 países a nivel mundial, es el co-líder en vinos y licores a nivel mundial con ventas consolidadas de  &euro;7.643 millones en 2010/11.  La compañía, creada en 1975 por la fusión entre Ricard y Pernod, cuenta con el portafolio número 1 en marcas Premium. El Grupo ha experimentado un desarrollo sostenido, basado en el crecimiento orgánico y adquisiciones, como: Seagram (2001), Allied Domecq (2005) y Vin & Sprit (2008).</p>
+		<p>Pernod Ricard cuenta con una plantilla de 19,000 colaboradores identificados como &quot;creadores de la Convivialidad&quot; y opera a través de un sistema descentralizado en su organización, con 6 dueños de marca, en 70 filiales en mercados establecidos en zonas estratégicas. Pernod Ricard está firmemente comprometido con una política de desarrollo sostenible y fomenta el consumo responsable.</p>
+		<p>La estrategia y objetivos de Pernod Ricard se basa en 3 valores fundamentales que guían su expansión: Espíritu Empresarial, Confianza Mutua y un Fuerte Sentido de la Ética, bajo una forma de ser de Convivencia y Simplicidad.</p>
+		<p>Pernod Ricard cotiza en la bolsa NYSE Euronext (Ticker: RI, el código ISIN: FR0000120693) y es un miembro del índice CAC 40.</p>
+		<br>
+		<p>Visita nuestra página:</p>
+		<p><a href='www.pernod-ricard-mexico.com' target='_blank' class='insdLnks'>www.pernod-ricard-mexico.com </a></p>
+		<br><br>
+		<p>Contacto:</p>
+		<p>Ileana Gayón | PR Assistant | Pernod Ricard | Ileana.gayon@pernod-ricard.com | (55) 1105-9468</p>
+		<p>María Fernanda Brime | fbrime@fabrik.com.mx | (55) 6276 2190</p>
+
+		------------------------------------
+
+		<p>PERNOD RICARD MÉXICO ENCABEZA EL RANKING DE SÚPER EMPRESAS 2012 DE LA REVISTA EXPANSIÓN.</p>
+		<br><p><strong>México, D.F., 29 de mayo, 2012.–</strong> Pernod Ricard México encabezó el ranking de las Súper Empresas 2012 de la revista Expansión en la categoría de 500 a 3,000 empleados.</p>
+		<br><p>&quot;Los lugares donde todos quieren trabajar&quot; mide las mejores prácticas en Recursos Humanos de compañías con operaciones en México, con base en una metodología desarrollada por la consultora The Top Companies.</p>
+		<br><p>De esta manera, la revista Expansión evalúa 16 elementos de cada empresa participante para generar su ranking, entre ellos: liderazgo, resonancia, cohesión, satisfacción, crecimiento, motivación, justicia, condiciones de trabajo, herramientas para el mejor desempeño, salarios e incentivos.</p>
+		<br><p>Pernod Ricard México, ubicada en el primer puesto, se caracteriza por escuchar a sus empleados así como perfeccionar sus planes de carrera y prácticas de liderazgo. Por otra parte, invierte en esquemas de desarrollo, los cuales incluyen actividades como coaching, que consiste en sesiones ‘uno a uno' con el jefe directo o externo, según las necesidades del colaborador.</p>
+		<br><p>También fomenta la retroalimentación al colaborador, en donde se le explica cómo impacta su trabajo en los objetivos de cada área, y en consecuencia, en los resultados de la compañía; una vez al año obtiene información de su desempeño. Además, cada vez que la empresa contrata un nuevo colaborador, éste recibe un plan de inducción para familiarizarse con la cultura de la organización y sus marcas.</p>
+		<br><p>&quot;Cada uno sabe dónde están sus áreas fuertes y de crecimiento, y manejan solicitudes de entrenamiento específicas&quot;, dice Cedric Retailleau, Presidente y Director General de Pernod Ricard México.</p>
+		<br><p>Otro de los valores en la compañía es la confianza mutua, lo que motiva a los líderes a que propongan medidas para ligar y alinear sus resultados a los retos de negocio del Grupo.</p>
+		<br><p>&quot;El empoderamiento da libertad, enseña a definir prioridades y genera lealtad a la empresa&quot;, explica Retailleau.</p>
+		<br><p>Para elaborar el listado de 2012 se evaluaron 607 compañías, con un récord de 1 millón 240,465 encuestas realizadas a colaboradores.</p>
+
+		------------------------------------
+
+		<p>A PARTIR DE HOY</p>
+		<p>&middot; La adquisición se consumó en 2005. </p>
+		<p>&middot; Pernod Ricard produce y comercializa marcas mundiales como Chivas Regal&reg; y Absolut&reg; vodka, entre otras.</p>
+		<br><p>México, D.F., a 27 de abril de 2012.-  La reconocida empresa Casa Pedro Domecq, productora de vinos y licores de gran arraigo en el mercado mexicano, como Azteca de Oro&reg;, cambia su nombre corporativo por el de Pernod Ricard México, Grupo francés  al que pertenece desde 2005: Pernod Ricard.</p>
+		<br><p>Este cambio responde a una estrategia de alineación con el Grupo, pero también con el objetivo de lograr mayor competitividad en el mercado, para relacionar directamente el amplio portafolio de marcas de Pernod Ricard México con el del Grupo.</p>
+		<br><p>Busca también reflejar externamente el proceso de mejora continua que está llevando a cabo la empresa, para incrementar su perfil en términos de dinamismo e innovación, con marcas tan modernas y sofisticadas como ABSOLUT&reg; Vodka, Chivas Regal&reg; y Ballantine’s.</p>
+		<br><p>Pernod Ricard México representa lo mejor de dos mundos: la tradición y cultura local con la experiencia y solidez global del grupo, alineándose a una estrategia de marcas premium a través del más talentoso, apasionado, íntegro y eficiente equipo humano. Pernod Ricard México cuenta con casi 1,500 colaboradores a nivel nacional. Tiene también 4 plantas de producción en Los Reyes, Estado de México; Arandas, Jalisco; Ensenada, Baja California y Hermosillo, Sonora.</p>
+		<br><p>Respecto a este cambio Cédric Retailleau, Presidente y Director General de Pernod Ricard México, comento: &quot;El cambio a Pernod Ricard México nos permite cobijarnos bajo la marca Pernod Ricard para aprovechar las ventajas de dicho Grupo y sus seis pilares fundamentales: un amplio portafolio de marcas premium, innovación internacional, un esquema descentralizado de trabajo, 70 países con 18,000 creadores de convivialidad, ética y responsabilidad social corporativa internacional&quot;.</p><p>Pernod Ricard México, comprometido con el consumo responsable, cuenta con Fundación Pernod Ricard México (antes Fundación Domecq) la cual continúa trabajando en 3 ejes rectores: no tomar y manejar, educación a la moderación y respeto al no bebedor, bajo una plataforma de responsabilidad social que incluye también el cuidado del medio ambiente, la promoción de las culturas y el espíritu emprendedor.</p>
+		<br><p class='subtitle'>Acerca de Pernod Ricard</p><p>Pernod Ricard, presente en más de 70 países a nivel mundial, es el co-líder en vinos y licores a nivel mundial con ventas consolidadas de  €7.643 millones en 2010/11.  La compañía, creada en 1975 por la fusión entre Ricard y Pernod, cuenta con el portafolio número 1 en marcas premium. El Grupo ha experimentado un desarrollo sostenido, basado en el crecimiento orgánico y adquisiciones, como: Seagram (2001), Allied Domecq (2005) y Vin&Sprit (2008).</p>
+		<br><p>Pernod Ricard posee uno de los portafolios de marcas más prestigiosas en el sector.</p>
+		<br><p>Pernod Ricard cuenta con una plantilla de 18,000 colaboradores identificados como &quot;creadores de la convivialidad&quot; y opera a través de un sistema descentralizado en su organización, con 6 dueños de marca, en 70 filiales en mercados establecidos en zonas estratégicas. Pernod Ricard está firmemente comprometido con una política de desarrollo sostenible y fomenta el consumo responsable.</p>
+		<br><p>La estrategia y objetivos de Pernod Ricard se basa en 3 valores fundamentales que guían su expansión: Espíritu Empresarial, Confianza Mutua y un Fuerte Sentido de la Ética, bajo una forma de ser de Convivencia y Simplicidad.</p>
+		<br><p>Pernod Ricard cotiza en la bolsa NYSE Euronext (Ticker: RI, el código ISIN: FR0000120693) y es un miembro del índice CAC 40.</p>
+		<br><p>Visita nuestra página:</p>
+		<p><a href='www.pernod-ricard.com' target='_blank' class='insdLnks'>www.pernod-ricard.com</a></p>
+		<p><a href='www.pernod-ricard-mexico.com' target='_blank' class='insdLnks'>www.pernod-ricard-mexico.com</a></p>
+		<br><p>Para información adicional:</p>
+		<p>Lic. Mauricio Soriano</p>
+		<p>VP Legal y Asuntos Corporativos</p>
+		<p>mauricio.soriano@pernod-ricard.com</p>
+
+		<h3>&quot;El cambio nos permite cobijarnos bajo la marca Pernod Ricard para aprovechar las ventajas de dicho Grupo y sus 6 pilares fundamentales...&quot;</h3>

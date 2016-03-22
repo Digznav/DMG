@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>.::Feeper::.</title>
+		<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="content">
+			<header><strong>Lo ideal</strong> para tu vehículo</header>
+			<div class="garantia"></div>
+			
+			<div class="contenedor_nav">
+				<div class="imagen_nav">
+					<div class="logo"><a href="index.html"><img src="imgs/logo.png" alt="logo"></a></div>
+					<div class="base_logo"><a href="http://www.facebook.com/pages/Feeper/119384721405748?fref=ts" target="_blank">f</a></div>
+				</div>
+				<nav class="button_navigation">
+					<ul>
+						<li><a class="but_nav" id="tienda" href="#"><strong>Tienda</strong></a></li>
+						<li><a class="but_nav" id="empresa" href="empresa.html">Empresa</a></li>
+						<li><a class="but_nav" id="materiales" href="materiales.html">Materiales</a></li>
+						<li><a class="but_nav" id="contacto" href="contacto.php">Contacto</a></li>
+						<li><a class="but_nav" id="ayuda" href="ayuda.html">Ayuda</a></li>
+					</ul>
+				</nav>
+				<div class="hover_button_navigation"></div>
+			</div>
+			
+			<!-- <nav class="sub_nav"></nav> -->
+			<div class="cont_shop">
+				<div class="steps sOne" id="step_one">
+					<span class="title">Bienvenido a nuestra tienda virtual</span>
+					<ul class="menu_categories">
+						<li><a href="#" data-category="1"><img src="imgs/shop/cars.png" alt="cat_cars"><div class="cat_loading"><img src="imgs/shop/ajax-loader.gif" alt="loading"></div><span>Autos</span></a></li>
+						<li><a href="#" data-category="2"><img src="imgs/shop/bikes.png" alt="cat_bikes"><div class="cat_loading"><img src="imgs/shop/ajax-loader.gif" alt="loading"></div><span>Motocicletas</span></a></li>
+						<li><a href="#" data-category="4"><img src="imgs/shop/golf.png" alt="cat_golf"><div class="cat_loading"><img src="imgs/shop/ajax-loader.gif" alt="loading"></div><span>Carros<br>de golf</span></a></li>
+						<li><a href="#" data-category="5"><img src="imgs/shop/props.png" alt="cat_props"><div class="cat_loading"><img src="imgs/shop/ajax-loader.gif" alt="loading"></div><span>Accesorios</span></a></li>
+					</ul>
+					<div class="category_description">
+						<h2>Contamos con fundas en medidas semi especificas y estándar.</h2>
+						<p>Si usted requiere una funda especial que cuente con capuchas en los espejos por favor consulte su disponibilidad. Contamos con una amplia gama de Fundas en diversos materiales de alta calidad.</p>
+						<h3><span class="red">AL HACER SU PEDIDO, POR FAVOR LLENE COMPLETA LA INFORMACIÓN DE ENVÍO.</span><br><span class="red">EL ENVÍO ES GRATIS.</span></h3>
+						<p>El sistema de pagos Paypal es para pagos por targeta de credito y dinero mail para pagos en efectivo.</p>
+						<button onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="imgs/shop/paypal.png" alt="PayPal"></button>
+						<button id="button_dineromail"><img src="imgs/shop/dineromail.png" alt="dineromail"></button>
+						<div class="bancos_dineromail"><img src="imgs/shop/banco1.jpg" alt="bancos"><img src="imgs/shop/banco2.png" alt="bancos"><img src="imgs/shop/banco3.jpg" alt="bancos"><img src="imgs/shop/banco4.png" alt="bancos"><img src="imgs/shop/banco5.png" alt="bancos"></div>
+					</div>
+				</div>
+
+				<div class="steps sTwo" id="step_two">
+					<form name="feeper_shop" id="feeper_shop" method="GET">
+						<fieldset>
+							<legend></legend>
+							<div class="sold_out"><span class="red">Lo sentimos, este producto está agotado.</span></div>
+							<fieldset id="input_marcas">
+								<label for="sBrand"><span class="red">Marca</span></label>
+									<select name="sBrand" id="sBrand">
+										<option value="">Selecciona una marca</option>
+									</select>
+							</fieldset>
+
+							<div class="loading_models"><img src="imgs/shop/ajax-loader.gif" alt="loading"></div>
+							<div class="error_models"><span><strong>Lo sentimos, la búsqueda no se pudo realizar adecuadamente.</strong><br>Por favor haz <a href="#">clic aquí</a> para intentar de nuevo.</span></div>
+							
+							<fieldset id="input_modelos">
+								<label for="sModel"><span class="red">Modelo</span></label>
+									<select name="sModel" id="sModel">
+										<option value="">Selecciona un modelo</option>
+									</select>
+							</fieldset>
+						</fieldset>
+						<a href="#" class="button back">h</a>
+						<button type="submit" id="search" class="button search_disabled" disabled>L</button>
+					</form>
+
+					<div class="seeShoppingCar">
+						<a href="#" data-shopcarurl="https://mexico.dineromail.com/Carrito/cart.asp?Comercio=146490" id="carDineromail"><img src="https://mexico.dineromail.com/imagenes/vender/verCarrito/ver-carrito.gif" alt="dineromail"></a>
+					</div>
+					
+					<div class="result_image"></div>
+					
+					<section class="resultSection">
+						<div class="promoProducts">
+							<p><strong>Tenemos diferentes<br>clases de fundas:</strong></p>
+							<ul class="matWords"><li><span>Plus</span></li><li><span>Reflex</span></li><li><span>Basic</span></li><li><span>Nylon Reflex</span></li><li><span>Aluminium</span></li></ul>
+							<div class="avisoFundasCarros">Las fundas que aquí aparecen no tienen capuchas o gorros para los espejos, si requiere así su modelo de funda favor de ponerse en contacto con nosotros para ver disponibilidad y cotizar.</div>
+						</div>
+						<div class="loading_results"><p><strong>Buscando...</strong><br>Por favor espere un momento.</p><img src="imgs/shop/ajax-loader2.gif" alt="loading_results"></div>
+						<div class="error_results"></div>
+						<div class="result_list"></div>
+					</section>
+
+				</div>
+			</div>
+			
+			<div class="fondo"></div>
+			
+			<div class="corte"><span></span></div>
+			
+			<footer>
+				<p>Feeper fundas para auto, empresa Mexicana, proveedor de la industria automotríz de fundas para autos con los mejores materiales Du Pont, Tyvek. Feeper protegiendo los mejores autos del mundo.<br>Feeper 2009 Derechos reservados.</p>
+			</footer>
+		</div>
+		<script src="js/query.js"></script>
+	</body>
+</html>

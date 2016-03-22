@@ -1,0 +1,11 @@
+$(document).ready(function() {
+	$("#feeper_form").validate({
+		rules: {
+			nombre: "required",
+			apellido: "required",
+			email: "required",
+			comentarios: "required"
+		},
+		errorClass: "invalid"
+	});
+});

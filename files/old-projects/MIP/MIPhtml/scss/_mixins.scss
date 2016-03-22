@@ -1,0 +1,9 @@
+@mixin pos_size ($ancho:10px, $alto:10px, $margen_top:0, $margen_left:0, $index:0, $top_total:50%, $left_total:50%, $posicion:absolute) {
+	position:$posicion;
+	width:$ancho;
+	height:$alto;
+	top:$top_total;
+	left:$left_total;
+	z-index:100 + $index;
+	margin:$margen_top 0 0 $margen_left;
+}

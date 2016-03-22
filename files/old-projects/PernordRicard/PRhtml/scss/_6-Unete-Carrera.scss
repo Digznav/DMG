@@ -1,0 +1,50 @@
+//.UneteCarrera { background:url(../imgs/pantallasDemo/8-Unete-Oportunidades.jpg) no-repeat center -188px; }
+
+.UneteCarreraPanel {
+	margin-top:17px;
+}
+
+.s61c1 {
+	float:left;
+	position:relative;
+	.c1bT1 {
+		width:189px;
+		height:189px;
+		padding:18px 0 0 18px;
+		margin-left:78px;
+		background-color:$colorBlue;
+		color:#fff;
+		@include box-sizing(border-box);
+		h3 {
+			padding-bottom:56px;
+			line-height:26px;
+			font-size:30px;
+			font-family:$fontDinCondMedium;
+			background:url(../imgs/design/peopleBlueLight.png) no-repeat 4px bottom;
+			text-transform:uppercase;
+		}
+	}
+	.c1bT2 {
+		top:-10px;
+		left:-21px;
+	}
+}
+.s61c2 {
+	float:left;
+	width:564px;
+	height:420px;
+	padding:16px 47px;
+	margin-bottom:34px;
+	background-color:#fff;
+	color:#6D6E70;
+	@include box-sizing(border-box);
+	h3 {
+		padding:18px 0 12px;
+		font-size:14px;
+		font-family:$fontDinCondMedium;
+		text-transform:uppercase;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat;
+		color:$colorBlue;
+	}
+	a { color:inherit; }
+}

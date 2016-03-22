@@ -1,0 +1,62 @@
+/*@import "compass/css3";
+
+$general_font_family:'Myriad Pro', 'Arial', sans-serif;
+* {margin:0; padding:0;}
+body { font-family:$general_font_family; font-size:13px; }
+$red:#E1001A;
+
+#page-wrap, .panel {
+	position:relative;
+	width:590px;
+	height:375px;
+	border:1px solid $red;
+}*/
+
+$mapas_ancho:72%;
+$lugares_ancho:25%;
+$lugares_margen_der:2%;
+.map_canvas {
+	position:relative;
+	float:left;
+	width:$mapas_ancho;
+	height:100%;
+}
+.locations {
+	position:relative;
+	float:left;
+	list-style:none;
+	width:$lugares_ancho;
+	cursor:pointer;
+	margin-left:$lugares_margen_der;
+	h3 {
+		font-size:1em;
+		font-weight:normal;
+		color:$red;
+	}
+	li {
+		padding:0 10px;
+		width:100%;
+		line-height:35px;
+		@include box-sizing(border-box);
+		float:left;
+		position:relative;
+		&.hover {
+			background-color:$red;
+			h3 { color:#fff; font-weight:bold; }
+		}
+		&:hover { @extend .hover; }
+	}
+}
+
+.more-info {
+	position:absolute;
+	z-index:10;
+	width:$mapas_ancho;
+	left:$lugares_ancho + $lugares_margen_der;
+	bottom:0;
+	@include box-sizing(border-box);
+	background:rgba(darken($red,10%),.9);
+	color:#fff;
+	padding:1em;
+}
+.longdesc { display:none; }

@@ -1,0 +1,73 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic");
+@import url("http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,latin-ext");
+@import "compass/css3";
+@import "#Libs-fonts";
+@import "#Default-normalize";
+@import "#Libs-mixins";
+
+/* ==========================================================================
+	 HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+	 ========================================================================== */
+
+@import "#Default-h5bpStyles";
+
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+$fontGeneral:'Myriad Pro', Arial, sans-serif;
+$fontWebSymbols:'WebSymbolsRegular', sans-serif;
+$fontLigature:'LigatureSymbols';
+
+$fontPTSans:'PT Sans', 'Myriad Pro', sans-serif;
+$fontMarckScript:'Marck Script', cursive;
+
+$colorBlue:#00ADEE;
+$colorGray:#232323;
+$colorPurple:#2E3191;
+$colorGreen:#218400;
+$colorYellow:#F8BF22;
+$colorOrange:#F48220;
+$colorRed:#EC1C24;
+
+$colorDommy:rgba(#000,.5);
+
+body {
+	font-family:$fontPTSans;
+	background:#fff url(../../imgs/img2.jpg) no-repeat center;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+ul { margin:0; padding:0; }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance:none;
+	margin:0;
+}
+strong, b {
+	font-weight:700;
+	em, i { font-weight:700; font-style:italic; }
+}
+em, i { font-weight:400; font-style:italic; }
+.bodyLoader {
+	position:fixed;
+	bottom:1em;
+	left:1.2em;
+	font-size:1.5em;
+	color:$colorBlue;
+	z-index:-5;
+}
+
+@import "#Libs-icons";
+@import "#Libs-buttons";
+//@import "#Libs-jqueryUI";
+
+@import "admin-header";
+@import "admin-container";
+
+/* ==========================================================================
+	 Helper classes
+	 ========================================================================== */
+
+@import "#Default-helperClasses";

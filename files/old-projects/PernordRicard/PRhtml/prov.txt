@@ -1,0 +1,108 @@
+<?php
+include('libs/functions');
+$root=true;
+include('libs/checkLog');
+?>
+
+<?php
+include('../libs/functions');
+$root=false;
+include('../libs/checkLog');
+?>
+
+<div class="sliderLoader">
+	<span class="symb-icon icoLoader" id="loaderPop"></span>
+	<script type="text/javascript">
+		var i = 0;
+		function loading() { i++; i = i < 8 ? i : 0; $('#loaderPop').text(i); }
+		setInterval(loading, 100);
+	</script>
+	<p>Cargando imágenes...</p>
+</div>
+
+<article>
+	<p>"Llega a México un nuevo integrante de la casa Beefeater: Beefeater 24<br><span>La firma y creación única</span></p>
+	<a href="#">Ver más</a>
+</article>
+
+<script type="text/javascript">
+$('.rtclLoader').fadeIn('fast').delay(1000).fadeOut('fast',function() {
+	$('.resume').each(function(i) {
+		$(this).delay(i*100).animate(
+			{marginLeft:0, opacity:1},
+			{queue:true, duration:800, specialEasing:{marginLeft:'easeOutExpo', opacity:'linear'},
+		});
+	});
+});
+</script>
+
+<p>Azteca de Oro es elaborado con 100%  uvas mexicanas de Hermosillo, Sonora. Cuenta con mínimo 3 años de añejamiento en...</p>
+<div id="fllTxt" class="popUpNM">
+	<h4>Historia</h4>
+	<p>Azteca de Oro es un brandy mexicano con más de 36 años en el mercado, es reconocido como uno de los de mayor calidad en todas sus categorías. Su nombre evoca la raíz de la cultura mexicana: Azteca, que conlleva con su sabor la tradición y prestigio.</p>
+	<p>Azteca de Oro es elaborado con 100%  uvas mexicanas de Hermosillo, Sonora. Cuenta con mínimo 3 años de añejamiento en barricas de roble blanco dispuestas en un sistema Criadera-Solera para producir brandy estilo Jerezano, o brandy de Jerez, su destilación es en alambiques de cobre de cuello de cisne, logrando así un mayor carácter en el cuerpo del brandy.</p>
+</div>
+
+<article class="resume">
+	<img src="../imgs/design/PRM/BoutiqueDHiver.jpg" alt="Boutique D'Hiver" class="imgArt">
+	<div class="txtContArt">
+		<h3>BOUTIQUE D'HIVER</h3>
+		<div class="clearfix ttA">
+			PERNOD RICARD MÉXICO PRESENTA:<br>
+			BOUTIQUE D'HIVER: UNA EXPERIENCIA DE LUJO.<br>
+			Pernod Ricard México abre las puertas de Boutique D'Hiver, una nueva y sofisticada experiencia de compra del portafolio de marcas ultra premium<br>
+		</div>
+		<a class="seeMore" href="#" data-id-article="1">Ver más</a>
+	</div>
+</article>
+
+<script type="text/javascript">
+
+$(this).delay(i*100).animate(
+	{marginLeft:0, opacity:1},
+	{queue:true, duration:800, specialEasing:{marginLeft:'easeOutExpo', opacity:'linear'},
+});
+
+//complete 1
+$('.rtclLoader').fadeOut('fast',function() {
+	$('.resume').each(function(i) {
+		$(this).delay(i*100).fadeIn().animate( {marginLeft:0}, 800, 'easeOutExpo' );
+	});
+});
+
+//complete 2
+$('.rtclLoader').fadeOut('fast',function() {
+	$('.resume').each(function(i) {
+		$(this).delay(i*100).animate(
+			{marginLeft:0, opacity:1},
+			{queue:true, duration:800, specialEasing:{marginLeft:'easeOutExpo', opacity:'linear'},
+		});
+	});
+});
+
+var articlesItems = $.map(result, function(obj,idx) {
+	var artList = $('<article>', {'class':'resume'}),
+			artImg = $('<img />', {'src':'../'+obj.Img, 'alt':obj.Title, 'class':'imgArt'}).appendTo(artList),
+			artResume = $('<div>', {'class':'txtContArt'});
+	$('<h3>'+obj.Title+'</h3>').appendTo(artResume);
+	$('<div class="clearfix ttA">'+obj.Resume+'</div>').appendTo(artResume);
+	$('<a class="seeMore" href="#" data-id-article="'+obj.IDArticle+'">Ver más</a>').appendTo(artResume);
+	artResume.appendTo(artList);
+	return artList;
+});
+
+$('.articlesLists').detach().html(articlesItems).prependTo('.pnlArt');
+
+artlist = "";
+$.each(result, function(idx,obj) {
+	artlist +='<article class="resume">
+							<img src="../'+obj.Img+'" alt="'+obj.Title+'" class="imgArt">
+							<div class="txtContArt">
+								<h3>'+obj.Title+'</h3>
+								<div class="clearfix ttA">'+obj.Resume+'</div>
+								<a class="seeMore" href="#" data-id-article="'+obj.IDArticle+'">Ver más</a>
+							</div>
+						</article>';
+});
+$('.articlesLists').detach().html(artlist).prependTo('.pnlArt');
+</script>

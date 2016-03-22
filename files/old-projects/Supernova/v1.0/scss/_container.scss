@@ -1,0 +1,73 @@
+$backColor_General:#000;
+$textColor_General:#fff;
+$textColor_Highlight:$colorGreen;
+
+body {
+	//background:url(../imgs/grid.png) repeat-y left top;
+	background-color:$backColor_General;
+	color:$textColor_General;
+}
+
+#container {
+	//width:100%;
+	width:1024px;
+}
+
+.content {
+	float:left;
+	width:685px;
+	//margin:24px 0 0 94px;
+	margin-left:94px;
+	@include box-sizing(border-box);
+}
+
+.panel {
+	display:none;
+	//background-color:rgba(#333, .2);
+	//&#Que_es { display:block; }
+	&#Cuando { display:block; }
+	//&#Donde { display:block; }
+}
+
+.panelFormat {
+	h2 {
+		margin-bottom:32px;
+		font-size:60px;
+		font-weight:700;
+		text-align:right;
+		text-transform:uppercase;
+		line-height:100px;
+		@include text-shadow(
+			0 0 5px #fff,
+			0 0 10px $shadowColor_General_Blue,
+			0 0 15px $shadowColor_General_Blue,
+			0 0 25px $shadowColor_General_Blue
+		);
+		/*@include text-shadow(
+			0px 0px 5px #fff,
+			0px 0px 10px $shadowColor_General_Blue,
+			0px 0px 20px $shadowColor_General_Blue
+		);*/
+	}
+	p {
+		//width:656px;
+		line-height:28px;
+		font-size:23px;
+		text-align:justify;
+		margin:0 82px;
+		@include text-shadow(0px 0px 1px $shadowColor_General_Blue);
+	}
+	.highlight {
+		//width:656px !important;
+		margin:0 41px 24px;
+		font-weight:700;
+		line-height:26px;
+		font-size:25px;
+		text-align:center;
+		//color:$textColor_Highlight;
+		@include text-shadow(
+			0px 0px 10px $shadowColor_General_Green,
+			0px 0px 20px $shadowColor_General_Green
+		);
+	}
+}

@@ -1,0 +1,97 @@
+//.ADondeIr { background:url(../imgs/pantallasDemo/2-ADondeIr.jpg) no-repeat center -188px; }
+
+
+
+.ADondeIrPanel {
+	float:left;
+	width:440px;
+	min-height:417px;
+	padding:5px 8px;
+	margin:30px 0 52px 145px;
+	font-family:$fontDinCondMedium;
+	background-color:#fff;
+	@include box-sizing(border-box);
+	ul { list-style:none; }
+	table {
+		width:100%;
+		th, td {
+			border:none;
+			padding:0;
+			vertical-align:top;
+		}
+		thead th {
+			line-height:32px;
+			font-size:14px;
+			font-weight:normal;
+			text-align:left;
+			text-transform:uppercase;
+			background-color:$colorBlue;
+			color:#fff;
+			@include box-sizing(border-box);
+		}
+	}
+	.c1 { width:126px; padding-left:8px; }
+	.c2 { width:126px; padding-left:17px; }
+	.c3 { width:172px; padding-left:14px; }
+
+	.list {
+		text-transform:uppercase;
+		li { float:left; width:100%; }
+		a {
+			width:100%;
+			display:inline-block;
+			@include box-sizing(border-box);
+		}
+	}
+
+	.lvl1 {
+		a {
+			padding-left:8px;
+			color:$colorBlue;
+			line-height:32px;
+			font-size:15px;
+			&:hover {
+				@include alphaColorIE(rgba(#7EA4CF,.6));
+				color:#fff;
+			}
+			&.activeLvl1 {
+				background-color:#7EA4CF !important;
+				color:#fff;
+			}
+		}
+	}
+	.lvl2 {
+		display:none;
+		padding:9px 0;
+		@include alphaColorIE(rgba(#B3B3B0,.2));
+		a {
+			padding-left:17px;
+			color:#7EA4CF;
+			line-height:18px;
+			&:hover {
+				@include alphaColorIE(rgba(#B3B3B0,.12));
+			}
+			&.activeLvl2 {
+				@include alphaColorIE(rgba(#B3B3B0,.12));
+				color:$colorBlue;
+			}
+		}
+	}
+	.lvl3 {
+		display:none;
+		padding:9px 0;
+		a {
+			padding-left:14px;
+			color:#7EA4CF;
+			line-height:18px;
+			&:hover {
+				background-color:#F1F1F2;
+				color:$colorBlue;
+			}
+			&.activeLvl3 {
+				background-color:#F1F1F2;
+				color:$colorBlue;
+			}
+		}
+	}
+}

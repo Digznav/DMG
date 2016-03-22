@@ -1,0 +1,246 @@
+//.PRMAcercaDe { background:url(../imgs/pantallasDemo/4-PRM-AcercaDe12.jpg) no-repeat center -188px; }
+
+.PRMAcercaDePanel {
+	background:url(../imgs/design/PRM/map2.png) no-repeat 627px -7px;;
+}
+.popUpPRM {
+	width:630px;
+	height:400px;
+	display:none;
+	//background:url(../imgs/subs.png) no-repeat left top;
+	background-color:#E6E7E8;
+	@include box-sizing(border-box);
+	padding:40px 22px;
+	.popImageColumn {
+		position:relative;
+		float:left;
+		width:190px;
+		img { width:100%; }
+		h2 {
+			position:absolute;
+			right:0;
+			bottom:0;
+			left:0;
+			padding:4px 13px;
+			line-height:24px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:20px;
+			color:#fff;
+			@include alphaColorIE(rgba(#000,.5));
+		}
+	}
+	.popTextColumn {
+		float:left;
+		width:396px;
+		height:100%;
+		color:$colorBlue;
+		.scrollCont {
+			width:100%;
+			height:270px;
+			padding:0 21px 0 29px;
+			overflow-y:auto;
+			@include box-sizing(border-box);
+		}
+		h3 {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:19px;
+			line-height:30px;
+			padding:0 0 20px 29px;
+		}
+		p {
+			margin-bottom:8px;
+			font-size:12px;
+			line-height:14px;
+		}
+	}
+}
+
+.shwMore {
+	position:relative;
+	a {
+		float:right;
+		width:52px;
+		padding-left:3px;
+		line-height:19px;
+		font-size:9px;
+		background:#7EA4CF url(../imgs/design/plusIco_White.png) no-repeat 38px center;
+		color:#FFF; 
+		@include box-sizing(border-box);
+		@include transition(background .2s ease-out, color .2s ease-out);
+		&:hover {
+			background:#fff url(../imgs/design/plusIco_BlueLight.png) no-repeat 38px center;;
+			color:#7EA4CF;
+		}
+	}
+	h3 {
+		position:absolute;
+		left:0;
+		right:0;
+		bottom:0;
+		@include alphaColorIE(rgba(#000,.5));
+		color:#FFF;
+		font-family:$fontNewBaskervilleItalic;
+		font-size:12px;
+		line-height:14px;
+		padding:2px 9px;
+	}
+}
+.s21vc1 {
+	@extend %columnFormat;
+	margin:37px 0 0 34px;
+	.c1bT1 {
+		width:210px;
+		height:168px;
+		margin-left:110px;
+		background:url(../imgs/design/PRM/corporativo.png) no-repeat;
+		color:#fff;
+		h3 {
+			float:left;
+			margin:106px 0 0 18px;
+			line-height:20px;
+			font-size:20px;
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left top;
+			span {
+				font-size:28px;
+				line-height:34px;
+			}
+		}
+	}
+	.c1bT2 {
+		float:left;
+		width:200px;
+		height:169px;
+		background:url(../imgs/design/peopleBlue.png) no-repeat 29px 27px;
+		background-color:#fff;
+		color:$colorBlue;
+		font-family:$fontDinCondMedium;
+		h3 {
+			float:left;
+			width:80%;
+			margin:79px 0 0 30px;
+			font-size:39px;
+			line-height:39px;
+			padding-top:8px;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left top;
+		}
+		p {
+			float:left;
+			margin-left:30px;
+			font-size:21px;
+			line-height:16px;
+		}
+	}
+	.c1bT3 {
+		float:left;
+		width:120px;
+		height:117px;
+		margin-top:91px;
+		background:url(../imgs/design/PRM/plantaHermosillo.png) no-repeat;
+		//a {}
+	}
+}
+
+.s21vc2 {
+	@extend %columnFormat;
+	margin-top:114px;
+	.c2bT1 {
+		width:120px;
+		height:120px;
+		background:url(../imgs/design/PRM/plantaEnsenada.png) no-repeat;
+		a { margin-top:-19px; }
+	}
+	.c2bT2 {
+		width:120px;
+		height:120px;
+		background:url(../imgs/design/lines/lineWhite_FFFFFF_78.png) no-repeat 23px 11px;
+		background-color:$colorBlue;
+		color:#fff;
+		h3 {
+			float:left;
+			margin-top:14px;
+			padding-left:23px;
+			line-height:19px;
+			font-size:17px;
+			font-family:$fontDinCondMedium;
+			background:url(../imgs/design/grayStar.png) no-repeat 9px 6px;
+			text-transform:uppercase;
+		}
+	}
+	.c2bT3 {
+		width:120px;
+		height:110px;
+		background:url(../imgs/design/PRM/plantaArandas.png) no-repeat;
+		//a {}
+	}
+}
+
+.s21vc3 {
+	@extend %columnFormat;
+	margin-top:131px;
+	.c3bT1 {
+		@extend %columnFormatBoxSizingOnly;
+		width:160px;
+		height:130px;
+		padding-left:5px;
+		margin-left:35px;
+		color:$colorBlue;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 7px top;
+		h3 {
+			font-family:$fontDinCondMedium;
+			font-size:24px;
+			line-height:30px;
+			padding:9px 0 0 3px;
+			text-transform:uppercase;
+			span { font-size:32px; }
+		}
+		h4, p {
+			font-family:$fontNewBaskervilleItalic;
+		}
+		h4 {
+			line-height:13px;
+			font-size:16px;
+			padding-left:8px;
+		}
+		p {
+			font-size:13px;
+			margin-top:10px;
+			line-height:16px;
+			&:last-of-type {
+				margin-bottom:0;
+			}
+		}
+	}
+	.c3bT2 {
+		width:120px;
+		height:110px;
+		margin-top:31px;
+		background:url(../imgs/design/PRM/plantaReyes.png) no-repeat;
+		a { margin-top:-19px; }
+	}
+}
+
+.s21vc4 {
+	@extend %columnFormat;
+	margin:326px 0 0 200px;
+	.c4bT1 {
+		color:$colorBlue;
+		width:140px;
+		height:125px;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 7px top;
+		h3 {
+			font-family:$fontDinCondMedium;
+			font-size:21px;
+			padding:7px 0 0 7px;
+			line-height:23px;
+			text-transform:uppercase;
+		}
+		p {
+			font-family:$fontNewBaskervilleItalic;
+			padding:6px 0 0 5px;
+			font-size:13px;
+			line-height:16px;
+		}
+	}
+}

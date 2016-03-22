@@ -1,0 +1,177 @@
+//.NGmezcla { background:url(../imgs/pantallasDemo/6-NuestraGente-Valor5.jpg) no-repeat center -188px; }
+
+.NGnav {
+	position:absolute;
+	top:175px;
+	left:39px;
+	z-index:100;
+	a {
+		line-height:18px;
+		padding:6px 0 6px 11px;
+		&.n1 { width:122px; }
+		&.n2 { width:158px; }
+		&.n3 { width:112px; }
+		&.n4 { width:121px; }
+		&.n5 { width:117px; }
+	}
+}
+.NGMezclaSello {
+	position:absolute;
+	top:16px;
+	right:39px;
+	width:60px;
+	height:51px;
+}
+.sfMrgn { margin-top:30px; }
+.s42c1 {
+	@extend %columnFormat;
+	position:relative;
+	margin-top:16px;
+	background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 74px top;
+	.c1bt1 {
+		width:190px;
+		height:190px;
+		margin:17px 0 0 74px;
+		padding:15px 0 0 22px;
+		background-color:$colorBlue;
+		color:#fff;
+		@include box-sizing(border-box);
+		h3 {
+			line-height:23px;
+			font-size:20px;
+			padding-bottom:10px;
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+		}
+		p {
+			margin-top:11px;
+			line-height:14px;
+			font-size:14px;
+		}
+	}
+	.c1bt2 {
+		width:264px;
+		padding:10px 0 0 86px;
+		background:url(../imgs/design/peopleBlueLight.png) no-repeat 18px 20px;
+		color:#B3B3B0;
+		@include box-sizing(border-box);
+		h3, h4 {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:16px;
+			line-height:13px;
+			color:$colorBlue;
+		}
+		h4 {
+			font-size:18px;
+			margin-top:12px;
+		}
+		p {
+			margin-top:14px;
+			line-height:13px;
+			font-size:12px;
+		}
+	}
+	.c1bt3 {
+		top:7px;
+		left:-25px;
+	}
+}
+
+.s42c2 {
+	@extend %columnFormat;
+	position:relative;
+	width:713px;
+	margin:16px 12px;
+	padding-left:1px;
+	background:url(../imgs/design/lines/lineBlue_134677_436.png) no-repeat left top;
+}
+
+.NGMezclaPanel {
+	&#Marcas_premium_exitosas {
+		display:block;
+	}
+	.imgSection {
+		width:712px;
+		height:175px;
+	}
+	.dvFormat {
+		width:679px;
+		height:215px;
+		margin:59px 0 8px;
+		//padding:0 10px 0 39px;
+		padding:0 10px 0 0;
+		//@include box-sizing(border-box);
+		overflow-y:auto;
+	}
+	.slice_3 > .bt {
+		width:190px;
+		&.bt_first {
+			width:200px;
+		}
+	}
+	.slice_2 > .bt {
+		width:295px;
+		&.bt_first {
+			width:305px;
+		}
+	}
+	.bt {
+		float:left;
+		color:#B3B3B0;
+		padding:0 10px 0;
+		//@include box-sizing(border-box);
+		h3 {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat;
+			color:$colorBlue;
+		}
+	}
+	.bt_first {
+		padding-left:39px;
+		&.bottleBack { background:url(../imgs/design/bottle.png) no-repeat 7px top; }
+		&.peopleBack { background:url(../imgs/design/peopleLightBlue_Esp.png) no-repeat 9px 4px; }
+		&.womanBack { background:url(../imgs/design/womanLightBlue.png) no-repeat 41px 7px; }
+		&.worldBack { background:url(../imgs/design/worldLightBlue.png) no-repeat 12px top; }
+		&.joinBack { background:url(../imgs/design/joinPeople.png) no-repeat 12px top; }
+	}
+
+	.dvfCursive {
+		h2 {
+			padding:9px 0 25px 45px;
+			line-height:24px;
+			font-size:22px;
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			color:$colorBlue;
+		}
+		h3 {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:18px;
+			line-height:18px;
+			padding-top:8px;
+			margin-bottom:10px;
+			background-position:left top;
+			&.worldMargin { margin-left:19px; }
+		}
+		p {
+
+		}
+	}
+	.dvfCondense {
+		h3 {
+			font-family:$fontDinCondMedium;
+			font-size:20px;
+			line-height:20px;
+			padding-bottom:13px;
+			margin-bottom:7px;
+			text-transform:uppercase;
+			background-position:left bottom;
+			&.joinMargin { margin-left:30px; }
+		}
+		p {
+
+		}
+	}
+	.bgWhite {
+		background-color:#fff;
+	}
+}

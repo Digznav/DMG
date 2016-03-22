@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>.::Feeper::.</title>
+		<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+			$(function() {
+				$("#accr").accordion({ heightStyle: "content" });
+			});
+		</script>
+	</head>
+	<body>
+		<div class="content">
+			<header><strong>Lo ideal</strong> para tu vehículo</header>
+			<div class="garantia"></div>
+			
+			<div class="contenedor_nav">
+				<div class="imagen_nav">
+					<div class="logo"><a href="index.html"><img src="imgs/logo.png" alt="logo"></a></div>
+					<div class="base_logo"><a href="http://www.facebook.com/pages/Feeper/119384721405748?fref=ts" target="_blank">f</a></div>
+				</div>
+				<nav class="button_navigation">
+					<ul>
+						<li><a class="but_nav" id="tienda" href="tienda.html"><strong>Tienda</strong></a></li>
+						<li><a class="but_nav" id="empresa" href="empresa.html">Empresa</a></li>
+						<li><a class="but_nav" id="materiales" href="materiales.html">Materiales</a></li>
+						<li><a class="but_nav" id="contacto" href="contacto.php">Contacto</a></li>
+						<li><a class="but_nav but_ayuda" id="ayuda" href="#Ayuda">Ayuda</a></li>
+					</ul>
+				</nav>
+				<div class="hover_button_navigation"></div>
+			</div>
+			
+			<nav class="sub_nav">
+				<ul>
+					<li><a class="but_subnav" href="#Pedidos">Pedidos</a></li><li><a class="but_subnav" href="#Preguntas">Preguntas frecuentes</a></li><li><a class="but_subnav" href="#Info">Información técnica</a></li>
+				</ul>
+			</nav>
+			<div class="general_cont">
+				<div id="Ayuda" class="panel">
+					<span class="title">¿Cómo puedo ayudarte?</span>
+					<p class="descrip">Los productos están a la venta en territorio mexicano, para compras en otros países o para aclarar cualquier duda o solicitar información siente la confianza de establecer contacto con nosotros, estamos a tus órdenes en los teléfonos y correos donde con gusto te atenderemos.</p>
+					<ul class="descrip">
+						<li>Tel.: (222) 230 2828</li>
+						<li>Tel.: (222) 240 7533</li>
+						<li><a href="mailto:ventas@feeper.com" target="_blank">ventas@feeper.com</a></li>
+						<li><a href="mailto:administracion@feeper.com" target="_blank">administracion@feeper.com</a></li>
+					</ul>
+				</div>
+
+				<div id="Pedidos" class="panel">
+					<span class="title">Pedidos</span>
+					<p class="descrip"><span class="subtitle">Pago - Tarjetas de Crédito</span><br>Aceptamos VISA, MasterCard, American Express para realizar compras. También aceptamos depósitos en OXXO y en 7-Eleven.<br>La mercancía solicitada será puesta en la paquetería en un máximo de 48 hrs, la empresa de paquetería tarda en entregar el paquete de 2 a 5 días hábiles. Cuando ingrese la información de su tarjeta de crédito, por favor asegúrese de que su nombre de facturación sea exactamente igual al que aparece en la tarjeta de crédito (por ejemplo, incluir un punto después de la inicial de su segundo nombre, de ser el caso).<br>Para la protección de nuestros clientes, las transacciones no pueden ser procesadas si la información de facturación no es 100% precisa. Se hará cobro a su tarjeta solamente cuando se pedido sea enviado con éxito.<br></p>
+					<p class="descrip"><span class="subtitle">Impuesto</span><br>Cobramos el 16% de IVA de acuerdo con las directrices federales y estatales del Estado de Puebla. El total de su pedido refleja la cantidad total que será cobrada a su tarjeta de crédito - no se agregará ningún cargo adicional.</p>
+					<p class="descrip"><span class="subtitle">Seguimiento</span><br>Después de que un pedido se realiza exitosamente, usted recibirá una confirmación por correo electrónico en breves momentos (generalmente en una hora). Una vez que su pedido haya sido enviado, usted recibirá un mensaje de confirmación que contendrá su número de guía ya que todos nuestros pedidos son enviados por una empresa de mensajería especializada.</p>
+				</div>
+
+				<div id="Preguntas" class="panel">
+					<span class="title">Preguntas frecuentes</span>
+					<div id="accr">
+						<h3 class="title_accr">¿Cómo elegir la funda que necesito?</h3>
+						<div class="cont_accr"><p>Lo primero que recomendamos es identificar como es la situación donde esta nuestro vehículo, si esta a la intemperie o cochera cubierta, si vamos a dejar el vehículo por largos periodos, si requerimos una funda gruesa en caso de tener problemas con aves o mascotas que trepen al vehículo y lo rayen, o bien una funda de calibre normal  que no requiera vigilancia y pueda permanecer instalada sin importar el clima. Una vez identificada la situación te sugerimos leer nuevamente las característica de cada material y ahora si elegir la más conveniente de acuerdo al uso. </p></div>
+						<h3 class="title_accr">¿Qué ventajas ofrecen las fundas BASIC, PLUS o REFLEX sobre el modelo ALUMINIUM?</h3>
+						<div class="cont_accr"><p>Los nuevos materiales de PLUS, REFLEX o BASIC son resultado de años de investigación tecnológica. La composición de los nuevos materiales no permite que el auto sufra daños, ya que libera el calor y la humedad, su peso la hace práctica y ligera, además de ser reciclables. La funda ALUMINIUM ofrece fuerza y es impermeable, pero su uso es delicado, ya que hay que quitarla del auto para ventilar mejor, sus ventilas de respiración ayudan a liberar el vapor , calor o humedad, pero recomendamos retirar al menos una vez por semana, de esta forma evitamos daños como pueden ser manchas blancas en la pintura, o bien que se estrelle la pintura. </p></div>
+						<h3 class="title_accr">¿La funda es resistente al sol?</h3>
+						<div class="cont_accr"><p>La funda BASIC, PLUS y REFLEX bloquean el 98% de los rayos solares, sus micro poros librean el calor e impiden que el auto se caliente. Increíble, tu auto estará fresco, aún en zonas con temperaturas extremas.</p></div>
+						<h3 class="title_accr">¿La funda resiste la lluvia?</h3>
+						<div class="cont_accr"><p>El material BASIC, PLUS o REFLEX es repelente al 90% de la lluvia, sin embargo la poca agua que puede llegar a entrar será liberada en forma de vapor a través de sus micro poros y quedara seca en pocas horas, esto sin riesgo para tu auto, ya que lo que en verdad le afecta a la pintura y lamina, es el exceso de humedad. Si utilizas nuestra funda de vinyl afelpado es necesario retirarla periódicamente, para hacerla más impermeable utiliza el sellador incluido y aplícalo en las costuras que quedan expuesta a la entrada de agua.</p></div>
+						<h3 class="title_accr">¿Qué pasa si dejo la funda puesta sobre mi auto varios días?</h3>
+						<div class="cont_accr"><p>La funda ofrece una excelente protección, por sus micro poros el calor y humedad serán liberados fácilmente, el polvo no pasa y el auto se mantendrá en perfecto estado, aun dejando su funda en el auto por un período de de más de 30 días, comprobado. Si utilizas nuestra funda ALUMINIUM deberás quitarla completamente al menos 2 horas cada 4 días. </p></div>
+						<h3 class="title_accr">¿Qué tiempo de vida tienen las fundas?</h3>
+						<div class="cont_accr"><p>Las fundas BASIC, PLUS o REFLEX tienen un tiempo aproximado de vida de 1 a 2 años, la funda ALUMINIUM de 2 a 3 años, la duración puede variar dependiendo del cuidado y limpieza, o por las condiciones de contaminación ambiental a la que estuviera expuesta la funda.</p></div>
+						<h3 class="title_accr">¿El material BASIC, PLUS o REFLEX no tienen felpa, puede rayar la pintura de mi auto?</h3>
+						<div class="cont_accr"><p>Los nuevos materiales ya no necesitan felpa para proteger la pintura del auto, el interior de esta funda tiene un terminado muy suave tipo micro fibra, no retiene polvo ni humedad, por lo que facilita incluso su limpieza, la funda se puede lavar por ambos lados. La felpa retiene polvo, por lo que hay que pasar la aspiradora.</p></div>
+						<h3 class="title_accr">¿Cómo puedo limpiar mi funda?</h3>
+						<div class="cont_accr"><p>Se recomienda hacerlo con la funda puesta sobre el auto, utiliza una toalla para lavar autos, prepara en un recipiente un poco de agua para enjuagar, si es necesario utiliza shampoo para autos, evita utilizar detergentes y cloro. Es como lavar el auto, limpie y enjuague, deje secar a la intemperie preferentemente colgada. (No utilizar secadoras automáticas) si el interior de la funda esta sucia realice la misma operación. Para el caso de funda ALUMINIUM mismo procedimiento con la diferencia que la limpieza de la felpa debe ser con aspiradora.</p></div>
+					</div>
+				</div>
+
+				<div id="Info" class="panel">
+					<span class="title">Información técnica</span>
+					<p class="descrip"><span class="subtitle">Cookies</span><br>Usted puede haber llegado a esta página al navegar en nuestro sitio o porque intentó colocar un artículo en su bolsa y tiene las COOKIES deshabilitadas en su navegador.</p>
+					<p class="descrip"><span class="subtitle">¿Qué es una cookie?</span><br>Una cookie es un pequeño fragmento de texto que las páginas web colocan en un disco duro de su computadora.<br>No es un programa que se pueda ejecutar y no le puede transmitir virus.</p>
+				</div>
+			</div>
+
+			<div class="fondo"></div>
+			
+			<div class="corte"><span></span></div>
+			
+			<footer>
+				<p>Feeper fundas para auto, empresa Mexicana, proveedor de la industria automotríz de fundas para autos con los mejores materiales Du Pont, Tyvek. Feeper protegiendo los mejores autos del mundo.<br>Feeper 2009 Derechos reservados.</p>
+			</footer>
+		</div>
+		<script src="js/query.js"></script>
+	</body>
+</html>

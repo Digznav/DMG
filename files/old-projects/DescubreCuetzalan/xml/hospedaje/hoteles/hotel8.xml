@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><hotel><nombre>PARADOR JL</nombre>
+	<descripcion>Somos un  hotel que cuenta  con  una  ubicación privilegiada en la zona centro de Cuetzalan, a tan solo tres cuadras del zócalo de la ciudad. Contamos con el distintivo M,  esto gracias a la calidad en nuestros servicios. La experiencia de 23 años nos respaldan, cada día innovando tanto en instalaciones como en servicios. Bienvenidos sean a hotel Parador JL</descripcion>
+	<tit1>NÚMERO DE HABITACIONES</tit1>
+	<tit2>DESCRIPCIÓN DE HABITACIONES</tit2>
+	<tit3>COSTOS POR HABITACIÓN</tit3><caracteristica><car1>1 sencilla
+3 sencillas</car1><car2>1 cama matrimonial
+1 cama King Size</car2><car3>Temporada baja
+1 persona. $350.00
+2 personas. $500.00
+Temporada alta
+1 persona. $350.00
+2 personas. $650.00 
+Las tarifas incluyen desayuno tipo americano.</car3></caracteristica><caracteristica><car1>19 dobles
+2 dobles</car1><car2>2 camas matrimoniales
+2 camas individuales</car2><car3>Temporada baja
+2 personas. $500.00
+3 personas. $640.00
+4 personas. $780.00
+Temporada alta
+2 personas. $650.00
+3 personas. $810.00
+4 personas. $970.00
+Las tarifas incluyen desayuno tipo americano.</car3></caracteristica><aclaracion>Las habitaciones cuentan con. Baño completo, TV por cable, internet, ventilador.
+</aclaracion>
+	<adicionales>Restaurant, estacionamiento, salón de eventos, room service y cafetería
+</adicionales>
+	<restricciones>Se considera temporada baja de domingo a jueves, que no sea puente, feria de octubre, vacaciones de verano, Semana Santa y navidad.
+Temporada alta. viernes a sábado, puentes, vacaciones de verano, Semana Santa, feria de octubre y navidad.
+
+</restricciones><imagenes>12</imagenes> </hotel>

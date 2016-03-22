@@ -1,0 +1,51 @@
+$pika_size_width:530px;
+$pika_size_height:308px;
+.pikachoose {
+	position:relative;
+	float:left;
+	width:$pika_size_width;
+	/*margin:0 auto;*/
+	margin:10px 0 0 40px;
+}
+.pika-stage {
+	position:relative;
+	width:$pika_size_width;
+	height:$pika_size_height;
+	.main-image {
+		position:absolute;
+		top:0; left:0;
+	}
+	.pika-aniwrap {
+		@extend .main-image;
+		width:100%;
+	}
+	.pika-ani {
+		position:relative;
+		display:none;
+		z-index:2;
+		margin:0 auto;
+	}
+	img { height:100%; }
+	.caption {
+		position:absolute;
+		background:rgba(#000,.75);
+		font-size:.6875em;
+		color:#fafafa;
+		padding:10px;
+		text-align:right;
+		bottom:20px;
+		right:10px;
+		p { line-height:14px; }
+	}
+}
+
+.pika-textnav { display:none; }
+.pika-imgnav { @extend .pika-textnav }
+.pika-counter{
+	position:absolute;
+	bottom:-20px;
+	left:15px;
+	font-size:11px;
+}
+
+#pikame{ display:none; }

@@ -1,0 +1,13 @@
+{
+	"albumes":[
+		{ "AlbumName":"albumSeminario", "Title":"Seminario de Liderazgo, Comunicación y Coaching", "Url":"imgs/galeria/albumSeminario/", "Images":13 },
+		{ "AlbumName":"albumJunta", "Title":"Junta del consejo", "Url":"imgs/galeria/albumJunta/", "Images":5 },
+		{ "AlbumName":"albumConvenio", "Title":"Firma de Convenio Confederación USEM - UPAEP", "Url":"imgs/galeria/albumConvenio/", "Images":8 },
+		{ "AlbumName":"albumDesayuno", "Title":"Desayuno Conferencia 16 de Abril", "Url":"imgs/galeria/albumDesayuno/", "Images":38 },
+		{ "AlbumName":"albumComisionEje", "Title":"Comisión Ejecutiva", "Url":"imgs/galeria/albumComisionEje/", "Images":6 },
+		{ "AlbumName":"albumTomaProtesta", "Title":"Toma de protesta CCE", "Url":"imgs/galeria/albumTomaProtesta/", "Images":7 },
+		{ "AlbumName":"albumJuntaConsejoDirectivo", "Title":"Junta de Consejo Directivo", "Url":"imgs/galeria/albumJuntaConsejoDirectivo/", "Images":9 },
+		{ "AlbumName":"albumComisionEje2", "Title":"Comisión Ejecutiva del 04 de Marzo del 2013", "Url":"imgs/galeria/albumComisionEje2/", "Images":5 },
+		{ "AlbumName":"videos", "Title":"Videos", "Url":"imgs/galeria/videos/", "URLVideo":"http://www.youtube.com/embed/m7kjmnRHHTo?rel=0" }
+	]
+}

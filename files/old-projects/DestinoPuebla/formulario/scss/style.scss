@@ -1,0 +1,261 @@
+@import "reset";
+@import "fonts";
+@import "compass/css3";
+
+$general_font_family:'Century Gothic', 'Arial', sans-serif;
+$webSymbols_font:'WebSymbolsRegular', 'Arial', sans-serif;
+$modernPic_font:'ModernPictogramsNormal', 'Arial', sans-serif;
+$amarillo:#ffcb05;
+$naranja:#ff9e0b;
+$azul:#0f4c8c;
+$rojo:#b80000;
+$verde:#398e3d;
+
+body {
+	font-family:$general_font_family;
+	font-size:13px;
+	background:#a0887a url(../imgs/fondo.jpg) no-repeat fixed center top;
+}
+/*-----------------------------------------------------Cuadro de Background*/
+.contBack {
+	position:fixed;
+	z-index:-10;
+	width:960px;
+	left:50%;
+	top:0;
+	bottom:0;
+	margin-left:-480px;
+	background:#fff;
+	@include box-shadow(black 0 0 20px);
+}
+
+/*-----------------------------------------------------Contenedor general*/
+.container {
+	@include box-sizing(border-box);
+	width:960px;
+	margin:0 auto;
+	padding:0 4px;
+}
+
+/*-----------------------------------------------------Encabezado*/
+header {
+	position:relative;
+	width:100%;
+	height:105px;
+	background:$naranja;
+	margin-bottom:3px;
+	.logo {
+		display:inline-block;
+		width:310px;
+		height:100%;
+		text-align:center;
+		background:#fff;
+		img {
+			width:211px;
+			height:89px;
+			margin-top:6px;
+		}
+	}
+	.fecha {
+		position:absolute;
+		right:15px;
+		bottom:15px;
+		color:#000;
+		font-size:14px;
+	}
+}
+
+/*-----------------------------------------------------Contenedor principal*/
+.content {
+	background:#fff;
+	h2 {
+		font-size:18px;
+		font-weight:bold;
+		margin:20px 10px 5px;
+		color:$azul;
+	}
+	> p {
+		margin:3px 15px 10px;
+		text-align:justify;
+	}
+	a {
+		color:$naranja;
+		font-weight:bold;
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+	input {
+		margin:3px 0;
+	}
+}
+
+/*-----------------------------------------------------Formato general del formulario*/
+.destinoForm {
+	position:relative;
+	fieldset {
+		margin:5px 20px 5px;
+		padding-bottom:10px;
+		border-bottom:3px dashed $azul;
+		&:last-of-type { border:none; }
+		legend{
+			line-height:30px;
+			font-size:15px;
+			font-weight:bold;
+			text-transform:uppercase;
+			color:$azul;
+		}
+		label:not(.invalid) {
+			display:inline-block;
+			width:150px;
+			text-align:right;
+		}
+		textarea { width:305px; }
+	}
+	fieldset.labelGrandes {
+		label:not(.invalid) { width:200px; }
+		input { width:50px; }
+	}
+}
+
+/*-----------------------------------------------------Tabla de salones*/
+.salones {
+	position:relative;
+	width:912px;
+	overflow-x:auto;
+	margin-top:10px;
+	.salonList {
+		input {
+			width:40px;
+			margin:0;
+			&.cCtext {
+				width:70px;
+			}
+		}
+		th {
+			padding:3px;
+			font-size:11px;
+			font-weight:bold;
+			text-align:center;
+			vertical-align:top;
+			border-right:1px solid $amarillo;
+			color:$azul;
+			&:last-of-type { border:none; }
+		}
+		td {
+			text-align:center;
+			padding:3px;
+			border-right:1px solid $amarillo;
+			&:last-of-type { border:none; }
+		}
+
+		tfoot {
+			input {
+				border:1px dashed #ccc;
+				background:transparent;
+				color:#ccc;
+			}
+		}
+	}
+}
+
+input.submit {
+	position:absolute;
+	right:80px;
+	bottom:50px;
+	width:300px;
+	line-height:50px;
+	font-size:25px;
+	font-weight:bold;
+	color:#fff;
+	background:$azul;
+	border-radius:5px;
+	border:none;
+	cursor:pointer;
+	&:hover {
+		background:darken($azul,10%);
+	}
+}
+
+.inputGrandes input { width:400px; }
+
+.divColumna {
+	position:relative;
+	float:left;
+	margin-right:20px;
+}
+.divEjemplo {
+	span {
+		font-weight:bold;
+	}
+	p {
+		color:$azul;
+		strong { font-size:15px; font-weight:bold; }
+	}
+}
+.divAlert {
+	width:450px;
+	margin:30px auto 0;
+	padding:10px;
+	border:5px solid #fff;
+	font-size:1.2em;
+	text-align:center;
+	strong { font-size:1.4em; }
+	img { width:32px; height:32px; }
+	span { font-family:$modernPic_font; font-size:4em; }
+}
+.sendingMail {
+	border-color:$azul;
+	color:$azul;
+}
+.successMail {
+	border-color:$verde;
+	color:$verde;
+}
+.errorMail {
+	border-color:$rojo;
+	color:$rojo;
+}
+
+label.invalid {
+	font-size:.9em;
+	color:#fff;
+}
+input.invalid, textarea.invalid { border:1px red dotted; }
+.messageBox {
+	display:none;
+	position:fixed;
+	top:10px;
+	left:50%;
+	width:300px;
+	padding:5px;
+	margin-left:130px;
+	background:lighten($rojo,5%);
+	border:5px dashed darken($rojo,20%);
+}
+
+.dBoton {
+	display:inline-block;
+	width:18px;
+	margin:0 4px;
+	line-height:18px;
+	border-radius:4px;
+	font-family:$modernPic_font;
+	font-size:15px;
+	color:#fff;
+	cursor:pointer;
+	text-align:center;
+}
+.addSalon {
+	margin-top:3px;
+	background:darken(green,5%);
+}
+.addFoto{
+	@extend .addSalon;
+}
+.removeSalon {
+	background:darken(red,5%);
+}
+.removeFoto {
+	@extend .removeSalon;
+}

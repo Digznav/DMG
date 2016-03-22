@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>jQuery &mdash; Retrieving and Displaying JSON</title>
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<script>
+			// *** Run this through localhost ***
+			$(document).ready(function () {
+				$.getJSON('beatles.json',onDataReceived);
+			});
+			
+			onDataReceived = function (data) {
+				alert ("json loaded");
+				$(data.Beatles.bandMembers).each(function	()	{	
+					var beatle=this;	
+					$('#beatlesDiv').append(beatle.name	+	',	'	+	beatle.instrument + '<br>');		
+				});
+			};
+		</script>
+	</head>
+	<body>
+		<h1>jQuery &mdash; Retrieving and Displaying JSON</h1>
+		<div id="beatlesDiv">
+		</div>
+	</body>
+</html>

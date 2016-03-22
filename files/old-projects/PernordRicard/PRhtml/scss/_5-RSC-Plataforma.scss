@@ -1,0 +1,58 @@
+//.RSFPlataforma { background:url(../imgs/pantallasDemo/7-RSC-Plataforma.jpg) no-repeat center -188px; }
+
+.RSFPlataformaPanel {
+	margin:32px 0 0 155px;
+}
+
+.s52vc1 {
+	@extend %columnFormat;
+	margin-top:114px;
+	.c1bT1 {
+		width:110px;
+		height:110px;
+		padding:18px 8px 0 0;
+		text-align:right;
+		background-color:$colorBlue;
+		color:#fff;
+		@include box-sizing(border-box);
+		h3 {
+			padding-top:10px;
+			line-height:23px;
+			font-family:$fontDinCondMedium;
+			font-size:20px;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_78.png) no-repeat top right;
+		}
+	}
+}
+.s52vc2 {
+	@extend %columnFormat;
+	.c2bT1 {
+		width:410px;
+		height:114px;
+		padding:26px 20px 0 17px;
+		line-height:14px;
+		text-align:justify;
+		background-color:#E6E7E8;
+		color:$colorBlue;
+		@include box-sizing(border-box);
+	}
+	.c2bT2 {
+		/*width:410px;
+		height:262px;*/
+		width:410px;
+		height:306px;
+		margin:10px 0;
+	}
+	.c2bT3 {
+		width:217px;
+		height:63px;
+		margin-left:193px;
+		padding:8px 10px 0 0;
+		line-height:14px;
+		font-family:$fontNewBaskervilleItalic;
+		text-align:right;
+		color:$colorBlue;
+		@include box-sizing(border-box);
+	}
+}

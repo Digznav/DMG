@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {margin:0 0; font-size:14px; font-family:'Shanti', sans-serif; text-align:center; background:url('../imgs/fondo.jpg') center top no-repeat;
+			background-attachment:fixed; color:#666;}
+
+#god {width:752px; margin:0 auto;}
+
+#header, #container {width:750px; background-color:#FFF; float:left;}
+#header {height:155px; background:url('../imgs/line.jpg') no-repeat;}
+#container {border:1px #CCC solid; height:auto; clear:left;}
+
+#logo {width:200px; height:100px; margin:0 0 10px; float:left;}
+#sociales {float:right; margin:68px 3px 10px; color:#000; width:32px; height:32px;}
+
+#indexCol1 {float:left; width:244px; margin:13px 6px 0 16px;}
+#indexCol2 {float:left; width:466px; margin:13px 16px 0 0;}
+#contFila1 {float:left; width:716px; margin:13px 16px 0;}
+#contFila2 {float:left; clear:left; width:716px; margin:0 16px 0;}
+
+#paquetes, #videos, #clima, #galeriaIndex, #promociones, #promTexto1, #promTexto2 {margin:0 0 6px;}
+#clima, #paquetesCont, #promTexto1, #promTexto2, #contenidoCrema {border:1px #999 solid; background-image:url('../imgs/crema.jpg'); padding:8px 4px; text-align:left; font-size:13px;}
+#promTexto2 ul {margin:2px 40px 10px; padding:0;} .arregloPadding {padding:8px 15xp;}
+#contenidoCrema {margin-bottom:3px; float:left; width:706px;} #contenidoCrema a {line-height:30px; font-size:14px;}
+#menuPrin {clear:left; float:left; width:750px;}
+#cremaIzq {width:auto; float:left;} #cremaDer {width:150px; float:right; text-align:right;}
+.tituloPormo {color:#758035; font-weight:bold; font-size:14px;}
+
+#tVerde, #tRojo {margin-bottom:3px; color:#FFFFFF; font-weight:bold;}
+
+#tVerde {height:24px; background:url('../imgs/tituloVerde.jpg') repeat-x;}
+#tVerde a, #tVerde a:hover {line-height:24px; color:#FFF; text-decoration:none; cursor:default; padding:0 15px; background:url('../imgs/verdeFlat.jpg') repeat-x;}
+
+#tRojo {height:36px; background:url('../imgs/tituloRojo.jpg') repeat-x;}
+#tRojo a, #tRojo a:hover {line-height:36px; color:#FFF; text-decoration:none; cursor:default; padding:0 20px; background:url('../imgs/rojoFlat.jpg') repeat-x; font-size:15px;}
+
+.botonReverve {border:0 #FFF; background-color:transparent; margin:0; padding:1px;}
+
+#piePagina {float:left; clear:left; width:100%;border:1px #CCC solid; height:auto; background:#FFF url('../imgs/bottom.jpg') no-repeat; color:#669933;
+						font-size:12px; margin-top:10px; padding:20px 0 5px;}
+#piePagina a {color:#669933; text-decoration:none; line-height:30px; padding:0 5px;}
+#piePagina a:hover {color:#669933; text-decoration:underline;}
+
+.formatoTabla {border:1px #CCC solid; background-color:#FFF; color:#333;}
+.formatoTabla td {padding:2px 3px; border:1px #FFF solid;}
+.verdeClaro {background:#FFF url(../imgs/TverdeClaro.jpg) repeat;}
+.verdeMasClaro {background:#FFF url(../imgs/TverdeMasClaro.jpg) repeat;}
+.verdeMuchoMasClaro {background:#FFF url(../imgs/TverdeMuchoMasClaro.jpg) repeat;}
+.tituloTabla {background:url('../imgs/verdeFlat.jpg') repeat; color:#FFF; font-size:13px; text-align:center; font-weight:bold;}

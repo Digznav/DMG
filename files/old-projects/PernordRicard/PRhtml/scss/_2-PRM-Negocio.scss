@@ -1,0 +1,94 @@
+//.PRMNegocio { background:url(../imgs/pantallasDemo/4-PRM-NuestroNegocio.jpg) no-repeat center -188px; }
+
+//.PRMNegocioPanel {}
+
+%tpMarginPRMNegocio {
+	margin-top:33px;
+}
+.s22vc1 {
+	@extend %columnFormat;
+	@extend %tpMarginPRMNegocio;
+	width:225px;
+	.c1bT1 {
+		width:149px;
+		height:149px;
+		margin-left:76px;
+		background-color:$colorBlue;
+		color:#fff;
+		h3 {
+			float:left;
+			margin:21px 0 0 12px;
+			padding-top:16px;
+			font-family:$fontDinCondMedium;
+			font-size:21px;
+			line-height:23px;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left top;
+		}
+	}
+	.c1bT2 {
+		float:left;
+		margin:-16px 0 0 18px;
+		width:145px;
+		height:114px;
+		img { width:100%; height:100%; }
+	}
+}
+.s22vc2 {
+	@extend %columnFormat;
+	@extend %tpMarginPRMNegocio;
+	.c2bT1 {
+		width:210px;
+		height:149px;
+		margin-left:215px;
+		color:$colorBlue;
+		background:url(../imgs/design/peopleBlueSmall.png) no-repeat 115px 61px;
+		p {
+			padding-left:6px;
+			font-size:21px;
+			line-height:19px;
+			font-family:$fontNewBaskervilleItalic;
+		}
+		h3 {
+			float:right;
+			width:78px;
+			text-align:right;
+			margin:44px 51px 0 0;
+			line-height:45px;
+			font-size:39px;
+			font-family:$fontDinCondMedium;
+			background:url(../imgs/design/lines/lineBlue_134677_78.png) no-repeat right top;
+		}
+	}
+	.c2bT2 {
+		@extend %changeImgList;
+		width:398px;
+		//height:262px;
+		padding:13px 38px 0 24px;
+		margin-bottom:13px;
+		background-color:#fff;
+		color:#B3B3B0;
+		@include box-sizing(border-box);
+		li {
+			font-size:12px;
+			line-height:14px;
+			margin-bottom:12px;
+		}
+	}
+}
+.s22vc3 {
+	@extend %columnFormat;
+	@extend %tpMarginPRMNegocio;
+	.c3bT1 {
+		margin-top:286px;
+		h3 {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left top;
+			padding-top:14px;
+			color:$colorBlue;
+			font-family:$fontDinCondMedium;
+			font-size:21px;
+			line-height:23px;
+			text-transform:uppercase;
+		}
+	}
+}

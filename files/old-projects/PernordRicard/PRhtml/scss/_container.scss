@@ -1,0 +1,358 @@
+
+#container {
+	width:100%;
+	overflow-x:hidden;
+	position:relative;
+}
+.generalBack { background:url(../imgs/design/back.png) no-repeat right bottom; }
+.panel {
+	width:200%;
+	padding-left:100%;
+	float:left;
+	position:relative;
+	@include box-sizing(border-box);
+}
+.content {
+	width:1024px;
+	margin:0 auto;
+	font-size:12px;
+	position:relative;
+	h3 { margin:0; }
+}
+
+.sliderCont { position:relative; height:289px; }
+
+%loaderFormat {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	@include box-sizing(border-box);
+	text-align:center;
+	span {
+		display:inline-block;
+		font-size:4em;
+		font-family:$fontWebSymbols;
+	}
+	p {
+		font-weight:700;
+		text-align:center;
+	}
+}
+
+.sliderLoader {
+	@extend %loaderFormat;
+	padding-top:95px;
+	background-color:#ebecee;
+}
+
+$w:percentage(1 / 5);
+
+%tituloFormatCursiv {
+	font-family:$fontNewBaskervilleItalic;
+	background-image:url(../imgs/design/lines/lineBlue_134677_52.png);
+	background-repeat:no-repeat;
+	background-position:14px bottom;
+	color:$textColor_indexContGeneralTitle_Default;
+}
+
+%spanFormat {
+	padding:14px;
+	font-family:$fontSansSerif;
+	text-transform:uppercase;
+}
+
+.contIndex {
+	width:100%;
+	padding:0 35px;
+	@include box-sizing(border-box);
+	//background:url(../imgs/pantallasDemo/2-Home1.jpg) no-repeat center -478px;
+	.navPart {
+		width:$w;
+		height:260px;
+		float:left;
+		@include transition(background-color .2s ease-out, color .2s ease-out);
+		a {
+			display:block;
+			color:inherit;
+			height:100%;
+			@include box-sizing(border-box);
+		}
+		h3 {
+			line-height:18px;
+			font-size:16px;
+			padding:9px 14px;
+			margin-bottom:10px;
+			font-weight:normal;
+			@include transition(background-image .2s ease-out, color .2s ease-out);
+		}
+		p {
+			margin:0;
+			padding:0 14px;
+			font-family:$fontDinCondMedium;
+			font-size:16px;
+			line-height:18px;
+		}
+		.spanGo {
+			display:inline-block;
+			line-height:13px;
+			padding:10px 14px 0;
+			text-transform:uppercase;
+			font-family:$fontDinCondMedium;
+			font-size:11px;
+			@include transition(color .2s ease-out);
+			&:after { content:" \003E\003E"; }
+		}
+	}
+
+	.marcas {
+		background-color:$backColor_indexMarcas_Default;
+		color:$textColor_indexMarcas_Default;
+		h3 {
+			@extend %tituloFormatCursiv;
+			background-image:url(../imgs/design/lines/lineWhite_FFFFFF_52.png);
+			color:$textColor_indexMarcasTitle_Default;
+		}
+		.spanGo {
+			@extend %spanFormat;
+			color:$textColor_indexMarcasSpanGo_Default;
+		}
+		&:hover {
+			background-color:$backColor_indexMarcas_Active;
+			color:$textColor_indexMarcas_Active;
+			h3 {
+				background-image:url(../imgs/design/lines/linePurple_1B3664_52.png);
+				color:$textColor_indexMarcasTitle_Active;
+			}
+			.spanGo { color:$textColor_indexMarcasSpanGo_Active; }
+		}
+	}
+
+	.gente {
+		background:url(../imgs/design/indexImgs/nuestraGente.jpg) no-repeat center top;
+		background-size:100% auto;
+		background-color:$backColor_indexGente_Default;
+		color:$textColor_indexGente_Default;
+		h3 { @extend %tituloFormatCursiv; }
+		a { padding-top:45px; }
+		.spanGo {
+			@extend %spanFormat;
+			color:$textColor_indexGenteSpanGo_Default;
+		}
+		&:hover {
+			background-color:$backColor_indexGente_Active;
+			color:$textColor_indexGente_Active;
+			h3 {
+				background-image:url(../imgs/design/lines/lineGray_EBECEE_52.png);
+				color:$textColor_indexGenteTitle_Active;
+			}
+			.spanGo { color:$textColor_indexGenteSpanGo_Active; }
+		}
+	}
+	
+	.fundacion {
+		background:url(../imgs/design/indexImgs/fundacionPRM.png) no-repeat center top;
+		background-size:100% auto;
+		background-color:$backColor_indexFundacion_Default;
+		color:$textColor_indexFundacion_Default;
+		a { padding-top:45px; }
+		h3 { @extend %tituloFormatCursiv; }
+		.spanGo {
+			@extend %spanFormat;
+			color:$textColor_indexFundacionSpanGo_Default;
+		}
+		&:hover {
+			background-color:$backColor_indexFundacion_Active;;
+			color:$textColor_indexFundacion_Active;
+			h3 {
+				background-image:url(../imgs/design/lines/lineWhite_FFFFFF_52.png);
+				color:$textColor_indexFundacionTitle_Active;
+			}
+			.spanGo { color:$textColor_indexFundacionSpanGo_Active; }
+		}
+	}
+	
+	.noticias {
+		background-color:$backColor_indexNoticias_Default;
+		color:$textColor_indexNoticias_Default;
+		h3 {
+			@extend %tituloFormatCursiv;
+			&:after { content:" \003E\003E"; }
+		}
+		article {
+			padding:2px 20px 2px 25px;
+			background:url(../imgs/design/lines/lineBlue_1B3764_9.png) no-repeat 12px 15px;
+			text-transform:uppercase;
+			span { text-transform:none; }
+		}
+		a {
+			color:$textColor_indexNoticiasLink_Default;
+			font-family:$fontDinCondBold;
+			text-transform:uppercase;
+			@include transition(color .2s ease-out);
+			&:after { content:" \003E"; }
+			&:hover { color:$textColor_indexNoticiasLink_Active; }
+		}
+		p { padding:0; }
+	}
+
+	.centros {
+		background-color:$backColor_indexCentros_Default;
+		color:$textColor_indexCentros_Default;;
+		h3 { @extend %tituloFormatCursiv; }
+		.spanGo {
+			@extend %spanFormat;
+			color:$textColor_indexCentrosSpanGo_Default;
+		}
+		&:hover {
+			background-color:$backColor_indexCentros_Active;
+			color:$textColor_indexCentros_Active;
+			h3 {
+				background-image:url(../imgs/design/lines/lineGray_EBECEE_52.png);
+				color:$textColor_indexCentrosTitle_Active;
+			}
+			.spanGo { color:$textColor_indexCentrosSpanGo_Active; }
+		}
+	}
+
+	/*form { float:right; }
+	input {
+		width:166px;
+		@include box-sizing(border-box);
+		padding:3px 0 3px 25px;
+		background:url(../imgs/mail.png) no-repeat 5px center;
+		border:1px solid darken($colorGray,22%);
+		border-top:none;
+	}
+	button {
+		border:none;
+		margin:0 0 0 2px;
+		padding:3px 10px;
+		background:$colorLightBlue;
+		color:#fff;
+		span {
+			font-family:$fontWebSymbols;
+			margin-left:10px;
+		}
+	}*/
+}
+
+.imageNav { width:100%; }
+
+.pUpAP-Frmt {
+	display:none;
+	width:700px;
+	//height:500px;
+	padding:20px;
+	background-color:#fff;
+	@include box-sizing(border-box);
+	h2 {
+		color:$colorBlue;
+		font-family:$fontDinCondMedium;
+		font-size:25px;
+		line-height:30px;
+		padding-bottom:10px;
+		text-transform:uppercase;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 30px;
+	}
+	h3 {
+		text-transform:uppercase;
+		font-size:16px;
+		font-family:$fontDinCondMedium;
+		color:#7EA4CF;
+		line-height:15px
+	}
+	p, ul {
+		font-size:12px;
+		text-align:justify;
+		margin-bottom:10px;
+	}
+	ul { margin-left:25px; }
+	hr {
+		margin:1.5em 0 0;
+	}
+	small {
+		font-size:9px;
+	}
+	.lnk {
+		font-weight:bold;
+		color:$colorBlue;
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+	.sprRmn {
+		vertical-align:super;
+		font-size:8px;
+	}
+	.lwr-Ltn {
+		list-style-type:lower-roman;
+	}
+	.txt-AP {
+		width:100%;
+		height:100%;
+		padding-right:20px;
+		overflow-x:hidden;
+		overflow-y:auto;
+		@include box-sizing(border-box);
+	}
+	.isButton {
+		width:90px;
+		padding-left:9px;
+		margin-top:15px;
+		line-height:20px;
+		font-size:15px;
+		font-family:$fontDinCondMedium;
+		text-transform:uppercase;
+	}
+	.acptAP {
+		background-color:$colorBlue;
+		color:#fff;
+		margin-right:10px;
+		&:hover {
+			background-color:#e9e7e7;
+			color:$colorBlue;
+		}
+	}
+	.rfseAP {
+		background-color:$colorRed;
+		color:#fff;
+		&:hover {
+			background-color:#e9e7e7;
+			color:$colorRed;
+		}
+	}
+}
+
+@import "AllSections";
+	
+	@import "0-ADondeIr";
+	@import "0-APrivacidad";
+
+//@import "1-GPR";
+	
+	@import "1-GPR-Acerca";
+	@import "1-GPR-Historia";
+	@import "1-GPR-Pilares";
+	@import "1-GPR-Presencia";
+
+	@import "2-PRM-Acerca";
+	@import "2-PRM-Negocio";
+	@import "2-PRM-Prensa";
+	@import "2-PRM-Contacto";
+
+	@import "3-NM-Marcas";
+	@import "3-NM-Categorias";
+
+	@import "4-NG-Convivialidad";
+	@import "4-NG-Mezcla";
+
+	@import "5-RSC-Compromiso";
+	@import "5-RSC-Plataforma";
+	@import "5-RSC-FPRMexico";
+	@import "5-RSC-ResponsibAllDay";
+	
+	@import "6-Unete-Carrera";
+	
+@import "brands"; 

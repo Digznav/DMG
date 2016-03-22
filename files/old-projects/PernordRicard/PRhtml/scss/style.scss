@@ -1,0 +1,402 @@
+@import url("http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700");
+@import "compass/css3";
+@import "#Libs-fonts";
+@import "#Default-normalize";
+@import "#Libs-mixins";
+/* ==========================================================================
+	 HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+	 ========================================================================== */
+
+@import "#Default-h5bpStyles";
+
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+$fontGeneral:Tahoma, Arial, sans-serif;
+$fontSansSerif:'Archivo Narrow', sans-serif;
+
+$fontdinRegular:dinRegular;
+$fontDinMedium:dinMedium;
+$fontDinCondMedium:dinCondMedium;
+$fontDinCondBold:dinCondBold;
+
+$fontnewBaskervilleRoman:newBaskervilleRoman;
+$fontNewBaskervilleItalic:newBaskervilleItalic;
+
+$fontWebSymbols:'WebSymbolsRegular', sans-serif;
+//$fontModernPic:'ModernPictogramsNormal', sans-serif;
+
+
+	$colorBlueOpaqueBright:#9EBCDE;
+	$colorBlueLightBright:#8EB1D9;
+	$colorBlueMediumLightBright:#7fa5d2;
+	$colorBlueMediumBright:#01427a;
+$colorBlue:#1A3663;
+
+	//$colorGrayLightBright:#e0e0e0;
+	$colorGrayDarkDarken:#646061;
+	$colorGrayLightDarkDarken:#E6E6E6;
+$colorGray:#EBECEE;
+	$colorGray2:#404041;
+	$colorGrayLightMediumDark:#E0E0E0;
+	$colorGrayLightDarkDark:#D1D2D4;
+	$colorGrayMediumDark:#828387;
+
+$colorOrange:lighten(#2b5c9f,5%);
+$colorGreen:#7FB941;
+$colorYellow:#FFD961;
+$colorRed:#EC1C24;
+
+$colorDommy:rgba(#000,.5);
+
+$backColor_BodyVerify:#E9E7E7;
+
+//==========================================================================
+//CAMPOS INVALIDOS
+//==========================================================================
+	//Colores de fondo y borde de los campos que son erroneos
+		$backColor_InvalidField_Error:lighten($colorRed,20%);
+		$borderColor_InvalidField_Error:$colorRed;
+
+
+//==========================================================================
+//RESTRICCIÓN DE EDAD
+//==========================================================================
+	//Color de fondo
+		$colorBack_Restrict:#000; //$colorGrayDarkDarken;
+	//Color de fondo y texto de la leyenda
+		$backColor_RestrictLeyend:#606060;
+		$textColor_RestrictLeyend:#F1F1F2; //$colorGray;
+	//Color del link de la pantalla de Restricción
+		//Default
+			$textColor_RestrictLink_Default:#7EA4CF; //$colorBlueLightBright;
+		//Active
+			$textColor_RestrictLink_Active:#F1F1F2; //#fff;
+
+
+//==========================================================================
+//VERIFICADOR DE EDAD
+//==========================================================================
+	//Default
+		$colorBack_Verify:#E9E7E7;
+	//Color de texto de leyenda de bienvenida/resumen y de advertensia
+		$textColor_WelcomeWarningLeyend:#B3B3B0; //$colorGrayMediumDark;
+
+	/*FORMULARIO DE VERIFICACIÓN:
+	===============================*/
+		//Color de texto del título
+			$textColor_Title:#193763; //$colorBlue;
+
+		//Color de fondo y texto del campo de selección de países
+			$backColor_CountriesSelect:#fff;
+			$textColor_CountriesSelect:#193763;
+			
+		//Color de fondo y de borde de los inputs para el verificador de edad
+			//Default
+				$backColor_AgeFields_Default:#8EB1D6; //$colorBlueLightBright;
+				$textColor_AgeFields_Default:#fff;
+				$borderColor_AgeFields_Default:#8EB1D6; //$colorBlueLightBright;
+			//Active
+				$backColor_AgeFields_Active:#fff;
+				$textColor_AgeFields_Active:#193763; //$colorBlue;
+				$borderColor_AgeFields_Active:#193763; //$colorBlue;
+
+		//Color de fondo y de texto del botón para verificar e ingresar
+			//Default
+				$backColor_EnterButton_Default:#193763; //$colorBlue;
+				$textColor_EnterButton_Default:#fff;
+			//Active
+				$backColor_EnterButton_Active:#8EB1D6; //$colorBlueLightBright;
+				$textColor_EnterButton_Active:#193763; //$colorBlue;
+
+		//Color de fondo y de text del checkbox Recordar
+			$backColor_RememberCheck:#193763; //$colorBlue;
+			$textColor_RememberCheck:#fff;
+
+		//Color de texto del link para el Warning
+			//Default
+				$textColor_WarningLink_Default:$colorBlue;
+			//Active
+				$textColor_WarningLink_Active:$colorBlueLightBright;
+
+
+//==========================================================================
+//FOOTER
+//==========================================================================
+	//Color de fondo general del Footer
+		$backColor_Footer:#fff;
+		$textColor_Footer:#7EA4CF; //$colorBlueOpaqueBright;
+	//Social
+		$borderColor_SuscribeLink:#7EA4CF; //$colorBlueOpaqueBright;
+	//Navegación
+		$borderColor_NavSeparator:#7EA4CF; //$colorBlueOpaqueBright;
+
+
+//==========================================================================
+//HEADER
+//==========================================================================
+	//Color de fondo general del Header
+		$backColor_Header:$colorBlue;
+
+	/*CAJA DE BÚSQUEDA:
+	=====================*/
+		//Color de fondo general de la caja de búsqueda
+			$backColor_SearchBox:#fff;
+		
+		//Colores de fondo, texto y borde del campo de texto para la búsqueda
+			//Default
+				$backColor_SearchField_Default:$colorGrayLightDarkDark;
+				$borderColor_SearchField_Default:$colorGrayLightDarkDark;
+				$textColor_SearchField_Default:$colorGrayMediumDark;
+			//Active
+				$borderColor_SearchField_Active:#fff;
+				$backColor_SearchField_Active:$colorBlue;
+				$textColor_SearchField_Active:$colorBlue;
+
+		//Colores de fondo y texto del botón de búsqueda
+			//Default
+				$backColor_SearchButton_Default:transparent;
+				$textColor_SearchButton_Default:$colorGrayLightDarkDark;
+			//Active
+				//$backColor_SearchButton_Active:transparent;
+				$textColor_SearchButton_Active:$colorBlue;
+		
+		//Color del link externo
+			$textColor_OutsideLink_Default:$colorBlue;
+		//Color de la división interna de la caja de búsqueda
+			$borderColor_insideDivSearhBox:$colorGrayLightDarkDark;
+
+	/*NAVEGACIÓN:
+	===============*/
+		//Color de fondo y texto de los botones del primer nivel de la navegación y color de texto de todas las etiquetas
+			$backColor_FirstLevelBotton_Default:transparent;
+			$textColor_FirstLevelBotton_Default:#fff;
+
+
+//==========================================================================
+//BODY
+//==========================================================================
+	$backColor_PrincipalBody:$colorGray;
+
+
+//==========================================================================
+//5 SECCIONES DEL INDEX
+//==========================================================================
+	//Color general de los títulos de las 5 divisiones del index
+		$textColor_indexContGeneralTitle_Default:#134677; //$colorBlue;
+
+	/*NUESTRAS MARCAS:
+	====================*/
+		//Colores de fondo, párrafo, título y subtítulo
+			//Default
+				$backColor_indexMarcas_Default:$colorBlue;
+				$textColor_indexMarcas_Default:#fff;
+				$textColor_indexMarcasTitle_Default:#fff;
+				$textColor_indexMarcasSpanGo_Default:#fff;
+			//Active
+				$backColor_indexMarcas_Active:#fff;
+				$textColor_indexMarcas_Active:$colorBlue;
+				$textColor_indexMarcasTitle_Active:$colorBlue;
+				$textColor_indexMarcasSpanGo_Active:$colorBlue;
+
+	/*NUESTRA GENTE:
+	==================*/
+		//Colores de fondo, párrafo, título y subtítulo
+			//Default
+				$backColor_indexGente_Default:transparent;
+				$textColor_indexGente_Default:#808284; //$colorGrayMediumDark;
+				//$textColor_indexGenteTitle_Default:#134677; //$colorBlue;
+				$textColor_indexGenteSpanGo_Default:#00417A; //$colorBlue;
+			//Active
+				$backColor_indexGente_Active:#808284; //$colorGrayMediumDark;
+				$textColor_indexGente_Active:#EBECEE; //$colorGray;
+				$textColor_indexGenteTitle_Active:#EBECEE; //$colorGray;
+				$textColor_indexGenteSpanGo_Active:#EBECEE; //$colorGray;
+
+	/*FUNDACIÓN PRM:
+	==================*/
+		//Colores de fondo, párrafo, título y subtítulo
+			//Default
+				$backColor_indexFundacion_Default:#fff;
+				$textColor_indexFundacion_Default:#808284; //$colorGrayMediumDark;
+				//$textColor_indexFundacionTitle_Default:$colorBlue;
+				$textColor_indexFundacionSpanGo_Default:#00417A; //$colorBlue;
+			//Active
+				$backColor_indexFundacion_Active:#808284; //$colorGrayMediumDark;
+				$textColor_indexFundacion_Active:#fff;
+				$textColor_indexFundacionTitle_Active:#fff;
+				$textColor_indexFundacionSpanGo_Active:#fff;
+
+	/*NOTICIAS:
+	=============*/
+		//Colores de fondo, párrafo, título y subtítulo
+			//Default
+				$backColor_indexNoticias_Default:#7EA4CF; //$colorBlueMediumLightBright;
+				$textColor_indexNoticias_Default:#fff;
+				$textColor_indexNoticiasLink_Default:#124677; //$colorBlue;
+				//$textColor_indexNoticiasTitle_Default:$colorBlue;
+			//Acive
+				$textColor_indexNoticiasLink_Active:#fff;
+
+	/*CENTROS DE CONSUMO:
+	=======================*/
+		//Colores de fondo, párrafo, título y subtítulo
+			//Default
+				$backColor_indexCentros_Default:#EBECEE; //$colorGrayLightMediumDark;
+				$textColor_indexCentros_Default:#808284; //$colorGrayMediumDark;
+				//$textColor_indexCentrosTitle_Default:$colorBlue;
+				$textColor_indexCentrosSpanGo_Default:#124677; //$colorGrayMediumDark;
+			//Acive
+				$backColor_indexCentros_Active:#808284; //$colorGrayMediumDark;
+				$textColor_indexCentros_Active:#EBECEE; //$colorGrayLightMediumDark;
+				$textColor_indexCentrosTitle_Active:#EBECEE;
+				$textColor_indexCentrosSpanGo_Active:#EBECEE; //$colorGrayLightMediumDark;
+
+
+
+//==========================================================================
+//TODAS LAS SECCIONES
+//==========================================================================
+	//Color de fondo general
+		//$backColor_GeneralSections:$colorGray;
+
+	//Color de texto del encabezado de todas las secciones
+		$textColor_GeneralSections_Header:$colorBlue;
+
+	//Color de fondo y de texto de los links de la navegación interna
+		//Default
+			$backColor_AllSections_NavLink_Default:#fff;
+			$textColor_AllSections_NavLink_Default:$colorBlue;
+		//Active
+			$backColor_AllSections_NavLink_Active:#7EA4CF; //$colorBlueMediumLightBright;
+			$textColor_AllSections_NavLink_Active:#fff;
+
+//==========================================================================
+//GRUPO PERNOD RICARD - ACERCA DE
+//==========================================================================
+
+	/*AMBICIÓN / VISIÓN / MISIONES:
+	=================================*/
+		//Color de fondo y texto de la PRIMERA CAJA de texto de la PRIMERA COLUMNA de la sección interna -> Misión
+			$backColor_GPR_Ambicion_box1_1:$colorBlue;
+			//Título
+				$textColor_GPR_Ambicion_Title_box1_1:#fff;
+			//Texto
+				$textColor_GPR_Ambicion_Text_box1_1:#B3B3B0;
+
+		//Color de fondo y texto de la PRIMERA CAJA de texto de la SEGUNDA COLUMNA de la sección interna -> Visión
+			$backColor_GPR_Ambicion_box2_1:#fff;
+			$textColor_GPR_Ambicion_box2_1:$colorBlue;
+		//Color de fondo y texto de la SEGUNDA CAJA de texto de la SEGUNDA COLUMNA de la sección interna -> Misiones
+			$backColor_GPR_Ambicion_box2_2:#7EA4CF; //$colorBlueMediumLightBright;
+			$textColor_GPR_Ambicion_box2_2:#fff;
+	
+	/*MODELO DE NEGOCIO:
+	======================*/
+		//Colores de fondo y texto de la PRIMERA COLUMNA de esta sección
+			$backColor_GPR_Modelo_col1:$colorBlue;
+			$textColor_GPR_Modelo_col1:#fff;
+		//Colores de fondo y texto de la SEGUNDA COLUMNA de esta sección
+			$backColor_GPR_Modelo_col2:#fff;
+			$textColor_GPR_Modelo_col2:#B3B3B0; //$colorGrayDarkDarken;
+		//Color de texto del texto remarcado
+			$textColor_GPR_Modelo_ImportantText:$colorBlue;
+
+	/* DATOS CLAVE:
+	=================*/
+		//Color de fondo y texto de la PRIMERA CAJA de texto de la PRIMERA FILA
+			$backColor_GPR_Datos_box1_1:$colorBlue;
+			$textColor_GPR_Datos_box1_1:#fff;
+		//Color de fondo y texto de la SEGUNDA CAJA de texto de la PRIMERA FILA
+			$backColor_GPR_Datos_box1_2:$colorGray;
+			$textColor_GPR_Datos_box1_2:$colorBlue;
+
+		//Color de fondo y texto de la PRIMERA CAJA de texto de la SEGUNDA FILA
+			$backColor_GPR_Datos_box2_1:$colorGray;
+			$textColor_GPR_Datos_box2_1:$colorBlue;
+		//Color de fondo y texto de la SEGUNDA CAJA de texto de la SEGUNDA FILA
+			$backColor_GPR_Datos_box2_2:$colorBlueMediumLightBright;
+			$textColor_GPR_Datos_box2_2:#fff;
+			$borderColor_GPR_Datos_box_Separator:$colorBlueOpaqueBright;
+
+		//Color de fondo y texto de la ÚNICA CAJA de texto de la TERCERA FILA
+			$backColor_GPR_Datos_box3_1:#fff;
+			$textColor_GPR_Datos_box3_1:$colorBlue;
+
+
+body {
+	font-family:$fontdinRegular;
+	background-color:$backColor_BodyVerify;
+	overflow-x:hidden;
+	overflow-y:auto;
+	&.contColor {
+		background-color:$backColor_PrincipalBody;
+	}
+}
+
+ul { margin:0; padding:0; }
+h2, h3, h4 { margin:0; font-weight:normal; }
+p { margin:0; }
+
+textarea, input, select {
+	&.invalid {
+		background-color:$backColor_InvalidField_Error !important;
+		//border:1px solid $borderColor_InvalidField_Error !important;
+	}
+}
+
+//@import "#Libs-icons";
+@import "#Libs-buttons";
+//@import "#Libs-jqueryUI";
+
+@import "header";
+@import "verification";
+@import "container";
+
+@import "layout2";
+@import "accordion";
+@import "footer";
+
+/* ==========================================================================
+	 Media Queries
+	 ========================================================================== */
+
+@media all and (max-width:1048px) {
+	#container { width:1024px; }
+	.panel {
+		width:2048px;
+		padding-left:1024px;
+	}
+	.headerPRM {
+		width:1024px;
+		.pFH {
+			width:100%;
+			margin:0;
+		}
+	}
+	.footerPRM {
+		width:1024px;
+		.pFF {
+			width:100%;
+			margin:0;
+		}
+	}
+}
+@media all and (max-width:995px) {
+	body {
+		overflow-x:auto;
+	}
+}
+
+/* ==========================================================================
+	 Helper classes
+	 ========================================================================== */
+
+@import "#Default-helperClasses";
+
+/* ==========================================================================
+	 Print styles
+	 ========================================================================== */
+
+//@import "#Default-printStyles";

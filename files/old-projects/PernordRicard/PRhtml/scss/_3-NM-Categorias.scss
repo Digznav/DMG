@@ -1,0 +1,189 @@
+//.NMCatego { background:url(../imgs/pantallasDemo/5-NuestrasMarcas-Todas.jpg) no-repeat center -188px; }
+
+.curtain {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:100;
+	@include alphaColorIE(rgba(#000,.8));
+}
+
+.NMpUp {
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:640px;
+	height:440px;
+	margin:-220px 0 0 -320px;
+	z-index:110;
+	.txt-AP {
+		height:320px !important;
+	}
+}
+
+.cllbck-frmt {
+	display:none;
+	color:$colorBlue;
+	h2 {
+		font-family:$fontDinCondMedium;
+		text-transform:uppercase;
+		font-size:18px;
+	}
+}
+
+.NMCategoPanel {
+	margin:27px 0 30px 155px;
+	min-height:367px;
+}
+
+.mprtnt-Frm {
+	line-height:22px;
+	font-family:$fontDinCondBold;
+	text-transform:uppercase;
+	color:#58585B;
+}
+
+form {
+	input[placeholder] {
+		&::-webkit-input-placeholder { color:$colorBlue; }
+		&:-moz-placeholder { color:$colorBlue; }
+		&::-moz-placeholder { color:$colorBlue; }
+		&:-ms-input-placeholder { color:$colorBlue; }
+	}
+}
+.fl-mail-Frm {
+	width:250px;
+	line-height:25px;
+	padding:0 7px;
+	border:none;
+	margin:10px 0;
+	font-size:15px;
+	font-family:$fontNewBaskervilleItalic;
+	color:$colorBlue;
+	@include box-sizing(border-box);
+}
+.cl-Fmt-Frm {
+	float:left;
+	margin:13px 0 6px;
+	&.c-1 { width:159px; }
+	&.c-2 { width:121px; }
+	&.c-3 { width:150px; }
+}
+
+.mnCnt-Frm {
+	position:relative;
+	float:left;
+	width:100%;
+	margin-bottom:4px;
+	.msk {
+		float:left;
+		cursor:pointer;
+		background-image:url(../imgs/design/ckSprt.png);
+		background-repeat:no-repeat;
+	}
+	.mn-el {
+		position:absolute;
+		z-index:-1;
+		left:3px;
+		top:3px;
+	}
+	label {
+		float:left;
+		padding-left:8px;
+		line-height:17px;
+	}
+	&.mn-ck {
+		.msk {
+			width:17px;
+			height:17px;
+			background-color:#8EB1D6;
+			background-position:-2px -2px;
+			&.ctvCk { background-position:-21px -2px; }
+		}
+		label {
+			font-family:$fontDinCondBold;
+			text-transform:uppercase;
+			color:#58585B;
+		}
+	}
+	&.mn-rd {
+		.msk {
+			width:19px;
+			height:19px;
+			background-position:-1px -23px;
+			&.ctvCk { background-position:-20px -23px; }
+		}
+		label {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:14px;
+			color:$colorBlue;
+		}
+	}
+}
+
+.mrgSf-Frm { margin:8px 0 7px; }
+
+.nlyInfo-Frm {
+	.info-fld {
+		border:0;
+		padding:0 0 0 4px;
+		margin:7px 10px 15px 0;
+		width:150px;
+		line-height:21px;
+		font-size:15px;
+		font-family:$fontNewBaskervilleItalic;
+		color:$colorBlue;
+		background-color:#8EB1D6;
+		@include box-sizing(border-box);
+	}
+	.info-lbl {
+		color:$colorBlue;
+		font-family:$fontNewBaskervilleItalic;
+		font-size:16px;
+		line-height:24px;
+	}
+	.info-txt {
+		border:none;
+		width:430px;
+		height:70px;
+		background-color:#D1D2D4;
+		margin-bottom:8px;
+		@include box-sizing(border-box);
+	}
+	.isButton {
+		margin:0 20px 0 0;
+	}
+	.rdsFmt { width:50%; }
+}
+
+#ourCategories {
+	.isButton {
+		float:left;
+		width:90px;
+		margin-bottom:5px;
+		padding-left:9px;
+		line-height:18px;
+		text-align:left;
+		font-family:$fontDinCondMedium;
+	}
+	.acptBtn {
+		background-color:$colorBlue;
+		color:#fff;
+		&:hover {
+			background-color:#fff;
+			color:$colorBlue;
+		}
+	}
+	.dbldBtn {
+		background-color:#808284;
+		color:#DFDEDE;
+	}
+	.ldngBtn {
+		background:$colorBlue url(loader.gif) no-repeat center center;
+		text-indent:-999px;
+		overflow:hidden;
+	}
+}

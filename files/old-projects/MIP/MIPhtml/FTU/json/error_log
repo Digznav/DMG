@@ -1,0 +1,74 @@
+[27-Oct-2013 22:37:38 America/Mexico_City] PHP Fatal error:  Call to undefined method DAOFactory::getMunicipioDAO() in /home/mipcom/public_html/json/getMunicipios.php on line 7
+[27-Oct-2013 22:38:27 America/Mexico_City] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/mipcom/public_html/json/getMunicipios.php on line 9
+[05-Nov-2013 22:25:00 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/MunicipiosMySqlDAO.class.php(103): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getMunicipios.php(7): MunicipiosMySqlDAO->queryByEstadoId('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[05-Nov-2013 22:26:32 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/MunicipiosMySqlDAO.class.php(103): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getMunicipios.php(7): MunicipiosMySqlDAO->queryByEstadoId('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[05-Nov-2013 22:28:53 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/MunicipiosMySqlDAO.class.php(103): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getMunicipios.php(7): MunicipiosMySqlDAO->queryByEstadoId('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[05-Nov-2013 22:28:56 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:55
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/MunicipiosMySqlDAO.class.php(103): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getMunicipios.php(7): MunicipiosMySqlDAO->queryByEstadoId('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 55
+[10-Nov-2013 23:22:44 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:22:53 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:23:01 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:23:32 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:26:36 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:31:20 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:32:04 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56
+[10-Nov-2013 23:32:42 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'null is not a number' in /home/mipcom/public_html/class/sql/SqlQuery.class.php:56
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/DatosEmpresaMySqlDAO.class.php(111): SqlQuery->setNumber('null')
+#1 /home/mipcom/public_html/json/getEmpresas.php(7): DatosEmpresaMySqlDAO->queryByIdCliente('null')
+#2 {main}
+  thrown in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 56

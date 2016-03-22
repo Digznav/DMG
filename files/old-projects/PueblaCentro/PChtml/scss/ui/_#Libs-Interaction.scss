@@ -1,0 +1,101 @@
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border:$defaultBorder;
+	background:$defaultBackground;
+	font-weight:normal;
+	color:$defaultColorText;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color:$defaultColorText;
+	text-decoration:none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	border:$hoverBorder;
+	background:$hoverBackground;
+	font-weight:normal;
+	color:$hoverColorText;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited {
+	color:$hoverColorText;
+	text-decoration:none;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	border:$activeBorder;
+	background:$activeBackground;
+	font-weight:normal;
+	color:$activeColorText;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color:$activeColorText;
+	text-decoration:none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border:$highlightBorder;
+	background:$highlightBackground;
+	color:$highlightColorText;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+	color:$highlightColorText;
+}
+
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	border:$errorBorder;
+	background:$errorBackground;
+	color:$errorColorText;
+}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+	color:$errorColorText;
+}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+	color:$errorColorText;
+}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+	font-weight:bold;
+}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity:.7;
+	filter:Alpha(Opacity=70);
+	font-weight:normal;
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity:.35;
+	filter:Alpha(Opacity=35);
+	background-image:none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}

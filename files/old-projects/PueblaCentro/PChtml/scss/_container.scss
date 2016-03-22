@@ -1,0 +1,337 @@
+#container {
+	/*background:url(../imgs/plantillas/1_Puebla_Centro_Guide.png) no-repeat center top;
+	height:1700px;*/
+}
+
+.Wrapper {
+	@extend %floatFullSize;
+	.pFWrppr {
+		@extend %insideContFormat;
+		background-color:rgba(#fff, .9);
+		padding-bottom:100px;
+	}
+}
+.ndxBanner {
+	width:100%;
+	height:180px;
+}
+.ttl-Section {
+	width:100%;
+	margin:0;
+	height:60px;
+	//line-height:60px;
+	background-color:$colorOrange;
+	color:$colorYellowOpaque;
+	border-bottom:10px solid;
+	span { float:left; }
+	.ttl-lgo {
+		width:80px; 
+		height:60px;
+		background:$spriteSVG_Path no-repeat;
+		&.l-nsts { background-position:-2px -227px; }
+		&.l-vnts { background-position:-82px -227px; }
+		&.l-rcrd { background-position:-162px -227px; }
+		&.l-cmll { background-position:-242px -227px; }
+		&.l-mapa { background-position:-322px -227px; }
+		&.l-htls { background-position:-2px -287px; }
+		&.l-rcnt { background-position:-82px -287px; }
+		&.l-trdn { background-position:-162px -287px; }
+		&.l-dlcs { background-position:-242px -287px; }
+	}
+	.ttl-txt {
+		font-family:$fontCorben;
+		line-height:50px;
+		font-size:45px;
+		font-weight:400;
+	}
+}
+
+%resetUL {
+	ul {
+		float:left;
+		//width:100%;
+		list-style:none;
+		@include box-sizing(border-box);
+		li {
+			float:left;
+			width:100%;
+		}
+	}
+}
+%anchorBehavior {
+	display:inline-block;
+	margin:0;
+	background-color:transparent;
+	@include transition(background-color ease-out .2s);
+	&:hover { background-color:rgba($colorYellowOpaque,.2); }
+	&.crrnt { background-color:rgba($colorYellowOpaque,.4); }
+}
+
+.clmn {
+	float:left;
+	width:448px;
+	padding:20px 10px 0;
+	@include box-sizing(border-box);
+	&.rst-clmn {
+		padding:0;
+		p { margin:0; }
+	}
+	&.rst-clmn-2 {
+		padding-left:0;
+		.fxd-Hdr, p { padding-left:10px; }
+
+	}
+	&.c1-1 { width:100%; }
+	&.c1-3 { width:200px; }
+	&.c2-3 { width:696px; img { margin-top:3px; } }
+	img { width:100%; }
+
+	h2 {
+		line-height:28px;
+		font-weight:700;
+		font-size:30px;
+		text-transform:uppercase;
+	}
+	h3 {
+		line-height:16px;
+		font-weight:400;
+		font-size:20px;
+		margin-bottom:7px;
+	}
+	hr {
+		margin:2px 0 11px;
+		border-top:2px solid $colorGrayDark;
+		//width:100%;
+	}
+	p {
+		&.highlight {
+			margin:18px 0;
+			padding:0 12px;
+			color:$colorOrange;
+			font-weight:700;
+			text-align:center;
+		}
+		&.highlight-bx {
+			background-color:$colorOrange;
+			color:$colorYellowOpaque;
+			padding:10px 0 10px 10px;
+		}
+		&.fx-m { margin:0; }
+	}
+	p, a {
+		margin-top:12px;
+		line-height:18px;
+		text-align:justify;
+	}
+	p a {
+		color:$colorBlue;
+	}
+	.spr {
+		display:inline-block;
+		vertical-align:super;
+		font-size:10px;
+		line-height:100% !important;
+	}
+	//Formato de listas
+	@extend %resetUL;
+	.lst-plcs {
+		line-height:40px;
+		margin:38px 0 0 56px;
+		font-family:$fontCorben;
+		font-size:18px;
+	}
+	.thrClmn-Bx {
+		margin-top:30px;
+		background-color:$colorOrange;
+		padding:15px 10px;
+		color:$colorYellowOpaque;
+		li {
+			width:33.33%;
+			line-height:22px;
+			a {
+				width:80%;
+				padding-left:5px;
+				line-height:22px;
+				@extend %anchorBehavior;
+			}
+		}
+	}
+	.plcs-Min-Info {
+		margin-top:60px;
+		li {
+			width:428px;
+			height:352px;
+			&:nth-child(odd) { margin-right:20px; }
+		}
+		a {
+			margin:0;
+			padding:0;
+			line-height:100%;
+		}
+	}
+
+	.spcls-Bxs {
+		float:left;
+		width:208px;
+		height:229px;
+		border-top:10px solid $colorOrange;
+		padding-top:12px;
+		background-color:$colorGreen;
+		color:#fff;
+		@include box-sizing(border-box);
+		&:first-child { margin-right:12px; }
+		h3 {
+			font-size:28px;
+			font-weight:700;
+			line-height:25px;
+			padding:7px 8px 0;
+		}
+		p, a {
+			margin:0;
+			padding:4px 8px;
+			//line-height:18px;
+		}
+		a { font-size:15px; }
+		.lts {
+			width:100%;
+			height:103px;
+			overflow:hidden;
+			margin-bottom:12px;
+		}
+		//&.bxs-1 {}
+		&.bxs-2 {
+			background-image:url(../imgs/design/bx-line.png);
+			background-repeat:no-repeat;
+			background-position:0 117px;
+		}
+	}
+	.rtcls-Min {
+		margin-bottom:20px;
+		&:last-child { margin:0; }
+		.prt-Img {
+			float:left;
+			//width:180px;
+			width:42%;
+			height:auto;
+			//margin-right:12px;
+			margin-right:3%;
+			margin-top:6px;
+		}
+		.prt-Txt {
+			float:left;
+			//width:236px;
+			width:55%;
+			h2 {
+				line-height:30px;
+				text-transform:none;
+			}
+			p { margin-top:15px; }
+		}
+	}
+
+	.salon-tbl {
+		width:100%;
+		border-collapse:separate;
+		border-spacing:3px;
+		td, th {
+			//padding:0;
+			@include box-sizing(border-box);
+			&:nth-child(odd) { width:60%; }
+			&:nth-child(even) { width:40%; }
+		}
+		thead {
+			th {
+				font-weight:400;
+				color:$colorYellowOpaque;
+				background-color:$colorGreen;
+			}
+			tr {
+				&.tpSpc {
+					font-size:15px;
+					line-height:25px;
+					th:nth-child(odd) { text-transform:uppercase; }
+					th:nth-child(even) { background-color:$colorOrange; }
+				}
+				&.dscrp {
+					font-size:11px;
+				}
+			}
+		}
+		tbody {
+			td {
+				font-size:14px;
+				text-align:center;
+				background-color:rgba($colorGray,1);
+				padding:5px 0;
+				line-height:100%;
+				small {
+					font-size:11px;
+					float:left;
+					width:100%;
+				}
+			}
+		}
+	}
+}
+
+.frmt-Nv {
+	@extend %resetUL;
+	background-color:$colorOrange;
+	color:$colorYellowOpaque;
+	text-align:center;
+	a {
+		@extend %anchorBehavior;
+		float:left;
+		line-height:30px;
+		padding:0 15px;
+		@include box-sizing(border-box);
+	}
+	//.mapNav {}
+}
+.nsrt-map {
+	width:100%;
+	height:280px;
+	margin-bottom:30px;
+	background-color:$colorYellowOpaque;
+}
+$minHeight:150;
+.info-Hotel {
+	width:100%;
+	border-bottom:10px solid $colorYellowOpaque;
+	//min-height:$minHeight+px;
+	@extend %resetUL;
+	.infoPrt-lgo, .infoPrt-txt {
+		min-height:$minHeight+px;
+	}
+	.infoPrt-lgo {
+		float:left;
+		width:586px;
+		padding:0 10px;
+		@include box-sizing(border-box);
+		img, span { float:left; }
+		span {
+			display:inline-block;
+			text-transform:uppercase;
+			font-weight:700;
+			font-size:30px;
+			line-height:30px;
+		}
+	}
+	.infoPrt-txt {
+		width:310px;
+		padding:0 10px;
+		background-color:$colorOrange;
+		color:$colorYellowOpaque;
+		a { font-weight:700; }
+		li { line-height:18px; }
+	}
+}
+
+.panel {
+	width:100%;
+	display:none;
+	float:left;
+	&#Informacion {
+		display:block;
+	}
+}

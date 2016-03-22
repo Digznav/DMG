@@ -1,0 +1,23 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/juan_carlos_canales.jpg" alt="Juan Carlos Canales"></div>
+		<img src="imgs/Banderas/mexico.png" alt="México" class="flag">
+		<h2>Juan Carlos Canales</h2>
+		<h3>Coordinador del Territorio del Nómada</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p><strong>Formación:</strong></p>
+			<p>Realizo estudios sobre Literatura española en U.N.A.M y sobre psicoanálisis.</p>
+			<p>Poeta y ensayista reconocido.</p>
+			<p><strong>Experiencia:</strong></p>
+			<p>Ha analizado profundamente la crisis del marxismo haciendo una nueva reformación teórica al respecto.</p>
+			<p>Imparte clases en la Facultad de Filosofía y Letras de la B.U.A.P </p>
+			<p>Periodista radiofónico y escritor, </p>
+			<p>Dirige programa llamado El territorio del nómada, que se transmite en Radio B.U.A.P  </p>
+			<p>Escribe una columna llamada Mínima Moralia, la cual se publica en varios medios impresos, </p>
+			<p>Escribe para E- Consulta, La Jornada de Oriente y Síntesis. </p>
+			<p>Entre sus obras más importantes se encuentran: Antología (in)necesaria, Soy a mi manera y Sobre el caos.</p>
+		</div>
+	</div>
+</div>

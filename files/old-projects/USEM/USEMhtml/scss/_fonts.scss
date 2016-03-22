@@ -1,0 +1,65 @@
+$font_path: "fonts/";
+
+@font-face {
+	font-family:'WebSymbolsRegular';
+	src:	url($font_path + 'websymbolsligaregular.eot');
+	src:	url($font_path + 'websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'websymbolsligaregular.woff') format('woff'),
+				url($font_path + 'websymbolsligaregular.ttf') format('truetype'),
+				url($font_path + 'websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'ModernPictogramsNormal';
+	src:	url($font_path + 'modernpics-webfont.eot');
+	src:	url($font_path + 'modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'modernpics-webfont.woff') format('woff'),
+				url($font_path + 'modernpics-webfont.ttf') format('truetype'),
+				url($font_path + 'modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AmbleRegular';
+	src:	url($font_path + 'Amble-Regular-webfont.eot');
+	src:	url($font_path + 'Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'Amble-Regular-webfont.woff') format('woff'),
+				url($font_path + 'Amble-Regular-webfont.ttf') format('truetype'),
+				url($font_path + 'Amble-Regular-webfont.svg#AmbleRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AmbleItalic';
+	src:	url($font_path + 'Amble-Italic-webfont.eot');
+	src:	url($font_path + 'Amble-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'Amble-Italic-webfont.woff') format('woff'),
+				url($font_path + 'Amble-Italic-webfont.ttf') format('truetype'),
+				url($font_path + 'Amble-Italic-webfont.svg#AmbleItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AmbleBold';
+	src:	url($font_path + 'Amble-Bold-webfont.eot');
+	src:	url($font_path + 'Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'Amble-Bold-webfont.woff') format('woff'),
+				url($font_path + 'Amble-Bold-webfont.ttf') format('truetype'),
+				url($font_path + 'Amble-Bold-webfont.svg#AmbleBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AmbleBoldItalic';
+	src:	url($font_path + 'Amble-BoldItalic-webfont.eot');
+	src:	url($font_path + 'Amble-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+				url($font_path + 'Amble-BoldItalic-webfont.woff') format('woff'),
+				url($font_path + 'Amble-BoldItalic-webfont.ttf') format('truetype'),
+				url($font_path + 'Amble-BoldItalic-webfont.svg#AmbleBoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

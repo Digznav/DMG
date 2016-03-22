@@ -1,0 +1,14 @@
+{
+	"banner": [
+		{ "image":"banner1.jpg", "titulo":"Becarios realizando su servicio social en el Curso de Verano 2013.", "title":"Becarios realizando su servicio social en el Curso de Verano 2013." },
+		{ "image":"banner2.jpg", "titulo":"Profesores del Curso de Verano 2013.", "title":"Profesores del Curso de Verano 2013." },
+		{ "image":"banner3.jpg", "titulo":"El Patronato en la entrega de calificaciones del Verano 2013.", "title":"El Patronato en la entrega de calificaciones del Verano 2013." },
+		{ "image":"banner4.jpg", "titulo":"El personal administrativo de la Fundación Taboada.", "title":"El personal administrativo de la Fundación Taboada." },
+		{ "image":"banner5.jpg", "titulo":"La LAE Soco exhortando a los alumnos a ser buenos estudiantes.", "title":"La LAE Soco exhortando a los alumnos a ser buenos estudiantes." },
+		{ "image":"banner6.jpg", "titulo":"Marimar recibiendo su renovación de beca otoño 2013.", "title":"Marimar recibiendo su renovación de beca otoño 2013." },
+		{ "image":"banner7.jpg", "titulo":"Los Becarios nuevos Otoño 2013.", "title":"Los Becarios nuevos Otoño 2013." },
+		{ "image":"banner8.jpg", "titulo":"Becario del programa Becas VW-FT.", "title":"Becario del programa Becas VW-FT." },
+		{ "image":"banner9.jpg", "titulo":"Los profesores y sus alumnos.", "title":"Los profesores y sus alumnos." },
+		{ "image":"banner10.jpg", "titulo":"Alumno de Curso de Verano 2013.", "title":"Alumno de Curso de Verano 2013." }
+	]
+}

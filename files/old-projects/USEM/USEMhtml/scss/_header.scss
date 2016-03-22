@@ -1,0 +1,107 @@
+/*::::Encabezado::::*/
+.headUSEM {
+	position:relative;
+	@include box-sizing(border-box);
+	width:$generalSize;
+	padding:10px 5px;
+	//background:$colorDommy;
+	margin:0 auto;
+	z-index:200;
+
+	/*::::Logo de la empresa::::*/
+	.logo {
+		position:relative;
+		float:left;
+		width:256px;
+		height:93px;
+		/*border:$borderDommy;*/
+		img { width:100%; height:100%; }
+	}
+}
+
+/*::::Navegación principal::::*/
+.mainNav {
+	position:relative;
+	float:right;
+	//background:$colorDommy;
+	margin-top:90px - 40px;
+	& > ul {
+		width:100%;
+		& > li {
+			width:93px;
+			line-height:40px;
+			float:left;
+			display:inline-block;
+			text-align:center;
+			//background:$colorDommy;
+			&.highlight { text-shadow:1px 1px 2px $lightGreen; }
+			&.wd-In { width:60px; }
+			&.wd-QS { width:115px; }
+			&.wd-Gl { width:75px; }
+			& > a {
+				display:inline-block;
+				@include box-sizing(border-box);
+				width:100%;
+				line-height:25px;
+				font-size:13px;
+				color:$darkGreen;
+				text-transform:uppercase;
+				@include transition(all .1s ease-out);
+				border-right:3px solid $darkGreen;
+			}
+			& > a:hover,
+			&:hover > a {
+				//color:$lightGreen;
+				font-family:$FF_AmbleBold;
+				line-height:40px;
+				//border-color:$lightGreen;
+				//background:$colorDommy;
+			}
+			&.activeNav > a {
+				color:$lightGreen;
+				font-family:$FF_AmbleBold;
+				line-height:40px;
+				border-color:$lightGreen;
+			}
+		}
+	}
+}
+
+/*Submenu*/
+.mainNav li {
+	ul {
+		position:absolute;
+		display:none;
+		@include box-sizing(border-box);
+		width:180px;
+		height:auto;
+		z-index:220;
+	}
+	&:hover ul { display:block; }
+	li {
+		display:block;
+		float:none;
+		width:100%;
+		@include alphaColorIE(rgba(lighten($darkGreen,5%),.9));
+		a {
+			display:block;
+			width:100%;
+			line-height:28px;
+			@include box-sizing(border-box);
+			padding-left:10px;
+			font-size:12px;
+			text-align:left;
+			color:$lightGreen;
+			text-transform:uppercase;
+			@include transition(all .1s ease-out);
+			&:hover {
+				@include alphaColorIE(rgba($lightGreen,.4));
+				color:$darkGreen;
+			}
+			&.activeNav {
+				background-color:$lightGreen;
+				color:$darkGreen;
+			}
+		}
+	}
+}

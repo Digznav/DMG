@@ -1,0 +1,47 @@
+.isButton {
+	display:inline-block;
+	padding:0;
+	margin:0;
+	border:none;
+	line-height:100%;
+	font-size:1em;
+	text-decoration:none !important;
+	color:#333;
+	background-color:#fff;
+	@include box-sizing(border-box);
+	@include transition(color .1s ease-out, background-color .1s ease-out);
+}
+.loginButton {
+	background-color:$backColor_EnterButton_Default;
+	color:$textColor_EnterButton_Default;
+	font-size:15px;
+	&:hover {
+		background-color:$backColor_EnterButton_Active;
+		color:$textColor_EnterButton_Active;
+	}
+}
+
+/*
+.sendButton {
+	background:$colorPurple;
+	&:hover { background:lighten($colorPurple,10%); }
+}
+
+.cancelButton {
+	background:$colorRed;
+	&:hover { background:lighten($colorRed,10%); }
+}
+
+.saveButton {
+	background:$colorGreen;
+	&:hover { background:lighten($colorGreen,10%); }
+}
+
+.disabledButton {
+	background:lighten($colorGray,50%) !important;
+	color:lighten($colorGray,20%) !important;
+	&:hover {
+		background:lighten($colorGray,50%);
+		color:lighten($colorGray,20%) !important;
+	}
+}*/

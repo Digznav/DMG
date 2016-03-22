@@ -1,0 +1,283 @@
+//.NM-Marcas { background:url(../imgs/pantallasDemo/5-NuestrasMarcas-Guide.jpg) no-repeat center -188px; }
+
+@import "3-NM-M-Absolut";
+@import "3-NM-M-Ballantines";
+@import "3-NM-M-Chivas";
+@import "3-NM-M-Passport";
+@import "3-NM-M-Azteca";
+@import "3-NM-M-Caribe";
+@import "3-NM-M-Altos";
+
+.NMarcasPanel { margin:0 0 7px 83px; }
+
+.popUpNM {
+	width:490px;
+	height:270px;
+	display:none;
+	padding:0 35px 0 14px;
+	@include box-sizing(border-box);
+	h4 {
+		font-family:$fontNewBaskervilleItalic;
+		font-size:18px;
+		line-height:25px;
+		padding:22px 0 4px;
+	}
+	p {
+		font-size:12px;
+		line-height:12px;
+		margin-bottom:12px;
+	}
+}
+
+.NMbottle {
+	position:absolute;
+	top:0;
+	left:695px;
+	width:200px;
+	height:300px;
+	text-align:center;
+}
+
+.s3cl1 {
+	@extend %columnFormat;
+	width:141px;
+	.c1b0, .c1b1, .c1b2 {
+		//float:left;
+		width:100%;
+		@include box-sizing(border-box);
+	}
+	.c1b0 {
+		height:141px;
+		padding:0 6px 6px 0;
+		margin-top:64px;
+		img { width:100%; height:100%; }
+	}
+	.c1b1 {
+		height:153px;
+		margin-top:205px;
+		padding-top:24px;
+		background-color:#fff;
+		p {
+			line-height:17px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:17px;
+			padding:0 10px;
+		}
+	}
+	.c1b2 {
+		padding:20px 12px 0;
+		line-height:19px;
+		font-family:$fontNewBaskervilleItalic;
+		font-size:20px;
+	}
+	.Mrc-Social {
+		float:left;
+		width:100%;
+		list-style:none;
+		margin-top:12px;
+		&.el-1 li { width:50%; margin:0 25%; }
+		&.el-2 li { width:50%; }
+		&.el-3 li { width:33.33%; }
+		li {
+			float:left;
+			@include box-sizing(border-box);
+			border-right:1px dotted #B3B3B0;
+			&.noLine { border:none; }
+			a {
+				float:left;
+				//display:inline-block;
+				width:100%;
+				height:20px;
+				background-repeat:no-repeat;
+				background-position:center center;
+				text-indent:-9999px;
+				overflow:hidden;
+				&.fb { background-image:url(../imgs/design/facebook.png); }
+				&.tw { background-image:url(../imgs/design/twitter.png); }
+				&.in { background-image:url(../imgs/design/instagram.png); }
+				&.yt { background-image:url(../imgs/design/youtube.png); }
+				&.vn { background-image:url(../imgs/design/vine.png); }
+			}
+		}
+	}
+	.site-Bttn {
+		float:left;
+		width:111px;
+		height:18px;
+		line-height:18px;
+		margin:18px 0 0 15px;
+		padding-left:8px;
+		border:1px solid;
+		text-transform:uppercase;
+		text-align:left !important;
+		font-family:$fontDinCondBold;
+		background:url(../imgs/design/butArrow.png) no-repeat 96px center;
+		color:#B3B3B0;
+		@include box-sizing(border-box);
+	}
+}
+
+.s3cl2 {
+	@extend %columnFormat;
+	width:282px;
+
+	.c2b1, .c2b2 {
+		width:100%;
+		@include box-sizing(border-box);
+	}
+	.c2b1 {
+		position:relative;
+		height:205px;
+		//padding:0 30px 17px 14px;
+		padding:0 30px 0 14px;
+		h4 {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:18px;
+			line-height:25px;
+			padding:22px 0 4px;
+		}
+		p {
+			font-size:12px;
+			line-height:12px;
+		}
+		.mr-Txt {
+			display:block;
+			position:absolute;
+			right:6px;
+			bottom:6px;
+			width:20px;
+			height:20px;
+			text-indent:-9999px;
+			background:url(../imgs/design/plusIco_Black.png) no-repeat center center;
+			overflow:hidden;
+		}
+	}
+	.c2b2 {
+		padding:0 15px 0;
+		p {
+			line-height: 12px;
+			padding-right: 10px;
+			margin-bottom: 12px;
+		}
+		h4 {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:18px;
+			line-height:25px;
+			padding:22px 0 4px;
+		}
+		ul {
+			line-height:12px;
+			margin-left:12px;
+		}
+	}
+	.c2b3 {
+		width:88px;
+		height:83px;
+		margin-left:194px;
+	}
+}
+
+.s3cl3 {
+	float:left;
+	.c3b1, .c3b2, .c3b3 {
+		@include box-sizing(border-box);
+	}
+	.c3b1 {
+		display:block;
+		width:189px;
+		height:105px;
+		img { width:100%; height:100%; }
+	}
+	.c3b2 {
+		width:100px;
+		height:100px;
+		padding:5px;
+	}
+	.c3b3 {
+		position:relative;
+		width:438px;
+		height:309px;
+		margin-top:205px;
+		padding:14px 20px 0;
+		//padding-bottom:0;
+		overflow:hidden;
+		h4 {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:18px;
+			line-height:20px;
+		}
+		.btns-sldr {
+			position:absolute;
+			top:62px;
+			left:54px;
+		}
+	}
+	.btns-sldr {
+		//display:none;
+		//background-color:rgba(#333,.8);
+		a {
+			float:left;
+			width:28px;
+			height:18px;
+			margin:3px 15px 0 0;
+			text-indent:-9999px;
+			background-repeat:no-repeat;
+			background-position:center center;
+			border:1px solid #989898;
+			@include box-sizing(border-box);
+			overflow:hidden;
+			&.prv { background-image:url(../imgs/design/arrwPrev.png); }
+			&.nxt { background-image:url(../imgs/design/arrwNext.png); }
+		}
+	}
+	.pnl {
+		display:none;
+		//&#n1 { display:block; }
+		//&#n2 { display:block; }
+		//&#n3 { display:block; }
+	}
+
+	.cctl-ttl {
+		width:100%;
+		float:left;
+		line-height:28px;
+		font-family:$fontDinCondBold;
+		text-transform:uppercase;
+		font-size:17px;
+	}
+	.prt {
+		float:left;
+		margin-top:24px;
+		height:223px;
+		@include box-sizing(border-box);
+	}
+
+	.dcrp-txt {
+		//background-color:rgba(#f00,.4) !important;
+		padding-top:19px;
+		p {
+			font-style:italic;
+			padding-top:10px;
+			line-height:15px;
+		}
+		&.noPdng p { padding-top:0; }
+
+		strong { font-style:normal; }
+		&.fw-1 {
+			width:225px;
+			p { padding-right:30px; }
+		}
+		&.fw-2 { width:260px; }
+		&.fw-3 {
+			width:291px;
+			p { padding-right:15px; }
+		}
+	}
+	.cctl-img {
+		//background-color:rgba(#f00,.4);
+		text-align:center;
+		&.fw-1 { width:170px; }
+		&.fw-2 { width:138px; }
+		&.fw-3 { width:107px; }
+	}
+}

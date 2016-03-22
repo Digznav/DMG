@@ -1,0 +1,17 @@
+$(function(){
+
+    $("ul.dropdown li").iehover(function(){
+    
+        $(this).addClass("iehover");
+        $('ul:first',this).css('visibility', 'visible');
+    
+    }, function(){
+    
+        $(this).removeClass("iehover");
+        $('ul:first',this).css('visibility', 'hidden');
+    
+    });
+    
+    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+
+});

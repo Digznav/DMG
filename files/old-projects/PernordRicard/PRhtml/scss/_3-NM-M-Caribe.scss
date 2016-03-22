@@ -1,0 +1,66 @@
+/* Absolut */
+.caribeBack {
+	background:url(../imgs/brands/CaribeCooler/bg_Caribe.jpg) no-repeat top center;
+	background-size:cover;
+}
+.fmtCaribe {
+	background-color:#1B3664 !important;
+	.sectionTitle {
+		color:#fff !important;
+		background-image:url(../imgs/design/lines/lineWhite_FFFFFF_98.png);
+	}
+	/*.popUpNM {
+		background-color:#fff;
+		h4 {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+			color:#1b3664;
+		}
+		p { color:#808284; }
+	}*/
+}
+
+.NM-Caribe {
+	.s3cl1 {
+		.c1b2 {
+			background-color:#F9B717;
+			color:#1B3664;
+			height:130px;
+			font-size:16px;
+		}
+		.site-Bttn { margin-top:12px; }
+	}
+	
+	.s3cl2 {
+		.c2b1 {
+			background-color:#F9B717;
+			color:#1B3664;
+			h4 { background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px; }
+		}
+		.c2b2 {
+			height:200px;
+			color:#fff;
+			background-color:#1A3663;
+			h4 {
+				background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left 16px;
+			}
+			ul { list-style-image:url(../imgs/design/listImg_White.png); }
+		}
+	}
+
+	.s3cl3 {
+		.c3b3 {
+			background-color:transparent;
+			img {
+				margin:10px 0 0 28px;
+			}
+			h4 {
+				color:#fff;
+				background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left top;
+				margin-top:40px;
+				padding-top:15px;
+			}
+			
+			//.cctl-ttl { color:#1b3664; }
+		}
+	}
+}

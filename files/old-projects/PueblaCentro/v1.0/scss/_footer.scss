@@ -1,0 +1,59 @@
+.ftFooter {
+	@extend %floatFullSize;
+	background:#fff url(../imgs/design/lineBg-Footer.png) repeat-x center bottom;
+	/*background-color:#fff;
+	background-image:url(../imgs/design/lineBg-Footer.png), url(../imgs/plantillas/footer.jpg);
+	background-repeat:repeat-x, no-repeat;
+	background-position:center bottom,center top;*/
+	border-top:10px solid $colorGreen;
+	font-family:$fontCorben;
+	.pFF {
+		@extend %insideContFormat;
+		min-height:190px;
+		margin-bottom:50px;
+		@include box-sizing(border-box);
+	}
+	.logos, .footNav, p {
+		float:left;
+	}
+	.logos {
+		width:882px;
+		list-style:none;
+		margin:30px 7px 10px;
+		padding:0;
+		li {
+			float:left;
+			width:126px;
+			padding:5px 13px;
+			@include box-sizing(border-box);
+		}
+		img {
+			width:100%;
+		}
+	}
+	.footNav {
+		width:auto;
+		margin:0;
+		font-size:13px;
+		a {
+			float:left;
+			//display:inline-block;
+			line-height:18px;
+			margin:6px 0;
+			padding:0 18px;
+			//background-color:rgba(#333,.2);
+			border-right:1px solid;
+			&:after { content:"\0004"; }
+			&:last-child { border:none; }
+		}
+	}
+	p {
+		font-size:13px;
+		margin:6px 0;
+		text-align:center;
+	}
+	hr {
+		display:none;
+		border-color:$colorBlue;
+	}
+}

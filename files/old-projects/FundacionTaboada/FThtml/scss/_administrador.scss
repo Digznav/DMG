@@ -1,0 +1,322 @@
+.contentAdmin {
+	@extend .content;
+	width:100%;
+	.contAdmin {
+		@extend .cont;
+		& > fieldset {
+			border:2px solid $colorDommy;
+			margin:10px 5px;
+			padding:5px 20px;
+			legend {
+				font-size:2em;
+				font-weight:bold;
+				padding:0 20px 0 5px;
+			}
+			fieldset {
+				width:50%;
+				float:left;
+				legend {
+					padding:0;
+					font-size:1.3em;
+				}
+			}
+		}
+		label {
+			font-weight:bold;
+			display:inline-block;
+			width:20%;
+		}
+		input:not(.noStyle) { @extend %boxesFormat; }
+		textarea {
+			@extend %boxesFormat;
+			resize:none;
+		}
+	}
+}
+table.formatoFecha {
+	margin:0 5% 5px;
+	label { font-weight:normal !important; }
+	td { padding-right:6px; }
+}
+%actionButton {
+	float:left;
+	padding:10px 60px;
+	margin-bottom:20px;
+	border:2px solid #333;
+	font-size:18px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	&:hover {
+		color:#fff;
+	}
+}
+.submitButton {
+	@extend %actionButton;
+	clear:both;
+	border-color:darken($colorBlue,20%);
+	background:darken($colorBlue,10%);
+	&:hover {
+		background:lighten($colorBlue,10%);
+	}
+}
+.cancelButton {
+	@extend %actionButton;
+	margin-left:5px;
+	border-color:darken($colorRed,20%);
+	background:darken($colorRed,10%);
+	&:hover {
+		background:lighten($colorRed,10%);
+	}
+}
+
+.readOnly {
+	border:none;
+	background:#fff;
+}
+.gray * { color:gray; }
+
+span.invalid { font-size:.9em; }
+input, textarea, select {
+	&.invalid { border:2px dotted $colorRed; color:$colorRed;  }
+}
+/*.errorsBox {
+	display:none;
+	float:right;
+	width:300px;
+	padding:5px;
+	margin-left:130px;
+	border:5px dashed darken($colorRed,20%);
+	background:lighten($colorRed,5%);
+	color:#fff;
+}*/
+.aviso {
+	border:4px ridge lighten($colorBlue, 20%);
+	margin:5px 5%;
+	padding:10px !important;
+	font-weight:bold;
+	span { float:left; }
+	.iconHelp {
+		width:16px;
+		height:16px;
+		margin-right:10px;
+		overflow:hidden;
+		text-indent:9999px;
+		background:url(images/ui-icons_0269B8_256x240.png) no-repeat -16px -144px;
+	}
+	.avisoText { width:320px; }
+}
+
+.fixMenuAdmin {
+	margin-top:90px !important;
+}
+
+.titleCMS {
+	float:left;
+	line-height:44px;
+	font-size:25px;
+	font-weight:bold;
+	color:$colorBlue;
+}
+.subtitleCMS {
+	line-height:30px;
+	font-size:20px;
+	font-weight:bold;
+	color:$colorBlue;
+}
+
+.tableFormat {
+	margin:2em 0 4em 1em;
+	font-size:14px;
+	@include box-shadow(1px 1px 5px #000);
+	thead tr {
+		background:#fff;
+		th {
+			text-align:center;
+		}
+	}
+	tbody tr {
+		&:nth-of-type(odd) { background:lighten($colorGray,5%); }
+		&:nth-of-type(even) { background:lighten($colorGray,15%); }
+	}
+	th, td { padding:5px 15px 5px 10px; }
+	th {
+		font-weight:bold;
+		text-transform:uppercase;
+		color:$colorBlue;
+	}
+	td a {
+		color:darken($colorGray,50%);
+		font-weight:bold;
+		text-decoration:underline;
+		&:hover {
+			color:$colorBlue;
+		}
+	}
+	label {
+		display:inline-block;
+		width:100%;
+		font-weight:bold;
+		color:$colorBlue;
+		text-transform:uppercase;
+		text-align:right;
+	}
+	input {
+		&[type="text"], &[type="password"] { padding:2px 3px; }
+	}
+	textarea {
+		width:400px;
+		resize:none;
+		overflow:auto;
+	}
+	img {
+		height:100px;
+		width:auto;
+	}
+}
+.telFormat {
+	width:150px;
+	input {
+		&:nth-child(1) { width:35px; }
+		&:nth-child(2) { width:35px; }
+		&:nth-child(3) { width:70px; }
+	}
+}
+.newsResize tr th {
+	&:nth-child(1) { width:20px; }
+	&:nth-child(2) { width:200px; }
+	&:nth-child(3) { width:80px; }
+	&:nth-child(4) { width:300px; }
+	&:nth-child(5) { width:100px; }
+}
+
+.isButton {
+	display:inline-block;
+	padding:0 20px 0 10px;
+	margin:10px 0;
+	line-height:25px;
+	font-weight:bold;
+	font-size:14px;
+	border:1px solid #333;
+	@include border-radius(0 15px 15px 0);
+	text-decoration:none !important;
+	@include transition(color .2s ease-out, background .2s ease-out, border-radius .2s ease-out);
+	&:hover {
+		color:#fff !important;
+		@include border-radius(0);
+	}
+	span {
+		&:nth-child(1) {
+			display:inline-block;
+			font:20px/25px $fontWebSymbols;
+		}
+		&:nth-child(2) { margin-left:8px; }
+	}
+}
+.simpleButton {
+	border-color:$colorBlue;
+	background:lighten($colorBlue,67%);
+	color:$colorBlue !important;
+	@include box-shadow(1px 1px 2px rgba($colorBlue,.8));
+	&:hover { background:$colorBlue; }
+	span:nth-child(1):after { content:"\00C1"; }
+}
+%greenStyle {
+	border-color:$colorGreen;
+	background:lighten($colorGreen,67%);
+	color:$colorGreen !important;
+	@include box-shadow(1px 1px 2px rgba($colorGreen,.8));
+	&:hover { background:$colorGreen; }
+}
+%darkGreenStyle {
+	border-color:darken($colorGreen,10%);
+	background:lighten(darken($colorGreen,10%),67%);
+	color:darken($colorGreen,10%) !important;
+	@include box-shadow(1px 1px 2px rgba(darken($colorGreen,10%),.8));
+	&:hover { background:darken($colorGreen,10%); }
+}
+.addButton {
+	@extend %darkGreenStyle;
+	span:nth-child(1):after { content:"\00C1"; }
+}
+.removeButton {
+	border-color:$colorRed;
+	background:lighten($colorRed,57%);
+	color:$colorRed !important;
+	@include box-shadow(1px 1px 2px rgba($colorRed,.8));
+	&:hover { background:$colorRed; }
+	span:nth-child(1):after { content:"\00CD"; }
+}
+.continueButton {
+	border-color:darken($colorGreenLight, 15%);
+	background:lighten(darken($colorGreenLight, 15%),70%);
+	color:darken($colorGreenLight, 15%) !important;
+	@include box-shadow(1px 1px 2px rgba(darken($colorGreenLight, 15%),.8));
+	&:hover { background:darken($colorGreenLight, 15%); }
+	span:nth-child(1):after { content:"\00D6"; }
+}
+.updateButton {
+	border-color:darken($colorBlue,5%);
+	background:lighten(darken($colorBlue,5%),57%);
+	color:darken($colorBlue,5%) !important;
+	@include box-shadow(1px 1px 2px rgba(darken($colorBlue,5%),.8));
+	&:hover { background:darken($colorBlue,5%); }
+	span:nth-child(1):after { content:"\0056"; }
+}
+.saveButton {
+	@extend %greenStyle;
+	span:nth-child(1):after { content:"\00ab"; }
+}
+.resendButton {
+	@extend %greenStyle;
+	width:170px;
+	span:nth-child(1):after { content:"\002B"; }
+}
+.saveImageButton {
+	@extend %greenStyle;
+	span:nth-child(1):after { content:"f"; }
+}
+.saveNewsButton {
+	@extend %greenStyle;
+	span:nth-child(1):after { content:"m"; }
+}
+.editButton {
+	border-color:$colorBlue;
+	background:lighten($colorBlue,67%);
+	color:$colorBlue !important;
+	@include box-shadow(1px 1px 2px rgba($colorBlue,.8));
+	&:hover { background:$colorBlue; }
+	span:nth-child(1):after { content:"?"; }
+}
+.searchButton {
+	@extend %darkGreenStyle;
+	span:nth-child(1):after { content:"\0023"; }
+}
+.backButton {
+	border-color:$colorBlue;
+	background:lighten($colorBlue,67%);
+	color:$colorBlue !important;
+	@include box-shadow(1px 1px 2px rgba($colorBlue,.8));
+	&:hover { background:$colorBlue; }
+	span:nth-child(1):after { content:"\002C"; }
+}
+.noRound {
+	@include border-radius(0);
+}
+.asterisk {
+	font-weight:bold;
+	color:$colorRed;
+}
+.thumbImage {
+	width:50px;
+	height:50px;
+}
+/*
+form.registroAlumnos, .langEngEsp { font-weight: bold; float: left; height: 100%; font-size: 12px; text-transform: uppercase; text-align: right;}
+
+form.registroAlumnos { width: 322px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 10px; border-left: solid 2px #0280e0; }
+form.registroAlumnos input[type="submit"] { width: 30px; font-family: "WebSymbolsRegular", "Arial", sans-serif; margin: 0; border: none; color: #fff; background: #6ebd02; }
+
+form.registroAlumnos legend { font-weight: bold; line-height: 14px; color: #6fc0fd; }
+form.registroAlumnos input { width: 250px; height: 25px; padding: 0 2px; border: solid 1px #0280e0; margin-right: 1px; -webkit-border-radius: 1px; -moz-border-radius: 1px; -ms-border-radius: 1px; -o-border-radius: 1px; border-radius: 1px; }
+*/

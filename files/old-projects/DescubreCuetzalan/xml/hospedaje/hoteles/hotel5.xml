@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><hotel><nombre>HOTEL TOSEPAN KALI</nombre>
+	<descripcion>Somos una empresa social, conformada como cooperativa de servicios turísticos, integrada por jóvenes que nos esforzamos por brindar un servicio de calidad. Tosepan Kali cuenta con diversas instalaciones que nos permiten ofrecer una amplia gama de servicios, que se ajustan al gusto de todo tipo de visitantes. En nuestra sede, podrás hospedarte en confortables cabañas y habitaciones de bambú. En Tosepan Kali nos preocupamos por realizar una actividad turística en armonía con la naturaleza, por esta razón todas nuestras instalaciones cuentan con ecotecnias, como el uso de materiales alternativos de construcción, la captación de agua de lluvia y el tratamiento de aguas residuales. Nos encontramos a tan solo 10 minutos en carro de Cuetzalan centro. Tenemos acceso para autos y camiones.</descripcion>
+	<tit1>DISTRIBUCIÓN DE HABITACIONES</tit1>
+	<tit2>TIPO DE CAMAS</tit2>
+	<tit3>COSTO</tit3><caracteristica><car1>4 habitaciones</car1><car2>1 individual y 1 matrimonial</car2><car3>$350.00 por persona incluye un desayuno</car3></caracteristica><caracteristica><car1>10 habitaciones</car1><car2>2 camas matrimoniales</car2><car3>$350.00 por persona incluye un desayuno</car3></caracteristica><caracteristica><car1>1 suite</car1><car2>3 camas matrimoniales</car2><car3>$350.00 por persona incluye un desayuno</car3></caracteristica><aclaracion></aclaracion>
+	<adicionales>Servicio de SPA
+Temascal (30-40 minutos) $350.00 por persona
+Masaje holistico (Masaje con aceites de rosas) 40 minutos $450.00 por persona
+Masaje con piedras calientes (40 minutos) $450.00 por persona
+Temascal más masaje holistico mas tina de relajación $700.00 por persona
+Alberca</adicionales>
+	<restricciones>En caso de requerir factura los precios son más IVA</restricciones><imagenes>15</imagenes> </hotel>

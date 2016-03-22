@@ -1,0 +1,52 @@
+//.RSAllDay { background:url(../imgs/pantallasDemo/7-RSC-ResponsibAll.jpg) no-repeat center -188px; }
+
+.RSAllDayPanel {
+	margin:32px 0 0 155px;
+}
+
+.s54vc1 {
+	@extend %columnFormat;
+	.c1bT1 {
+		width:192px;
+		height:138px;
+		padding:21px 0 0 14px;
+		background-color:#7EA4CF;
+		color:$colorBlue;
+		@include box-sizing(border-box);
+		h3 {
+			padding-top:25px;
+			line-height:23px;
+			font-size:20px;
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat;
+		}
+	}
+	.c1bT2 {
+		width:148px;
+		height:148px;
+		margin-left:44px;
+	}
+}
+
+.s54vc2 {
+	@extend %columnFormat;
+	width:410px;
+	height:230px;
+	margin-top:138px;
+	padding:14px 25px 0 21px;
+	background-color:#E6E7E8;
+	color:#6D6E70;
+	h3 {
+		padding-bottom:5px;
+		line-height:20px;
+		font-size:21px;
+		font-family:$fontNewBaskervilleItalic;
+		background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left bottom;
+		color:$colorBlue;
+	}
+	p {
+		padding:6px 12px 0 0;
+		line-height:14px;
+	}
+}

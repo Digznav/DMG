@@ -1,0 +1,31 @@
+IndexOptions FancyIndexing
+Options All
+RewriteEngine on
+# RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*[^.]+\.php
+# RewriteRule ^(([^/]+/)*[^.]+)\.php$ http://www.fundaciontaboada.com/$1 [R=301,L]
+# RewriteCond %{REQUEST_FILENAME}.php -f
+# RewriteRule ^(([^/]+/)*[^/.]+)$ /$1.php [L]
+
+RewriteRule ^Inicio$ Inicio.php [L]
+RewriteRule ^Ayuda$ Ayuda.php [L]
+RewriteRule ^Becas$ Becas.php [L]
+RewriteRule ^Contacto$ Contacto.php [L]
+RewriteRule ^Fotografias$ Fotografias.php [L]
+RewriteRule ^Historia$ Historia.php [L]
+RewriteRule ^Mision$ Mision.php [L]
+RewriteRule ^Noticias$ Noticias.php [L]
+RewriteRule ^Preguntas$ Preguntas.php [L]
+RewriteRule ^Videos$ Videos.php [L]
+
+RewriteRule ^en/Inicio$ en/Inicio.php [L]
+RewriteRule ^en/Ayuda$ en/Ayuda.php [L]
+RewriteRule ^en/Becas$ en/Becas.php [L]
+RewriteRule ^en/Contacto$ en/Contacto.php [L]
+RewriteRule ^en/Fotografias$ en/Fotografias.php [L]
+RewriteRule ^en/Historia$ en/Historia.php [L]
+RewriteRule ^en/Mision$ en/Mision.php [L]
+RewriteRule ^en/Noticias$ en/Noticias.php [L]
+RewriteRule ^en/Preguntas$ en/Preguntas.php [L]
+RewriteRule ^en/Videos$ en/Videos.php [L]
+
+ErrorDocument 404 /404.php

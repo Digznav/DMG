@@ -1,0 +1,37 @@
+.isButton {
+	display:inline-block;
+	padding:0 10px;
+	margin:10px 0;
+	border:none;
+	line-height:35px;
+	font-size:15px;
+	text-decoration:none !important;
+	color:#fff;
+	background:#333;
+	@include box-sizing(border-box);
+	@include transition(color .1s ease-out, background .1s ease-out);
+	&.lsf-icon:before, &.symb-icon:before { margin-right:.4em; }
+}
+.sendButton {
+	background:$colorPurple;
+	&:hover { background:lighten($colorPurple,10%); }
+}
+
+.cancelButton {
+	background:$colorRed;
+	&:hover { background:lighten($colorRed,10%); }
+}
+
+.saveButton {
+	background:$colorGreen;
+	&:hover { background:lighten($colorGreen,10%); }
+}
+
+.disabledButton {
+	background:lighten($colorGray,50%) !important;
+	color:lighten($colorGray,20%) !important;
+	&:hover {
+		background:lighten($colorGray,50%);
+		color:lighten($colorGray,20%) !important;
+	}
+}

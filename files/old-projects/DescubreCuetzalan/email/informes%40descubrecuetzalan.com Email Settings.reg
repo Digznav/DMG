@@ -1,0 +1,26 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\OMI Account Manager\Accounts\informes@descubrecuetzalan.com]
+"DCEmail"=dword:00000002
+"POP3 Server"="mail.descubrecuetzalan.com"
+"POP3 Port"=dword:0000006e
+"SMTP Server"="mail.descubrecuetzalan.com"
+"SMTP Port"=dword:000009dd
+"Connection Type"=dword:00000003
+"POP3 User Name"="informes@descubrecuetzalan.com"
+"SMTP Display Name"="informes@descubrecuetzalan.com"
+"SMTP Email Address"="informes@descubrecuetzalan.com"
+"SMTP Reply To Email Address"="informes@descubrecuetzalan.com"
+"SMTP Organization Name"=""
+"Account Name"="informes@descubrecuetzalan.com"
+"POP3 Timeout"=dword:0000003c
+"SMTP Timeout"=dword:0000003c
+"POP3 Secure Connection"=dword:00000000
+"Leave Mail On Server"=dword:00000000
+"POP3 Skip Account"=dword:00000000
+"POP3 Prompt for Password"=dword:00000001
+"SMTP User Name"="informes@descubrecuetzalan.com"
+"SMTP Use Sicily"=dword:00000002
+"SMTP Secure Connection"=dword:00000000
+"SMTP Split Messages"=dword:00000000
+"SMTP Prompt for Password"=dword:00000000

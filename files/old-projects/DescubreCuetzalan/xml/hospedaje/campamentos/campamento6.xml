@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<campamento>
+    <nombre></nombre>
+    <descripcion></descripcion>
+    <tit1></tit1>
+    <tit2></tit2>
+    <tit3></tit3>
+    <caracteristica>
+        <car1></car1>
+        <car2></car2>
+        <car3></car3>
+    </caracteristica>
+    <caracteristica>
+        <car1></car1>
+        <car2></car2>
+        <car3></car3>
+    </caracteristica>
+    <aclaracion></aclaracion>
+    <adicionales></adicionales>
+    <restricciones></restricciones>
+    <imagenes>1</imagenes>
+</campamento>

@@ -1,0 +1,113 @@
+//.NGConvivialidad { background:url(../imgs/pantallasDemo/6-NuestraGente-Creadores.jpg) no-repeat center -188px; }
+
+.NGConvivialidadPanel {
+	margin-top:27px;
+}
+
+.s41c1 {
+	@extend %columnFormat;
+	margin-left:35px;
+	.c1bt1 {
+		width:230px;
+		height:210px;
+		padding:28px 13px 0 30px;
+		background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat 30px 16px;
+		background-color:$colorBlue;
+		color:#fff;
+		@include box-sizing(border-box);
+		.cuote, .reference {
+			font-family:$fontNewBaskervilleItalic;
+		}
+		.cuote {
+			font-size:18px;
+			line-height:16px;
+		}
+		.reference {
+			float:right;
+			width:110px;
+			margin-top:13px;
+			font-size:13px;
+			line-height:13px;
+		}
+	}
+	.c1bt2 {
+		width:200px;
+		height:190px;
+		padding:20px 12px 0 19px;
+		background-color:#959595;
+		color:$colorBlue;
+		@include box-sizing(border-box);
+		h3 {
+			line-height:23px;
+			font-size:21px;
+			padding-bottom:10px;
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left bottom;
+		}
+		p {
+			margin-top:11px;
+			line-height:14px;
+			font-size:12px;
+		}
+	}
+}
+
+.s41c2 {
+	@extend %columnFormat;
+	width:360px;
+	height:427px;
+	padding:25px 22px 22px 20px;
+	background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 20px 15px;
+	background-color:#fff;
+	color:#B3B3B0;
+	.scrllCont {
+		width:100%;
+		height:380px;
+		padding-right:34px;
+		overflow-y:auto;
+		@include box-sizing(border-box);
+	}
+	p {
+		margin-bottom:14px;
+		line-height:14px;
+		font-size:12px;
+		color:#B3B3B0;
+	}
+	h3 {
+		font-family:$fontDinCondBold;
+		font-size:15px;
+		text-transform:uppercase;
+		color:$colorBlue;
+	}
+}
+
+.s41c3 {
+	@extend %columnFormat;
+	.c3bt1 {
+		width:330px;
+		height:198px;
+	}
+	.c3bt2 {
+		width:250px;
+		height:187px;
+		margin-left:70px;
+		padding:18px 18px 0 20px;
+		background-color:#7EA4CF;
+		color:#fff;
+		@include box-sizing(border-box);
+		h3 {
+			line-height:23px;
+			font-size:21px;
+			padding-bottom:7px;
+			font-family:$fontDinCondMedium;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat left bottom;
+		}
+		p {
+			margin-top:14px;
+			line-height:14px;
+			font-size:12px;
+		}
+	}
+}

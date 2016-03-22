@@ -1,0 +1,75 @@
+@charset "utf-8";
+body {
+	margin:0 0;
+ 	font-size:14px;
+	font-family:'Shanti', sans-serif;
+	text-align:center;
+	background:url(../imgs/fondo.jpg) center top no-repeat; 
+	background-attachment:fixed; color:#666;
+}
+.logo{
+	background-image:url(../imgs/logo.jpg);
+	background-repeat:no-repeat;
+	width:200px;
+	height:100px;
+	
+	}
+
+.encabezado {
+	text-align:right;
+	padding-right:50px;
+ 	font-size:45px;
+	font-family:'Shanti', sans-serif;
+	background: url(../imgs/verdeFlat.jpg) repeat;
+	color:#FFF; 
+}
+
+.separador {
+	background: url(../imgs/rojoFondo.png) repeat-x;
+	height:26px;
+	vertical-align:middle;
+	color:#FFF;
+	padding-left:20px;
+	font-size:20px;
+	text-align:left;
+}
+.seccion{
+	text-align:left;
+	vertical-align:middle;
+	height:20px;
+	padding-left:25px;
+ 	font-size:12px;
+	font-weight:bold;
+	font-family:'Shanti', sans-serif;
+	background: url(../imgs/crema.jpg);
+	color: #758135; 	
+	}
+.titulo{
+	text-align: center;
+	height:100px;
+ 	font-size:20px;
+	font-weight:bold;
+	font-family:'Shanti', sans-serif;
+	color: #bf2237; 	
+	}	
+	
+a:link {
+	color: #000;
+	text-decoration: none;
+	font-weight:bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+}
+a:hover {
+	text-decoration: none;
+	font-weight:bold;
+	color: #758135;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+}

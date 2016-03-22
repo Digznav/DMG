@@ -1,0 +1,84 @@
+//.RSFPRMex { background:url(../imgs/pantallasDemo/7-RSC-FPRMexico.jpg) no-repeat center -188px; }
+
+.RSFPRMexPanel {
+	margin:32px 0 0 74px;
+}
+
+.s53vc1 {
+	@extend %columnFormat;
+	.c1bT1 {
+		width:191px;
+		height:166px;
+	}
+	.c1bT2 {
+		position:relative;
+		width:150px;
+		height:150px;
+		text-align:right;
+		//background-color:$colorBlue;
+		img { width:100%; height:100%; }
+		a {
+			position:absolute;
+			right:0;
+			bottom:0;
+			left:0;
+			padding-right:5px;
+			line-height:24px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:15px;
+			text-align:right;
+			background-color:$colorBlue;
+			color:#fff;
+		}
+	}
+}
+.s53vc2 {
+	@extend %columnFormat;
+	width:412px;
+	height:367px;
+	padding:32px 29px 0 12px;
+	background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 12px 21px;
+	background-color:#fff;
+	color:#B3B3B0;
+	p {
+		font-size:12px;
+		line-height:14px;
+		text-align:justify;
+	}
+	ul {
+		@extend %changeImgList;
+		padding:19px 45px 17px 28px;
+		font-size:15px;
+		line-height:18px;
+		font-family:$fontDinCondMedium;
+		text-transform:uppercase;
+		color:$colorBlue;
+	}
+}
+.s53vc3 {
+	@extend %columnFormat;
+	.c3bT1 {
+		width:190px;
+		height:190px;
+		margin-top:71px;
+	}
+	.c3bT2 {
+		width:240px;
+		height:172px;
+		padding:27px 22px 0 18px;
+		font-size:12px;
+		line-height:14px;
+		background:url(../imgs/design/lines/lineWhite_FFFFFF_98.png) no-repeat 18px 15px;
+		background-color:#7EA4CF;
+		color:#fff;
+		@include box-sizing(border-box);
+	}
+}
+
+/*h3 {
+	margin:18px 8px 0 0;
+	line-height:17px;
+	font-size:14px;
+	font-family:$fontDinCondMedium;
+	text-transform:uppercase;
+}*/

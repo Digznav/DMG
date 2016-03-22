@@ -1,0 +1,22 @@
+<div class="ppUpFmt">
+	<div class="sdFrmt sd-1">
+		<div class="phMsk"><img src="imgs/Ponentes/du_nanxy.jpg" alt="Du Nanxi"></div>
+		<img src="imgs/Banderas/china.png" alt="China" class="flag">
+		<h2>Du Nanxi</h2>
+		<h3>Cantante internacional</h3>
+	</div>
+	<div class="sdFrmt sd-2">
+		<div class="scll">
+			<p><strong>Biografía:</strong></p>
+			<p>Du Nanxi, estudiante de China, hace su intercambio como becaria en la BUAP desde el otoño de 2013 a verano de 2014 en México. Estudia español como la carrera.</p>
+			<p>Desde el jardín infantil, ha participado en muchas presentaciones de baile y teatro.</p>
+			<p><strong>2008:</strong></p>
+			<p>Bailó y actuó en el teatro "Snow White" como "emperatriz "en el aniversario de 10 años de la Escuela de Lenguajes Extranjeros de San menxia de China.</p>
+			<p><strong>2011:</strong></p>
+			<p>Ganó el primer lugar del "Concurso de Discurso de Chino del Instituto de Lenguas Occidentales"</p>
+			<p><strong>2012:</strong></p>
+			<p>Ganó "La mejor protagonista" en el concurso de teatros en la Universidad de Estudios Internacionales de Xi'An de China; " la mejor dobladora" del concurso de doblamiento de la misma universidad; interpretó en el baile de un grupo en aniversario de 60 años de dicha universidad.</p>
+			<p>Excelente estudiante y becaria de segundo nivel de la Universidad de Estudios Internacionales de Xi'An.</p>
+		</div>
+	</div>
+</div>

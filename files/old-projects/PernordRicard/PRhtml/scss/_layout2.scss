@@ -1,0 +1,124 @@
+.layout2 {
+	nav.intNav {
+		float:left;
+		width:100%;
+		height:44px;
+		@include box-sizing(border-box);
+		padding:7px;
+		/*background:url(../imgs/navback.jpg) no-repeat;*/
+		background:$colorBlue;
+		li {
+			display:inline-block;
+			height:30px;
+			border-right:1px solid #fff;
+			a {
+				display:inline-block;
+				line-height:30px;
+				padding:0 15px;
+				font-size:18px;
+				font-weight:bold;
+				color:lighten($colorBlue,60%);
+				@include text-shadow(1px 1px 2px #444);
+				&:hover {
+					color:#fff;
+					@include text-shadow(1px 1px 4px lighten($colorBlue,50%));
+				}
+				&.intActive {
+					color:#fff;
+					@include text-shadow(1px 1px 4px lighten($colorBlue,50%));
+				}
+			}
+			&.noBorder { border:none; }
+		}
+	}
+	.intWrapper {
+		float:left;
+		width:100%;
+		@include box-sizing(border-box);
+		padding:0 2%;
+		header {
+			border-bottom:1px dotted #ccc;
+			margin:5px 0 30px 0;
+		}
+		.intHeader, .intCaption {
+			display:block;
+		}
+		.intHeader {
+			color:lighten($colorBlue,45%);
+			font-size:30px;
+			font-weight:600;
+			margin-bottom:5px;
+		}
+		.intCaption {
+			width:70%;
+			color:#555;
+			font-weight:100;
+			font-size:13px;
+			margin-bottom:15px;
+		}
+	}
+	.accr {
+		h3 { font-weight:bold; }
+	}
+	.intPanel {
+		display:none;
+	}
+	.imgInt { float:right; }
+}
+
+/*.accordions {
+	width:100%;
+	.accHead {
+		color:#555;
+		margin:0;
+		margin-bottom:2px;
+		padding:5px;
+		background:url(../imgs/accback.gif);
+		@include background-image(linear-gradient(top, rgb(255, 255, 255) 47%, rgb(235, 235, 235) 53%));
+		@include box-shadow(1px 1px 2px #bbb);
+		border:1px solid #ccc;
+		cursor:pointer;
+	}
+	.accContent {
+		display:none;
+		padding:15px 10px;
+	}
+	.accContentFocus {
+		display:block;
+	}
+}*/
+
+.lista {
+	list-style-image:url(../imgs/square.jpg);
+	margin-left:20px;
+	list-style-type:square;
+	font-size:13px;
+}
+.miniGaleria {
+	list-style:none;
+	li {
+		display:inline-block;
+		width:20%;
+		@include box-sizing(border-box);
+		padding:3px;
+		img {
+			width:100%;
+		}
+	}
+}
+
+/*.intder {
+	float:right;
+	width:350px;
+	.square {
+		width:350px;
+		height:200px;
+		margin-bottom:10px;
+	}
+	.cazul {
+		background:lighten($colorBlue,15%);
+	}
+	.cgris {
+		background:#444;
+	}
+}*/

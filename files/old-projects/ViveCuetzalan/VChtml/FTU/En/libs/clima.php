@@ -1,0 +1,6 @@
+<?php ?>
+<ul class="weather">
+	<li><a href="http://espanol.weather.com/weather/today/MXPA1692:1:MX" id="test"></a></li>
+	<li><a href="https://www.facebook.com/vive.cuetzalan.5?fref=ts" class="symb-icon icoFacebook" id="fbLink"></a></li>
+	<li><a href="<?php echo $urlEsp; ?>" id="langLink">ES</a></li>
+</ul>

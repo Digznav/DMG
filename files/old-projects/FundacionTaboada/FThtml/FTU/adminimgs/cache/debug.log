@@ -1,0 +1,262 @@
+2013-11-03 20:59:45 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:04:24 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:06:17 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:06:36 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:06:46 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:06:50 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:10:28 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:10:32 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:11:47 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:12:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:12:18 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:13:00 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:13:02 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:13:04 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:13:19 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:13:31 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:13:32 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:07 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:08 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:10 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:31 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:17:36 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:19:06 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:22:12 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:22:14 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:22:26 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:22:40 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:27:00 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:27:12 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:27:55 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:28:11 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:30:50 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:30:53 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:31:02 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:32:53 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:32:56 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:32:59 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:33:00 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:33:11 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:35:00 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:41:38 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:41:47 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:42:24 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:42:35 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:44:47 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:44:52 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:44:59 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:45:01 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:45:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:45:11 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:45:45 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:45:47 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:45:48 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:46:03 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:46:15 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:46:21 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:48:02 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:48:03 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:48:04 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:48:21 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-03 21:53:33 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:53:46 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:54:15 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:54:30 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:54:40 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:54:55 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:54:57 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:32 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:33 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:35 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:37 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:40 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:41 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:41 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:42 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:43 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:44 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:45 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:46 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:48 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:49 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 21:57:50 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:02:58 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:03:44 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:03:48 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:03:50 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:04:21 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:04:22 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:04:23 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:05:57 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:05:58 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:00 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:01 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:04 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:05 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:07 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:38 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:39 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:41 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:42 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:44 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:45 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:45 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:47 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:52 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:06:52 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:07:12 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:07:13 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:07:13 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:07:14 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:07:15 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:11:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:11:12 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:11:48 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:11:49 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:12:03 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:12:03 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:12:03 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/images/ea.png"
+2013-11-03 22:12:03 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/images/ea.png"
+2013-11-03 22:12:03 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('ea.png', 'ea.png', now(), 'ea.png')
+2013-11-03 22:13:15 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:13:28 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:13:28 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:13:28 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/images/ea_5b.png"
+2013-11-03 22:13:28 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/images/ea_5b.png"
+2013-11-03 22:13:28 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('ea_5b.png', 'ea_5b.png', now(), 'ea_5b.png')
+2013-11-03 22:13:39 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:14:57 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:15:07 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:18:52 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:18:59 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 2
+2013-11-03 22:18:59 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:19:09 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 2
+2013-11-03 22:19:09 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 2
+2013-11-03 22:19:09 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:20:32 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:20:47 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:14 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:16 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:20 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 1
+2013-11-03 22:23:21 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 1
+2013-11-03 22:23:21 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:33 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:23:33 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:23:33 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/ea.png"
+2013-11-03 22:23:33 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/ea.png"
+2013-11-03 22:23:33 189.128.179.224 Query: UPDATE `imagen` SET `leyenda` = 'ea.png', `descripcion` = 'ea.png', `fecha` = now(), `guid` = 'ea.png' WHERE imagen_id = 1
+2013-11-03 22:23:33 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:23:33 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:23:33 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 1
+2013-11-03 22:23:43 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:54 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:55 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:23:56 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:28:28 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:28:30 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:28:38 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:28:38 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:28:38 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/ea_e4.png"
+2013-11-03 22:28:38 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/ea_e4.png"
+2013-11-03 22:28:39 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('ea_e4.png', 'test', now(), 'ea_e4.png')
+2013-11-03 22:28:44 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:30:04 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:30:07 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 3
+2013-11-03 22:30:07 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 3
+2013-11-03 22:30:07 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:30:16 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:30:16 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:30:16 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/ea.png"
+2013-11-03 22:30:16 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/ea.png"
+2013-11-03 22:30:16 189.128.179.224 Query: UPDATE `imagen` SET `leyenda` = 'ea.png', `descripcion` = 'ea.png', `fecha` = now(), `guid` = 'ea.png' WHERE imagen_id = 3
+2013-11-03 22:30:16 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:30:16 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:30:16 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 3
+2013-11-03 22:30:21 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 3
+2013-11-03 22:30:21 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:30:29 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:30:32 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:30:41 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:32:44 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:32:57 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:32:57 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:32:57 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/ea_21.png"
+2013-11-03 22:32:57 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/ea_21.png"
+2013-11-03 22:32:57 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('ea_21.png', 'test', now(), 'ea_21.png')
+2013-11-03 22:33:02 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:35:57 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:35:59 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:36:15 189.128.179.224 FormatFilename(), Removing bad characters from the filename ea.png
+2013-11-03 22:36:15 189.128.179.224 FormatFilename(), Add a number to the end of the filename ea.png
+2013-11-03 22:36:15 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/ea_c0.png"
+2013-11-03 22:36:15 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/ea_c0.png"
+2013-11-03 22:36:16 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('la prueb', 'prueba desc', now(), 'ea_c0.png')
+2013-11-03 22:36:26 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:36:34 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 5
+2013-11-03 22:36:34 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:36:42 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 5
+2013-11-03 22:36:42 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:37:03 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 5
+2013-11-03 22:37:03 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:37:17 189.128.179.224 FormatFilename(), Removing bad characters from the filename error.jpg
+2013-11-03 22:37:17 189.128.179.224 FormatFilename(), Add a number to the end of the filename error.jpg
+2013-11-03 22:37:17 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/error.jpg"
+2013-11-03 22:37:17 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/error.jpg"
+2013-11-03 22:37:17 189.128.179.224 Query: UPDATE `imagen` SET `leyenda` = 'la prueb lyenda', `descripcion` = 'prueba desc', `fecha` = now(), `guid` = 'error.jpg' WHERE imagen_id = 5
+2013-11-03 22:37:18 189.128.179.224 FormatFilename(), Removing bad characters from the filename error.jpg
+2013-11-03 22:37:18 189.128.179.224 FormatFilename(), Add a number to the end of the filename error.jpg
+2013-11-03 22:37:18 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 5
+2013-11-03 22:37:18 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:43:35 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 5
+2013-11-03 22:43:35 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 5
+2013-11-03 22:43:35 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 22:43:37 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 4
+2013-11-03 22:43:37 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 4
+2013-11-03 22:43:37 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:01:24 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:10:08 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:14:30 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:14:33 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:14:34 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:14:35 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:14:48 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:25:17 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:25:28 189.128.179.224 FormatFilename(), Removing bad characters from the filename banner10.jpg
+2013-11-03 23:25:28 189.128.179.224 FormatFilename(), Add a number to the end of the filename banner10.jpg
+2013-11-03 23:25:28 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/banner10.jpg"
+2013-11-03 23:25:28 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/banner10.jpg"
+2013-11-03 23:25:28 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('test', 'test', now(), 'banner10.jpg')
+2013-11-03 23:25:31 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:26:13 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:26:26 189.128.179.224 FormatFilename(), Removing bad characters from the filename banner10.jpg
+2013-11-03 23:26:26 189.128.179.224 FormatFilename(), Add a number to the end of the filename banner10.jpg
+2013-11-03 23:26:26 189.128.179.224 UploadFile(), File moved successfully to: "/home/fundacio/public_html/adminimgs/imagenes/banner10_f9.jpg"
+2013-11-03 23:26:26 189.128.179.224 UploadFile(), Is Writable! "/home/fundacio/public_html/adminimgs/imagenes/banner10_f9.jpg"
+2013-11-03 23:26:26 189.128.179.224 Query: INSERT INTO `imagen` (`leyenda`, `descripcion`, `fecha`, `guid`) VALUES ('Alumno de curso de verano 2013.', 'Alumno de curso de verano 2013.', now(), 'banner10_f9.jpg')
+2013-11-03 23:26:28 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:26:33 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 6
+2013-11-03 23:26:33 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 6
+2013-11-03 23:26:33 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:34:32 189.128.179.224 Query: DELETE FROM imagen WHERE imagen_id = 7
+2013-11-03 23:34:32 189.128.179.224 Query: SELECT * FROM imagen WHERE imagen_id = 7
+2013-11-03 23:34:32 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:34:38 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:34:41 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:36:38 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:37:38 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:37:40 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:38:48 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:38:51 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:39:58 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-03 23:46:30 189.128.179.224 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-06 12:10:22 189.128.60.133 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-06 12:10:39 189.128.60.133 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-06 12:10:46 189.128.60.133 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-06 12:10:57 189.128.60.133 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-21 16:17:10 189.128.7.138 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50
+2013-11-21 16:17:16 189.128.7.138 Query: SELECT * FROM imagen ORDER BY fecha DESC
+2013-11-21 16:17:19 189.128.7.138 Query: SELECT * FROM imagen ORDER BY fecha DESC LIMIT 50

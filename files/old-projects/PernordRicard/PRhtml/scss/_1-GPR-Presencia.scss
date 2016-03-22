@@ -1,0 +1,69 @@
+//.GPRPrecencia { background:url(../imgs/pantallasDemo/3-GPR-Presencia.jpg) no-repeat center -188px; }
+
+%columnGPR_Presencia_Format {
+	@include box-sizing(border-box);
+}
+
+//.GPRPrecenciaPanel {}
+.s14vc {
+	width:950px;
+	height:447px;
+	margin:8px 0 0 34px;
+	background:#fff url(../imgs/design/GPR/mapPresencia.png) no-repeat 300px 10px;
+	.s14bT1 {
+		@extend %columnGPR_Presencia_Format;
+		width:230px;
+		height:88px;
+		padding-top:9px;
+		margin:40px 0 0 34px;
+		color:#7EA4CF;
+		background:url(../imgs/design/lines/dobleLinesBlue_7EA4CF_98.png) no-repeat 25px top;
+		p {
+			padding-left:25px;
+			line-height:23px;
+			font-family:$fontDinCondBold;
+			font-size:15px;
+			text-transform:uppercase;
+			&.dot { background:url(../imgs/design/dotBlue.png) no-repeat 7px center; }
+		}
+	}
+	.s14bT2 {
+		@extend %columnGPR_Presencia_Format;
+		color:$colorBlue;
+		width:250px;
+		margin:29px 0 0 34px;
+		padding:9px 0 0 25px;
+		h3 {
+			font-family:$fontDinCondBold;
+			font-size:15px;
+		}
+		p {
+			line-height:20px;
+			font-family:$fontNewBaskervilleItalic;
+			font-size:15px;
+		}
+	}
+	.s14bT3 {
+		@extend %columnFormat;
+		width:349px;
+		height:160px;
+		margin:40px 0 0 42px;
+		padding:14px 12px 0px 15px;
+		background-color:#7EA4CF;
+		h3 {
+			line-height:20px;
+			padding:16px 0 3px;
+			font-family:$fontDinCondBold;
+			font-size:16px;
+			text-transform:uppercase;
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat 0px 0px;
+			color:$colorBlue;
+		}
+		p {
+			font-family:$fontNewBaskervilleItalic;
+			font-size:16px;
+			line-height:19px;
+			color:#fff;
+		}
+	}
+}

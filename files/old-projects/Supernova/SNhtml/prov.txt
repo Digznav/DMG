@@ -1,0 +1,45 @@
+<li><a <?php if ($avoidNav == "Registro") { echo 'href="#" class="active"'; } else { echo 'href="Registro"'; } ?> >Registro</a></li>
+
+<script src="js/jquery.imagesloaded.min.js"></script>
+<script src="js/jquery.wookmark.min.js"></script>
+$('#contactList').imagesLoaded(function() {
+	// Prepare layout options.
+	var wdthCont = 644,
+			iniWidth = (wdthCont/4), resWidth,
+			options = {
+				itemWidth:'25%',
+				container:$('.contactList')
+			},
+			handler = $('.contactList li');
+	//$window.resize(function() {
+	//	var windowWidth = $window.outerWidth(),
+	//			newOptions = {itemWidth:iniWidth, flexibleWidth:'25%' };
+	//	if (windowWidth < 1025) {
+	//		wdthCont = 600;
+	//		resWidth = (wdthCont/3)-Offst;
+	//		newOptions.itemWidth = resWidth;
+	//		newOptions.flexibleWidth = '33%';
+	//	}
+	//	handler.wookmark(newOptions);
+	//});
+	handler.wookmark(options);
+});
+
+5 7
+05 12
+6
+
+<div id="prueba" class="popupFormat">
+	<div class="phMsk"><img src="imgs/Contactos/abayuba_duche.jpg" alt="Abayubá Duché"></div>
+	<div>
+		<h2 class="nmProf"></h2>
+		<h3 class="chrgProf"></h3>
+		<a href="#" class="opnForm">Contactar</a>
+	</div>
+</div>
+
+<img src="imgs/Banderas/colombia.png" alt="Colombia" class="flag">
+<img src="imgs/Banderas/eua.png" alt="Estados Unidos de América" class="flag">
+<img src="imgs/Banderas/finlandia.png" alt="Finlandia" class="flag">
+<img src="imgs/Banderas/iran.png" alt="Irán" class="flag">
+<img src="imgs/Banderas/mexico.png" alt="México" class="flag">

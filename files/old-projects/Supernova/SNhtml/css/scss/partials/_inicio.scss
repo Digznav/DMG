@@ -1,0 +1,113 @@
+/*.panel {
+	position:absolute;
+	width:100%;
+	top:-1000px;
+	opacity:0;
+	filter:Alpha(opacity=0);
+	&#Que_es { top:55px; opacity:1; }
+	//&#Que_es { visibility:visible; }
+	//&#Cuando { top:100px; opacity:1; }
+	//&#Cuando { visibility:visible; }
+	//&#Donde { display:block; }
+	//&#Donde { top:66px; opacity:1; }
+}
+
+.innerNav {
+	font-size:20px;
+	//margin-top:34px;
+	ul {
+		float:left;
+		padding:5px 0;
+		background-color:darken($colorGrayDark,10%);
+		@include box-shadow(inset 0 0 10px #000);
+		list-style:none;
+		//@include border-radius(20px);
+		//background-color:rgba(166,100,36,.2);
+		li {
+			float:left;
+			a {
+				display:inline-block;
+				padding:0 30px;
+				line-height:24px;
+				border-right:2px groove $colorBlueDark;
+				color:$colorBlueLight;
+				@include text-shadow(0 0 10px #000);
+				@include transition(color .1s ease-out);
+				&:hover { color:$colorOrangeOpaqueLight; }
+				&.active {
+					color:$colorOrangeLight;
+					@include text-shadow(0 0 10px $colorOrangeDark);
+				}
+			}
+			&:last-of-type a { border:none; }
+		}
+	}
+}
+
+.Countdown { margin-top:50px; }
+
+.mapCont {
+	position:relative;
+	width:100%;
+	height:350px;
+	#mapCanvas { width:100%; height:100%; }
+}*/
+
+
+
+.panel {
+	position:absolute;
+	width:650px;
+	left:250px;
+	top:-1000px;
+	opacity:0;
+	filter:Alpha(opacity=0);
+	&#Que_es { top:0; opacity:1; }
+}
+
+.innerNav {
+	float:left;
+	width:200px;
+	font-size:20px;
+	//margin-top:34px;
+	ul {
+		float:left;
+		padding:5px 0;
+		background-color:darken($colorGrayDark,10%);
+		@include box-shadow(inset 0 0 10px #000);
+		list-style:none;
+		//@include border-radius(20px);
+		//background-color:rgba(166,100,36,.2);
+		li {
+			float:left;
+			width:100%;
+			a {
+				width:90%;
+				display:inline-block;
+				//padding:0 30px;
+				margin:0 5%;
+				line-height:40px;
+				border-bottom:2px groove $colorBlueDark;
+				color:$colorBlueLight;
+				text-align:center;
+				//@include text-shadow(0 0 10px #000);
+				@include transition(color .1s ease-out);
+				&:hover { color:$colorOrangeOpaqueLight; }
+				&.active {
+					color:$colorOrangeLight;
+					//@include text-shadow(0 0 10px $colorOrangeDark);
+				}
+			}
+			&:last-of-type a { border:none; }
+		}
+	}
+}
+
+.Countdown { margin-top:50px; }
+
+.mapCont {
+	position:relative;
+	width:100%;
+	height:350px;
+	#mapCanvas { width:100%; height:100%; }
+}

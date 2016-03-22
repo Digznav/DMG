@@ -1,0 +1,61 @@
+.ballantinesBack {
+	background:url(../imgs/brands/Ballantines/bg_Ballantines.jpg) no-repeat top center;
+	background-size:cover;
+}
+.fmtBallantines {
+	background-color:#EFEFEE !important;
+	.sectionTitle {
+		color:#fff !important;
+		background-image:url(../imgs/design/lines/lineWhite_FFFFFF_98.png);
+	}
+	.popUpNM {
+		background-color:#7ea4cf;
+		h4 {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+			color:#1b3664;
+		}
+		p { color:#fff; }
+	}
+}
+
+.NM-Ballantines {
+	.s3cl1 {
+		.c1b2 { background-color:#7EA4CF; color:#fff; height:125px; }
+	}
+	
+	.s3cl2 {
+		.c2b1 {
+			background-color:#7ea4cf;
+			h4 {
+				color:#1b3664;
+				background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+			}
+			p { color:#FFF; }
+		}
+		.c2b2 {
+			height:153px;
+			color:#1b3664;
+			background-color:#f3e4d7;
+			h4 {
+				color:#1b3664;
+				background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 16px;
+			}
+			ul { list-style-image:url(../imgs/design/listImg_Blue.png); }
+		}
+	}
+
+	.s3cl3 {
+		.c3b3 {
+			background-color:#e8e8e7;
+			color:#1b3664;
+			//h4 { color:#1b3664; }
+			
+			//.cctl-ttl { color:#1b3664; }
+		}
+
+		.dcrp-txt {
+			background:url(../imgs/design/lines/lineBlue_134677_98.png) no-repeat left 19px;
+			p { padding-top:0; }
+		}
+	}
+}

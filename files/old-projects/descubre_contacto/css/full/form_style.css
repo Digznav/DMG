@@ -1,0 +1,76 @@
+/*.form_tabs_container {
+	position: relative;
+	width: 90%;
+	height: 300px;
+	margin: 0 auto;
+	border: 5px solid #D81E2C;
+	border-radius:40px;
+}*/
+.form_title {
+	position: relative;
+	width: 94%;
+	height: 60px;
+	text-align: center;
+	padding:2% 3%;
+	font-size: 1.2em;
+}
+.form_tabs {
+	position: relative;
+	width: 98%;
+	color:#666;
+}
+.form_column {
+	position:relative;
+	float:left;
+	width:46%;
+	padding:0 2%;
+}
+.submit {
+	position:relative;
+	left:50%;
+	margin-left:-150px;
+	border:none;
+	width:300px;
+	line-height:40px;
+	background-color:#333;
+	border-radius: 4px;
+	color:#fff;
+	font-size:2em;
+	font-weight:bold;
+	cursor:pointer;
+	-webkit-transition:	background-color .2s ease-out;
+	-moz-transition:		background-color .2s ease-out;
+	-o-transition:			background-color .2s ease-out;
+	transition:					background-color .2s ease-out;
+}
+.submit:hover {
+	background-color: #ce3235;
+}
+
+label.invalid {
+	font-size:.9em;
+	color:rgb(255,0,0);
+}
+input.invalid {
+	border:1px red dotted;
+}
+
+fieldset { border:none; }
+	fieldset legend {
+		color:#768243;
+		font-weight:bold;
+		font-size:1.5em;
+	}
+	.form_campos input {
+		display:inline-block;
+		width:50%;
+	}
+	.form_campos label {
+		display:inline-block;
+		width:40%;
+	}
+	.form_campos textarea {
+		width:90%;
+	}
+
+.ui-datepicker { font-size:.8em }

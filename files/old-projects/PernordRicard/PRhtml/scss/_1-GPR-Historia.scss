@@ -1,0 +1,59 @@
+//.GPRHistoria { background:url(../imgs/pantallasDemo/3-GPR-Historia.jpg) no-repeat center -188px; }
+
+//==========================================================================
+//GRUPO PERNOD RICARD - HISTORIA
+//==========================================================================
+	//Color de fondo del contenedor del scroll
+		$backColor_ScrollCont:#fff;
+	//Color de texto de los títulos de año de cada evento
+		$textColor_YearTitle:$colorBlue;
+	//Color de texto de los textos descriptivos de cada evento
+		$textColor_TextEventInHistory:#B3B3B0; //$colorGrayDarkDarken;
+
+%columnFormat {
+	float:left;
+	@include box-sizing(border-box);
+}
+
+.s12vc1 {
+	@extend %safeMargin;
+	@extend %columnFormat;
+	background-color:$backColor_ScrollCont;
+	width:521px;
+	height:451px;
+	margin-top:18px;
+	padding:24px 13px 14px 16px;
+	.s12scrllHist {
+		width:100%;
+		height:100%;
+		padding-right:40px;
+		overflow-y:auto;
+		@include box-sizing(border-box);
+	}
+	.historyPnt {
+		background:url(../imgs/design/lines/lineGray_B3B3B0_64.png) no-repeat top left;
+		padding:11px 0 7px 24px;
+		h3 {
+			font-family:$fontDinCondBold;
+			color:$textColor_YearTitle;
+			font-size:15px;
+			line-height:15px;
+		}
+		p {
+			line-height:14px;
+			color:$textColor_TextEventInHistory;
+		}
+	}
+}
+.s12vc2 {
+	@extend %columnFormat;
+	width:148px;
+	height:130px;
+	margin-top:193px;
+}
+.s12vc3 {
+	@extend %columnFormat;
+	width:200px;
+	height:174px;
+	margin-top:19px;
+}

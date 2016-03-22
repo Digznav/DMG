@@ -1,0 +1,119 @@
+@import url("http://fonts.googleapis.com/css?family=Corben");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
+@import "compass/css3";
+@import "#Libs-fonts";
+@import "#Default-normalize";
+@import "#Libs-mixins";
+/* ==========================================================================
+	 HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+	 ========================================================================== */
+
+//@import "#Default-h5bpStyles";
+
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+$fontGeneral: 'Source Sans Pro', 'sans-serif';
+$fontCorben: 'Corben', 'cursive';
+
+//Web symbol fonts
+$fontWebSymbols:'WebSymbolsRegular', sans-serif;
+$fontLigature:'LigatureSymbols';
+
+$colorBlue:#0064DC;
+$colorOrange:#DC7B20;
+$colorGreen:#008080;
+$colorYellowOpaque:#FFFFC5;
+$colorGray:#D2D2D2;
+$colorGrayDark:#646464;
+$colorRed:#EC1C24;
+
+$coloyYellowOpaque_OverGreen_RGBA_20:#339a8f;
+$coloyYellowOpaque_OverGreen_RGBA_40:#66b39c;
+
+$coloyYellowOpaque_OverOrange_RGBA_20:#E29541;
+$coloyYellowOpaque_OverOrange_RGBA_40:#E9AF62;
+
+$coloyOrange_OverGreen_RGBA_40:#66b39c;
+
+$colorDommy:rgba(#000,.5);
+
+$spritePNG_Path:url(../imgs/design/sprite.png);
+$spriteSVG_Path:url(../imgs/design/sprite.svg);
+
+$arrowSVG_Path:url(../imgs/design/arrow.svg);
+$arrowPNG_Path:url(../imgs/design/arrow.png);
+
+/* Colores de fondo y borde de campos invalidos
+==========================================================================*/
+	//Error
+		$backColor_InvalidField_Error:lighten($colorRed,20%);
+		$borderColor_InvalidField_Error:darken($colorRed,10%);
+
+
+body {
+	font-family:$fontGeneral;
+	color:$colorGrayDark;
+}
+ul { margin:0; padding:0; }
+h2, h3, h4 { margin:0; font-weight:normal; }
+p { margin:0; }
+a { color:inherit; }
+
+textarea, input, select {
+	font-family:$fontGeneral;
+	&.invalid {
+		background-color:$backColor_InvalidField_Error !important;
+		color:$borderColor_InvalidField_Error !important;
+		border-color:$borderColor_InvalidField_Error !important;
+	}
+}
+
+.background-image {
+	position:fixed;
+	top:-5px;
+	right:-5px;
+	bottom:-5px;
+	left:-5px;
+	z-index:-10;
+	display:block;
+	background-image:url(../imgs/design/bg_4.jpg);
+	background-size:cover;
+	-webkit-filter:blur(5px);
+		 -moz-filter:blur(5px);
+		  -ms-filter:blur(5px);
+		   -o-filter:blur(5px);
+		      filter:blur(5px);
+}
+
+@import "#Libs-icons";
+//@import "#Libs-buttons";
+@import "#Libs-jqueryUI";
+
+@import "header";
+@import "container";
+	@import "contact";
+
+@import "footer";
+
+@import "modernizr";
+
+/* ==========================================================================
+	 Media Queries
+	 ========================================================================== */
+
+@import "Media-Queries";
+
+/* ==========================================================================
+	 Helper classes
+	 ========================================================================== */
+
+@import "#Default-helperClasses";
+
+/* ==========================================================================
+	 Print styles
+	 ========================================================================== */
+
+//@import "#Default-printStyles";

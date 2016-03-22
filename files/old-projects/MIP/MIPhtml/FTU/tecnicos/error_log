@@ -1,0 +1,85 @@
+[07-Nov-2013 06:37:26 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->SELECT * FROM tecnico<--Table 'mipcom_db.tecnico' doesn't exist' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:32
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(177): QueryExecutor::execute(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(29): TecnicoMySqlDAO->getList(Object(SqlQuery))
+#2 /home/mipcom/public_html/tecnicos/index.php(3): TecnicoMySqlDAO->queryAll()
+#3 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 32
+[07-Nov-2013 06:37:57 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->SELECT * FROM tecnico<--Table 'mipcom_db.tecnico' doesn't exist' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:32
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(177): QueryExecutor::execute(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(29): TecnicoMySqlDAO->getList(Object(SqlQuery))
+#2 /home/mipcom/public_html/tecnicos/index.php(3): TecnicoMySqlDAO->queryAll()
+#3 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 32
+[07-Nov-2013 06:44:31 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mipcom/public_html/tecnicos/borrar.php:17) in /home/mipcom/public_html/tecnicos/borrar.php on line 19
+[07-Nov-2013 06:47:34 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:47:34 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:48:38 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:48:38 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:49:10 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:49:10 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:50:11 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:50:11 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:54:33 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 06:54:33 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:03:56 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:03:56 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:04:33 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:04:33 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:05:07 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:05:07 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:05:09 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user 'mipcom'@'localhost' (using password: NO) in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:05:09 America/Mexico_City] PHP Warning:  mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: A link to the server could not be established in /home/mipcom/public_html/class/sql/SqlQuery.class.php on line 38
+[07-Nov-2013 07:21:24 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:22:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:23:02 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:24:39 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:29:09 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:29:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:30:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:32:22 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 5
+[07-Nov-2013 07:33:52 America/Mexico_City] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mipcom/public_html/tecnicos/editar.php on line 4
+[08-Nov-2013 08:57:17 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mipcom/public_html/class/bo/Security.class.php:11) in /home/mipcom/public_html/tecnicos/alta.php on line 20
+[08-Nov-2013 08:59:53 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '47fda557c1ba27db834e24d04dd7bdb7', 'Tecnico')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/tecnicos/alta.php(13): Security::registerUser('maxtor94@hotmai...', 'HugoMartin', 'Tecnico')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[08-Nov-2013 09:17:42 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('maxtor94@hotmail.com', '98f65d6a50e3eeca6eeb8b98321f4e81', 'Tecnico')<--Duplicate entry 'maxtor94@hotmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/tecnicos/alta.php(13): Security::registerUser('maxtor94@hotmai...', 'HugoMartin', 'Tecnico')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[08-Nov-2013 09:20:26 America/Mexico_City] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mipcom/public_html/class/bo/Security.class.php:11) in /home/mipcom/public_html/tecnicos/alta.php on line 20
+[11-Nov-2013 13:02:30 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->DELETE FROM Tecnico WHERE Id = '8'<--Cannot delete or update a parent row: a foreign key constraint fails (`mipcom_db`.`Reporte`, CONSTRAINT `FK_Reporte_Tecnico` FOREIGN KEY (`idTecnico`) REFERENCES `Tecnico` (`Id`))' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(388): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(101): TecnicoMySqlDAO->executeUpdate(Object(SqlQuery))
+#2 /home/mipcom/public_html/tecnicos/borrar.php(9): TecnicoMySqlDAO->delete('8')
+#3 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[17-Nov-2013 16:41:49 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->DELETE FROM Tecnico WHERE Id = '20'<--Cannot delete or update a parent row: a foreign key constraint fails (`mipcom_db`.`Reporte`, CONSTRAINT `FK_Reporte_Tecnico` FOREIGN KEY (`idTecnico`) REFERENCES `Tecnico` (`Id`))' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(388): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/TecnicoMySqlDAO.class.php(101): TecnicoMySqlDAO->executeUpdate(Object(SqlQuery))
+#2 /home/mipcom/public_html/tecnicos/borrar.php(9): TecnicoMySqlDAO->delete('20')
+#3 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57
+[17-Nov-2013 16:55:22 America/Mexico_City] PHP Fatal error:  Uncaught exception 'Exception' with message 'SQL Error: -->INSERT INTO Acceso (usuario, contrasenia, rol) VALUES ('hugomartin.jh@gmail.com', 'f495567c2fed4d4064e0a210f3b0ba24', 'Tecnico')<--Duplicate entry 'hugomartin.jh@gmail.com' for key 'PRIMARY'' in /home/mipcom/public_html/class/sql/QueryExecutor.class.php:57
+Stack trace:
+#0 /home/mipcom/public_html/class/sql/QueryExecutor.class.php(63): QueryExecutor::executeUpdate(Object(SqlQuery))
+#1 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(191): QueryExecutor::executeInsert(Object(SqlQuery))
+#2 /home/mipcom/public_html/class/mysql/AccesoMySqlDAO.class.php(67): AccesoMySqlDAO->executeInsert(Object(SqlQuery))
+#3 /home/mipcom/public_html/class/bo/Security.class.php(18): AccesoMySqlDAO->insert(Object(Acceso))
+#4 /home/mipcom/public_html/tecnicos/alta.php(13): Security::registerUser('hugomartin.jh@g...', 'Martin', 'Tecnico')
+#5 {main}
+  thrown in /home/mipcom/public_html/class/sql/QueryExecutor.class.php on line 57

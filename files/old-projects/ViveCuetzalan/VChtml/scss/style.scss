@@ -1,0 +1,93 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic");
+@import url("http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,latin-ext");
+@import "compass/css3";
+@import "#Libs-fonts";
+@import "#Default-normalize";
+@import "#Libs-mixins";
+
+/* ==========================================================================
+	 HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+	 ========================================================================== */
+
+@import "#Default-h5bpStyles";
+
+/* ==========================================================================
+	 Author's custom styles
+	 ========================================================================== */
+
+$fontGeneral:'Myriad Pro', Arial, sans-serif;
+$fontWebSymbols:'WebSymbolsRegular', sans-serif;
+$fontLigature:'LigatureSymbols';
+
+$fontPTSans:'PT Sans', 'Myriad Pro', sans-serif;
+$fontMarckScript:'Marck Script', cursive;
+
+$colorBlue:#00ADEE;
+$colorGray:#232323;
+$colorPurple:#2E3191;
+$colorGreen:#218400;
+$colorYellow:#F8BF22;
+$colorOrange:#F48220;
+$colorRed:#EC1C24;
+
+$colorDommy:rgba(#000,.5);
+
+/*http://jqueryui.com/themeroller/#!zThemeParams=5d00000100f305000000000000003d8888d844329a8dfe02723de3e5701fa198449035fc0613ff729a37dd818cf92b1f6938fefa90282d04ae436bb72367f5909357c629e83ec3143892f4d96db0d5e0b00cb474f9cb24baaec38d0f042965ad3284afc22a47418ad6529f0a8370aeb9eb5639127830f8366ef20d4ed559b38dd14c485be9f6e98625c0122169163fd990494a047c649c89e7bb1ffa6780037352fc1110efcee0a7474484dc8c26d8d9a37473cf89761162c534ac524a1b724f225d8357ada97341d93295c85751908a47b68273007f93ae5c035d236685133c7cc3a4d51ed132e857967d0a72971e719ed397769413db55d88e7f47a180a9584b9272ed2f2c07196dfa714100c2d4037974695feaf82bee35e4b86250de4205c496f65d11cbe88a7b9f2ecd0e8e0f5b723514f5179356555241678a5357f3370986b6144cedf4de7d6b599332cce08247b847f1a82314fa8e3e82b6dfc828fd1114ce381db1deb41221c05a656fbc37ae0da927548976c246f49ed5af5b1561d21cc79860d5d5ddaabcfd0d1e1640b26ea385895233cc2b6658afe3a26a8a726325e7c1884606e6b39770544031863231dc88b77f10c63198f2b422810c2f7de8b6c5cfd9d7c346bd6177e0bd8013c4576436e15e372ba5193ffe4f2112*/
+
+body {
+	font-family:$fontPTSans;
+	/*font-family:$fontGeneral;
+	*/
+	background-color:#000;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance:none;
+	margin:0;
+}
+strong, b {
+	font-weight:700;
+	em, i { font-weight:700; font-style:italic; }
+}
+em, i { font-weight:400; font-style:italic; }
+.bodyLoader {
+	position:fixed;
+	bottom:1em;
+	left:1.2em;
+	font-size:1.5em;
+	color:$colorBlue;
+	z-index:-5;
+}
+
+@import "#Libs-icons";
+@import "#Libs-buttons";
+@import "#Libs-jqueryUI";
+
+@import "header";
+@import "container";
+@import "reservation";
+/*@import "footer";*/
+
+/* ==========================================================================
+	 Media Queries
+	 ========================================================================== */
+
+@import "Media-Queries";
+
+
+/* ==========================================================================
+	 Helper classes
+	 ========================================================================== */
+
+@import "#Default-helperClasses";
+
+/* ==========================================================================
+	 Print styles
+	 ========================================================================== */
+
+@import "#Default-printStyles";

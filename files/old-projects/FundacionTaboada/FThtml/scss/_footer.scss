@@ -1,0 +1,66 @@
+$footerWidth:175px;
+$footerNav:135px;
+$footerFoot:40px;
+
+body > footer {
+	position:relative;
+	float:left;
+	width:100%;
+	/*height:$footerWidth;*/
+	margin-top:100px;
+	/*background:url("../imgs/background_blue_footer_gradient.png") repeat-x;*/
+	@include background-gradientLinear($colorBlue, url("../imgs/background_blue_footer_gradient.png"), darken($colorBlue,20%) 0, darken($colorBlue,7%) $footerNav);
+	z-index:90;
+	& > div {
+		color:#fff;
+		&:nth-of-type(1) {
+			width:940px;
+			height:$footerNav - 10;
+			margin:10px auto 0;
+		}
+		&:nth-of-type(2) {
+			width:100%;
+			height:$footerFoot;
+			@include box-sizing(border-box);
+			padding-top:5px;
+			background:darken($colorBlue,18%);
+			text-align:center;
+			p {
+				margin:0;
+				font-size:12px;
+				line-height:35px;
+			}
+		}
+	}
+	nav {
+		float:left;
+		a {
+			display:inline-block;
+			color:#fff;
+		}
+		& > ul {
+			& > li {
+				display:inline-block;
+				float:left;
+				height:$footerNav - 15;
+				padding:0 11px;
+				border-right:2px groove darken($colorGray,30%);
+				&:last-of-type {
+					border:none;
+				}
+				& > a {
+					line-height:35px;
+					text-transform:uppercase;
+					font-size:14px;
+				}
+				li {
+					line-height:100%;
+					a {
+						font-size:12px;
+						color:lighten($colorBlue,45%);
+					}
+				}
+			}
+		}
+	}
+}
