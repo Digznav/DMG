@@ -1,6 +1,72 @@
 [
 
 	{
+		"ticket": "111159",
+		"client": "Goldstein Law Group",
+		"url": "http://justia-goldsteinbachman-com.justia.net/",
+		"designer": "Eduardo",
+		"column": "2",
+		"template": "clover",
+		"status": true,
+		"tags": "Special banner stripes animation"
+	},
+
+	{
+		"ticket": "110477",
+		"client": "Hanlon Law",
+		"url": "http://justia-criminalattorneyclearwater-net.justia.net/",
+		"designer": "Erika",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": "New popup script"
+	},
+
+	{
+		"ticket": "109007",
+		"client": "Ron Voyles & Associates",
+		"url": "http://justia-attorneyronvoyles-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": ""
+	},
+
+	{
+		"ticket": "108493",
+		"client": "Newman, Anzalone & Newman",
+		"url": "http://justia-nyaccidentcase-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": "Split content, Classes for footer social, Thumbs with icons, flexbox mixins, Box title decoration, Header calc, Separate modules, Fixes to Contact Form modules, Columns content fixes"
+	},
+
+	{
+		"ticket": "107960",
+		"client": "All Knight Bonding",
+		"url": "http://justia-bailbonds-nashville-com.justia.net/",
+		"designer": "Donovan",
+		"column": "1",
+		"template": "",
+		"status": true,
+		"tags": "Classes for footer social, Thumbs with icons, Box title decoration, Header calc"
+	},
+
+	{
+		"ticket": "105808",
+		"client": "Lax & Neville",
+		"url": "http://justia-laxneville-com.justia.net/",
+		"designer": "Olimpia",
+		"column": "2",
+		"template": "",
+		"status": true,
+		"tags": ""
+	},
+
+	{
 		"ticket": "101757",
 		"client": "Marc L. Gugliuzza",
 		"url": "http://justia-avoidprobate-com.justia.net/",
