@@ -1,0 +1,50 @@
+@import 'breakpoint';
+
+$mobile-state: 'only screen' max-width 767px;
+$tablet-state: 'only screen' 768px;
+$desktop-state: 'only screen' 960px;
+
+$hedaer-height-desktop: 143px;
+
+$logo-fixed-width: 150px;
+$logo-fixed-gap: 10px;
+
+$logo-dimentions: (272px, 77px);
+
+@import
+// 'partials/overwrite',
+'partials/reset';
+
+@import
+'partials/header',
+'partials/menu-topnav',
+'partials/red-boxes';
+
+
+// ----------------------------------------------------------------------------------
+
+.main-slider-container {
+    margin-top: 107px !important;
+    margin-bottom: 0;
+
+    @include breakpoint ($tablet-state) {
+        margin-top: $hedaer-height-desktop !important;
+    }
+}
+
+
+.page-container {
+    margin-top: 107 !important;
+
+    .home & {
+        margin-top: auto !important;
+    }
+
+    @include breakpoint ($tablet-state) {
+        margin-top: $hedaer-height-desktop !important;
+
+        .home & {
+            margin-top: auto !important;
+        }
+    }
+}

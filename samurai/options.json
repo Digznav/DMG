@@ -1,0 +1,9 @@
+{
+    "use": ["autoprefixer", "css-mqpacker"],
+    "autoprefixer": {
+        "browsers": "Chrome >= 30, ff >= 30, ie >= 9, ios_saf >= 6.1, Safari >= 6, Android >= 4"
+    },
+    "css-mqpacker": {
+        "sort": true
+    }
+}

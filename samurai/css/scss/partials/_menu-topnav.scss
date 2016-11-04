@@ -1,0 +1,82 @@
+
+.main-navigation {
+
+
+    @include breakpoint($tablet-state) {
+        margin: 0;
+    }
+}
+
+.menu-topnav-container {
+
+    .menu-item {
+        text-align: center;
+
+        span {
+            color: #381d0d;
+            transition: color 0.3s ease-in-out;
+
+            &:before {
+                content: ' - ';
+            }
+        }
+
+        &.current-menu-item a span,
+        a:hover span {
+            color: #ffffff;
+        }
+
+
+        @include breakpoint($tablet-state) {
+            margin: 0;
+
+            a {
+                box-sizing: border-box;
+                display: flex;
+                height: $hedaer-height-desktop;
+                padding: 10px !important;
+                line-height: 1;
+                transition-duration: 0.3s;
+                transition-property: background, color, height;
+                transition-timing-function: ease-in-out;
+                align-items: center;
+            }
+
+            strong {
+                font-size: 16px;
+            }
+
+            span {
+                display: block;
+                margin-top: 5px;
+                font-size: 12px;
+                text-transform: capitalize;
+                line-height: 1.2;
+
+                &:before {
+                    content: '';
+                }
+            }
+
+            .head-container.fixed & {
+
+                a {
+                    height: (nth($logo-dimentions, 2) + ($logo-fixed-gap * 2));
+                }
+            }
+        }
+
+
+        @include breakpoint($desktop-state) {
+
+            a {
+                padding-right: 15px !important;
+                padding-left: 15px !important;
+            }
+
+            strong {
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+#!/bin/bash
+HTTPPORT=8080
+
+# Exit the script if anything returns a non-zero value.
+set -e
+
+ls css/**/*.scss css/**/**/*.scss css/**/**/**/*.scss | ./watch - ./compilewatch &
+if [ "$?" -ne 0 ]; then
+    echo "$(tput setaf 1)[start]$(tput sgr0) Watcher script for compass did not start or was not found."
+else
+    echo "$(tput setaf 2)[start]$(tput sgr0) Compass watcher process started."
+fi
+
+./watch js/site.js uglifyjs js/site.js -c -m -o js/site.min.js &
+if [ "$?" -ne 0 ]; then
+    echo "$(tput setaf 1)[start]$(tput sgr0) Watcher script for uglifyjs did not start or was not found."
+else
+    echo "$(tput setaf 2)[start]$(tput sgr0) Uglify-js watcher process started."
+fi
+
+livereloadx -s -p $HTTPPORT --exclude psd/ &
+if [ "$?" -ne 0 ]; then
+    echo "$(tput setaf 1)[start]$(tput sgr0) Local web server reported an error and did not start, or was not found."
+else
+    echo "$(tput setaf 2)[start]$(tput sgr0) Local web server started on port $HTTPPORT."
+fi

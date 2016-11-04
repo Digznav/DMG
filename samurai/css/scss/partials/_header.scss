@@ -1,0 +1,75 @@
+
+.head-container {
+
+    .site-header {
+
+        .logo {
+            display: block;
+            width: 100%;
+            max-width: none;
+            max-height: none;
+        }
+
+        .logo_wrapper,
+        .header-hgroup {
+            box-sizing: border-box;
+            transition-duration: 0.3s;
+            transition-property: width, margin;
+            transition-timing-function: ease-in-out;
+        }
+
+
+        @include breakpoint($mobile-state) {
+
+            .logo_wrapper {
+                box-sizing: border-box;
+                width: 200px;
+                margin: 20px 0 20px 2%;
+            }
+
+            .menu_button {
+                margin-top: 18px;
+                transition: margin 0.3s ease-in-out;
+            }
+        }
+
+
+        @include breakpoint($tablet-state) {
+            margin: 0 !important;
+
+            .header-hgroup {
+                width: nth($logo-dimentions, 1);
+                margin: (($hedaer-height-desktop - nth($logo-dimentions, 2)) / 2) 0 0 !important;
+            }
+        }
+    }
+
+
+    &.fixed {
+
+        .site-header {
+
+
+            @include breakpoint($mobile-state) {
+
+                .logo_wrapper {
+                    width: $logo-fixed-width;
+                    margin-top: $logo-fixed-gap;
+                    margin-bottom: $logo-fixed-gap;
+                }
+
+                .menu_button {
+                    margin-top: 4px;
+                }
+            }
+
+
+            @include breakpoint($tablet-state) {
+
+                .header-hgroup {
+                    margin-top: $logo-fixed-gap !important;
+                }
+            }
+        }
+    }
+}

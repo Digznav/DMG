@@ -1,0 +1,15 @@
+
+html[lang='en-US'] {
+    margin: 0 !important;
+}
+
+#wpadminbar {
+    display: none;
+}
+
+.head-container {
+
+    &.is_indent {
+        top: 0;
+    }
+}
